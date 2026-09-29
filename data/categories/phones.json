@@ -1,0 +1,481 @@
+{
+  "articles": [
+    {
+      "slug": "why-phone-cameras-stopped-chasing-megapixels",
+      "title": "Why phone cameras stopped competing on megapixels alone",
+      "subtitle": "Sensor size, lenses and computational photography decide how much useful detail survives",
+      "excerpt": "A phone camera is an imaging system, and its largest resolution number rarely predicts the most reliable photographs.",
+      "category": "phones",
+      "tags": [
+        "phones",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2023-10-24",
+      "year": "2023",
+      "month": "10",
+      "day": "24",
+      "image": "/images/illustrations/why-phone-cameras-stopped-chasing-megapixels.webp",
+      "readingTime": "2 minutes read",
+      "views": 37510,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "pixels-are-often-combined",
+          "text": "Pixels are often combined"
+        },
+        {
+          "id": "consistency-matters-more-than-a-hero-shot",
+          "text": "Consistency matters more than a hero shot"
+        },
+        {
+          "id": "compare-complete-results",
+          "text": "Compare complete results"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Phone makers still advertise large megapixel counts, but the competition has moved toward the complete image pipeline. A tiny sensor must capture a scene through a tiny lens while the phone corrects noise, motion and limited dynamic range. Resolution can help, yet it is only the starting material for that process."
+        },
+        {
+          "type": "heading",
+          "id": "pixels-are-often-combined",
+          "text": "Pixels are often combined"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many high-resolution phone sensors group neighboring pixels for ordinary photos. This produces a lower-resolution file with more light information in each output pixel. Full-resolution modes can reveal extra detail in strong light, but they may be slower, noisier and less effective with moving subjects."
+        },
+        {
+          "type": "paragraph",
+          "text": "The lens must also resolve the promised detail. Edge softness, focus errors and aggressive noise reduction can erase the advantage of a larger file."
+        },
+        {
+          "type": "heading",
+          "id": "consistency-matters-more-than-a-hero-shot",
+          "text": "Consistency matters more than a hero shot"
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful camera handles faces, motion, backlight and mixed indoor lighting predictably. Processing should keep skin and texture believable across the main, ultrawide and telephoto cameras. Video stabilization, microphone quality and lens switching can matter more than still-photo resolution."
+        },
+        {
+          "type": "heading",
+          "id": "compare-complete-results",
+          "text": "Compare complete results"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use samples from ordinary conditions, not only sunny scenes."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Check moving people and pets indoors.",
+            "Compare color and exposure across every rear camera.",
+            "Inspect full files for texture and sharpening artifacts.",
+            "Judge shutter delay, focus reliability and video as well as resolution."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Evergreen guide",
+      "keyTakeaways": [
+        "High-resolution phone sensors often produce lower-resolution final images.",
+        "Lens quality and processing determine whether extra pixels become useful detail.",
+        "Reliable color, focus and motion handling matter more than one ideal sample."
+      ],
+      "whyItMatters": "A system-level comparison rewards the phone that consistently captures usable moments instead of the one with the largest number on the box.",
+      "reportingNote": "This is an editorial guide, not a claim of new laboratory testing. Specifications, prices, support and availability change; verify current details for the exact product before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "Why phone cameras stopped competing on megapixels alone",
+        "metaDescription": "A phone camera is an imaging system, and its largest resolution number rarely predicts the most reliable photographs.",
+        "ogTitle": "Why phone cameras stopped competing on megapixels alone",
+        "ogDescription": "A phone camera is an imaging system, and its largest resolution number rarely predicts the most reliable photographs.",
+        "twitterTitle": "Why phone cameras stopped competing on megapixels alone",
+        "twitterDescription": "A phone camera is an imaging system, and its largest resolution number rarely predicts the most reliable photographs.",
+        "keywords": [
+          "phone camera megapixels",
+          "computational photography",
+          "phone sensor guide",
+          "camera phone comparison"
+        ],
+        "ogImage": "/images/illustrations/why-phone-cameras-stopped-chasing-megapixels.webp"
+      },
+      "imageCaption": "Editorial illustration of a phone camera balancing optics, sensor size and image processing",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "the-moto-z-play-has-the-best-battery-life",
+      "title": "Moto Z Play in context: an endurance-first phone from 2016",
+      "subtitle": "Its original battery advantage was meaningful, but age, software support and modular accessories now define the risk",
+      "excerpt": "An archive perspective on the Moto Z Play and what to check before considering a surviving unit.",
+      "category": "phones",
+      "tags": [
+        "phones",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/illustrations/the-moto-z-play-has-the-best-battery-life.webp",
+      "readingTime": "2 minutes read",
+      "views": 4021,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 75
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "why-the-battery-story-worked",
+          "text": "Why the battery story worked"
+        },
+        {
+          "id": "what-time-changes",
+          "text": "What time changes"
+        },
+        {
+          "id": "if-you-are-evaluating-one",
+          "text": "If you are evaluating one"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Moto Z Play stood out in 2016 by pairing a large battery with a modest processor and efficient display. It favored endurance over flagship speed and supported magnetic Moto Mods. That formula remains instructive, but an original battery and an unsupported operating system make the phone a poor default choice for sensitive everyday use now."
+        },
+        {
+          "type": "heading",
+          "id": "why-the-battery-story-worked",
+          "text": "Why the battery story worked"
+        },
+        {
+          "type": "paragraph",
+          "text": "Battery life comes from capacity and consumption together. The Moto Z Play avoided the fastest, most power-hungry hardware and targeted a lower display resolution than some flagships. The result showed that a balanced platform can outlast a more expensive device without a dramatically larger body."
+        },
+        {
+          "type": "paragraph",
+          "text": "Moto Mods added distinctive accessories, but they also tied value to a proprietary ecosystem whose availability could not be guaranteed indefinitely."
+        },
+        {
+          "type": "heading",
+          "id": "what-time-changes",
+          "text": "What time changes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lithium-ion batteries lose capacity with age even when a phone is stored. Charging ports, display adhesive and accessory contacts also wear. More importantly, an old security patch level can make banking, authentication and work accounts inappropriate regardless of physical condition."
+        },
+        {
+          "type": "heading",
+          "id": "if-you-are-evaluating-one",
+          "text": "If you are evaluating one"
+        },
+        {
+          "type": "paragraph",
+          "text": "Treat it as a collection or limited-purpose device, not an automatic daily-driver bargain."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Check battery swelling, runtime and charging stability.",
+            "Confirm the last available security update and app requirements.",
+            "Test any Moto Mod rather than assuming compatibility.",
+            "Compare battery-replacement cost with a supported budget phone."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Archive perspective",
+      "keyTakeaways": [
+        "The Moto Z Play proved that efficient components can matter as much as battery size.",
+        "A decade-old battery and security status now dominate the purchase decision.",
+        "Moto Mods add interest but also depend on an obsolete proprietary ecosystem."
+      ],
+      "whyItMatters": "The archive lesson remains useful, while a present-day security and battery warning keeps nostalgia from becoming unsafe buying advice.",
+      "reportingNote": "This archive perspective explains the product in its original context and is not a current recommendation. Prices, batteries, software support and availability change; verify the exact unit before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "Moto Z Play in context: an endurance-first phone from 2016",
+        "metaDescription": "An archive perspective on the Moto Z Play and what to check before considering a surviving unit.",
+        "ogTitle": "Moto Z Play in context: an endurance-first phone from 2016",
+        "ogDescription": "An archive perspective on the Moto Z Play and what to check before considering a surviving unit.",
+        "twitterTitle": "Moto Z Play in context: an endurance-first phone from 2016",
+        "twitterDescription": "An archive perspective on the Moto Z Play and what to check before considering a surviving unit.",
+        "keywords": [
+          "Moto Z Play archive",
+          "Moto Z Play battery",
+          "used Android phone safety",
+          "Moto Mods"
+        ],
+        "ogImage": "/images/illustrations/the-moto-z-play-has-the-best-battery-life.webp"
+      },
+      "imageCaption": "Editorial archive illustration of an endurance-focused modular smartphone",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "lg-v20-review-lots-of-features-less-refinement",
+      "title": "LG V20 in context: enthusiast features with lasting trade-offs",
+      "subtitle": "A removable battery, headphone hardware and manual controls made it distinctive, but age has changed the verdict",
+      "excerpt": "An archive perspective on the LG V20 and the risks of using an unsupported phone today.",
+      "category": "phones",
+      "tags": [
+        "phones",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/illustrations/lg-v20-review-lots-of-features-less-refinement.webp",
+      "readingTime": "2 minutes read",
+      "views": 3980,
+      "comments": 0,
+      "rating": {
+        "type": "score",
+        "value": "8.8"
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "what-the-v20-tried-to-preserve",
+          "text": "What the V20 tried to preserve"
+        },
+        {
+          "id": "removable-does-not-mean-new",
+          "text": "Removable does not mean new"
+        },
+        {
+          "id": "a-safe-archive-evaluation",
+          "text": "A safe archive evaluation"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The LG V20 arrived in 2016 with features that later became rare: a removable battery, expandable storage, a headphone-focused audio system and extensive manual video controls. It appealed to enthusiasts precisely because it resisted simplification. The same phone today must be evaluated around battery quality, carrier compatibility and discontinued software support."
+        },
+        {
+          "type": "heading",
+          "id": "what-the-v20-tried-to-preserve",
+          "text": "What the V20 tried to preserve"
+        },
+        {
+          "type": "paragraph",
+          "text": "Its removable rear cover made battery replacement straightforward, while microSD storage and a 3.5 mm output supported large local media libraries. Manual audio and video options offered more control than many contemporaries. These were practical choices, not merely specification decoration."
+        },
+        {
+          "type": "paragraph",
+          "text": "The trade-off was a busier interface and a device whose many features did not always feel integrated. Camera consistency, performance under heat and regional model differences were important parts of the original comparison."
+        },
+        {
+          "type": "heading",
+          "id": "removable-does-not-mean-new",
+          "text": "Removable does not mean new"
+        },
+        {
+          "type": "paragraph",
+          "text": "Replacement batteries sold years later can be old stock or poorly made. A cell should come from a reputable source and be checked for swelling and unstable charging. Old Android security patches remain a separate risk that a fresh battery cannot solve."
+        },
+        {
+          "type": "heading",
+          "id": "a-safe-archive-evaluation",
+          "text": "A safe archive evaluation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the exact model number because radio bands and bootloader options vary."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Check security-patch date before adding personal accounts.",
+            "Test cameras, microphones, headphone output and charging.",
+            "Inspect batteries and avoid unknown cells.",
+            "Choose a supported device for banking, work and primary communications."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Archive perspective",
+      "keyTakeaways": [
+        "The V20 combined removable power, expandable storage and unusual media controls.",
+        "Replacement-battery quality and model variants require careful checking.",
+        "Unsupported software makes it unsuitable for sensitive primary use."
+      ],
+      "whyItMatters": "The phone remains an interesting design reference, but its present-day security limits must be clearer than its launch-era feature list.",
+      "reportingNote": "This archive perspective explains the product in its original context and is not a current recommendation. Prices, batteries, software support and availability change; verify the exact unit before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "LG V20 in context: enthusiast features with lasting trade-offs",
+        "metaDescription": "An archive perspective on the LG V20 and the risks of using an unsupported phone today.",
+        "ogTitle": "LG V20 in context: enthusiast features with lasting trade-offs",
+        "ogDescription": "An archive perspective on the LG V20 and the risks of using an unsupported phone today.",
+        "twitterTitle": "LG V20 in context: enthusiast features with lasting trade-offs",
+        "twitterDescription": "An archive perspective on the LG V20 and the risks of using an unsupported phone today.",
+        "keywords": [
+          "LG V20 archive",
+          "removable battery phone",
+          "used Android security",
+          "LG V20 audio"
+        ],
+        "ogImage": "/images/illustrations/lg-v20-review-lots-of-features-less-refinement.webp"
+      },
+      "imageCaption": "Editorial archive illustration of a feature-packed phone with removable battery and audio hardware",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "galaxy-s7-lineup-with-new-jet-black-color",
+      "title": "Galaxy S7 Jet Black in context: when color carried a product cycle",
+      "subtitle": "A cosmetic refresh can renew attention without changing the hardware underneath",
+      "excerpt": "An archive perspective on the Galaxy S7 color update and the checks that matter for old phones now.",
+      "category": "phones",
+      "tags": [
+        "phones"
+      ],
+      "author": "admin",
+      "date": "2016-12-08",
+      "year": "2016",
+      "month": "12",
+      "day": "08",
+      "image": "/images/illustrations/galaxy-s7-lineup-with-new-jet-black-color.webp",
+      "readingTime": "2 minutes read",
+      "views": 2760,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "why-a-finish-can-matter",
+          "text": "Why a finish can matter"
+        },
+        {
+          "id": "the-hardware-is-now-the-issue",
+          "text": "The hardware is now the issue"
+        },
+        {
+          "id": "how-to-read-the-archive",
+          "text": "How to read the archive"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adding a new finish late in a phone's retail life is a familiar way to make established hardware feel current. The Jet Black Galaxy S7 did not change the processor, camera or software foundation; it changed the shelf story. That makes it a useful example of how color can extend a product cycle without extending its technical life."
+        },
+        {
+          "type": "heading",
+          "id": "why-a-finish-can-matter",
+          "text": "Why a finish can matter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Color is visible in every advertisement and can reach buyers who ignored the launch palette. It is cheaper and faster than redesigning hardware, and it helps retailers create a fresh promotion. A glossy dark surface may also show fingerprints and fine scratches more readily, so appearance has its own ownership trade-off."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collectors can value a less common finish, but rarity does not improve performance, battery health or support."
+        },
+        {
+          "type": "heading",
+          "id": "the-hardware-is-now-the-issue",
+          "text": "The hardware is now the issue"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Galaxy S7 is far beyond its normal security-support period. Sealed batteries age, water resistance cannot be assumed after years of wear or repair, and older network configurations may lose carrier compatibility. A pristine exterior does not resolve those limits."
+        },
+        {
+          "type": "heading",
+          "id": "how-to-read-the-archive",
+          "text": "How to read the archive"
+        },
+        {
+          "type": "paragraph",
+          "text": "Separate the marketing event from a current product recommendation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Do not rely on original water-resistance claims for a used unit.",
+            "Check battery condition and screen burn-in.",
+            "Verify carrier and application compatibility.",
+            "Keep unsupported phones away from sensitive accounts."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Archive perspective",
+      "keyTakeaways": [
+        "The Jet Black release changed presentation, not the Galaxy S7 platform.",
+        "Cosmetic rarity says nothing about battery, security or network support.",
+        "Old water-resistance ratings should not be trusted after years of use."
+      ],
+      "whyItMatters": "Recognizing a cosmetic product-cycle tactic helps readers evaluate what actually changed and avoid treating archive attention as current endorsement.",
+      "reportingNote": "This archive perspective explains the product in its original context and is not a current recommendation. Prices, batteries, software support and availability change; verify the exact unit before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "Galaxy S7 Jet Black in context: when color carried a product cycle",
+        "metaDescription": "An archive perspective on the Galaxy S7 color update and the checks that matter for old phones now.",
+        "ogTitle": "Galaxy S7 Jet Black in context: when color carried a product cycle",
+        "ogDescription": "An archive perspective on the Galaxy S7 color update and the checks that matter for old phones now.",
+        "twitterTitle": "Galaxy S7 Jet Black in context: when color carried a product cycle",
+        "twitterDescription": "An archive perspective on the Galaxy S7 color update and the checks that matter for old phones now.",
+        "keywords": [
+          "Galaxy S7 Jet Black",
+          "phone color refresh",
+          "Galaxy S7 archive",
+          "used phone security"
+        ],
+        "ogImage": "/images/illustrations/galaxy-s7-lineup-with-new-jet-black-color.webp"
+      },
+      "imageCaption": "Editorial archive illustration of a smartphone color refresh extending a product cycle",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "us",
+    "name": "U.S.",
+    "description": "Notes and explainers on U.S. policy, public life and the issues shaping everyday decisions.",
+    "count": 6,
+    "color": "#2563eb"
+  },
+  {
+    "slug": "world",
+    "name": "World",
+    "description": "Context-rich posts about global events, policy and the ideas crossing borders.",
+    "count": 4,
+    "color": "#16a34a"
+  },
+  {
+    "slug": "business",
+    "name": "Business",
+    "description": "Thoughtful posts on companies, earnings, deals and the decisions shaping the economy.",
+    "count": 5,
+    "color": "#2ecc71"
+  },
+  {
+    "slug": "finance",
+    "name": "Finance",
+    "description": "Explanations of markets, interest rates and personal-finance questions without the hype.",
+    "count": 6,
+    "color": "#3498db"
+  },
+  {
+    "slug": "reviews",
+    "name": "Reviews",
+    "description": "Independent product reviews with clear test context, trade-offs and archive labels.",
+    "count": 6,
+    "color": "#ed1c24",
+    "children": [
+      "phones",
+      "headphones",
+      "cameras",
+      "laptops",
+      "tablets"
+    ]
+  },
+  {
+    "slug": "phones",
+    "name": "Phones",
+    "description": "Smartphone reviews, comparisons and buying advice.",
+    "count": 4,
+    "color": "#0891b2",
+    "parent": "reviews"
+  },
+  {
+    "slug": "headphones",
+    "name": "Headphones",
+    "description": "Headphone and earbud reviews from over-ear to true wireless.",
+    "count": 4,
+    "color": "#f4943f",
+    "parent": "reviews"
+  },
+  {
+    "slug": "cameras",
+    "name": "Cameras",
+    "description": "Camera gear reviews for photographers and videographers.",
+    "count": 6,
+    "color": "#db2777",
+    "parent": "reviews"
+  },
+  {
+    "slug": "laptops",
+    "name": "Laptops",
+    "description": "Laptop reviews, benchmarks and buying guides.",
+    "count": 4,
+    "color": "#536ead",
+    "parent": "reviews"
+  },
+  {
+    "slug": "tablets",
+    "name": "Tablets",
+    "description": "Tablet reviews and comparisons across every major brand.",
+    "count": 6,
+    "color": "#0d9488",
+    "parent": "reviews"
+  }
+]

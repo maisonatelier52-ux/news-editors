@@ -1,0 +1,453 @@
+{
+  "articles": [
+    {
+      "slug": "nepal-tibet-border-glacial-flood-disaster",
+      "title": "Nepal-Tibet border flood: what is known and what remains uncertain",
+      "subtitle": "Later official figures sharply raised the toll after the Bhote Koshi disaster, while access and communications complicated the count",
+      "excerpt": "A source-based update on the Bhote Koshi flood, the changing casualty estimates and the recovery questions facing remote Himalayan communities.",
+      "category": "world",
+      "tags": [
+        "world",
+        "disaster",
+        "asia"
+      ],
+      "author": "elena-marsh",
+      "date": "2026-08-27",
+      "year": "2026",
+      "month": "08",
+      "day": "27",
+      "image": "/images/illustrations/nepal-tibet-border-glacial-flood-disaster.webp",
+      "readingTime": "2 minutes read",
+      "views": 8210,
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "toc": [
+        {
+          "id": "how-the-event-unfolded",
+          "text": "How the event unfolded"
+        },
+        {
+          "id": "why-the-numbers-changed",
+          "text": "Why the numbers changed"
+        },
+        {
+          "id": "the-longer-recovery",
+          "text": "The longer recovery"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A destructive flood moved through the Bhote Koshi border corridor on August 26 after a high-mountain slope failure and temporary river blockage. The surge damaged transport links, settlements and energy infrastructure in difficult terrain. Early official counts were incomplete because roads and communications were cut."
+        },
+        {
+          "type": "heading",
+          "id": "how-the-event-unfolded",
+          "text": "How the event unfolded"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reports from the first days described a mass of ice and rock entering a tributary above the border corridor, temporarily holding back water before a surge traveled downstream. Precise attribution in a remote high-altitude catchment takes time: satellite analysis, field access and hydrological records all contribute, and early explanations should not be treated as a final scientific assessment."
+        },
+        {
+          "type": "heading",
+          "id": "why-the-numbers-changed",
+          "text": "Why the numbers changed"
+        },
+        {
+          "type": "paragraph",
+          "text": "On August 27, authorities were reporting at least 390 deaths and about 1,400 people missing across affected areas. By September 7, Nepal's disaster management agency said more than 1,300 people had died and roughly 5,000 were missing, according to the Associated Press. The later figures supersede the headline counts in the first version of this post."
+        },
+        {
+          "type": "paragraph",
+          "text": "A missing-person total is not the same as a confirmed death toll. Displaced residents, damaged phone networks and incomplete local registers can all enlarge the number of people who are temporarily unaccounted for. The figures should therefore be read with their dates and sources attached."
+        },
+        {
+          "type": "heading",
+          "id": "the-longer-recovery",
+          "text": "The longer recovery"
+        },
+        {
+          "type": "paragraph",
+          "text": "Immediate work centered on rescue, shelter, medical care and restoring access. Recovery also raises longer questions about bridge design, warning systems and development in narrow valleys exposed to landslides and glacial hazards. Nepal's government issued an international relief appeal, while health authorities published response updates for affected districts."
+        },
+        {
+          "type": "paragraph",
+          "text": "This post was updated on September 9 to replace early casualty estimates with later figures and to make the uncertainty around missing-person counts explicit. The linked official notices and subsequent assessments should be consulted for further changes."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Nepal-Tibet border flood: what is known and what remains uncertain",
+        "metaDescription": "A source-based update on the Bhote Koshi flood, the changing casualty estimates and the recovery questions facing remote Himalayan communities.",
+        "ogTitle": "Nepal-Tibet border flood: what is known and what remains uncertain",
+        "ogDescription": "A source-based update on the Bhote Koshi flood, the changing casualty estimates and the recovery questions facing remote Himalayan communities.",
+        "ogImage": "/images/illustrations/nepal-tibet-border-glacial-flood-disaster.webp",
+        "twitterTitle": "Nepal-Tibet border flood: what is known and what remains uncertain",
+        "twitterDescription": "A source-based update on the Bhote Koshi flood, the changing casualty estimates and the recovery questions facing remote Himalayan communities.",
+        "keywords": [
+          "Nepal flood 2026",
+          "Tibet border flooding",
+          "glacial collapse",
+          "Himalayas disaster"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "A destructive surge traveled through the Bhote Koshi corridor after a high-mountain slope failure and river blockage.",
+        "By September 7, Nepal's disaster agency reported more than 1,300 deaths and roughly 5,000 people missing, according to the Associated Press.",
+        "Early totals changed rapidly because roads, communications and access to remote communities were disrupted."
+      ],
+      "whyItMatters": "The scale of the loss and the difficulty of establishing a reliable count show why fast-moving disaster figures must be dated, sourced and treated as provisional.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "Nepal Ministry of Home Affairs",
+          "label": "International disaster-relief appeal",
+          "url": "https://moha.gov.np/en/post/ha-ra-tha-ka-apa-l-11",
+          "accessed": "September 9, 2026"
+        },
+        {
+          "publisher": "Nepal Health Emergency Operation Center",
+          "label": "Bhote Koshi response update",
+          "url": "https://heoc.mohp.gov.np/events/2026-rasuwa-flash-floods?doc=91067",
+          "accessed": "September 9, 2026"
+        },
+        {
+          "publisher": "Associated Press",
+          "label": "September 7 update citing Nepal's disaster agency",
+          "url": "https://apnews.com/article/f5477d09ca1c56541450828302818d73",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a glacial flood crossing the Nepal-Tibet border",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "iran-oman-hormuz-shipping-corridor-proposal",
+      "title": "Iran and Oman propose temporary shipping corridor through Strait of Hormuz",
+      "subtitle": "The plan aims to restore navigation through mine clearance and phased traffic rules",
+      "excerpt": "Iran and Oman have outlined a phased framework for a temporary joint shipping corridor and a mine-clearing mission through the Strait of Hormuz, even as President Trump says the U.S. Navy has already cleared the waterway's main channel and traffic has surged as Tehran's grip on the strait weakens.",
+      "category": "world",
+      "tags": [
+        "world",
+        "middle-east",
+        "energy"
+      ],
+      "author": "elena-marsh",
+      "date": "2026-08-26",
+      "year": "2026",
+      "month": "08",
+      "day": "26",
+      "image": "/images/illustrations/iran-oman-hormuz-shipping-corridor-proposal.webp",
+      "readingTime": "3 minutes read",
+      "views": 5960,
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "toc": [
+        {
+          "id": "what-the-proposal-includes",
+          "text": "What the proposal includes"
+        },
+        {
+          "id": "conflicting-claims-on-the-mines",
+          "text": "Conflicting claims on the mines"
+        },
+        {
+          "id": "irans-weakening-grip-on-the-strait",
+          "text": "Iran's weakening grip on the strait"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Iran and Oman have outlined a phased framework for a temporary, jointly managed shipping corridor through the Strait of Hormuz, along with a mission to clear mines from the waterway, marking one of the clearest steps yet toward restoring full commercial navigation through the critical passage after months of disruption."
+        },
+        {
+          "type": "heading",
+          "id": "what-the-proposal-includes",
+          "text": "What the proposal includes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oman's foreign minister, Badr al-Busaidi, traveled to Tehran to meet his Iranian counterpart, Abbas Araghchi, where the two described their talks as constructive and released a joint statement outlining what they called \"a phased framework that could provide a practical and implementable basis for moving forward.\" The framework includes establishing a temporary joint navigational corridor through the strait and a joint project to clear mines from it, with al-Busaidi saying afterward that he hoped the two countries would \"soon announce\" the corridor and practical arrangements to restore safe navigation. A permanent solution and long-term governance of the strait, the statement said, would follow later."
+        },
+        {
+          "type": "paragraph",
+          "text": "Iran has insisted that inbound ships use a northern route through its own territorial waters, while the U.S. military has spent months protecting tankers using a separate southern route that hugs Oman's coastline. U.S. Central Command has said more than 660 million barrels of crude oil have exited the strait under its protection along that southern corridor since May, even as sporadic attacks on shipping in the region continued, including two cargo ships struck last week in an incident that killed two sailors."
+        },
+        {
+          "type": "heading",
+          "id": "conflicting-claims-on-the-mines",
+          "text": "Conflicting claims on the mines"
+        },
+        {
+          "type": "paragraph",
+          "text": "The proposed mine-clearing mission was announced the same day President Trump said on social media that the U.S. Navy had already removed or detonated all mines from the strait's international waters, warning that Iran had been notified that any vessel caught laying new mines would be \"immediately and systematically destroyed.\" Axios reported that U.S. officials corroborated the claim, saying the Navy had spent months using underwater drones to scan the strait's median shipping lane, identifying more than 100 suspected mines that private contractors were then hired to remove or destroy. Oman's reference to a still-pending mine-clearing mission appeared to sit uneasily alongside Trump's announcement, and it remains unclear how the two efforts relate."
+        },
+        {
+          "type": "heading",
+          "id": "irans-weakening-grip-on-the-strait",
+          "text": "Iran's weakening grip on the strait"
+        },
+        {
+          "type": "paragraph",
+          "text": "The diplomatic overture comes as Iran's practical control over traffic through the strait has eroded sharply. Weekly vessel transits have surged from around 40 two weeks ago to nearly 200 more recently, with more than 80% of liquid cargo shipments either using the U.S.-backed Omani corridor or moving without transponders, likely along the same southern route Tehran has rejected. One oil-market analyst described the shift bluntly, saying it increasingly looks as though Iran has at least partially lost control of the strait. The strait became a flashpoint after war broke out earlier this year between Iran, the United States and Israel, and the current negotiations build on a June memorandum of understanding between the U.S. and Iran aimed at ending that conflict. Qatar has voiced support for the talks, with its prime minister expected to travel to Tehran for follow-up discussions, and news of the proposed framework helped push oil prices lower for a third straight session as traders weighed the prospect of more Gulf crude reaching global markets."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Iran, Oman Propose Temporary Hormuz Shipping Corridor",
+        "metaDescription": "Iran and Oman have proposed a temporary, jointly managed shipping corridor through the Strait of Hormuz aimed at restoring commercial navigation.",
+        "ogTitle": "Iran and Oman Outline Plan to Reopen Strait of Hormuz",
+        "ogDescription": "A proposed temporary shipping corridor and mine-clearing effort could pave the way toward reopening the Strait of Hormuz to commercial traffic.",
+        "ogImage": "/images/illustrations/iran-oman-hormuz-shipping-corridor-proposal.webp",
+        "twitterTitle": "Iran, Oman Propose Hormuz Shipping Corridor",
+        "twitterDescription": "A new proposal from Iran and Oman could restore shipping through the Strait of Hormuz after months of disruption.",
+        "keywords": [
+          "Strait of Hormuz",
+          "Iran Oman shipping",
+          "oil markets 2026",
+          "Gulf shipping corridor"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "Iran and Oman proposed a temporary navigational corridor through the Strait of Hormuz.",
+        "The proposal paired the corridor with coordinated mine-clearing work.",
+        "Any practical effect would depend on implementation, maritime security and the response of shipping operators and other governments."
+      ],
+      "whyItMatters": "The Strait is a major oil-transit route, so even a temporary change in navigational risk can affect shipping decisions, insurance and energy markets.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "Foreign Ministry of Oman",
+          "label": "Oman-Iran joint statement",
+          "url": "https://www.fm.gov.om/en/53722/",
+          "accessed": "September 9, 2026"
+        },
+        {
+          "publisher": "U.S. Energy Information Administration",
+          "label": "World oil transit chokepoints",
+          "url": "https://www.eia.gov/international/analysis/special-topics/world-oil-transit-chokepoints",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of ships moving through a proposed Strait of Hormuz corridor",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "uk-breaks-up-science-innovation-technology-department",
+      "title": "New UK prime minister abolishes science and technology department in Whitehall shake-up",
+      "subtitle": "Lawmakers warn the reorganization could fragment policy on artificial intelligence and research funding",
+      "excerpt": "Prime Minister Andy Burnham has dissolved the Department for Science, Innovation and Technology, folding most of its responsibilities into a new business department while moving artificial intelligence policy directly into the Cabinet Office, a move that has unsettled parts of Britain's tech sector.",
+      "category": "world",
+      "tags": [
+        "world",
+        "united-kingdom",
+        "policy"
+      ],
+      "author": "elena-marsh",
+      "date": "2026-08-04",
+      "year": "2026",
+      "month": "08",
+      "day": "04",
+      "image": "/images/illustrations/uk-breaks-up-science-innovation-technology-department.webp",
+      "readingTime": "3 minutes read",
+      "views": 2340,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "what-changed",
+          "text": "What changed"
+        },
+        {
+          "id": "who-moved-where",
+          "text": "Who moved where"
+        },
+        {
+          "id": "reaction-from-the-tech-sector",
+          "text": "Reaction from the tech sector"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Britain's new prime minister, Andy Burnham, has abolished the Department for Science, Innovation and Technology, dissolving the three-year-old ministry as part of a wider reorganization of Whitehall carried out shortly after he took office."
+        },
+        {
+          "type": "heading",
+          "id": "what-changed",
+          "text": "What changed"
+        },
+        {
+          "type": "paragraph",
+          "text": "The department, created in 2023 by then-prime minister Rishi Sunak to bring science, technology and digital policy together under one roof, will see most of its functions absorbed into a newly formed Department for Business, Innovation, Science and Trade, while responsibility for digital transformation and online harms moves instead to the Department for Culture, Media and Sport. The government has framed the change as a way to align technology policy more closely with economic strategy, arguing that folding research and innovation into the business department will produce a more coordinated national industrial strategy and reduce duplication across government."
+        },
+        {
+          "type": "heading",
+          "id": "who-moved-where",
+          "text": "Who moved where"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jonathan Reynolds, who previously led the old business department before serving as chief whip, has returned to lead the new combined department, which inherits the Sovereign AI investment unit, the Advanced Research and Invention Agency and UK Research and Innovation, bringing research funding and commercialization policy under one roof for the first time. Artificial intelligence policy has been elevated rather than folded in: Kanishka Narayan, appointed minister of state for artificial intelligence, will work jointly across the Cabinet Office and the new business department and will attend cabinet meetings, a first for the AI brief. The AI Security Institute is expected to remain closely tied to the Cabinet Office as part of that arrangement. Liz Kendall, the outgoing science secretary who helped establish the Sovereign AI Fund, stepped down before the reshuffle was formally announced, as did Lord Patrick Vallance, the science minister and former government chief scientific adviser."
+        },
+        {
+          "type": "heading",
+          "id": "reaction-from-the-tech-sector",
+          "text": "Reaction from the tech sector"
+        },
+        {
+          "type": "paragraph",
+          "text": "The decision has unsettled parts of Britain's technology and investment community. In an open letter published before the reshuffle was confirmed, the industry groups TechUK and the Startup Coalition warned that the old department gave the sector \"a single government partner that understands it,\" and that folding it into a larger structure risked diluting attention to fast-moving areas like artificial intelligence and life sciences just as momentum was building. Supporters of the change counter that embedding science and technology policy directly inside the government's economic engine room, rather than keeping it siloed in a standalone department, will make it easier to translate research into commercial growth. Parliament's own science and technology committee has said it expects to hear directly from ministers in the coming weeks about how the transition will be managed and which parts of government will take the lead on ongoing initiatives, including the country's AI adoption plans."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "UK Abolishes Science and Technology Department Under Burnham",
+        "metaDescription": "New Prime Minister Andy Burnham has dissolved the Department for Science, Innovation and Technology, folding it into a new business department.",
+        "ogTitle": "UK Scraps Science and Tech Department in Whitehall Shake-Up",
+        "ogDescription": "Prime Minister Andy Burnham has abolished DSIT, moving AI policy into the Cabinet Office and other functions into a new business department.",
+        "ogImage": "/images/illustrations/uk-breaks-up-science-innovation-technology-department.webp",
+        "twitterTitle": "UK Abolishes Its Science and Technology Department",
+        "twitterDescription": "Andy Burnham has dissolved DSIT as part of a wider Whitehall reorganization, unsettling parts of the UK tech sector.",
+        "keywords": [
+          "DSIT abolished",
+          "UK government reorganization",
+          "Andy Burnham cabinet",
+          "UK technology policy"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "The new UK government redistributed functions previously held by the science and technology department.",
+        "Research, digital policy and technology responsibilities continued under new departmental arrangements rather than disappearing.",
+        "The policy impact depends on budgets, ministerial authority and how cross-government programs are managed after the change."
+      ],
+      "whyItMatters": "Machinery-of-government changes can alter priorities and accountability even when the underlying programs continue.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "Government of the United Kingdom",
+          "label": "Machinery of government changes fact sheet",
+          "url": "https://www.gov.uk/government/news/machinery-of-government-changes-fact-sheet",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of United Kingdom science and technology functions being redistributed",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "typhoon-dolphin-china-strongest-storm-of-year",
+      "title": "Typhoon Dolphin slams China's coast as region endures busy storm season",
+      "subtitle": "The storm was the most powerful to hit the country so far this year",
+      "excerpt": "Typhoon Dolphin made a double landfall in eastern China's Zhejiang province with winds near 94 miles per hour, prompting the evacuation of more than a million people and the cancellation of over 1,300 flights as the region endures its most active typhoon season in years.",
+      "category": "world",
+      "tags": [
+        "world",
+        "asia-pacific",
+        "weather"
+      ],
+      "author": "elena-marsh",
+      "date": "2026-08-11",
+      "year": "2026",
+      "month": "08",
+      "day": "11",
+      "image": "/images/illustrations/typhoon-dolphin-china-strongest-storm-of-year.webp",
+      "readingTime": "2 minutes read",
+      "views": 2670,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "landfall-and-mass-evacuations",
+          "text": "Landfall and mass evacuations"
+        },
+        {
+          "id": "part-of-an-unusually-active-season",
+          "text": "Part of an unusually active season"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Typhoon Dolphin made a double landfall on China's eastern coast in Zhejiang province on the evening of August 9, arriving as the most powerful storm to hit the country this year and triggering the highest level of typhoon alert issued by China's National Meteorological Center."
+        },
+        {
+          "type": "heading",
+          "id": "landfall-and-mass-evacuations",
+          "text": "Landfall and mass evacuations"
+        },
+        {
+          "type": "paragraph",
+          "text": "The storm first came ashore near Yuhuan in Taizhou with maximum sustained winds of roughly 151 kilometers per hour, or about 94 miles per hour, equivalent to a Category 1 hurricane, before making a second landfall in nearby Yueqing about 70 minutes later. Authorities evacuated more than a million people across the region, including roughly 900,000 residents relocated in the city of Wenzhou alone, where more than 1,000 emergency shelters were opened, along with about 390,000 people evacuated in Taizhou and tens of thousands more in Shanghai and neighboring Fujian province."
+        },
+        {
+          "type": "paragraph",
+          "text": "Coastal cities including Wenzhou, Taizhou and Ningbo activated Level I emergency response, the highest tier in China's four-level system, with Wenzhou ordering a citywide suspension of classes, work, production and transportation. Air travel across the region was badly disrupted, with Shanghai's Pudong and Hongqiao airports canceling more than 1,300 flights and Hangzhou's airport canceling nearly 400 more. Ferry and cruise services across Zhejiang and Fujian were suspended, and authorities in Fujian relocated construction crews and vessels away from offshore project sites as a precaution."
+        },
+        {
+          "type": "paragraph",
+          "text": "Search and rescue crews searched for a nine-year-old boy swept into the sea during the storm in the city of Wenling, according to local media. Forecasters warned that parts of Zhejiang could see 200 to 400 millimeters, or up to nearly 16 inches, of rain as Dolphin moved inland, raising the risk of flooding and landslides in mountainous areas. The storm continued tracking westward into central China in the days that followed, prompting Beijing to raise its own rainfall warnings and prepare to activate its flood control response."
+        },
+        {
+          "type": "heading",
+          "id": "part-of-an-unusually-active-season",
+          "text": "Part of an unusually active season"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dolphin was the thirteenth named typhoon of the year in the northwest Pacific and the second storm this season to trigger China's highest-level red alert, following Typhoon Noul in late July. Forecasters have described the season as unusually active across the basin, in contrast to a comparatively quiet Atlantic hurricane season, with China, Japan and the Philippines all struck by separate storms in rapid succession earlier in the summer. The storm arrived within days of a separate tropical system that brought heavy rain to Hawaii, illustrating the wide geographic reach of this year's active Pacific storm pattern."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Typhoon Dolphin Hits China as Region's Storm Season Intensifies",
+        "metaDescription": "Typhoon Dolphin made landfall in eastern China as the country's strongest storm of the year, part of an active Asia-Pacific typhoon season.",
+        "ogTitle": "Typhoon Dolphin Strikes China Amid Active Storm Season",
+        "ogDescription": "China's most powerful typhoon of the year made landfall in Zhejiang province, part of a busy season across the Asia-Pacific.",
+        "ogImage": "/images/illustrations/typhoon-dolphin-china-strongest-storm-of-year.webp",
+        "twitterTitle": "Typhoon Dolphin Slams Into China's Coast",
+        "twitterDescription": "China's strongest typhoon of the year made landfall this month as the Asia-Pacific region endures an active storm season.",
+        "keywords": [
+          "Typhoon Dolphin",
+          "China typhoon 2026",
+          "Asia Pacific storm season",
+          "Zhejiang province"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "Typhoon Dolphin brought destructive wind, rain and coastal hazards to China.",
+        "The storm arrived during an already active regional season, increasing pressure on response systems.",
+        "Local rainfall, surge and landslide exposure can matter more than a single maximum-wind ranking."
+      ],
+      "whyItMatters": "Storm labels summarize intensity, but community risk depends on the path, terrain, building exposure and the timing of warnings and evacuations.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "China Meteorological Administration",
+          "label": "Official weather information",
+          "url": "https://www.cma.gov.cn/en/",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a powerful typhoon striking China's coast",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    }
+  ]
+}

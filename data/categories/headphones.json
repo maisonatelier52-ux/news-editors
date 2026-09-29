@@ -1,0 +1,487 @@
+{
+  "articles": [
+    {
+      "slug": "sync-by-50-wireless-headphones-review",
+      "title": "Sync by 50 in context: reading an old wireless-headphone review",
+      "subtitle": "Fit, battery condition and modern Bluetooth behavior now matter more than a launch-era feature list",
+      "excerpt": "An archive guide to understanding an early wireless headphone and evaluating any surviving pair safely.",
+      "category": "headphones",
+      "tags": [
+        "headphone",
+        "sound"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/illustrations/sync-by-50-wireless-headphones-review.webp",
+      "readingTime": "2 minutes read",
+      "views": 22703,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 88
+      },
+      "featured": true,
+      "trending": true,
+      "toc": [
+        {
+          "id": "read-sound-claims-carefully",
+          "text": "Read sound claims carefully"
+        },
+        {
+          "id": "the-battery-is-the-limiting-part",
+          "text": "The battery is the limiting part"
+        },
+        {
+          "id": "before-using-a-surviving-pair",
+          "text": "Before using a surviving pair"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Sync by 50 headphones came from an era when wireless audio still asked buyers to accept more compromise in weight, controls and connection behavior. An original review could compare sound and comfort against 2016 rivals. Today, the sealed battery and aging electronics make the condition of a particular pair more important than the old ranking."
+        },
+        {
+          "type": "heading",
+          "id": "read-sound-claims-carefully",
+          "text": "Read sound claims carefully"
+        },
+        {
+          "type": "paragraph",
+          "text": "Headphone sound depends on fit, ear shape, seal and listening level. Descriptions such as powerful bass or clear treble are useful only when tied to specific tracks and comparisons. A model's tuning does not improve with rarity, and deteriorated pads can alter both comfort and frequency balance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Modern devices may still support older Bluetooth audio, but multipoint behavior, microphone quality and latency can lag current expectations. A wired fallback is valuable only if the cable and passive mode work."
+        },
+        {
+          "type": "heading",
+          "id": "the-battery-is-the-limiting-part",
+          "text": "The battery is the limiting part"
+        },
+        {
+          "type": "paragraph",
+          "text": "A rechargeable cell loses capacity over time and may be difficult to replace. Long storage can leave it unable to charge. Hinges, headbands and synthetic ear pads also age even on lightly used examples."
+        },
+        {
+          "type": "heading",
+          "id": "before-using-a-surviving-pair",
+          "text": "Before using a surviving pair"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspect physical and electrical condition before a long charge."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Stop if the enclosure is swollen, hot or distorted.",
+            "Test wired and wireless modes with your own devices.",
+            "Check both channels, microphone and controls.",
+            "Include new pads and battery risk when comparing price."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Archive perspective",
+      "keyTakeaways": [
+        "An old wireless review reflects the alternatives and expectations of its time.",
+        "Pad condition changes sound, while battery age can end the product's useful life.",
+        "A working cable does not guarantee that wireless controls or microphones meet current needs."
+      ],
+      "whyItMatters": "Archive framing preserves the design history without implying that an aging sealed-battery product is a sensible current purchase.",
+      "reportingNote": "This archive perspective explains the product in its original context and is not a current recommendation. Prices, batteries, software support and availability change; verify the exact unit before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "Sync by 50 in context: reading an old wireless-headphone review",
+        "metaDescription": "An archive guide to understanding an early wireless headphone and evaluating any surviving pair safely.",
+        "ogTitle": "Sync by 50 in context: reading an old wireless-headphone review",
+        "ogDescription": "An archive guide to understanding an early wireless headphone and evaluating any surviving pair safely.",
+        "twitterTitle": "Sync by 50 in context: reading an old wireless-headphone review",
+        "twitterDescription": "An archive guide to understanding an early wireless headphone and evaluating any surviving pair safely.",
+        "keywords": [
+          "Sync by 50 archive",
+          "used wireless headphones",
+          "headphone battery safety",
+          "Bluetooth headphone history"
+        ],
+        "ogImage": "/images/illustrations/sync-by-50-wireless-headphones-review.webp"
+      },
+      "imageCaption": "Editorial archive illustration of aging wireless headphones, Bluetooth and a wired fallback",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "battle-of-the-portable-planar-magnetic-headphones",
+      "title": "How to choose portable planar-magnetic headphones",
+      "subtitle": "Driver technology is only useful when power, weight, isolation and fit work outside the home",
+      "excerpt": "Planar headphones can sound controlled and spacious, but portable use exposes trade-offs that a driver label cannot settle.",
+      "category": "headphones",
+      "tags": [
+        "headphone",
+        "sound"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/illustrations/battle-of-the-portable-planar-magnetic-headphones.webp",
+      "readingTime": "2 minutes read",
+      "views": 5104,
+      "comments": 0,
+      "rating": {
+        "type": "score",
+        "value": "7.7"
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "portable-means-more-than-foldable",
+          "text": "Portable means more than foldable"
+        },
+        {
+          "id": "the-driver-label-is-not-a-verdict",
+          "text": "The driver label is not a verdict"
+        },
+        {
+          "id": "run-a-commute-test",
+          "text": "Run a commute test"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Planar-magnetic headphones use a thin diaphragm driven across a broad area. The approach can deliver low distortion and controlled bass, but it does not guarantee better sound, and portable models still have to solve weight, efficiency, leakage and durability."
+        },
+        {
+          "type": "heading",
+          "id": "portable-means-more-than-foldable",
+          "text": "Portable means more than foldable"
+        },
+        {
+          "type": "paragraph",
+          "text": "A headphone that fits in a case may still be heavy during a commute. Open or lightly sealed designs can leak music and admit outside noise, forcing unsafe listening levels. Clamp, pad depth and heat become more important over a full journey than they seem in a short demonstration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Efficiency also varies. A phone may reach adequate volume but offer little headroom on quiet recordings. An amplifier adds cost, cables and another battery, weakening the promise of portability."
+        },
+        {
+          "type": "heading",
+          "id": "the-driver-label-is-not-a-verdict",
+          "text": "The driver label is not a verdict"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuning, cup construction and seal shape the response as much as the driver principle. Dynamic-driver headphones can outperform a poorly tuned planar model. Compare at matched loudness, because the slightly louder option often appears more detailed."
+        },
+        {
+          "type": "heading",
+          "id": "run-a-commute-test",
+          "text": "Run a commute test"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the source device and music service you normally carry."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Check volume headroom without an external amplifier.",
+            "Listen for leakage at the level you would use in public.",
+            "Wear the headphones long enough to judge weight and pad heat.",
+            "Price replacement pads, cables and a protective case."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Evergreen guide",
+      "keyTakeaways": [
+        "Planar technology does not automatically produce better tuning.",
+        "Weight, leakage and power demand can undermine portable use.",
+        "A matched-volume test with the actual phone is more useful than a driver label."
+      ],
+      "whyItMatters": "The right portable headphone must succeed as a complete travel system, not only as an interesting transducer on a specification sheet.",
+      "reportingNote": "This is an editorial guide, not a claim of new laboratory testing. Specifications, prices, support and availability change; verify current details for the exact product before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "How to choose portable planar-magnetic headphones",
+        "metaDescription": "Planar headphones can sound controlled and spacious, but portable use exposes trade-offs that a driver label cannot settle.",
+        "ogTitle": "How to choose portable planar-magnetic headphones",
+        "ogDescription": "Planar headphones can sound controlled and spacious, but portable use exposes trade-offs that a driver label cannot settle.",
+        "twitterTitle": "How to choose portable planar-magnetic headphones",
+        "twitterDescription": "Planar headphones can sound controlled and spacious, but portable use exposes trade-offs that a driver label cannot settle.",
+        "keywords": [
+          "portable planar headphones",
+          "planar magnetic guide",
+          "headphone power requirements",
+          "headphone leakage"
+        ],
+        "ogImage": "/images/illustrations/battle-of-the-portable-planar-magnetic-headphones.webp"
+      },
+      "imageCaption": "Editorial illustration showing the layered driver inside portable planar-magnetic headphones",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "bragi-headphone-review-finally-wireless-earbuds-worth-buying",
+      "title": "Bragi Headphone in context: the promise and risk of early wireless earbuds",
+      "subtitle": "A pioneering form factor also depended on tiny batteries, firmware and a young connection standard",
+      "excerpt": "An archive perspective on early true-wireless earbuds and why their app and battery dependencies matter today.",
+      "category": "headphones",
+      "tags": [
+        "headphone",
+        "sound"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/illustrations/bragi-headphone-review-finally-wireless-earbuds-worth-buying.webp",
+      "readingTime": "2 minutes read",
+      "views": 6210,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 79
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "what-early-wireless-had-to-solve",
+          "text": "What early wireless had to solve"
+        },
+        {
+          "id": "tiny-batteries-age-quickly",
+          "text": "Tiny batteries age quickly"
+        },
+        {
+          "id": "a-collection-not-a-default-recommendation",
+          "text": "A collection, not a default recommendation"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Early true-wireless earbuds had to prove that two tiny radios could stay synchronized, fit securely and last through a commute. The Bragi Headphone belongs to that formative period. Its historical interest is clear, but a sealed miniature battery and discontinued software ecosystem make any present-day unit a risky practical purchase."
+        },
+        {
+          "type": "heading",
+          "id": "what-early-wireless-had-to-solve",
+          "text": "What early wireless had to solve"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manufacturers balanced antenna placement, connection stability, controls and battery life in very little space. Firmware updates could materially change behavior, which made the companion software part of the product. Fit affected both bass response and whether an earbud stayed in place."
+        },
+        {
+          "type": "paragraph",
+          "text": "Current earbuds benefit from years of chipset and protocol improvement. An old review should therefore be read against the alternatives then available, not against today's expectations."
+        },
+        {
+          "type": "heading",
+          "id": "tiny-batteries-age-quickly",
+          "text": "Tiny batteries age quickly"
+        },
+        {
+          "type": "paragraph",
+          "text": "Earbud cells start small and are exposed to repeated charge cycles and heat inside a case. Even a lightly used pair may have little runtime after years in storage. If the app, account service or firmware package is gone, reset and pairing problems may be impossible to solve."
+        },
+        {
+          "type": "heading",
+          "id": "a-collection-not-a-default-recommendation",
+          "text": "A collection, not a default recommendation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avoid paying a practical-use premium without a full demonstration."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Test both earbuds separately and together.",
+            "Measure a complete discharge cycle at moderate volume.",
+            "Confirm reset instructions work without a discontinued service.",
+            "Inspect the case battery and charging contacts for heat or damage."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Archive perspective",
+      "keyTakeaways": [
+        "Early true-wireless products depended heavily on firmware and radio stability.",
+        "Very small sealed batteries make age a decisive limitation.",
+        "Discontinued apps or services can turn a minor pairing fault into a permanent one."
+      ],
+      "whyItMatters": "The product's place in wireless-audio history can be appreciated without presenting obsolete battery hardware as a current-value choice.",
+      "reportingNote": "This archive perspective explains the product in its original context and is not a current recommendation. Prices, batteries, software support and availability change; verify the exact unit before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "Bragi Headphone in context: the promise and risk of early wireless earbuds",
+        "metaDescription": "An archive perspective on early true-wireless earbuds and why their app and battery dependencies matter today.",
+        "ogTitle": "Bragi Headphone in context: the promise and risk of early wireless earbuds",
+        "ogDescription": "An archive perspective on early true-wireless earbuds and why their app and battery dependencies matter today.",
+        "twitterTitle": "Bragi Headphone in context: the promise and risk of early wireless earbuds",
+        "twitterDescription": "An archive perspective on early true-wireless earbuds and why their app and battery dependencies matter today.",
+        "keywords": [
+          "Bragi Headphone archive",
+          "early true wireless earbuds",
+          "earbud battery age",
+          "wireless earbud history"
+        ],
+        "ogImage": "/images/illustrations/bragi-headphone-review-finally-wireless-earbuds-worth-buying.webp"
+      },
+      "imageCaption": "Editorial archive illustration of early true-wireless earbuds facing connection and battery trade-offs",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "akg-n60nc-headphones-review-converting-the-non-believers",
+      "title": "AKG N60NC in context: compact noise cancelling before it became standard",
+      "subtitle": "An archive perspective on travel headphones, with present-day checks for battery, pads and connections",
+      "excerpt": "The N60NC helped make compact noise cancelling credible, but a used pair must be judged by its condition and exact version.",
+      "category": "headphones",
+      "tags": [
+        "headphone"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/illustrations/akg-n60nc-headphones-review-converting-the-non-believers.webp",
+      "readingTime": "2 minutes read",
+      "views": 4310,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 83
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "what-the-original-design-solved",
+          "text": "What the original design solved"
+        },
+        {
+          "id": "condition-changes-the-sound",
+          "text": "Condition changes the sound"
+        },
+        {
+          "id": "used-pair-checks",
+          "text": "Used-pair checks"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The AKG N60NC offered active noise cancellation in a compact on-ear design at a time when travel models were often bulky. It demonstrated that portability and useful low-frequency noise reduction could coexist. It also carried the usual on-ear trade-offs in pressure, seal and long-session comfort."
+        },
+        {
+          "type": "heading",
+          "id": "what-the-original-design-solved",
+          "text": "What the original design solved"
+        },
+        {
+          "type": "paragraph",
+          "text": "Active noise cancellation is most effective against steady low-frequency sound such as engines and ventilation. The passive seal still handles much of the higher-frequency chatter. An on-ear cup packs smaller but can lose seal around glasses and press directly on the ear."
+        },
+        {
+          "type": "paragraph",
+          "text": "Different wired and wireless versions of a product can behave differently, so an archive name is not enough. Connector type, microphone path and passive playback should be confirmed for the exact unit."
+        },
+        {
+          "type": "heading",
+          "id": "condition-changes-the-sound",
+          "text": "Condition changes the sound"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flattened pads reduce comfort and change the acoustic seal. A tired battery may shorten cancellation time or make wireless behavior unstable. Replacement pads can restore fit, but third-party materials may alter tuning."
+        },
+        {
+          "type": "heading",
+          "id": "used-pair-checks",
+          "text": "Used-pair checks"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wear the pair for at least the length of a normal commute."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Test cancellation with a steady fan or transit noise.",
+            "Check hinges, cable sockets and pad condition.",
+            "Confirm whether audio continues when the battery is empty.",
+            "Compare the full cost with a supported modern model."
+          ]
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "articleType": "Archive perspective",
+      "keyTakeaways": [
+        "Noise cancellation works best on steady low-frequency sound.",
+        "On-ear portability trades against seal and long-session comfort.",
+        "Pad and battery condition can change the experience more than an old review suggests."
+      ],
+      "whyItMatters": "An archive review becomes useful current guidance when it explains both the original achievement and the failure points created by age.",
+      "reportingNote": "This archive perspective explains the product in its original context and is not a current recommendation. Prices, batteries, software support and availability change; verify the exact unit before buying.",
+      "sources": [
+        {
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 9, 2026"
+        }
+      ],
+      "seo": {
+        "metaTitle": "AKG N60NC in context: compact noise cancelling before it became standard",
+        "metaDescription": "The N60NC helped make compact noise cancelling credible, but a used pair must be judged by its condition and exact version.",
+        "ogTitle": "AKG N60NC in context: compact noise cancelling before it became standard",
+        "ogDescription": "The N60NC helped make compact noise cancelling credible, but a used pair must be judged by its condition and exact version.",
+        "twitterTitle": "AKG N60NC in context: compact noise cancelling before it became standard",
+        "twitterDescription": "The N60NC helped make compact noise cancelling credible, but a used pair must be judged by its condition and exact version.",
+        "keywords": [
+          "AKG N60NC archive",
+          "used noise cancelling headphones",
+          "headphone pad condition",
+          "travel headphones"
+        ],
+        "ogImage": "/images/illustrations/akg-n60nc-headphones-review-converting-the-non-believers.webp"
+      },
+      "imageCaption": "Editorial archive illustration of compact noise-cancelling headphones used during travel",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    }
+  ]
+}

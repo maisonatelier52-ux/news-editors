@@ -1,0 +1,649 @@
+{
+  "articles": [
+    {
+      "slug": "measles-cases-near-1000-in-first-two-months-of-2026",
+      "title": "U.S. measles count keeps climbing as outbreaks persist in three states",
+      "subtitle": "Federal health officials say most cases trace back to unvaccinated communities",
+      "excerpt": "The national measles tally has climbed past 2,700 cases this year, with a South Carolina outbreak that grew into the largest the country has seen in decades, and federal officials now expect a review this fall of whether the U.S. still qualifies as having eliminated the disease.",
+      "category": "us",
+      "tags": [
+        "us",
+        "health",
+        "public-health"
+      ],
+      "author": "admin",
+      "date": "2026-08-26",
+      "year": "2026",
+      "month": "08",
+      "day": "26",
+      "image": "/images/illustrations/measles-cases-near-1000-in-first-two-months-of-2026.webp",
+      "readingTime": "3 minutes read",
+      "views": 6840,
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "toc": [
+        {
+          "id": "how-big-the-outbreaks-are",
+          "text": "How big the outbreaks have grown"
+        },
+        {
+          "id": "where-cases-are-concentrated-now",
+          "text": "Where cases are concentrated now"
+        },
+        {
+          "id": "vaccination-gaps-behind-the-spread",
+          "text": "Vaccination gaps behind the spread"
+        },
+        {
+          "id": "a-review-of-the-countrys-elimination-status",
+          "text": "A review of the country's elimination status"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The nationwide measles count has kept climbing through the summer, with federal health officials confirming more than 2,700 confirmed cases so far this year across 32 states and New York City. The total has already left last year's count, which was itself the highest in more than three decades, far behind."
+        },
+        {
+          "type": "heading",
+          "id": "how-big-the-outbreaks-are",
+          "text": "How big the outbreaks have grown"
+        },
+        {
+          "type": "paragraph",
+          "text": "A single outbreak that began last October in Spartanburg County, South Carolina, grew into the largest the country has seen in decades, swelling to nearly 1,000 cases before finally tapering off in the spring. Utah's outbreak has since become the largest still active, with more than 500 cases confirmed there this year alone. In recent weeks, Pennsylvania has emerged as a new hot spot, with dozens of new cases confirmed there in a single week, while Arizona has reported a cluster tied to a business in Maricopa County that health officials called far outside the norm for a county that typically sees about one case a year."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Centers for Disease Control and Prevention says 94% of this year's confirmed cases are tied to one of roughly three dozen identified outbreaks rather than isolated, unconnected infections, a pattern consistent with the virus moving through specific communities with lower vaccination coverage rather than spreading broadly through the general population."
+        },
+        {
+          "type": "heading",
+          "id": "where-cases-are-concentrated-now",
+          "text": "Where cases are concentrated now"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond South Carolina, Utah, Pennsylvania and Arizona, smaller but notable clusters have also been tracked in Washington state, Florida and Texas, including cases linked to a federal immigration detention facility earlier in the year. Roughly a quarter of this year's cases have been in children younger than five, and the large majority have been in children and young adults under 20."
+        },
+        {
+          "type": "heading",
+          "id": "vaccination-gaps-behind-the-spread",
+          "text": "Vaccination gaps behind the spread"
+        },
+        {
+          "type": "paragraph",
+          "text": "More than 90% of this year's patients were unvaccinated or had an unknown vaccination status. Only a small number of states have kept kindergarten vaccination coverage above the roughly 95% threshold generally considered necessary to prevent sustained spread, and public health researchers say that gap remains the single biggest driver of the outbreaks. About 7% of this year's patients have required hospitalization, a lower share than last year's 11%, and no measles deaths have been reported so far in 2026, after three deaths, including two children, were recorded last year."
+        },
+        {
+          "type": "heading",
+          "id": "a-review-of-the-countrys-elimination-status",
+          "text": "A review of the country's elimination status"
+        },
+        {
+          "type": "paragraph",
+          "text": "The scale of this year's spread has put the country's measles elimination status, held since 2000, under formal review. The Pan American Health Organization's regional verification commission is set to evaluate later this fall whether measles has been circulating continuously in the United States for more than twelve months, the technical threshold for losing elimination status. Canada lost its own elimination status last November after a similar review found sustained transmission stretching back more than a year. Public health researchers say losing the designation would carry no direct penalty or funding change, but would mark a symbolic acknowledgment that the country's vaccination safety net has weakened. Officials continue to recommend the standard two-dose vaccination series, which is roughly 97% effective at preventing infection, as the most effective way to bring the outbreaks to an end."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "U.S. Measles Cases Keep Rising as 2026 Outbreaks Continue",
+        "metaDescription": "Measles cases in the U.S. continue to climb in 2026, with major outbreaks concentrated in a handful of states and low vaccination coverage driving the spread.",
+        "ogTitle": "U.S. Measles Outbreaks Keep Growing Through Summer 2026",
+        "ogDescription": "Health officials say most of this year's measles cases trace back to a small number of outbreaks in under-vaccinated communities.",
+        "ogImage": "/images/illustrations/measles-cases-near-1000-in-first-two-months-of-2026.webp",
+        "twitterTitle": "Measles Cases Keep Climbing Across the U.S.",
+        "twitterDescription": "A look at where 2026's biggest measles outbreaks are concentrated and why vaccination gaps are driving the spread.",
+        "keywords": [
+          "measles outbreak 2026",
+          "U.S. measles cases",
+          "vaccination rates",
+          "public health news"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "The national total had passed 2,700 reported cases across 32 states and New York City at publication.",
+        "A large South Carolina outbreak was driving much of the increase.",
+        "Sustained transmission can put the United States' measles-elimination status under review."
+      ],
+      "whyItMatters": "Measles spreads efficiently in undervaccinated communities, so local clusters can become a wider public-health test even when national vaccination coverage looks high.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "Centers for Disease Control and Prevention",
+          "label": "Measles cases and outbreaks",
+          "url": "https://www.cdc.gov/measles/data-research/",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of measles transmission, vaccination and public-health response",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "indiana-severe-storms-disaster-declaration",
+      "title": "Indiana seeks federal disaster aid after deadly storms and flooding",
+      "subtitle": "Straight-line winds, tornadoes and flash flooding left a trail of damage across dozens of counties",
+      "excerpt": "President Trump has approved a major disaster declaration for 21 Indiana counties after a derecho, tornadoes and flash flooding left at least seven people dead, more than 360,000 homes without power at the peak, and damage that Governor Mike Braun says could exceed $5 billion.",
+      "category": "us",
+      "tags": [
+        "us",
+        "weather",
+        "disaster-response"
+      ],
+      "author": "admin",
+      "date": "2026-08-21",
+      "year": "2026",
+      "month": "08",
+      "day": "21",
+      "image": "/images/illustrations/indiana-severe-storms-disaster-declaration.webp",
+      "readingTime": "3 minutes read",
+      "views": 3920,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": true,
+      "toc": [
+        {
+          "id": "how-the-storm-system-hit",
+          "text": "How the storm system hit"
+        },
+        {
+          "id": "the-federal-response",
+          "text": "The federal response"
+        },
+        {
+          "id": "recovery-still-underway",
+          "text": "Recovery still underway"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "President Trump has approved a major disaster declaration for Indiana after a punishing round of severe weather left at least seven people dead, destroyed homes and knocked out power to hundreds of thousands of residents across the state earlier this month."
+        },
+        {
+          "type": "heading",
+          "id": "how-the-storm-system-hit",
+          "text": "How the storm system hit"
+        },
+        {
+          "type": "paragraph",
+          "text": "On the morning of August 11, a thunderstorm system that the Storm Prediction Center classified as a derecho tore across the state from Illinois, producing extreme straight-line winds, at least two tornadoes, large hail and flash flooding as it moved through northwest and north-central Indiana before tracking south and east through the afternoon. The storm knocked down trees across a wide swath of the state and triggered a massive wave of power outages, with utility outages peaking at 363,398 homes and businesses statewide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Repeated rounds of intense rain followed the initial storm, with six to nine inches of rainfall reported in some areas and additional rain falling in the days after, pushing multiple rivers past major flood stage. Aerial photos showed entire neighborhoods in northern Indianapolis and Cambridge City underwater, and displacement topped 1,000 residents at the height of the flooding. Seven deaths have been confirmed across Delaware, Henry, Jennings, Lake, LaPorte and Porter counties."
+        },
+        {
+          "type": "heading",
+          "id": "the-federal-response",
+          "text": "The federal response"
+        },
+        {
+          "type": "paragraph",
+          "text": "Governor Mike Braun issued a statewide disaster declaration within two days of the storm, and Trump approved an emergency declaration on August 15 covering 53 counties, allowing FEMA to begin providing direct federal assistance. After state and federal teams completed joint preliminary damage assessments, Braun formally requested an expedited major disaster declaration on August 20 covering 54 counties, citing estimated damages that he told federal officials could exceed $5 billion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trump approved that request on August 26, making individual assistance available to residents in 21 counties and public assistance to local governments in 11 counties, with FEMA saying more counties could be added as damage reviews continue. FEMA named Darrin C. Ricketts as the federal coordinating officer overseeing the recovery. Indiana's congressional delegation, including its Democratic House members, had jointly urged the president to approve the request."
+        },
+        {
+          "type": "heading",
+          "id": "recovery-still-underway",
+          "text": "Recovery still underway"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the hardest-hit communities, including Gary in the state's northwest, went nearly two weeks without power, prompting Governor Braun to demand an investigation into utility provider NIPSCO over the length of the outages. The state has since rolled out a texting tool to help residents find recovery resources in their area, and the Department of Labor has stepped in to support both employers and displaced workers, while the American Red Cross continues to run shelters and accept donations for affected families. Individual assistance approved under the declaration can cover temporary housing, home repairs and other essential expenses for households with uninsured losses."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Indiana Requests Federal Disaster Aid After Severe Storms",
+        "metaDescription": "Indiana's governor has requested a major disaster declaration after storms, tornadoes and flash flooding caused widespread damage across more than fifty counties.",
+        "ogTitle": "Indiana Storm Damage Prompts Disaster Declaration Request",
+        "ogDescription": "Tornadoes, high winds and flash flooding left a trail of damage across Indiana, with recovery efforts now underway.",
+        "ogImage": "/images/illustrations/indiana-severe-storms-disaster-declaration.webp",
+        "twitterTitle": "Indiana Seeks Federal Aid After Deadly Storms",
+        "twitterDescription": "Severe storms and flash flooding across Indiana have left at least seven dead and prompted a disaster declaration request.",
+        "keywords": [
+          "Indiana storms 2026",
+          "disaster declaration",
+          "flash flooding",
+          "severe weather"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "Severe storms and flooding caused deaths, displacement and widespread infrastructure damage.",
+        "Power outages peaked above 363,000 customers as some areas received six to nine inches of rain.",
+        "A disaster declaration would determine which federal recovery programs become available."
+      ],
+      "whyItMatters": "The declaration process shapes the speed and type of help available to households, local governments and damaged public infrastructure.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "Federal Emergency Management Agency",
+          "label": "Indiana disaster declarations",
+          "url": "https://www.fema.gov/disaster/declarations?field_dv2_state_territory_tribal_value=IN",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of storm damage, flooding and emergency assistance in Indiana",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "hawaii-tropical-storm-lala-emergency-declaration",
+      "title": "Hawaii declares emergency as tropical storm brings heavy rain to Big Island",
+      "subtitle": "Forecasters warned of more than a foot of rainfall in parts of the state",
+      "excerpt": "President Trump approved an emergency declaration for Hawaii as a tropical storm brought torrential rain to the Big Island only days after a separate hurricane had already passed near the islands, part of an unusually active Pacific storm season.",
+      "category": "us",
+      "tags": [
+        "us",
+        "weather",
+        "hawaii"
+      ],
+      "author": "admin",
+      "date": "2026-08-16",
+      "year": "2026",
+      "month": "08",
+      "day": "16",
+      "image": "/images/illustrations/hawaii-tropical-storm-lala-emergency-declaration.webp",
+      "readingTime": "2 minutes read",
+      "views": 2870,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "back-to-back-storms-in-the-pacific",
+          "text": "Back-to-back storms in the Pacific"
+        },
+        {
+          "id": "federal-response-and-local-preparations",
+          "text": "Federal response and local preparations"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hawaii received a federal emergency declaration this month as a tropical storm tracked through the Pacific and brought heavy rain to the islands, with forecasters warning that parts of the Big Island could see more than a foot of rainfall in a matter of days."
+        },
+        {
+          "type": "heading",
+          "id": "back-to-back-storms-in-the-pacific",
+          "text": "Back-to-back storms in the Pacific"
+        },
+        {
+          "type": "paragraph",
+          "text": "The storm arrived only days after a separate hurricane had already passed near the islands, adding to concerns about saturated ground and an elevated risk of flash flooding and landslides in both low-lying coastal areas and the state's mountainous interior. State officials said the back-to-back systems left little time for the ground to dry out between storms, raising the odds that even moderate additional rainfall could trigger dangerous runoff."
+        },
+        {
+          "type": "paragraph",
+          "text": "The storm was one of several to affect the broader Pacific region in quick succession this month. Around the same time, Typhoon Dolphin was tearing across eastern China as the most powerful storm to hit the country this year, part of what forecasters have described as an unusually active season across the northwest Pacific basin, in contrast to a comparatively quiet Atlantic hurricane season."
+        },
+        {
+          "type": "heading",
+          "id": "federal-response-and-local-preparations",
+          "text": "Federal response and local preparations"
+        },
+        {
+          "type": "paragraph",
+          "text": "The federal emergency declaration authorizes disaster assistance to supplement state and local response efforts, including support for emergency protective measures such as sandbagging, shelter operations and debris clearance. State officials urged residents in flood-prone areas to prepare go-bags and avoid unnecessary travel while the storm moved through, and county emergency management offices opened shelters on the Big Island as a precaution. As of the storm's passage, no major structural damage or casualties had been reported, though officials continued to monitor stream levels in the days that followed."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Hawaii Emergency Declared as Tropical Storm Brings Heavy Rain",
+        "metaDescription": "A federal emergency declaration was approved for Hawaii as a tropical storm brought torrential rain and flood risk to the Big Island.",
+        "ogTitle": "Tropical Storm Prompts Hawaii Emergency Declaration",
+        "ogDescription": "Heavy rain and flood risk from a tropical storm led to a federal emergency declaration for Hawaii this month.",
+        "ogImage": "/images/illustrations/hawaii-tropical-storm-lala-emergency-declaration.webp",
+        "twitterTitle": "Hawaii Declares Emergency Over Tropical Storm",
+        "twitterDescription": "A tropical storm brought heavy rain and flood risk to Hawaii's Big Island, prompting a federal emergency declaration.",
+        "keywords": [
+          "Hawaii tropical storm",
+          "emergency declaration",
+          "Pacific storm season",
+          "flood risk"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "Lala threatened the Big Island with prolonged heavy rain rather than wind alone.",
+        "The National Hurricane Center warned of life-threatening flash flooding and landslides.",
+        "An emergency declaration positioned state and federal agencies to support response and recovery."
+      ],
+      "whyItMatters": "Rainfall totals in steep island terrain can create dangerous local flooding even when a storm's wind category receives most of the attention.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center",
+          "label": "Tropical Storm Lala advisory update",
+          "url": "https://www.nhc.noaa.gov/archive/2026/cp01/cp012026.update.08151600.shtml",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a tropical storm bringing heavy rain to Hawaii",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "student-loan-forgiveness-credit-reversal-confusion",
+      "title": "Education Department reversal of loan-forgiveness credits confuses borrowers",
+      "subtitle": "Some public-service borrowers say their qualifying payment counts unexpectedly dropped",
+      "excerpt": "The Education Department has confirmed it is reversing some Public Service Loan Forgiveness payment credits, blaming coding errors from the Biden administration, but advocates warn the rollback could push some borrowers' loans back into repayment years after they believed they had qualified for forgiveness.",
+      "category": "us",
+      "tags": [
+        "us",
+        "education",
+        "student-loans"
+      ],
+      "author": "admin",
+      "date": "2026-08-18",
+      "year": "2026",
+      "month": "08",
+      "day": "18",
+      "image": "/images/illustrations/student-loan-forgiveness-credit-reversal-confusion.webp",
+      "readingTime": "3 minutes read",
+      "views": 4110,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "what-changed-for-borrowers",
+          "text": "What changed for borrowers"
+        },
+        {
+          "id": "the-departments-explanation",
+          "text": "The department's explanation"
+        },
+        {
+          "id": "three-overlapping-glitches",
+          "text": "Three overlapping glitches"
+        },
+        {
+          "id": "part-of-a-wider-repayment-overhaul",
+          "text": "Part of a wider repayment overhaul"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Borrowers chasing Public Service Loan Forgiveness have spent recent weeks watching their qualifying payment counts move in the wrong direction, sometimes losing six months of progress or more without warning, a phone call or an explanation. The Education Department has now confirmed that some of those reversals were intentional, part of an effort to correct what it calls coding errors made under the prior administration."
+        },
+        {
+          "type": "heading",
+          "id": "what-changed-for-borrowers",
+          "text": "What changed for borrowers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Public Service Loan Forgiveness, created in 2007, cancels the remaining federal debt of government and nonprofit workers after 120 qualifying monthly payments, roughly ten years. Borrowers track their progress on StudentAid.gov, and for years that number generally moved in one direction: up. In recent weeks, an unknown number of borrowers, including teachers and nurses, have watched their counts drop instead, pushing back the date they expected to become debt-free."
+        },
+        {
+          "type": "heading",
+          "id": "the-departments-explanation",
+          "text": "The department's explanation"
+        },
+        {
+          "type": "paragraph",
+          "text": "A department spokesperson said the agency is correcting what it described as multiple PSLF counter code errors stemming from changes made in May 2024 under the Biden administration, which had offered borrowers a chance to have their payment counts reconsidered and to receive credit for certain periods, including some payment pauses, that previously didn't count. The department has not said how many borrower accounts are affected, or provided a detailed accounting of which specific periods were reversed and why."
+        },
+        {
+          "type": "heading",
+          "id": "three-overlapping-glitches",
+          "text": "Three overlapping glitches"
+        },
+        {
+          "type": "paragraph",
+          "text": "Borrower advocates say the confusion actually reflects at least three distinct, overlapping problems: some borrowers are not receiving credit for recent qualifying months at all; the department is deliberately reversing certain non-qualifying credits granted between 2024 and 2026, including months spent on repayment plans, such as the Extended or Graduated plans, that generally don't count toward PSLF in the first place; and a separate, apparently unrelated system error has begun marking some genuinely qualifying payments as ineligible. Advocacy groups including Protect Borrowers and the American Federation of Teachers have warned the reversals could, in some cases, even reinstate loans that had already been fully forgiven, dragging public servants who completed their ten years of payments back into active repayment."
+        },
+        {
+          "type": "heading",
+          "id": "part-of-a-wider-repayment-overhaul",
+          "text": "Part of a wider repayment overhaul"
+        },
+        {
+          "type": "paragraph",
+          "text": "The reversals are unfolding alongside a broader overhaul of federal student loans that took effect July 1 under the One Big Beautiful Bill Act, which created a new Repayment Assistance Plan and began phasing out several older income-driven repayment options over the next two years. The same overhaul also eliminated the 15-day grace period that previously let a slightly late payment still count toward the 120-payment PSLF threshold; as of July 1, a payment made even one day after its due date now costs a borrower an entire month of credit. Financial aid experts say the combination of shifting rules and unexplained credit reversals has left many borrowers uncertain not just how close they are to forgiveness, but which rules now even apply to their loans."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Student Loan Forgiveness Credits Reversed, Confusing Borrowers",
+        "metaDescription": "The Education Department has confirmed it reversed some Public Service Loan Forgiveness credits, leaving many federal borrowers uncertain about their progress toward forgiveness.",
+        "ogTitle": "Education Department Reverses Some Loan-Forgiveness Credits",
+        "ogDescription": "Federal student loan borrowers report confusion after the Education Department reversed some Public Service Loan Forgiveness payment credits.",
+        "ogImage": "/images/illustrations/student-loan-forgiveness-credit-reversal-confusion.webp",
+        "twitterTitle": "Loan Forgiveness Credit Reversal Confuses Borrowers",
+        "twitterDescription": "The Education Department has reversed some Public Service Loan Forgiveness credits amid a wider federal repayment overhaul.",
+        "keywords": [
+          "student loan forgiveness",
+          "PSLF",
+          "federal student loans 2026",
+          "loan repayment plans"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "Some borrowers saw qualifying-payment counts fall after account adjustments.",
+        "The Education Department described at least some reversals as intentional corrections to prior coding.",
+        "Public Service Loan Forgiveness normally requires 120 qualifying payments and complete employment records."
+      ],
+      "whyItMatters": "A changed payment count can alter a borrower's forgiveness timeline, making documentation and a clear appeal path consequential rather than merely administrative.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "Federal Student Aid",
+          "label": "Public Service Loan Forgiveness guidance",
+          "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of student-loan records changing between credited and reversed status",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "h1b-fee-court-ruling-immigration-policy",
+      "title": "Appeals court leaves H-1B visa fee ruling in place amid immigration enforcement push",
+      "subtitle": "The decision comes as states advance new identification rules for immigration agents",
+      "excerpt": "A federal appeals court has left in place a ruling striking down the Trump administration's $100,000 fee on new H-1B visa petitions, even as the underlying policy is set to expire by proclamation in late September and a parallel legal fight continues over other immigration enforcement measures.",
+      "category": "us",
+      "tags": [
+        "us",
+        "immigration",
+        "policy"
+      ],
+      "author": "admin",
+      "date": "2026-08-10",
+      "year": "2026",
+      "month": "08",
+      "day": "10",
+      "image": "/images/illustrations/h1b-fee-court-ruling-immigration-policy.webp",
+      "readingTime": "3 minutes read",
+      "views": 3105,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "how-the-100000-fee-began",
+          "text": "How the $100,000 fee began"
+        },
+        {
+          "id": "the-legal-back-and-forth",
+          "text": "The legal back-and-forth"
+        },
+        {
+          "id": "what-happens-next",
+          "text": "What happens next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A federal appeals court has declined to let the Trump administration reinstate a $100,000 fee on certain new H-1B visa petitions while its appeal continues, leaving a lower court's ruling against the fee in effect for now."
+        },
+        {
+          "type": "heading",
+          "id": "how-the-100000-fee-began",
+          "text": "How the $100,000 fee began"
+        },
+        {
+          "type": "paragraph",
+          "text": "The fee originated from a presidential proclamation issued in September 2025, which required employers to pay $100,000 when petitioning for certain new H-1B visas involving workers who would need to be approved through consular processing abroad. The administration said the fee was meant to discourage misuse of the program, which allows U.S. employers to temporarily hire foreign workers in specialty occupations. The policy quickly drew legal challenges, including one from a coalition of twenty states led by California, who argued the fee amounted to an unlawful tax that undermined the basic function of the H-1B program."
+        },
+        {
+          "type": "heading",
+          "id": "the-legal-back-and-forth",
+          "text": "The legal back-and-forth"
+        },
+        {
+          "type": "paragraph",
+          "text": "In June, a federal judge in Massachusetts agreed, ruling that the fee functioned as a tax that only Congress, not the executive branch, has the authority to impose, and vacated the policy entirely. The fee was briefly reinstated days later when the same court granted a temporary stay while the government appealed. In late July, the U.S. Court of Appeals for the First Circuit denied the government's request to keep the fee in place during the appeal, concluding that officials had not shown they were likely to win on the merits, which lifted the fee for a second time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The appeals court's ruling addressed only the agency policy that implemented the fee, not the underlying presidential proclamation itself, meaning the administration could in theory attempt to reissue the fee on different legal grounds. A separate challenge to the fee, brought by the U.S. Chamber of Commerce and other business groups, had earlier succeeded in a Washington, D.C. district court in December, a decision now under its own review at the D.C. Circuit, leaving the two federal appellate courts on differing tracks."
+        },
+        {
+          "type": "heading",
+          "id": "what-happens-next",
+          "text": "What happens next"
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing of the underlying proclamation is becoming its own factor: by its own terms, the September 2025 order imposes a temporary twelve-month restriction that is due to expire on September 20, 2026, unless the administration extends or reissues it. That leaves employers navigating a narrowing window of legal uncertainty, with the government still able to seek a stay from the U.S. Supreme Court and the merits appeal still pending before the First Circuit. The dispute has unfolded alongside a broader expansion of immigration enforcement this year, including new airport screening practices for travelers with expired immigration status and a wave of state laws, passed in the face of federal legal challenges, that require immigration agents to visibly display identification while on duty."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Court Leaves H-1B Fee Ruling in Place as Enforcement Expands",
+        "metaDescription": "An appeals court has declined to pause a ruling against a new H-1B visa fee, as states advance rules requiring immigration agents to identify themselves.",
+        "ogTitle": "H-1B Fee Ruling Stands as Immigration Enforcement Expands",
+        "ogDescription": "A federal appeals court left in place a ruling against a contested H-1B visa fee amid wider immigration enforcement changes.",
+        "ogImage": "/images/illustrations/h1b-fee-court-ruling-immigration-policy.webp",
+        "twitterTitle": "H-1B Fee Ruling Left in Place by Appeals Court",
+        "twitterDescription": "A federal appeals court declined to pause a ruling against a new H-1B visa fee as immigration enforcement expands nationally.",
+        "keywords": [
+          "H-1B visa fee",
+          "immigration enforcement 2026",
+          "immigration policy",
+          "appeals court ruling"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "An appeals court left a lower-court H-1B fee ruling in place while the dispute continued.",
+        "The policy at issue would impose a $100,000 fee in covered cases.",
+        "Employers and applicants still faced uncertainty because further appeal or agency guidance could change implementation."
+      ],
+      "whyItMatters": "A fee of that size can change hiring plans, especially for smaller employers, while the unresolved litigation makes timing and eligibility difficult to plan.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "U.S. Citizenship and Immigration Services",
+          "label": "H-1B specialty occupations",
+          "url": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of an H-1B visa case balancing court, fee and workplace concerns",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "target-pulls-halloween-costume-backlash",
+      "title": "Target pulls children's Halloween costume after backlash over imagery",
+      "subtitle": "The retailer apologized after critics said the costume evoked racist caricatures",
+      "excerpt": "Target pulled a children's Halloween costume from its stores and website and issued a public apology after the item, which critics said evoked blackface and minstrel-era imagery, drew widespread backlash on social media.",
+      "category": "us",
+      "tags": [
+        "us",
+        "retail",
+        "consumer"
+      ],
+      "author": "admin",
+      "date": "2026-08-26",
+      "year": "2026",
+      "month": "08",
+      "day": "26",
+      "image": "/images/illustrations/target-pulls-halloween-costume-backlash.webp",
+      "readingTime": "2 minutes read",
+      "views": 2450,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Target has pulled a children's Halloween costume from its stores and website and issued a public apology after the item drew widespread criticism on social media over the weekend, with commentators saying its design evoked imagery associated with blackface and minstrel-era caricatures."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"As a company, we know we got this wrong, and we are deeply sorry,\" Target said in a statement. \"The costume is offensive and should never have been part of our assortment. It is no longer available for sale.\" The retailer said it was reviewing how the product made it through its design and approval process."
+        },
+        {
+          "type": "paragraph",
+          "text": "Critics said the costume's imagery echoed caricatures from Jim Crow-era minstrel shows, which embedded harmful stereotypes into popular culture and helped justify decades of discrimination and segregation. The product had circulated widely online in the days before Target's response, with the criticism amplified by parents, commentators and civil rights advocates."
+        },
+        {
+          "type": "paragraph",
+          "text": "The episode lands in the middle of a broader turnaround effort at Target under new chief executive Michael Fiddelke, who took over from Brian Cornell earlier this year and has laid out plans to invest roughly $2 billion in 2026, including store remodels and new locations, as the retailer works to reverse a stretch of soft sales. Retail analysts said the incident echoes similar controversies other major brands have faced over inventory errors in recent months, and that how quickly a retailer acknowledges and corrects the mistake tends to shape how much lasting damage it does to the brand."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is not the first time Target has had to pull a costume over complaints of insensitivity; the company has faced similar backlash in past years over other Halloween products. The retailer said it would strengthen its internal review procedures for holiday and costume merchandise going forward, though it has not detailed a specific timeline for those changes."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Target Pulls Halloween Costume After Backlash Over Imagery",
+        "metaDescription": "Target removed a children's Halloween costume from shelves and apologized after social media backlash over imagery critics called racist.",
+        "ogTitle": "Target Apologizes, Pulls Costume Amid Social Media Backlash",
+        "ogDescription": "A children's Halloween costume drew widespread criticism online, prompting Target to remove it from stores and issue an apology.",
+        "ogImage": "/images/illustrations/target-pulls-halloween-costume-backlash.webp",
+        "twitterTitle": "Target Pulls Costume After Backlash",
+        "twitterDescription": "Target apologized and removed a children's Halloween costume after social media users criticized its imagery.",
+        "keywords": [
+          "Target Halloween costume",
+          "retail backlash",
+          "consumer news",
+          "social media backlash"
+        ]
+      },
+      "articleType": "Current-affairs note",
+      "keyTakeaways": [
+        "Target removed a children's Halloween costume after criticism of its imagery.",
+        "The company apologized, but the withdrawal did not end the debate over the design and approval process.",
+        "The episode illustrates how product review, marketplace speed and cultural context intersect."
+      ],
+      "whyItMatters": "A retailer's response after a complaint matters, but the more useful question is how its review process allowed a foreseeable concern to reach shelves.",
+      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "sources": [
+        {
+          "publisher": "Target Corporation",
+          "label": "Corporate newsroom and statements",
+          "url": "https://corporate.target.com/press",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a children's costume removed from a retail shelf after criticism",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    }
+  ]
+}

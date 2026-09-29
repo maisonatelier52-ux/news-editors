@@ -1,0 +1,547 @@
+{
+  "articles": [
+    {
+      "slug": "nvidia-q2-earnings-data-center-revenue-surge",
+      "title": "Nvidia posts another blowout quarter as data center revenue keeps surging",
+      "subtitle": "The chipmaker's revenue more than doubled from a year earlier",
+      "excerpt": "Nvidia reported fiscal second-quarter revenue of $96.2 billion, up 106% from a year ago, with data center revenue alone reaching $89 billion, and guided to $108 billion for the current quarter as CEO Jensen Huang said AI compute has become 'productive and profitable.'",
+      "category": "business",
+      "tags": [
+        "business",
+        "technology",
+        "earnings"
+      ],
+      "author": "marcus-cole",
+      "date": "2026-08-26",
+      "year": "2026",
+      "month": "08",
+      "day": "26",
+      "image": "/images/illustrations/nvidia-q2-earnings-data-center-revenue-surge.webp",
+      "readingTime": "3 minutes read",
+      "views": 9450,
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "toc": [
+        {
+          "id": "the-numbers-behind-the-quarter",
+          "text": "The numbers behind the quarter"
+        },
+        {
+          "id": "margin-pressure-ahead",
+          "text": "Margin pressure ahead"
+        },
+        {
+          "id": "what-comes-next",
+          "text": "What comes next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nvidia reported another quarter of explosive growth, with fiscal second-quarter revenue coming in at $96.2 billion, more than double what the chipmaker posted a year earlier and roughly 5.7% above the midpoint of its own guidance, as demand for the processors that power artificial intelligence systems continues to outpace supply."
+        },
+        {
+          "type": "heading",
+          "id": "the-numbers-behind-the-quarter",
+          "text": "The numbers behind the quarter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Data center revenue, the company's largest and fastest-growing segment, reached $89.0 billion, up 117% from a year earlier and about 92% of total revenue, driven largely by the ramp of Nvidia's Blackwell Ultra chips. Within that segment, revenue from hyperscale cloud providers more than doubled year over year, while revenue from AI-native companies, enterprises and sovereign customers climbed 138%. Gross margin held at 75.0% on both a GAAP and adjusted basis, and the company earned $2.46 per diluted share on a GAAP basis, or $2.22 on an adjusted basis. \"AI has reached its inflection point,\" said founder and chief executive Jensen Huang. \"It's doing useful work. Its tokens are productive and profitable. Now, compute is revenue. And demand is accelerating.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The company returned $26 billion to shareholders during the quarter through buybacks and dividends, and separately announced a partnership under which Amazon Web Services will purchase two million Nvidia GPUs alongside the company's new Vera CPU. Chief financial officer Colette Kress said capital spending among the industry's five largest hyperscale cloud providers is projected to climb to roughly $1.3 trillion next year, up from about $800 billion in 2026, underscoring how much runway executives believe remains in the AI buildout."
+        },
+        {
+          "type": "heading",
+          "id": "margin-pressure-ahead",
+          "text": "Margin pressure ahead"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kress also flagged that gross margin is expected to decline and bottom out in the fiscal fourth quarter, in a range of 71% to 72%, largely because of rising memory chip costs tied to the broader AI hardware buildout. \"We want to be direct about this, rather than let it linger as an open question,\" Kress said, adding that memory scarcity is being driven in large part by the AI buildout itself rather than by any issue specific to Nvidia."
+        },
+        {
+          "type": "heading",
+          "id": "what-comes-next",
+          "text": "What comes next"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the current quarter, Nvidia guided to revenue of $108.0 billion, plus or minus 2%, a figure that assumes no data center compute revenue from China, where export restrictions have curtailed the company's ability to sell its most advanced chips; shipments of Nvidia's Hopper-generation products to China made up less than 1% of data center revenue during the quarter just reported. Huang has forecast that revenue will grow roughly 70% in the coming fiscal year, a figure well above what Wall Street analysts had penciled in. Looking further out, the company said it plans to begin shipping its next-generation Vera Rubin platform in the fiscal third quarter, with a larger production ramp expected through the fourth quarter and into early next year, as it pushes further into new markets including autonomous vehicles and robotics."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Nvidia Earnings: Revenue Tops $96 Billion on AI Demand",
+        "metaDescription": "Nvidia reported quarterly revenue of more than $96 billion, more than double last year's figure, driven by continued strong demand for AI computing hardware.",
+        "ogTitle": "Nvidia's Revenue More Than Doubles on AI Chip Demand",
+        "ogDescription": "Nvidia posted another quarter of rapid growth as data center revenue continues to surge on artificial intelligence spending.",
+        "ogImage": "/images/illustrations/nvidia-q2-earnings-data-center-revenue-surge.webp",
+        "twitterTitle": "Nvidia Posts Blowout Quarter on AI Demand",
+        "twitterDescription": "Nvidia's quarterly revenue more than doubled from a year ago as data center demand continues to surge.",
+        "keywords": [
+          "Nvidia earnings",
+          "AI chip demand",
+          "data center revenue",
+          "Nvidia Q2 2026"
+        ]
+      },
+      "articleType": "Business analysis",
+      "keyTakeaways": [
+        "Nvidia reported quarterly revenue of $96.2 billion, led by $89 billion from data center sales.",
+        "The reported gross margin was about 75%, keeping profitability as important as top-line growth.",
+        "The results showed continued concentration of spending around AI infrastructure."
+      ],
+      "whyItMatters": "Nvidia's scale makes its results a signal for data-center investment, but customers, supply constraints and the durability of extraordinary margins still shape the outlook.",
+      "reportingNote": "This source-based blog post combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.",
+      "sources": [
+        {
+          "publisher": "NVIDIA",
+          "label": "Fiscal 2027 second-quarter results",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+          "accessed": "September 8, 2026"
+        },
+        {
+          "publisher": "NVIDIA",
+          "label": "Quarterly filing",
+          "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of AI chips, server racks and an upward data-center demand curve",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "boeing-sells-wisk-insitu-skygrid-to-archer-aviation",
+      "title": "Boeing sells autonomous flight units to Archer Aviation in eVTOL push",
+      "subtitle": "The deal combines Boeing's drone and airspace technology with Archer's air taxi ambitions",
+      "excerpt": "Boeing has agreed to sell its Wisk Aero, Insitu and SkyGrid subsidiaries to Archer Aviation in an all-stock deal that will make Boeing one of Archer's largest outside shareholders, with a stake of nearly 20%, as the plane maker continues shedding businesses outside its core commercial and defense operations.",
+      "category": "business",
+      "tags": [
+        "business",
+        "aerospace",
+        "deals"
+      ],
+      "author": "marcus-cole",
+      "date": "2026-08-10",
+      "year": "2026",
+      "month": "08",
+      "day": "10",
+      "image": "/images/illustrations/boeing-sells-wisk-insitu-skygrid-to-archer-aviation.webp",
+      "readingTime": "3 minutes read",
+      "views": 3680,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "terms-of-the-deal",
+          "text": "Terms of the deal"
+        },
+        {
+          "id": "what-each-side-gets",
+          "text": "What each side gets"
+        },
+        {
+          "id": "a-history-between-the-companies",
+          "text": "A history between the companies"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Boeing has agreed to sell three of its autonomous flight subsidiaries, Wisk Aero, Insitu and SkyGrid, to electric air taxi maker Archer Aviation in an all-stock transaction, taking a stake in Archer in return and entering a technology-sharing partnership with the company."
+        },
+        {
+          "type": "heading",
+          "id": "terms-of-the-deal",
+          "text": "Terms of the deal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the agreement, Boeing will receive newly issued Archer Class A shares and warrants that will leave it holding roughly 19.75% of Archer's Class A shares, with options to purchase additional shares over the next four years, positioning Boeing as one of the company's largest outside shareholders. Boeing has also agreed to invest up to $55 million in an upcoming Archer funding round and will receive warrants to purchase up to $200 million of additional stock in the future. The plane maker will also be able to nominate a director to Archer's board. The transaction is subject to antitrust review under the Hart-Scott-Rodino Act and is expected to close by the end of 2026."
+        },
+        {
+          "type": "heading",
+          "id": "what-each-side-gets",
+          "text": "What each side gets"
+        },
+        {
+          "type": "paragraph",
+          "text": "The deal brings together Boeing's work on autonomous drone systems and airspace intelligence software with Archer's push to certify and build electric vertical takeoff and landing aircraft, a category widely seen as foundational to future urban air taxi services. Wisk has designed, built and flown six generations of autonomous eVTOL aircraft over 16 years and logged more than 1,700 flight tests, while Insitu, which makes high-altitude drones used by militaries worldwide, generates more than $200 million in annual revenue and extends Archer's presence in the defense market. Under a separate cross-licensing arrangement, Boeing will retain rights to use Wisk's core autonomous flight technology in its own commercial and defense aircraft, including in preparations for its eventual successor to the 737."
+        },
+        {
+          "type": "paragraph",
+          "text": "Archer chief executive Adam Goldstein called the deal \"the next big step forward in becoming a diversified platform, rapidly growing our revenue base and bringing scale to our business.\" Boeing vice president Brian Yutko said the transaction \"allows Wisk, SkyGrid and Insitu to accelerate capability development and time to market while ensuring Boeing capitalizes on its investments in these technologies over the past two decades through continued development in our core businesses.\" For Boeing, the sale continues a divestiture strategy under chief executive Kelly Ortberg, who has directed the company to focus resources on its commercial aircraft, defense and space divisions since taking over in August 2024; Boeing sold its flight-planning and digital aviation unit to private equity firm Thoma Bravo for $10.55 billion last year."
+        },
+        {
+          "type": "heading",
+          "id": "a-history-between-the-companies",
+          "text": "A history between the companies"
+        },
+        {
+          "type": "paragraph",
+          "text": "The agreement marks a notable turnaround in the relationship between Boeing's Wisk unit and Archer, which were locked in litigation as recently as 2021, when Wisk sued Archer over allegations of trade secret theft and patent infringement, including claims that an Archer executive had wiped browsing and download records from a company laptop before joining the startup. That lawsuit was settled in 2023 with Boeing taking a minority stake in Archer at the time. Archer is targeting commercial eVTOL flights by the end of this year or early next, and says the newly acquired autonomous flight technology will support both its urban air taxi ambitions and a hybrid-electric drone it is developing with Anduril Industries."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Boeing Sells Autonomous Flight Units to Archer Aviation",
+        "metaDescription": "Boeing has agreed to sell Wisk Aero, Insitu and SkyGrid to Archer Aviation while taking a stake in the eVTOL maker.",
+        "ogTitle": "Boeing, Archer Aviation Strike Autonomous Flight Deal",
+        "ogDescription": "Boeing is selling three autonomous flight subsidiaries to Archer Aviation and taking a stake in the electric air taxi company.",
+        "ogImage": "/images/illustrations/boeing-sells-wisk-insitu-skygrid-to-archer-aviation.webp",
+        "twitterTitle": "Boeing Sells Flight Units to Archer Aviation",
+        "twitterDescription": "Boeing is selling autonomous flight subsidiaries to Archer Aviation as part of a new eVTOL technology partnership.",
+        "keywords": [
+          "Boeing Archer Aviation deal",
+          "eVTOL industry",
+          "Wisk Aero",
+          "air taxi technology"
+        ]
+      },
+      "articleType": "Business analysis",
+      "keyTakeaways": [
+        "Boeing agreed to transfer Wisk, Insitu and SkyGrid interests to Archer Aviation.",
+        "The structure combined acquired technology with investment and warrants rather than a simple cash sale.",
+        "Closing and strategic value remained dependent on regulatory approvals and integration."
+      ],
+      "whyItMatters": "The deal could consolidate autonomous-flight capabilities inside a major eVTOL company while changing Boeing's exposure to the sector.",
+      "reportingNote": "This source-based blog post combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.",
+      "sources": [
+        {
+          "publisher": "Archer Aviation",
+          "label": "Investor relations and SEC filings",
+          "url": "https://investors.archer.com/financials/sec-filings/default.aspx",
+          "accessed": "September 8, 2026"
+        },
+        {
+          "publisher": "Boeing",
+          "label": "Company newsroom",
+          "url": "https://boeing.mediaroom.com/",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of autonomous aircraft assets moving between aerospace companies",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "westjet-flight-attendants-strike-cancellations",
+      "title": "WestJet flight attendants strike, forcing hundreds of flight cancellations",
+      "subtitle": "The union says unpaid ground work is a central sticking point in negotiations",
+      "excerpt": "Roughly 4,400 WestJet flight attendants walked off the job on a long weekend after contract talks collapsed, grounding hundreds of flights before the airline and its union reached a tentative deal within a day that includes a 20.5% wage increase over four years and new pay for ground duties.",
+      "category": "business",
+      "tags": [
+        "business",
+        "airlines",
+        "labor"
+      ],
+      "author": "marcus-cole",
+      "date": "2026-08-02",
+      "year": "2026",
+      "month": "08",
+      "day": "02",
+      "image": "/images/illustrations/westjet-flight-attendants-strike-cancellations.webp",
+      "readingTime": "3 minutes read",
+      "views": 2980,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "why-they-walked-out",
+          "text": "Why they walked out"
+        },
+        {
+          "id": "the-deal-that-ended-it",
+          "text": "The deal that ended it"
+        },
+        {
+          "id": "part-of-a-broader-pattern-in-aviation-labor",
+          "text": "Part of a broader pattern in aviation labor"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Roughly 4,400 WestJet flight attendants walked off the job in the early hours of August 2, grounding hundreds of flights over a long summer weekend after contract talks between the airline and the Canadian Union of Public Employees broke down."
+        },
+        {
+          "type": "heading",
+          "id": "why-they-walked-out",
+          "text": "Why they walked out"
+        },
+        {
+          "type": "paragraph",
+          "text": "CUPE Local 8125, which represents the cabin crew, issued a 72-hour strike notice on July 30 after ten months of negotiations, and WestJet responded with a matching 72-hour lockout notice the same day. The union said members perform roughly 35 hours of unpaid work each month under the airline's existing credit-hour pay system, which does not fully compensate flight attendants for time spent boarding passengers or waiting through ground delays. \"We tried until the very last minute to get a fair deal that recognizes the value of the work cabin crews do. WestJet's offer did not go far enough,\" CUPE Local 8125 president Alia Hussain said in announcing the walkout, which had been backed by a 99.4% strike mandate from union members. WestJet said it canceled roughly 600 flights over the course of the disruption, affecting some 250,000 travelers during the August long weekend."
+        },
+        {
+          "type": "heading",
+          "id": "the-deal-that-ended-it",
+          "text": "The deal that ended it"
+        },
+        {
+          "type": "paragraph",
+          "text": "WestJet and CUPE reached a tentative agreement early on August 3, less than two days after the walkout began, though cancellations continued for a time as the airline worked to restore its schedule; more than 300 flights, or about 62% of those scheduled, were still canceled the day the deal was announced. The agreement includes a cumulative wage increase of 20.5% over four years, including a one-time 13% raise retroactive to January 1, 2026, along with a new \"duty pay premium\" worth roughly another 12% of salary that compensates flight attendants for time spent on ground duties, a $300 annual health spending account and a 13% increase to meal per diem rates in 2026. \"This tentative agreement represents meaningful progress,\" Hussain said. \"It evolves the flight credit system by recognizing more of the work cabin crew are required to perform.\" The deal still requires ratification by WestJet's cabin crew before taking full effect."
+        },
+        {
+          "type": "heading",
+          "id": "part-of-a-broader-pattern-in-aviation-labor",
+          "text": "Part of a broader pattern in aviation labor"
+        },
+        {
+          "type": "paragraph",
+          "text": "The dispute echoes a similar fight a year earlier at Air Canada, the country's largest airline, where flight attendants struck in August 2025 over nearly identical concerns about unpaid ground work. That dispute ended with a tentative deal that 99.1% of Air Canada's flight attendants went on to reject, before an arbitrator ultimately set the contract's terms in February 2026, largely along the lines of the rejected offer. The back-to-back disputes have added to a wave of contract negotiations across the airline industry this year, as ground staff and cabin crews at carriers in multiple countries press for better pay and working conditions following several years of strong industry profitability."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "WestJet Flight Attendants Strike, Cancel Hundreds of Flights",
+        "metaDescription": "WestJet flight attendants went on strike after contract talks broke down, forcing the airline to cancel hundreds of flights.",
+        "ogTitle": "WestJet Strike Disrupts Summer Travel Schedules",
+        "ogDescription": "A flight attendant strike at WestJet has led to hundreds of canceled flights amid a breakdown in contract negotiations.",
+        "ogImage": "/images/illustrations/westjet-flight-attendants-strike-cancellations.webp",
+        "twitterTitle": "WestJet Flight Attendants Walk Off the Job",
+        "twitterDescription": "WestJet canceled hundreds of flights after flight attendants went on strike over wages and unpaid ground work.",
+        "keywords": [
+          "WestJet strike 2026",
+          "airline labor dispute",
+          "flight attendant strike",
+          "airline cancellations"
+        ]
+      },
+      "articleType": "Business analysis",
+      "keyTakeaways": [
+        "A flight-attendant work stoppage caused cancellations and passenger disruption.",
+        "WestJet and CUPE later announced a tentative agreement intended to end further disruption.",
+        "Operational recovery could still take time after an agreement because aircraft and crews must be repositioned."
+      ],
+      "whyItMatters": "For travelers, a labor settlement does not instantly restore a schedule; rebooking rights and airline communications remain important during the recovery.",
+      "reportingNote": "This source-based blog post combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.",
+      "sources": [
+        {
+          "publisher": "WestJet",
+          "label": "Tentative agreement announcement",
+          "url": "https://www.westjet.com/en-ca/news/2026/WestJet-and-CUPE-reach-tentative-agreement-ending-further-operational-disruption",
+          "accessed": "September 8, 2026"
+        },
+        {
+          "publisher": "WestJet",
+          "label": "Work-stoppage travel update",
+          "url": "https://www.westjet.com/en-ca/news/2026/westjet-confirms-work-stoppage-now-in-effect-",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of grounded aircraft, cabin crew and a disrupted flight board",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "dicks-sporting-goods-foot-locker-earnings-miss",
+      "title": "Dick's Sporting Goods shares slide after Foot Locker weighs on earnings",
+      "subtitle": "The retailer lowered its full-year outlook amid a weakening athletic footwear market",
+      "excerpt": "Dick's Sporting Goods shares tumbled roughly 30% after the retailer missed second-quarter earnings estimates and slashed its full-year guidance, as its recently acquired Foot Locker business posted a 3.6% decline in comparable sales amid an increasingly promotional athletic footwear market.",
+      "category": "business",
+      "tags": [
+        "business",
+        "retail",
+        "earnings"
+      ],
+      "author": "marcus-cole",
+      "date": "2026-08-25",
+      "year": "2026",
+      "month": "08",
+      "day": "25",
+      "image": "/images/illustrations/dicks-sporting-goods-foot-locker-earnings-miss.webp",
+      "readingTime": "3 minutes read",
+      "views": 3210,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": true,
+      "toc": [
+        {
+          "id": "a-tale-of-two-segments",
+          "text": "A tale of two segments"
+        },
+        {
+          "id": "the-numbers",
+          "text": "The numbers"
+        },
+        {
+          "id": "a-steep-guidance-cut",
+          "text": "A steep guidance cut"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dick's Sporting Goods shares plunged roughly 30% on Tuesday, their worst single-day drop since 2023, after the retailer reported second-quarter results that fell short of Wall Street's expectations and sharply cut its full-year outlook, as its recently acquired Foot Locker business struggles against a weakening athletic footwear market."
+        },
+        {
+          "type": "heading",
+          "id": "a-tale-of-two-segments",
+          "text": "A tale of two segments"
+        },
+        {
+          "type": "paragraph",
+          "text": "The company's core Dick's-branded stores delivered comparable sales growth of 4.9% for the quarter, with average ticket size up 3.6% and transactions up 1.3%, driven by broad-based gains across categories and a tailwind from this year's FIFA World Cup. Foot Locker told a very different story: proforma comparable sales at the chain declined 3.6%, which executive chairman Ed Stack attributed to \"conditions across portions of the athletic footwear and apparel marketplace\" that grew increasingly promotional as the quarter progressed, along with fewer new sneaker launches that also underperformed both industry and company expectations. Stack said the environment hit Foot Locker harder than the core Dick's business given its heavier reliance on legacy footwear styles and retro product releases."
+        },
+        {
+          "type": "heading",
+          "id": "the-numbers",
+          "text": "The numbers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consolidated net sales rose 53.2% to $5.59 billion, short of the $5.65 billion analysts had expected, with the increase driven almost entirely by the roughly $1.74 billion contribution from Foot Locker, which Dick's acquired for $2.4 billion in a deal that closed in September 2025. Net income for the quarter was $315 million, or $3.50 per diluted share, down from $381 million, or $4.71 per share, a year earlier; adjusted earnings per share of $3.53 missed the $3.78 consensus estimate. Gross margin fell to 34.8% from 37.1% a year ago, a decline the company attributed to Foot Locker, even as the core Dick's segment's own margin expanded. Chief executive Lauren Hobart said the company remains \"highly confident in the strength of the Dick's Business and our long-term opportunity at Foot Locker,\" even while taking \"a more cautious view of the balance of the year.\""
+        },
+        {
+          "type": "heading",
+          "id": "a-steep-guidance-cut",
+          "text": "A steep guidance cut"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dick's lowered its full-year adjusted earnings guidance to a range of $11.00 to $12.00 per share, down from a prior range of $13.27 to $14.27 and well below the $14.20 analysts had been expecting, a roughly 19% shortfall at the midpoint. The company narrowed its full-year sales outlook to a range of $21.9 billion to $22.2 billion and now expects Foot Locker's proforma comparable sales for the year to fall somewhere between a 2% decline and flat growth, compared with previous expectations for growth, while maintaining its outlook for the core Dick's business at 2.5% to 4% comparable sales growth. The company also disclosed it received $59 million in tariff refunds during the quarter, along with $2.1 million in related interest income, though that was not enough to offset the broader concerns driving the stock's decline."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Dick's Sporting Goods Cuts Outlook as Foot Locker Struggles",
+        "metaDescription": "Dick's Sporting Goods reported an earnings miss and lowered its full-year guidance as its Foot Locker business faces a weakening athletic footwear market.",
+        "ogTitle": "Dick's Sporting Goods Shares Fall on Earnings Miss",
+        "ogDescription": "Dick's Sporting Goods lowered its full-year outlook after Foot Locker's comparable sales declined amid a softer footwear market.",
+        "ogImage": "/images/illustrations/dicks-sporting-goods-foot-locker-earnings-miss.webp",
+        "twitterTitle": "Dick's Sporting Goods Stock Slides on Earnings Miss",
+        "twitterDescription": "Dick's Sporting Goods cut its outlook as its Foot Locker segment struggles with weaker athletic footwear demand.",
+        "keywords": [
+          "Dick's Sporting Goods earnings",
+          "Foot Locker sales",
+          "retail earnings 2026",
+          "athletic footwear market"
+        ]
+      },
+      "articleType": "Business analysis",
+      "keyTakeaways": [
+        "Dick's reported quarterly results below some market expectations.",
+        "Foot Locker's performance and integration weighed on the combined picture.",
+        "Management's margin and outlook commentary mattered more than the first share-price reaction alone."
+      ],
+      "whyItMatters": "An acquisition can add revenue while reducing near-term earnings quality, so investors need to separate the core business from integration costs and assumptions.",
+      "reportingNote": "This source-based blog post combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.",
+      "sources": [
+        {
+          "publisher": "DICK'S Sporting Goods",
+          "label": "Fiscal 2026 second-quarter results",
+          "url": "https://investors.dicks.com/news/press-releases/news-details/2026/DICKS-Sporting-Goods-Inc--Reports-Second-Quarter-Results/default.aspx",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of sporting-goods retail, shoe inventory and falling earnings",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    },
+    {
+      "slug": "alibaba-sells-videogame-business-stake",
+      "title": "Alibaba to sell videogame business in strategic portfolio shift",
+      "subtitle": "The sale is valued at more than $1.5 billion",
+      "excerpt": "Alibaba has agreed to sell its gaming studio, Lingxi Games, to Asian private equity firm Trustar Capital in a deal valued at more than $1.5 billion, deepening a pivot toward artificial intelligence infrastructure that chief executive Eddie Wu has said will exceed the company's original $53 billion AI spending plan.",
+      "category": "business",
+      "tags": [
+        "business",
+        "technology",
+        "china"
+      ],
+      "author": "marcus-cole",
+      "date": "2026-08-17",
+      "year": "2026",
+      "month": "08",
+      "day": "17",
+      "image": "/images/illustrations/alibaba-sells-videogame-business-stake.webp",
+      "readingTime": "2 minutes read",
+      "views": 2540,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "the-deal",
+          "text": "The deal"
+        },
+        {
+          "id": "why-now",
+          "text": "Why now"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Alibaba has agreed to sell its gaming studio, Lingxi Games, to Asian private equity firm Trustar Capital in a deal Bloomberg valued at no less than $1.5 billion, the latest step in a broader effort by the Chinese technology conglomerate to shed non-core businesses and redirect resources toward artificial intelligence."
+        },
+        {
+          "type": "heading",
+          "id": "the-deal",
+          "text": "The deal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the agreement, disclosed in an internal memo that Lingxi chief executive Zhou Bingshu sent to staff, Alibaba will transfer its entire stake in the studio to Trustar Capital, formerly known as CITIC Capital, taking the Chinese tech giant fully out of in-house game development. Reuters reported, citing a person familiar with the matter, that Alibaba stands to collect more than $2 billion from the sale. Guangzhou-based Lingxi is best known for \"Three Kingdoms: Strategy Edition,\" a multiplayer strategy title it developed with Japan's Koei Tecmo Holdings. Several publicly listed Chinese gaming companies, including 37 Interactive Entertainment, China Ruyi, Century Huatong and Giant Network, had entered the bidding process after Alibaba formally put the studio up for sale in June, with Trustar ultimately prevailing by outbidding the strategic industry buyers. Zhou and Lingxi's existing leadership are expected to remain in place under the new ownership."
+        },
+        {
+          "type": "heading",
+          "id": "why-now",
+          "text": "Why now"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sale is part of what Alibaba has described as a \"slimming down\" strategy under chief executive Eddie Wu, who has already overseen the divestment of Intime Department Store and Sun Art Retail this year as the company concentrates resources on e-commerce, cloud computing and artificial intelligence. Alibaba said in February 2025 that it planned to invest more than 380 billion yuan, or roughly $56.4 billion, in cloud and AI infrastructure over three years; Wu has since said that spending will exceed the original figure. The move mirrors a broader retreat from gaming across China's biggest internet platforms: ByteDance sold its Moonton Technology gaming unit to Savvy Games Group, a subsidiary of Saudi Arabia's sovereign wealth fund, for more than $6 billion in March, and Tencent has been scaling back its own overseas gaming studio footprint. Analysts say the shift reflects both the heavy capital demands of AI infrastructure and the fact that traditional gaming companies increasingly lack the financial firepower to compete with private equity buyers for studios like Lingxi."
+        }
+      ],
+      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Alibaba to Sell Videogame Business for $1.5 Billion",
+        "metaDescription": "Alibaba has agreed to sell its videogame business for at least $1.5 billion as part of a broader portfolio streamlining effort.",
+        "ogTitle": "Alibaba Sells Videogame Unit in Portfolio Shake-Up",
+        "ogDescription": "Alibaba is selling its videogame business as it focuses resources on cloud computing and AI infrastructure.",
+        "ogImage": "/images/illustrations/alibaba-sells-videogame-business-stake.webp",
+        "twitterTitle": "Alibaba to Sell Videogame Business",
+        "twitterDescription": "Alibaba has agreed to sell its videogame unit for at least $1.5 billion as it streamlines its business portfolio.",
+        "keywords": [
+          "Alibaba videogame sale",
+          "Alibaba divestment",
+          "China technology news",
+          "Alibaba portfolio shift"
+        ]
+      },
+      "articleType": "Business analysis",
+      "keyTakeaways": [
+        "Alibaba moved to sell a videogame-business stake as part of a broader portfolio shift.",
+        "A disposal can release capital and management attention without proving that the underlying business lacked value.",
+        "The buyer, price, closing conditions and future commercial ties determine the economic significance."
+      ],
+      "whyItMatters": "The transaction offers a window into Alibaba's capital priorities, but its importance cannot be judged from the headline until terms and retained exposure are clear.",
+      "reportingNote": "This source-based blog post combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.",
+      "sources": [
+        {
+          "publisher": "Alibaba Group",
+          "label": "Investor relations releases and filings",
+          "url": "https://www.alibabagroup.com/en-US/ir-news",
+          "accessed": "September 8, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a gaming business being separated from a wider technology portfolio",
+      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+    }
+  ]
+}
