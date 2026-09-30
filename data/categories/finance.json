@@ -11,14 +11,12 @@
         "markets",
         "commodities"
       ],
-      "author": "ashraf",
+      "author": "admin",
       "date": "2026-08-25",
       "year": "2026",
       "month": "08",
       "day": "25",
       "image": "/images/illustrations/gold-prices-three-month-high-treasury-buyback.webp",
-      "readingTime": "2 minutes read",
-      "views": 4720,
       "comments": 0,
       "rating": null,
       "featured": true,
@@ -104,7 +102,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of gold bars, Treasury bonds and shifting market demand",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "fed-holds-rates-steady-july-meeting-dissent",
@@ -117,14 +115,12 @@
         "federal-reserve",
         "interest-rates"
       ],
-      "author": "ashraf",
+      "author": "admin",
       "date": "2026-07-29",
       "year": "2026",
       "month": "07",
       "day": "29",
       "image": "/images/illustrations/fed-holds-rates-steady-july-meeting-dissent.webp",
-      "readingTime": "3 minutes read",
-      "views": 5380,
       "comments": 0,
       "rating": null,
       "featured": true,
@@ -223,7 +219,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a central-bank rate decision with three dissenting markers",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "mortgage-rates-treasury-yields-late-august-2026",
@@ -236,14 +232,12 @@
         "housing",
         "mortgage-rates"
       ],
-      "author": "ashraf",
+      "author": "admin",
       "date": "2026-08-26",
       "year": "2026",
       "month": "08",
       "day": "26",
       "image": "/images/illustrations/mortgage-rates-treasury-yields-late-august-2026.webp",
-      "readingTime": "2 minutes read",
-      "views": 3860,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -335,7 +329,7 @@
         }
       ],
       "imageCaption": "Editorial illustration linking a home mortgage to volatile Treasury yields",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "credit-card-debt-1-26-trillion-delinquency-report",
@@ -348,14 +342,12 @@
         "consumer-debt",
         "personal-finance"
       ],
-      "author": "ashraf",
+      "author": "admin",
       "date": "2026-08-11",
       "year": "2026",
       "month": "08",
       "day": "11",
       "image": "/images/illustrations/credit-card-debt-1-26-trillion-delinquency-report.webp",
-      "readingTime": "3 minutes read",
-      "views": 4290,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -441,7 +433,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of stacked credit cards, household bills and rising delinquency pressure",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "dow-sp500-record-close-earnings-season",
@@ -454,14 +446,12 @@
         "stock-market",
         "markets"
       ],
-      "author": "ashraf",
+      "author": "admin",
       "date": "2026-08-04",
       "year": "2026",
       "month": "08",
       "day": "04",
       "image": "/images/illustrations/dow-sp500-record-close-earnings-season.webp",
-      "readingTime": "2 minutes read",
-      "views": 4980,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -547,7 +537,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a stock-market record supported by corporate earnings",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "nasdaq-tech-rally-ahead-nvidia-earnings",
@@ -560,14 +550,12 @@
         "stock-market",
         "technology"
       ],
-      "author": "ashraf",
+      "author": "admin",
       "date": "2026-08-24",
       "year": "2026",
       "month": "08",
       "day": "24",
       "image": "/images/illustrations/nasdaq-tech-rally-ahead-nvidia-earnings.webp",
-      "readingTime": "2 minutes read",
-      "views": 3140,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -644,7 +632,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of semiconductor chips lifting a technology-heavy stock index",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     }
   ]
 }

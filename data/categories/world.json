@@ -11,14 +11,12 @@
         "disaster",
         "asia"
       ],
-      "author": "elena-marsh",
+      "author": "admin",
       "date": "2026-08-27",
       "year": "2026",
       "month": "08",
       "day": "27",
       "image": "/images/illustrations/nepal-tibet-border-glacial-flood-disaster.webp",
-      "readingTime": "2 minutes read",
-      "views": 8210,
       "comments": 0,
       "rating": null,
       "featured": true,
@@ -124,7 +122,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a glacial flood crossing the Nepal-Tibet border",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "iran-oman-hormuz-shipping-corridor-proposal",
@@ -137,14 +135,12 @@
         "middle-east",
         "energy"
       ],
-      "author": "elena-marsh",
+      "author": "admin",
       "date": "2026-08-26",
       "year": "2026",
       "month": "08",
       "day": "26",
       "image": "/images/illustrations/iran-oman-hormuz-shipping-corridor-proposal.webp",
-      "readingTime": "3 minutes read",
-      "views": 5960,
       "comments": 0,
       "rating": null,
       "featured": true,
@@ -240,7 +236,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of ships moving through a proposed Strait of Hormuz corridor",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "uk-breaks-up-science-innovation-technology-department",
@@ -253,14 +249,12 @@
         "united-kingdom",
         "policy"
       ],
-      "author": "elena-marsh",
+      "author": "admin",
       "date": "2026-08-04",
       "year": "2026",
       "month": "08",
       "day": "04",
       "image": "/images/illustrations/uk-breaks-up-science-innovation-technology-department.webp",
-      "readingTime": "3 minutes read",
-      "views": 2340,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -346,7 +340,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of United Kingdom science and technology functions being redistributed",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "typhoon-dolphin-china-strongest-storm-of-year",
@@ -359,14 +353,12 @@
         "asia-pacific",
         "weather"
       ],
-      "author": "elena-marsh",
+      "author": "admin",
       "date": "2026-08-11",
       "year": "2026",
       "month": "08",
       "day": "11",
       "image": "/images/illustrations/typhoon-dolphin-china-strongest-storm-of-year.webp",
-      "readingTime": "2 minutes read",
-      "views": 2670,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -447,7 +439,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a powerful typhoon striking China's coast",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     }
   ]
 }

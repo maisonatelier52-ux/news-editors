@@ -562,11 +562,6 @@ const currentNotes = {
     takeaways: ['Dick\'s reported quarterly results below some market expectations.', 'Foot Locker\'s performance and integration weighed on the combined picture.', 'Management\'s margin and outlook commentary mattered more than the first share-price reaction alone.'],
     why: 'An acquisition can add revenue while reducing near-term earnings quality, so investors need to separate the core business from integration costs and assumptions.',
   },
-  'alibaba-sells-videogame-business-stake': {
-    type: 'Business analysis',
-    takeaways: ['Alibaba moved to sell a videogame-business stake as part of a broader portfolio shift.', 'A disposal can release capital and management attention without proving that the underlying business lacked value.', 'The buyer, price, closing conditions and future commercial ties determine the economic significance.'],
-    why: 'The transaction offers a window into Alibaba\'s capital priorities, but its importance cannot be judged from the headline until terms and retained exposure are clear.',
-  },
   'gold-prices-three-month-high-treasury-buyback': {
     type: 'Money note',
     takeaways: ['Gold reached a three-month high as bond-market policy and rate expectations shifted.', 'Treasury buybacks can support market liquidity but do not mechanically dictate the gold price.', 'Real yields, the dollar and demand for defensive assets remain major competing drivers.'],

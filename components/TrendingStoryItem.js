@@ -3,14 +3,9 @@ import Image from 'next/image';
 import Icon from '@/components/Icon';
 
 /**
- * A single text-led news story block, styled after a classic newspaper
- * "trending now" package: a bold blue kicker/label leading straight into
- * a bold black serif headline, a small-caps byline with an optional
- * comment count, and optional bullet-style related links underneath.
- *
- * size: 'sm' (side-column story) | 'lg' (center feature story — larger type)
- * kickerQuoted: renders the kicker as a quoted pull-line instead of a
- *   plain "Category." label (matches the reference's one quote-style item)
+ * A single text-led news story block for the trending package.
+ * When `image` is provided, a gray placeholder box is always rendered
+ * so missing webps still reserve layout space until uploaded.
  */
 export default function TrendingStoryItem({
   href,
@@ -38,7 +33,7 @@ export default function TrendingStoryItem({
         >
           <Image
             src={image.src}
-            alt={image.alt}
+            alt={image.alt || ''}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-500"
             sizes="(max-width: 1024px) 100vw, 33vw"
@@ -73,12 +68,12 @@ export default function TrendingStoryItem({
           {bullets.map((b, i) => (
             <li
               key={i}
-              className="flex gap-1.5 text-[clamp(0.82rem,0.25vw+0.75rem,0.92rem)] font-serif leading-snug text-ink"
+              className="flex gap-1.5 text-[clamp(0.8rem,0.2vw+0.72rem,0.88rem)] font-serif leading-snug text-[#3a3a3a]"
             >
-              <span aria-hidden="true">&bull;</span>
+              <span className="text-[#2c6ca3] shrink-0 mt-[0.35em]">•</span>
               <span>
-                {b.lead && <span className="font-bold">&ldquo;{b.lead}&rdquo; </span>}
-                <span className="text-[#3a3a3a]">{b.text}</span>
+                {b.lead && <strong className="font-bold text-ink">{b.lead} </strong>}
+                {b.text}
               </span>
             </li>
           ))}

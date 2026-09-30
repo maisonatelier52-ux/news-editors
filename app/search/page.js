@@ -3,7 +3,7 @@ import SearchResults from './SearchResults';
 
 export const metadata = {
   title: 'Search',
-  description: 'Search News Editors posts, explainers and reviews.',
+  description: 'Search News Editors posts, explainers and investigations.',
 };
 
 export default function SearchPage() {

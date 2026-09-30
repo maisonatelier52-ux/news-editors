@@ -20,14 +20,12 @@ export default function Header() {
         {/* Left: mobile hamburger + blog identity */}
         <div className="flex items-center justify-start gap-3">
           <MobileMenu navItems={site.mainNav} />
-          <span className="hidden sm:block text-xs font-sans font-extrabold uppercase tracking-[0.16em] text-gray-500">
-            Independent blog
-          </span>
+
         </div>
 
         {/* Center: wordmark */}
         <Link href="/" className="flex items-center justify-center">
-          <Logo size="lg" />
+          <Logo size="lg" eager />
         </Link>
 
         {/* Right: search */}

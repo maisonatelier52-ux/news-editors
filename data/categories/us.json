@@ -17,8 +17,6 @@
       "month": "08",
       "day": "26",
       "image": "/images/illustrations/measles-cases-near-1000-in-first-two-months-of-2026.webp",
-      "readingTime": "3 minutes read",
-      "views": 6840,
       "comments": 0,
       "rating": null,
       "featured": true,
@@ -121,7 +119,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of measles transmission, vaccination and public-health response",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "indiana-severe-storms-disaster-declaration",
@@ -140,8 +138,6 @@
       "month": "08",
       "day": "21",
       "image": "/images/illustrations/indiana-severe-storms-disaster-declaration.webp",
-      "readingTime": "3 minutes read",
-      "views": 3920,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -235,7 +231,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of storm damage, flooding and emergency assistance in Indiana",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "hawaii-tropical-storm-lala-emergency-declaration",
@@ -254,8 +250,6 @@
       "month": "08",
       "day": "16",
       "image": "/images/illustrations/hawaii-tropical-storm-lala-emergency-declaration.webp",
-      "readingTime": "2 minutes read",
-      "views": 2870,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -332,7 +326,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a tropical storm bringing heavy rain to Hawaii",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "student-loan-forgiveness-credit-reversal-confusion",
@@ -351,8 +345,6 @@
       "month": "08",
       "day": "18",
       "image": "/images/illustrations/student-loan-forgiveness-credit-reversal-confusion.webp",
-      "readingTime": "3 minutes read",
-      "views": 4110,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -451,7 +443,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of student-loan records changing between credited and reversed status",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "h1b-fee-court-ruling-immigration-policy",
@@ -470,8 +462,6 @@
       "month": "08",
       "day": "10",
       "image": "/images/illustrations/h1b-fee-court-ruling-immigration-policy.webp",
-      "readingTime": "3 minutes read",
-      "views": 3105,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -561,7 +551,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of an H-1B visa case balancing court, fee and workplace concerns",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     },
     {
       "slug": "target-pulls-halloween-costume-backlash",
@@ -580,8 +570,6 @@
       "month": "08",
       "day": "26",
       "image": "/images/illustrations/target-pulls-halloween-costume-backlash.webp",
-      "readingTime": "2 minutes read",
-      "views": 2450,
       "comments": 0,
       "rating": null,
       "featured": false,
@@ -643,7 +631,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a children's costume removed from a retail shelf after criticism",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCredit": "Original editorial illustration \u00b7 News Editors / OpenAI"
     }
   ]
 }

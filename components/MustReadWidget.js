@@ -6,7 +6,7 @@ import TrendingStoryItem from '@/components/TrendingStoryItem';
 import Icon from '@/components/Icon';
 import { getAllPosts, getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/lib/data';
 
-const tabs = ['All', 'Apps', 'Cameras', 'Headphones', 'Phones'];
+const tabs = ['All', 'Politics', 'Investigation', 'Technology', 'U.S.'];
 
 export default function MustReadWidget({ excludeSlugs = [] }) {
   const [tab, setTab] = useState('All');
@@ -14,20 +14,23 @@ export default function MustReadWidget({ excludeSlugs = [] }) {
   const exclude = new Set(excludeSlugs);
   const all = getAllPosts().filter((p) => !exclude.has(p.slug));
 
-  const pool = tab === 'All' ? all : all.filter((p) => p.category === tab.toLowerCase());
-  const maxPage = Math.max(0, Math.ceil(pool.length / 6) - 1);
-  const posts = pool.slice(page * 6, page * 6 + 6);
+  const pool =
+    tab === 'All'
+      ? all
+      : all.filter((p) => p.category === tab.toLowerCase());
+  // 7 posts: 1 featured + 2 under it on left, 4 on right — balances height
+  const perPage = 7;
+  const maxPage = Math.max(0, Math.ceil(pool.length / perPage) - 1);
+  const posts = pool.slice(page * perPage, page * perPage + perPage);
 
   const changeTab = (t) => {
     setTab(t);
     setPage(0);
   };
 
-  const [featured, second, ...rest] = posts;
+  const [featured, second, third, ...rest] = posts;
   if (!featured) return null;
 
-  // Right column mirrors section1.png: text-only stories with one
-  // image-led story bringing in a photo partway down the stack.
   const sideStoryProps = (post, { withImage = false } = {}) => {
     const author = getAuthorBySlug(post.author);
     const category = getCategoryBySlug(post.category);
@@ -79,12 +82,17 @@ export default function MustReadWidget({ excludeSlugs = [] }) {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-6 items-start">
         <div>
           <PostCard post={featured} variant="featureOverlay" />
           {second && (
             <div className="mt-6 pt-6 border-t border-[#808080]/40">
               <TrendingStoryItem {...sideStoryProps(second)} />
+            </div>
+          )}
+          {third && (
+            <div className="mt-6 pt-6 border-t border-[#808080]/40">
+              <TrendingStoryItem {...sideStoryProps(third)} />
             </div>
           )}
         </div>

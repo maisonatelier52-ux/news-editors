@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const principles = [
   'Primary documents before commentary',
-  'Clear labels for explainers, essays and reviews',
+  'Clear labels for news reports, explainers and investigations',
   'Visible updates and an open corrections process',
 ];
 

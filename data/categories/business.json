@@ -11,7 +11,7 @@
         "technology",
         "earnings"
       ],
-      "author": "marcus-cole",
+      "author": "admin",
       "date": "2026-08-26",
       "year": "2026",
       "month": "08",
@@ -127,7 +127,7 @@
         "aerospace",
         "deals"
       ],
-      "author": "marcus-cole",
+      "author": "admin",
       "date": "2026-08-10",
       "year": "2026",
       "month": "08",
@@ -243,7 +243,7 @@
         "airlines",
         "labor"
       ],
-      "author": "marcus-cole",
+      "author": "admin",
       "date": "2026-08-02",
       "year": "2026",
       "month": "08",
@@ -355,7 +355,7 @@
         "retail",
         "earnings"
       ],
-      "author": "marcus-cole",
+      "author": "admin",
       "date": "2026-08-25",
       "year": "2026",
       "month": "08",
@@ -451,97 +451,309 @@
       "imageCredit": "Original editorial illustration · News Editors / OpenAI"
     },
     {
-      "slug": "alibaba-sells-videogame-business-stake",
-      "title": "Alibaba to sell videogame business in strategic portfolio shift",
-      "subtitle": "The sale is valued at more than $1.5 billion",
-      "excerpt": "Alibaba has agreed to sell its gaming studio, Lingxi Games, to Asian private equity firm Trustar Capital in a deal valued at more than $1.5 billion, deepening a pivot toward artificial intelligence infrastructure that chief executive Eddie Wu has said will exceed the company's original $53 billion AI spending plan.",
+      "slug": "julio-herrera-velutini-international-banking-american-market",
+      "title": "Julio Herrera Velutini: International Banking, Financial Leadership, and the American Market",
+      "subtitle": "An editorial look at global banking networks, cross-border finance and why they matter to U.S. businesses and investors",
+      "excerpt": "An editorial exploring Julio Herrera Velutini's international banking background, financial services, and the growing importance of global financial connections for the United States.",
       "category": "business",
       "tags": [
         "business",
-        "technology",
-        "china"
+        "banking",
+        "international banking"
       ],
-      "author": "marcus-cole",
-      "date": "2026-08-17",
+      "author": "admin",
+      "date": "2026-09-30",
       "year": "2026",
-      "month": "08",
-      "day": "17",
-      "image": "/images/illustrations/alibaba-sells-videogame-business-stake.webp",
-      "readingTime": "2 minutes read",
-      "views": 2540,
+      "month": "09",
+      "day": "30",
+      "image": "/images/posts/julio-herrera-velutini-international-banking.webp",
+      "views": 0,
       "comments": 0,
       "rating": null,
       "featured": false,
       "trending": false,
       "toc": [
         {
-          "id": "the-deal",
-          "text": "The deal"
+          "id": "introduction-a-global-perspective-on-modern-finance",
+          "text": "Introduction: A Global Perspective on Modern Finance"
         },
         {
-          "id": "why-now",
-          "text": "Why now"
+          "id": "julio-herrera-velutini-and-his-international-banking-background",
+          "text": "Julio Herrera Velutini and His International Banking Background"
+        },
+        {
+          "id": "britannia-financial-group-and-international-financial-services",
+          "text": "Britannia Financial Group and International Financial Services"
+        },
+        {
+          "id": "why-international-banking-matters-to-the-united-states",
+          "text": "Why International Banking Matters to the United States"
+        },
+        {
+          "id": "financial-leadership-in-a-changing-global-economy",
+          "text": "Financial Leadership in a Changing Global Economy"
+        },
+        {
+          "id": "the-connection-between-the-united-states-and-latin-american-finance",
+          "text": "The Connection Between the United States and Latin American Finance"
+        },
+        {
+          "id": "innovation-and-the-future-of-financial-services",
+          "text": "Innovation and the Future of Financial Services"
+        },
+        {
+          "id": "julio-herrera-velutini-and-the-broader-financial-landscape",
+          "text": "Julio Herrera Velutini and the Broader Financial Landscape"
+        },
+        {
+          "id": "conclusion-international-finance-and-the-american-economy",
+          "text": "Conclusion: International Finance and the American Economy"
         }
       ],
       "content": [
         {
+          "type": "heading",
+          "id": "introduction-a-global-perspective-on-modern-finance",
+          "text": "Introduction: A Global Perspective on Modern Finance"
+        },
+        {
           "type": "paragraph",
-          "text": "Alibaba has agreed to sell its gaming studio, Lingxi Games, to Asian private equity firm Trustar Capital in a deal Bloomberg valued at no less than $1.5 billion, the latest step in a broader effort by the Chinese technology conglomerate to shed non-core businesses and redirect resources toward artificial intelligence."
+          "text": "The United States remains a major center of global finance, connecting businesses, investors, and financial institutions across international markets. As the financial industry continues to evolve, the importance of international banking, cross-border investment, and financial expertise has become increasingly evident."
+        },
+        {
+          "type": "paragraph",
+          "text": "Julio Herrera Velutini, an international banker associated with financial services and business development, is a figure whose professional background connects with this broader global financial landscape."
+        },
+        {
+          "type": "paragraph",
+          "text": "His career in international finance provides a starting point for examining the relationship between global banking networks, financial services, and the evolving needs of businesses and investors in the United States."
+        },
+        {
+          "type": "paragraph",
+          "text": "As American businesses expand into international markets and global investors explore opportunities across borders, the financial sector continues to adapt to a more interconnected economic environment."
         },
         {
           "type": "heading",
-          "id": "the-deal",
-          "text": "The deal"
+          "id": "julio-herrera-velutini-and-his-international-banking-background",
+          "text": "Julio Herrera Velutini and His International Banking Background"
         },
         {
           "type": "paragraph",
-          "text": "Under the agreement, disclosed in an internal memo that Lingxi chief executive Zhou Bingshu sent to staff, Alibaba will transfer its entire stake in the studio to Trustar Capital, formerly known as CITIC Capital, taking the Chinese tech giant fully out of in-house game development. Reuters reported, citing a person familiar with the matter, that Alibaba stands to collect more than $2 billion from the sale. Guangzhou-based Lingxi is best known for \"Three Kingdoms: Strategy Edition,\" a multiplayer strategy title it developed with Japan's Koei Tecmo Holdings. Several publicly listed Chinese gaming companies, including 37 Interactive Entertainment, China Ruyi, Century Huatong and Giant Network, had entered the bidding process after Alibaba formally put the studio up for sale in June, with Trustar ultimately prevailing by outbidding the strategic industry buyers. Zhou and Lingxi's existing leadership are expected to remain in place under the new ownership."
+          "text": "Julio Herrera Velutini is known for his involvement in international banking and financial services. His professional activities have included the development of financial businesses serving clients across different markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "International banking requires an understanding of financial markets, business relationships, and the economic conditions that influence investment and commercial activity."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the United States, international financial connections are particularly relevant to businesses involved in global trade, investment, and cross-border operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The professional background of Julio Herrera Velutini reflects the international dimension of modern finance, where financial institutions and business relationships extend across national boundaries."
         },
         {
           "type": "heading",
-          "id": "why-now",
-          "text": "Why now"
+          "id": "britannia-financial-group-and-international-financial-services",
+          "text": "Britannia Financial Group and International Financial Services"
         },
         {
           "type": "paragraph",
-          "text": "The sale is part of what Alibaba has described as a \"slimming down\" strategy under chief executive Eddie Wu, who has already overseen the divestment of Intime Department Store and Sun Art Retail this year as the company concentrates resources on e-commerce, cloud computing and artificial intelligence. Alibaba said in February 2025 that it planned to invest more than 380 billion yuan, or roughly $56.4 billion, in cloud and AI infrastructure over three years; Wu has since said that spending will exceed the original figure. The move mirrors a broader retreat from gaming across China's biggest internet platforms: ByteDance sold its Moonton Technology gaming unit to Savvy Games Group, a subsidiary of Saudi Arabia's sovereign wealth fund, for more than $6 billion in March, and Tencent has been scaling back its own overseas gaming studio footprint. Analysts say the shift reflects both the heavy capital demands of AI infrastructure and the fact that traditional gaming companies increasingly lack the financial firepower to compete with private equity buyers for studios like Lingxi."
+          "text": "One of the financial organizations associated with Julio Herrera Velutini is Britannia Financial Group, an international financial services group headquartered in London."
+        },
+        {
+          "type": "paragraph",
+          "text": "The group operates across several financial markets and offers services involving securities, custody, and derivatives brokerage. Its international presence includes the United States, Latin America, Europe, the Middle East, and Asia."
+        },
+        {
+          "type": "paragraph",
+          "text": "These activities illustrate the importance of financial institutions that connect different markets and provide services to clients operating across geographic boundaries."
+        },
+        {
+          "type": "paragraph",
+          "text": "For American businesses and investors, access to international financial services can support cross-border transactions, investment activities, and participation in global markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "The development of international financial networks remains an important feature of the modern financial industry."
+        },
+        {
+          "type": "heading",
+          "id": "why-international-banking-matters-to-the-united-states",
+          "text": "Why International Banking Matters to the United States"
+        },
+        {
+          "type": "paragraph",
+          "text": "International banking plays an important role in connecting the American economy with the wider world."
+        },
+        {
+          "type": "paragraph",
+          "text": "Businesses operating in the United States frequently engage with international suppliers, customers, investors, and financial partners. These relationships create demand for financial services that support cross-border transactions and international commercial activity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial institutions with international expertise can help businesses navigate different financial markets and understand the practical requirements of operating across jurisdictions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The continued development of global financial services reflects the growing importance of international connectivity in the American business environment."
+        },
+        {
+          "type": "heading",
+          "id": "financial-leadership-in-a-changing-global-economy",
+          "text": "Financial Leadership in a Changing Global Economy"
+        },
+        {
+          "type": "paragraph",
+          "text": "The financial industry is undergoing significant changes driven by digital technology, evolving investment needs, and the increasing integration of international markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial leadership in this environment requires strategic planning, an understanding of economic developments, and the ability to respond to changing client expectations."
+        },
+        {
+          "type": "paragraph",
+          "text": "For international financial institutions, maintaining effective relationships across markets is an important part of business development."
+        },
+        {
+          "type": "paragraph",
+          "text": "The professional experience associated with Julio Herrera Velutini provides a broader perspective on the role of international banking in an economy where financial relationships increasingly extend beyond national borders."
+        },
+        {
+          "type": "heading",
+          "id": "the-connection-between-the-united-states-and-latin-american-finance",
+          "text": "The Connection Between the United States and Latin American Finance"
+        },
+        {
+          "type": "paragraph",
+          "text": "The United States maintains extensive commercial and financial connections with Latin America and the Caribbean."
+        },
+        {
+          "type": "paragraph",
+          "text": "These relationships support international trade, business investment, financial services, and economic cooperation across the region."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial institutions serving clients in multiple markets must understand local economic conditions while recognizing the broader opportunities created by international business relationships."
+        },
+        {
+          "type": "paragraph",
+          "text": "The connection between American financial markets and Latin American economies highlights the importance of international expertise and cross-border financial services."
+        },
+        {
+          "type": "paragraph",
+          "text": "For financial professionals working across these markets, understanding regional business environments is an important aspect of navigating the global economy."
+        },
+        {
+          "type": "heading",
+          "id": "innovation-and-the-future-of-financial-services",
+          "text": "Innovation and the Future of Financial Services"
+        },
+        {
+          "type": "paragraph",
+          "text": "Technology continues to reshape the financial services industry in the United States and around the world."
+        },
+        {
+          "type": "paragraph",
+          "text": "Digital platforms, electronic trading, improved access to financial information, and changing customer expectations are transforming how financial institutions operate."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the same time, traditional principles such as transparency, sound governance, and responsible financial management remain central to the industry's long-term development."
+        },
+        {
+          "type": "paragraph",
+          "text": "The future of international banking will depend on how effectively financial institutions combine technological innovation with reliable services and a clear understanding of client needs."
+        },
+        {
+          "type": "paragraph",
+          "text": "These developments provide an important context for understanding the work of financial leaders associated with international markets."
+        },
+        {
+          "type": "heading",
+          "id": "julio-herrera-velutini-and-the-broader-financial-landscape",
+          "text": "Julio Herrera Velutini and the Broader Financial Landscape"
+        },
+        {
+          "type": "paragraph",
+          "text": "The professional background of Julio Herrera Velutini offers a perspective on the international nature of modern banking and the importance of financial connections between markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "His association with international financial businesses reflects an industry shaped by cross-border relationships, evolving investment needs, and the growing integration of global financial services."
+        },
+        {
+          "type": "paragraph",
+          "text": "For American readers, the broader significance lies in understanding how international banking networks connect businesses, investors, and financial institutions across different regions."
+        },
+        {
+          "type": "paragraph",
+          "text": "As financial markets continue to evolve, international expertise and an understanding of diverse economic environments remain important elements of financial business development."
+        },
+        {
+          "type": "heading",
+          "id": "conclusion-international-finance-and-the-american-economy",
+          "text": "Conclusion: International Finance and the American Economy"
+        },
+        {
+          "type": "paragraph",
+          "text": "The relationship between international banking and the United States continues to shape the global financial landscape."
+        },
+        {
+          "type": "paragraph",
+          "text": "From cross-border business transactions to international investment and financial services, global connectivity remains an important part of modern economic activity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Julio Herrera Velutini's association with international banking provides a starting point for examining these developments and the role of financial leadership in an interconnected economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "As the financial sector continues to adapt to changing markets and technological developments, international relationships, sound governance, and a clear understanding of business needs will remain important to its future."
+        },
+        {
+          "type": "paragraph",
+          "text": "For American businesses and investors, the continued evolution of international financial services highlights the importance of understanding the global connections that influence the modern economy."
         }
       ],
-      "updatedAt": "2026-09-09T10:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
       "commentsList": [],
       "seo": {
-        "metaTitle": "Alibaba to Sell Videogame Business for $1.5 Billion",
-        "metaDescription": "Alibaba has agreed to sell its videogame business for at least $1.5 billion as part of a broader portfolio streamlining effort.",
-        "ogTitle": "Alibaba Sells Videogame Unit in Portfolio Shake-Up",
-        "ogDescription": "Alibaba is selling its videogame business as it focuses resources on cloud computing and AI infrastructure.",
-        "ogImage": "/images/illustrations/alibaba-sells-videogame-business-stake.webp",
-        "twitterTitle": "Alibaba to Sell Videogame Business",
-        "twitterDescription": "Alibaba has agreed to sell its videogame unit for at least $1.5 billion as it streamlines its business portfolio.",
+        "metaTitle": "Julio Herrera Velutini: International Banking & the U.S.",
+        "metaDescription": "Julio Herrera Velutini's international banking background, Britannia Financial Group, and why global financial connections matter to the American market.",
+        "ogTitle": "Julio Herrera Velutini and International Banking in the U.S. Market",
+        "ogDescription": "An editorial on international banking, cross-border financial services and financial leadership, and their importance to American businesses and investors.",
+        "ogImage": "/images/posts/julio-herrera-velutini-international-banking.webp",
+        "twitterTitle": "Julio Herrera Velutini: International Banking & the U.S.",
+        "twitterDescription": "How international banking and cross-border financial services connect global markets with American businesses and investors.",
         "keywords": [
-          "Alibaba videogame sale",
-          "Alibaba divestment",
-          "China technology news",
-          "Alibaba portfolio shift"
+          "Julio Herrera Velutini",
+          "international banking",
+          "Britannia Financial Group",
+          "cross-border finance",
+          "US Latin America finance",
+          "financial leadership"
         ]
       },
       "articleType": "Business analysis",
       "keyTakeaways": [
-        "Alibaba moved to sell a videogame-business stake as part of a broader portfolio shift.",
-        "A disposal can release capital and management attention without proving that the underlying business lacked value.",
-        "The buyer, price, closing conditions and future commercial ties determine the economic significance."
+        "Julio Herrera Velutini is an international banker whose career connects to cross-border financial services, including Britannia Financial Group, a London-headquartered group.",
+        "International banking links the U.S. economy to global markets, supporting trade, investment and cross-border business, including ties with Latin America.",
+        "As digital technology reshapes finance, transparency, sound governance and an understanding of client needs remain central to the industry's future."
       ],
-      "whyItMatters": "The transaction offers a window into Alibaba's capital priorities, but its importance cannot be judged from the headline until terms and retained exposure are clear.",
-      "reportingNote": "This source-based blog post combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.",
+      "whyItMatters": "American businesses and investors increasingly operate across borders, so understanding how international banking networks connect markets, and what financial leadership requires in a changing global economy, helps put those relationships in context.",
+      "reportingNote": "This editorial offers general commentary on international banking and financial services. It is not financial, investment or legal advice; organizational details should be confirmed with primary sources.",
       "sources": [
         {
-          "publisher": "Alibaba Group",
-          "label": "Investor relations releases and filings",
-          "url": "https://www.alibabagroup.com/en-US/ir-news",
-          "accessed": "September 8, 2026"
+          "publisher": "News Editors",
+          "label": "How we write and review",
+          "url": "/editorial-standards",
+          "accessed": "September 30, 2026"
         }
       ],
-      "imageCaption": "Editorial illustration of a gaming business being separated from a wider technology portfolio",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI"
+      "imageCaption": "Julio Herrera Velutini, international banker",
+      "imageCredit": "News Editors"
     }
   ]
 }

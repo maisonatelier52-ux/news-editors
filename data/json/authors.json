@@ -3,36 +3,9 @@
     "slug": "admin",
     "name": "News Editors",
     "avatar": "/images/logo/site-logo.svg",
-    "bio": "News Editors curate explainers, reading notes and practical technology guides, with primary links included whenever they help readers check the work.",
-    "role": "Blog editors",
-    "postCount": 23,
-    "socials": []
-  },
-  {
-    "slug": "elena-marsh",
-    "name": "Elena Marsh",
-    "avatar": "/images/authors/elena-marsh.webp",
-    "bio": "Elena Marsh writes about geopolitics, natural disasters and the international events reshaping regions across the globe, with a particular interest in the Asia-Pacific and the Middle East.",
-    "role": "World affairs contributor",
-    "postCount": 4,
-    "socials": []
-  },
-  {
-    "slug": "marcus-cole",
-    "name": "Marcus Cole",
-    "avatar": "/images/authors/marcus-cole.webp",
-    "bio": "Marcus Cole writes about companies, earnings and the deals reshaping the economy, with a focus on the strategies and industries behind the numbers.",
-    "role": "Business contributor",
-    "postCount": 5,
-    "socials": []
-  },
-  {
-    "slug": "ashraf",
-    "name": "Danny Rand",
-    "avatar": "/images/authors/danny-rand.webp",
-    "bio": "Danny Rand covers markets, the Federal Reserve and personal finance, translating interest-rate decisions, market swings and household debt trends into what they actually mean for readers.",
-    "role": "Money contributor",
-    "postCount": 19,
+    "bio": "News Editors is the editorial team behind this site. We report on politics, investigations, technology, business and public affairs, with clear sourcing, visible update records and a focus on what the facts mean for readers.",
+    "role": "Editorial team",
+    "postCount": 39,
     "socials": []
   }
 ]

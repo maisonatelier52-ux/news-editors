@@ -7,8 +7,8 @@ import { getPostUrl, getAuthorBySlug, formatDate } from '@/lib/data';
 // (e.g. "Public health.", "Office.") — falls back to the category name
 // when a post doesn't have a more specific tag to show.
 function getKicker(post, categoryName) {
-  const tag = post.tags?.find((t) => t.toLowerCase() !== post.category.toLowerCase());
-  if (tag) return tag.charAt(0).toUpperCase() + tag.slice(1);
+  // On category pages always show the category name as the kicker
+  // (e.g. "Business."), not a secondary tag like "finance".
   return categoryName;
 }
 

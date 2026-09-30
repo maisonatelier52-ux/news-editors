@@ -1,0 +1,700 @@
+{
+  "articles": [
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "30",
+      "image": "/images/illustrations/supreme-court-allows-third-country-deportations.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-09-30T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "The Supreme Court lifted a lower-court ban on third-country deportations.",
+        "Full arguments on the policy are scheduled for December.",
+        "The ruling is expected to speed removals in the weeks before the midterms."
+      ],
+      "whyItMatters": "The decision temporarily restores a key enforcement tool and sets up a major immigration case for the term that begins in October.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "supreme-court-allows-third-country-deportations",
+      "title": "Supreme Court clears path for third-country deportations, for now",
+      "subtitle": "The justices granted an emergency request while scheduling fuller arguments later this year",
+      "excerpt": "The Supreme Court on Tuesday allowed the administration to resume rapid deportations of migrants to countries that are not their own, overturning a lower-court ban while agreeing to hear arguments on the policy in December.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "immigration",
+        "supreme-court"
+      ],
+      "date": "2026-09-30",
+      "toc": [
+        {
+          "id": "what-the-order-does",
+          "text": "What the order does"
+        },
+        {
+          "id": "the-legal-fight-ahead",
+          "text": "The legal fight ahead"
+        },
+        {
+          "id": "what-it-means-on-the-ground",
+          "text": "What it means on the ground"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Supreme Court on Tuesday cleared the way for the Trump administration to resume deporting migrants to third countries that are not their nations of origin, granting an emergency request that overturned a lower-court injunction blocking the practice."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a brief unsigned order, the justices said the administration may continue the policy for now. The court also scheduled oral arguments for December on whether the policy is lawful under immigration statutes and the Constitution."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What the order does",
+          "id": "what-the-order-does"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the challenged approach, immigration authorities can remove people to a country other than the one they left, including nations with which the United States has bilateral removal agreements. Advocates had argued that such removals can strand people in places where they face persecution or lack basic protections."
+        },
+        {
+          "type": "paragraph",
+          "text": "A federal district judge had blocked the rapid third-country transfers earlier this year, finding that the government had not adequately considered individual safety claims. An appeals court left that injunction largely in place, prompting the emergency application to the Supreme Court."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The legal fight ahead",
+          "id": "the-legal-fight-ahead"
+        },
+        {
+          "type": "paragraph",
+          "text": "The December arguments will focus on statutory authority for third-country removals and on due-process claims raised by the challengers. Immigration lawyers say the outcome could reshape how the government manages removals when home-country repatriation is delayed or blocked."
+        },
+        {
+          "type": "paragraph",
+          "text": "The administration has argued that third-country options are essential to enforce immigration law when origin countries refuse to accept returnees. Civil-rights groups counter that the speed of the process leaves too little time for people to raise credible-fear claims."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What it means on the ground",
+          "id": "what-it-means-on-the-ground"
+        },
+        {
+          "type": "paragraph",
+          "text": "With the midterm elections weeks away, the order is likely to accelerate removals that had been paused. Border and interior enforcement agencies had already expanded capacity for transfers; the ruling removes the main judicial barrier that had slowed those plans."
+        },
+        {
+          "type": "paragraph",
+          "text": "State attorneys general on both sides of the immigration debate are preparing follow-on litigation. Several blue-state officials said they will continue to challenge individual transfers they view as unsafe, while several red-state officials welcomed the ruling as restoring enforcement tools."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Supreme Court Allows Third-Country Deportations Pending Full Review",
+        "metaDescription": "The Supreme Court lifted a lower-court ban on rapid third-country deportations and set December arguments on the policy's legality.",
+        "ogTitle": "Supreme Court Clears Path for Third-Country Deportations",
+        "ogDescription": "Justices granted an emergency request allowing third-country removals while scheduling fuller arguments later this year.",
+        "ogImage": "/images/illustrations/supreme-court-allows-third-country-deportations.webp",
+        "twitterTitle": "Supreme Court Allows Third-Country Deportations for Now",
+        "twitterDescription": "Emergency order lifts injunction; full arguments set for December.",
+        "keywords": [
+          "Supreme Court deportation",
+          "third-country removal",
+          "immigration policy 2026",
+          "emergency order"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "28",
+      "image": "/images/illustrations/trump-announces-15-billion-iowa-steel-plant.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-09-28T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "A $15 billion steel mill is planned for Iowa with a 2030 production target.",
+        "Officials project up to 1,750 permanent jobs.",
+        "The announcement comes weeks before the November midterms."
+      ],
+      "whyItMatters": "Large industrial projects are a central campaign theme; this one gives the administration a concrete Midwest manufacturing story.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "trump-announces-15-billion-iowa-steel-plant",
+      "title": "Trump announces $15 billion steel plant in Iowa ahead of midterms",
+      "subtitle": "The project is pitched as creating up to 1,750 permanent jobs and boosting domestic steel capacity",
+      "excerpt": "President Trump announced plans for a $15 billion steel mill in Iowa, describing it as among the largest in the country and tying the project to a broader push for domestic manufacturing before the November elections.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "economy",
+        "manufacturing"
+      ],
+      "date": "2026-09-28",
+      "toc": [
+        {
+          "id": "the-announcement",
+          "text": "The announcement"
+        },
+        {
+          "id": "jobs-and-timeline",
+          "text": "Jobs and timeline"
+        },
+        {
+          "id": "political-context",
+          "text": "Political context"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "President Trump on Monday announced a plan for a $15 billion steel mill in Iowa, presenting the project as a major expansion of domestic steel capacity and a jobs win for a key Midwest state weeks before the midterm elections."
+        },
+        {
+          "type": "paragraph",
+          "text": "Speaking at the White House alongside company executives and state officials, Trump said the facility, to be built by Mesabi Metallics, would rank among the largest steel plants in the United States and would support a wider effort to reduce reliance on foreign steel."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The announcement",
+          "id": "the-announcement"
+        },
+        {
+          "type": "paragraph",
+          "text": "White House officials said the plant is designed to produce about 10 million tons of steel a year. The company aims to begin production by 2030. Details on site selection within Iowa and on any federal financing or tax incentives were not fully spelled out at the announcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesabi Metallics has been developing iron-ore and steel projects for years. The Iowa announcement is the most concrete public commitment yet to a full-scale mill of this size under the current administration."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jobs and timeline",
+          "id": "jobs-and-timeline"
+        },
+        {
+          "type": "paragraph",
+          "text": "Officials projected as many as 1,750 permanent jobs once the plant is operating, plus thousands of construction positions during the build-out. State economic-development agencies are expected to negotiate local incentives in the coming months."
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry analysts noted that global steel markets remain competitive and that long lead times for permits, power supply and skilled labor could stretch the 2030 target. The administration framed the project as part of a broader industrial policy that also includes tariffs and Buy American rules."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Political context",
+          "id": "political-context"
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing is deliberate. Iowa is not a traditional steel stronghold, but the announcement gives Republicans a positive manufacturing message in a region where factory jobs remain a potent campaign theme. Democratic critics said the project is years away from producing steel and does little for workers facing near-term layoffs or plant closures elsewhere."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trump also used the event to answer questions on Iran policy and the midterms, tying economic announcements to a wider argument that his administration is delivering tangible industrial results."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Trump Announces $15 Billion Iowa Steel Plant Ahead of Midterms",
+        "metaDescription": "President Trump unveiled plans for a $15 billion steel mill in Iowa expected to create up to 1,750 permanent jobs and begin production by 2030.",
+        "ogTitle": "Trump Touts $15 Billion Iowa Steel Project",
+        "ogDescription": "The White House framed the Mesabi Metallics plant as a major domestic manufacturing win weeks before the midterms.",
+        "ogImage": "/images/illustrations/trump-announces-15-billion-iowa-steel-plant.webp",
+        "twitterTitle": "$15 Billion Iowa Steel Plant Announced",
+        "twitterDescription": "Up to 1,750 permanent jobs projected; production targeted for 2030.",
+        "keywords": [
+          "Iowa steel plant",
+          "Trump manufacturing",
+          "Mesabi Metallics",
+          "midterm economy"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "01",
+      "image": "/images/illustrations/army-secretary-driscoll-resigns-hegseth-tensions.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": false,
+      "updatedAt": "2026-09-01T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "Army Secretary Daniel Driscoll is resigning after reported tensions with Defense Secretary Hegseth.",
+        "An acting secretary is expected to be named quickly.",
+        "The move comes while the Army supports operations in multiple theaters."
+      ],
+      "whyItMatters": "Civilian leadership continuity at the Army matters for readiness and for congressional oversight of a force stretched across major conflicts.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "army-secretary-driscoll-resigns-hegseth-tensions",
+      "title": "Army Secretary Driscoll resigns after reported tensions with Hegseth",
+      "subtitle": "The departure leaves the Army leadership transition incomplete as the military manages two major overseas conflicts",
+      "excerpt": "U.S. Army Secretary Daniel P. Driscoll is stepping down after months of reported friction with Defense Secretary Pete Hegseth, according to the White House and people familiar with the decision.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "defense",
+        "pentagon"
+      ],
+      "date": "2026-09-01",
+      "toc": [
+        {
+          "id": "the-resignation",
+          "text": "The resignation"
+        },
+        {
+          "id": "context-of-two-wars",
+          "text": "Context of two wars"
+        },
+        {
+          "id": "what-comes-next",
+          "text": "What comes next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Army Secretary Daniel P. Driscoll is resigning after roughly 18 months in the job, the White House confirmed, following months of reported tension with Defense Secretary Pete Hegseth over priorities, personnel and the Army's role in ongoing conflicts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Driscoll submitted his resignation effective in the coming days. Neither the White House nor the Pentagon detailed a specific policy dispute, but multiple people familiar with the situation said the relationship had deteriorated over the summer as the Army balanced demands from the Iran theater and other global commitments."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The resignation",
+          "id": "the-resignation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Driscoll had been viewed as a relatively low-profile manager of the Army's day-to-day affairs. His departure is the highest-level civilian change at the service this year and comes as the Pentagon works through a broader leadership reshuffle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Defense officials said an acting secretary will be named quickly. Confirmation of a permanent replacement could stretch into the post-midterm period depending on the Senate calendar."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Context of two wars",
+          "id": "context-of-two-wars"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Army is supporting operations tied to the prolonged conflict with Iran and continues to maintain force posture in Europe and the Indo-Pacific. Senior officers have warned that extended large-scale operations in the Middle East risk reducing readiness for other contingencies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those readiness concerns formed part of the background to the reported friction between the Army secretariat and the Office of the Secretary of Defense, according to people briefed on internal discussions."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What comes next",
+          "id": "what-comes-next"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lawmakers on the House and Senate Armed Services Committees said they expect a full briefing on the transition. Some members privately expressed concern that repeated civilian turnover at the services complicates oversight of procurement and force-structure decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The White House framed the change as a routine personnel move and said it remains committed to supporting the Army's missions abroad."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Army Secretary Driscoll Resigns After Tensions With Hegseth",
+        "metaDescription": "Daniel P. Driscoll is stepping down as Army secretary following reported friction with Defense Secretary Pete Hegseth amid two major overseas conflicts.",
+        "ogTitle": "Army Secretary Resigns Amid Reported Pentagon Friction",
+        "ogDescription": "Driscoll's departure comes as the Army manages commitments in the Middle East and elsewhere.",
+        "ogImage": "/images/illustrations/army-secretary-driscoll-resigns-hegseth-tensions.webp",
+        "twitterTitle": "Army Secretary Driscoll Steps Down",
+        "twitterDescription": "Resignation follows months of reported tension with Defense Secretary Hegseth.",
+        "keywords": [
+          "Army Secretary resignation",
+          "Pete Hegseth",
+          "Daniel Driscoll",
+          "Pentagon leadership"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "08",
+      "day": "28",
+      "image": "/images/illustrations/judge-blocks-trump-mail-in-voting-restrictions.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-08-28T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "A federal judge blocked key parts of new federal mail-in voting restrictions.",
+        "The order sits alongside earlier Supreme Court action that allowed other pieces of the policy.",
+        "State election officials are navigating conflicting guidance weeks before ballots go out."
+      ],
+      "whyItMatters": "Mail ballots are a large share of the vote in many states; last-minute federal rule changes create operational and legal risk for election administrators.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "judge-blocks-trump-mail-in-voting-restrictions",
+      "title": "Judge issues new block on sweeping mail-in voting restrictions",
+      "subtitle": "The ruling is the latest turn in a fast-moving legal fight over election rules before the midterms",
+      "excerpt": "A federal judge issued a fresh injunction limiting the administration's effort to restrict mail-in voting nationwide, even as earlier Supreme Court action had cleared a path for parts of the same agenda.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "elections",
+        "voting"
+      ],
+      "date": "2026-08-28",
+      "toc": [
+        {
+          "id": "the-ruling",
+          "text": "The ruling"
+        },
+        {
+          "id": "competing-court-orders",
+          "text": "Competing court orders"
+        },
+        {
+          "id": "state-response",
+          "text": "State response"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A federal judge on Thursday issued a new block on key pieces of the Trump administration's effort to restrict mail-in voting, finding that the latest rules risked disenfranchising eligible voters without clear statutory authority."
+        },
+        {
+          "type": "paragraph",
+          "text": "The order does not reverse every prior appellate or Supreme Court step in the long-running dispute, but it freezes specific federal directives that states and the Postal Service had begun to implement."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The ruling",
+          "id": "the-ruling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Judge Indira Talwani wrote that the Postal Service appeared to be carrying out a \"haphazard experiment\" with procedures that could produce \"major disenfranchisement\" if left unchecked before ballots are mailed in large numbers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The administration has argued that the changes are needed to reduce fraud and to align federal practice with state deadlines. Voting-rights groups and several state election officials countered that the rules would force premature rejection of ballots that arrive after arbitrary cutoffs."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Competing court orders",
+          "id": "competing-court-orders"
+        },
+        {
+          "type": "paragraph",
+          "text": "Earlier this summer the Supreme Court allowed parts of a related executive order to take effect while litigation continued. That decision left room for as-applied challenges, which is the path the latest district-court injunction followed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Election lawyers say the patchwork of orders will force state officials to track multiple federal directives at once as they prepare for early voting and mail ballot distribution."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "State response",
+          "id": "state-response"
+        },
+        {
+          "type": "paragraph",
+          "text": "Secretaries of state in several battleground jurisdictions said they will follow the newest injunction while seeking clarification from the Justice Department. Private voting-rights attorneys and Democratic attorneys general are preparing additional suits if further federal guidance is issued before Election Day."
+        },
+        {
+          "type": "paragraph",
+          "text": "Republican state officials who support tighter mail rules said they will continue to press for higher verification standards under state law regardless of the federal outcome."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Judge Blocks Key Trump Mail-In Voting Restrictions",
+        "metaDescription": "A federal judge issued a new injunction limiting administration rules on mail-in ballots ahead of the midterm elections.",
+        "ogTitle": "New Court Block on Mail-In Voting Rules",
+        "ogDescription": "The injunction freezes specific federal directives while the broader legal fight continues.",
+        "ogImage": "/images/illustrations/judge-blocks-trump-mail-in-voting-restrictions.webp",
+        "twitterTitle": "Judge Blocks Mail-In Voting Restrictions",
+        "twitterDescription": "Latest injunction freezes key federal mail-ballot directives before the midterms.",
+        "keywords": [
+          "mail-in voting",
+          "election rules 2026",
+          "voting rights lawsuit",
+          "midterm elections"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "29",
+      "image": "/images/illustrations/voice-of-america-cuts-hurt-national-interests-watchdog.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-09-29T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "A State Department watchdog says VOA cuts damaged U.S. national interests.",
+        "The report cites lost language services and correspondent capacity.",
+        "Lawmakers in both parties are pressing for partial restoration of services."
+      ],
+      "whyItMatters": "International broadcasting is a long-standing tool of U.S. public diplomacy; the inspector general's findings reopen the debate over how much capacity to maintain.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "voice-of-america-cuts-hurt-national-interests-watchdog",
+      "title": "Voice of America cuts hurt U.S. national interests, internal watchdog says",
+      "subtitle": "A State Department inspector general assessment echoes bipartisan criticism of the decision to shutter VOA services",
+      "excerpt": "An internal State Department watchdog concluded that reductions to Voice of America programming damaged U.S. national interests, adding to criticism from lawmakers in both parties of the decision to scale back the broadcaster.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "foreign-policy",
+        "media"
+      ],
+      "date": "2026-09-29",
+      "toc": [
+        {
+          "id": "the-findings",
+          "text": "The findings"
+        },
+        {
+          "id": "congressional-reaction",
+          "text": "Congressional reaction"
+        },
+        {
+          "id": "what-remains",
+          "text": "What remains"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The State Department's inspector general has concluded that cuts to Voice of America programming harmed U.S. national interests, according to an assessment that tracks closely with warnings raised by critics of the decision to shutter or sharply reduce VOA services."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report does not call for an immediate reversal of every reduction, but it finds that the loss of language services and correspondent capacity weakened the ability of the United States to counter foreign propaganda and to reach audiences in contested information environments."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The findings",
+          "id": "the-findings"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspectors reviewed the wind-down of several language services and the reassignment or departure of experienced journalists. They found gaps in coverage of regions where state-controlled media dominate the information space and where U.S. messaging had previously maintained a steady audience."
+        },
+        {
+          "type": "paragraph",
+          "text": "The assessment notes that some savings were real but that the strategic cost of reduced reach was not fully weighed in the original decision documents."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Congressional reaction",
+          "id": "congressional-reaction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Several Republicans who have long supported international broadcasting joined Democrats in citing the inspector general's conclusions. Members of the foreign-affairs committees said they will press for a detailed plan to restore priority language services."
+        },
+        {
+          "type": "paragraph",
+          "text": "Administration officials defended the original cuts as necessary fiscal discipline and said remaining platforms still deliver core messaging. They have not committed to reversing the largest reductions."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What remains",
+          "id": "what-remains"
+        },
+        {
+          "type": "paragraph",
+          "text": "Voice of America continues limited English and selected language programming. Partner networks and digital products carry some of the load, but the inspector general found that those substitutes do not fully replace the lost correspondent capacity or the brand recognition VOA had built over decades."
+        },
+        {
+          "type": "paragraph",
+          "text": "Further oversight hearings are expected this fall as appropriators weigh whether to restore funding in the next budget cycle."
+        }
+      ],
+      "seo": {
+        "metaTitle": "VOA Cuts Hurt U.S. Interests, State Watchdog Finds",
+        "metaDescription": "A State Department inspector general assessment says reductions to Voice of America damaged U.S. national interests and weakened information reach abroad.",
+        "ogTitle": "Internal Watchdog Criticizes Voice of America Cuts",
+        "ogDescription": "The assessment adds to bipartisan concern over the loss of language services and correspondent capacity.",
+        "ogImage": "/images/illustrations/voice-of-america-cuts-hurt-national-interests-watchdog.webp",
+        "twitterTitle": "VOA Cuts Hurt National Interests, Watchdog Says",
+        "twitterDescription": "Inspector general finds strategic costs outweighed fiscal savings from VOA reductions.",
+        "keywords": [
+          "Voice of America",
+          "State Department inspector general",
+          "international broadcasting",
+          "U.S. soft power"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "27",
+      "image": "/images/illustrations/newsom-signs-laws-targeting-ice-detention-practices.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-09-27T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "California banned shock gloves and similar devices for immigration officers.",
+        "A new tax targets certain private detention facilities.",
+        "Federal legal challenges are possible as the state asserts greater oversight."
+      ],
+      "whyItMatters": "State limits on immigration enforcement tools and facilities are a growing front in the federalism fight over immigration policy.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "newsom-signs-laws-targeting-ice-detention-practices",
+      "title": "Newsom signs California laws targeting ICE detention practices",
+      "subtitle": "The measures include a ban on shock devices and a new tax on certain detention facilities",
+      "excerpt": "California Gov. Gavin Newsom signed a package of bills aimed at Immigration and Customs Enforcement practices, including a ban on shock gloves and a tax on detention centers, after reports that ICE planned to purchase stun devices for officers.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "immigration",
+        "california"
+      ],
+      "date": "2026-09-27",
+      "toc": [
+        {
+          "id": "the-bills",
+          "text": "The bills"
+        },
+        {
+          "id": "federal-response",
+          "text": "Federal response"
+        },
+        {
+          "id": "national-debate",
+          "text": "National debate"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gov. Gavin Newsom signed legislation this week that bans shock gloves and similar stun devices for use by immigration officers in California and imposes a new tax on certain private detention centers used by Immigration and Customs Enforcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Democrats in Sacramento moved the package after reports that ICE was exploring purchases of shock devices for field officers. The bills also expand state oversight of conditions inside facilities that house immigration detainees."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The bills",
+          "id": "the-bills"
+        },
+        {
+          "type": "paragraph",
+          "text": "One measure prohibits the sale and use of specified electroshock gloves and related devices by immigration enforcement personnel operating in the state. Another creates a detention-center tax intended to discourage expansion of private facilities under state jurisdiction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Supporters said the laws respond to documented injuries and to community opposition to expanded detention capacity. Opponents argued that the measures interfere with federal authority and could make it harder to hold people subject to removal orders."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Federal response",
+          "id": "federal-response"
+        },
+        {
+          "type": "paragraph",
+          "text": "Federal officials have previously challenged state limits on cooperation with ICE and are expected to review whether the new tax and device ban conflict with federal supremacy principles. No lawsuit had been filed at the time of the signing."
+        },
+        {
+          "type": "paragraph",
+          "text": "ICE has not publicly detailed any finalized purchase of shock gloves. The agency has said it continuously evaluates equipment for officer safety and for compliance with use-of-force policy."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "National debate",
+          "id": "national-debate"
+        },
+        {
+          "type": "paragraph",
+          "text": "California's package is the latest in a series of state-level efforts to regulate the tools and facilities used in immigration enforcement. Similar debates are underway in other large states over local cooperation, data sharing and the siting of detention centers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The midterm campaign has elevated immigration enforcement as a national issue; state actions like California's ensure the fight will continue in legislatures and courts regardless of the November results."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Newsom Signs California Laws Targeting ICE Detention Practices",
+        "metaDescription": "California banned shock devices for immigration officers and imposed a tax on certain detention centers after reports of planned ICE equipment purchases.",
+        "ogTitle": "California Targets ICE Detention Tools and Facilities",
+        "ogDescription": "New laws ban shock gloves and tax private detention centers used by federal immigration authorities.",
+        "ogImage": "/images/illustrations/newsom-signs-laws-targeting-ice-detention-practices.webp",
+        "twitterTitle": "California Bans Shock Devices for ICE Officers",
+        "twitterDescription": "Newsom signs package including stun-device ban and detention-center tax.",
+        "keywords": [
+          "California ICE laws",
+          "Newsom immigration",
+          "detention center tax",
+          "shock gloves ban"
+        ]
+      }
+    }
+  ]
+}

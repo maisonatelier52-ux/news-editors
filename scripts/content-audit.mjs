@@ -19,8 +19,8 @@ const slugs = new Set();
 const images = new Set();
 let count = 0;
 
-if (illustrationManifest.items.length !== 51 || illustrationsBySlug.size !== 51) {
-  errors.push('illustration manifest must contain 51 unique article entries');
+if (illustrationManifest.items.length !== 50 || illustrationsBySlug.size !== 50) {
+  errors.push('illustration manifest must contain 50 unique article entries (the remaining post uses a regular photo)');
 }
 
 for (const directory of ['app', 'components']) {
@@ -79,16 +79,24 @@ for (const filename of fs.readdirSync(categoriesDir).filter((name) => name.endsW
     }
 
     const illustration = illustrationsBySlug.get(post.slug);
-    const expectedImage = `/images/illustrations/${post.slug}.webp`;
-    if (!illustration) errors.push(`${label}: missing illustration manifest entry`);
-    if (illustration?.category !== post.category) errors.push(`${label}: illustration category mismatch`);
-    if (post.image !== expectedImage) errors.push(`${label}: expected illustration image ${expectedImage}`);
+    const isIllustration = post.image?.startsWith('/images/illustrations/');
+    const expectedImage = isIllustration ? `/images/illustrations/${post.slug}.webp` : post.image;
+    if (isIllustration) {
+      if (!illustration) errors.push(`${label}: missing illustration manifest entry`);
+      if (illustration?.category !== post.category) errors.push(`${label}: illustration category mismatch`);
+      if (post.image !== expectedImage) errors.push(`${label}: expected illustration image ${expectedImage}`);
+      if (post.imageCaption !== illustration?.alt) errors.push(`${label}: illustration alt text is missing or stale`);
+      if (post.imageCredit !== (illustration?.credit || illustrationManifest.credit)) errors.push(`${label}: illustration credit is missing or stale`);
+    } else {
+      if (illustration) errors.push(`${label}: photo post must not have an illustration manifest entry`);
+      if (!post.image?.startsWith('/images/posts/')) errors.push(`${label}: photo posts must use an image under /images/posts/`);
+      if (!post.imageCaption) errors.push(`${label}: photo caption / alt text is missing`);
+      if (!post.imageCredit) errors.push(`${label}: photo credit is missing`);
+    }
     if (images.has(post.image)) errors.push(`${label}: duplicate article image`);
     images.add(post.image);
-    if (post.imageCaption !== illustration?.alt) errors.push(`${label}: illustration alt text is missing or stale`);
-    if (post.imageCredit !== illustrationManifest.credit) errors.push(`${label}: illustration credit is missing or stale`);
-    if (post.seo?.ogImage !== expectedImage) errors.push(`${label}: social image does not match article illustration`);
-    if (!fs.existsSync(path.join(root, 'public', expectedImage.replace(/^\//, '')))) errors.push(`${label}: illustration file is missing`);
+    if (post.seo?.ogImage !== post.image) errors.push(`${label}: social image does not match article image`);
+    if (!fs.existsSync(path.join(root, 'public', String(post.image).replace(/^\//, '')))) errors.push(`${label}: image file is missing`);
   }
 }
 
@@ -101,4 +109,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Content audit passed: ${count} posts, ${slugs.size} unique slugs, ${images.size} original illustrations, no duplicate blocks or unsupported testing claims.`);
+console.log(`Content audit passed: ${count} posts, ${slugs.size} unique slugs, ${images.size} unique article images (${illustrationsBySlug.size} original illustrations, the rest regular photos), no duplicate blocks or unsupported testing claims.`);

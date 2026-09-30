@@ -1,0 +1,700 @@
+{
+  "articles": [
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "29",
+      "image": "/images/illustrations/second-prosecutor-resigns-grand-conspiracy-probe.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-09-29T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "A second prosecutor has resigned from the DOJ grand-conspiracy investigation.",
+        "The probe seeks to link prior Trump-related cases into a broader alleged plot.",
+        "Personnel turmoil has slowed progress and raised questions about the theory's strength."
+      ],
+      "whyItMatters": "High-level turnover inside a politically sensitive investigation affects both its credibility and the likelihood of any charges before or after the midterms.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "second-prosecutor-resigns-grand-conspiracy-probe",
+      "title": "Second prosecutor resigns from Justice Department 'grand conspiracy' probe",
+      "subtitle": "The departure adds to turmoil in an investigation that has sought to link prior cases against Trump into a broader plot",
+      "excerpt": "A second prosecutor has left the Justice Department investigation into whether former officials conspired against President Trump, people familiar with the matter said, underscoring continued upheaval in a probe that has moved in fits and starts.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "justice-department",
+        "doj"
+      ],
+      "date": "2026-09-29",
+      "toc": [
+        {
+          "id": "the-resignation",
+          "text": "The resignation"
+        },
+        {
+          "id": "scope-of-the-probe",
+          "text": "Scope of the probe"
+        },
+        {
+          "id": "earlier-setbacks",
+          "text": "Earlier setbacks"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A lawyer who previously backed false claims about the 2020 election has resigned from a Justice Department investigation examining whether former government officials conspired against President Trump, a person familiar with the matter said."
+        },
+        {
+          "type": "paragraph",
+          "text": "The departure of Kurt Olsen is the second high-profile exit from the so-called grand-conspiracy probe and comes weeks before the midterm elections. The investigation has pursued an expansive theory that multiple prior inquiries into Trump formed part of a coordinated effort to damage his political prospects."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The resignation",
+          "id": "the-resignation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Olsen's exit follows the abrupt resignation earlier this month of a lead prosecutor on the same team. People familiar with the internal discussions said disagreements over the strength of the evidence and the proper scope of subpoenas contributed to the turnover."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Justice Department has not publicly detailed the reasons for either resignation. A spokesperson declined to comment on personnel matters."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Scope of the probe",
+          "id": "scope-of-the-probe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investigators have focused on several major prior cases, including the inquiry into Russian interference in the 2016 election and the classified-documents case centered on Mar-a-Lago. They have sought testimony from officials involved in those probes in search of evidence of an unlawful conspiracy to deprive Trump of his rights."
+        },
+        {
+          "type": "paragraph",
+          "text": "Defense lawyers for some of the witnesses have argued that the theory is poorly defined and that their clients' prior work was properly predicated on available evidence at the time."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Earlier setbacks",
+          "id": "earlier-setbacks"
+        },
+        {
+          "type": "paragraph",
+          "text": "The probe has faced repeated personnel changes. In the spring, a lead national-security prosecutor was replaced after raising questions about the strength of a related false-statements investigation. Career lawyers have privately expressed concern that the expansive theory risks overreach."
+        },
+        {
+          "type": "paragraph",
+          "text": "Congressional oversight committees are expected to seek briefings on the status of the investigation after the midterms. For now, the second resignation leaves the team thinner and the timeline for any charging decisions less certain."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Second Prosecutor Quits DOJ Grand-Conspiracy Investigation",
+        "metaDescription": "A second prosecutor has resigned from the Justice Department probe examining whether former officials conspired against President Trump.",
+        "ogTitle": "Second Exit From DOJ 'Grand Conspiracy' Probe",
+        "ogDescription": "The departure adds to upheaval in an investigation that has moved in fits and starts for more than a year.",
+        "ogImage": "/images/illustrations/second-prosecutor-resigns-grand-conspiracy-probe.webp",
+        "twitterTitle": "Second Prosecutor Leaves Grand-Conspiracy Probe",
+        "twitterDescription": "Turnover continues in Justice Department investigation of alleged conspiracy against Trump.",
+        "keywords": [
+          "grand conspiracy probe",
+          "Justice Department investigation",
+          "prosecutor resignation",
+          "DOJ"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "28",
+      "image": "/images/illustrations/fbi-personnel-data-breach-shinyhunters.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-09-28T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "A hacking group claimed it stole sensitive FBI personnel data.",
+        "The compromise appears tied to a jobs-related system rather than core investigative networks.",
+        "The FBI has publicly vowed to pursue the attackers and is assessing employee risk."
+      ],
+      "whyItMatters": "Personnel data exposure can endanger agents and staff and reveals weaknesses in systems that sit outside the bureau's most hardened networks.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "fbi-personnel-data-breach-shinyhunters",
+      "title": "FBI scrambling after breach exposes personnel data, officials say",
+      "subtitle": "Hackers claimed to have stolen sensitive information on bureau employees; the FBI vowed to pursue the group",
+      "excerpt": "A major data breach has left the FBI working to determine how much personnel information was taken, after a hacking group claimed it obtained sensitive data on bureau employees from a jobs-related system.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "cybersecurity",
+        "fbi"
+      ],
+      "date": "2026-09-28",
+      "toc": [
+        {
+          "id": "what-is-known",
+          "text": "What is known"
+        },
+        {
+          "id": "the-hacking-group",
+          "text": "The hacking group"
+        },
+        {
+          "id": "response-and-risks",
+          "text": "Response and risks"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The FBI is investigating a breach of a personnel-related system after a well-known hacking group claimed it stole sensitive data on bureau employees, according to officials and public statements from the group."
+        },
+        {
+          "type": "paragraph",
+          "text": "In an internal memo described by people familiar with it, the bureau said it believed the intruders may have obtained information covering a large share of its workforce. The precise categories of data and the number of affected employees remain under assessment."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What is known",
+          "id": "what-is-known"
+        },
+        {
+          "type": "paragraph",
+          "text": "The compromise appears to have involved a jobs or applicant-related website rather than the FBI's core investigative networks. Even so, personnel records can include home addresses, contact information and other details that raise safety concerns for agents and staff."
+        },
+        {
+          "type": "paragraph",
+          "text": "Brett Leatherman, a senior cyber official at the FBI, released a video statement saying the bureau knows how to find the perpetrators and will pursue them. The statement did not disclose the full scope of the loss."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The hacking group",
+          "id": "the-hacking-group"
+        },
+        {
+          "type": "paragraph",
+          "text": "The group known as ShinyHunters has a track record of stealing large volumes of personal data and offering it for sale. Security researchers have linked the group to multiple high-profile breaches in recent years across technology and government-adjacent targets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Attribution in cyber cases is often provisional in the early days. The FBI has not publicly confirmed every claim made by the group, but it has treated the incident as a serious personnel-security event."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Response and risks",
+          "id": "response-and-risks"
+        },
+        {
+          "type": "paragraph",
+          "text": "Employees have been advised to monitor for phishing and physical-security risks. The bureau is working with partner agencies to assess whether any of the exposed data has appeared on criminal markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lawmakers who oversee the FBI said they expect a classified briefing on the breach and on steps to harden personnel systems that sit outside the main investigative infrastructure."
+        }
+      ],
+      "seo": {
+        "metaTitle": "FBI Investigates Breach of Personnel Data Claimed by Hackers",
+        "metaDescription": "The FBI is assessing how much employee data was taken after a hacking group claimed it stole sensitive personnel information from a bureau-related system.",
+        "ogTitle": "FBI Scrambles After Claimed Personnel Data Breach",
+        "ogDescription": "Officials say a jobs-related system was compromised; the bureau has vowed to pursue the attackers.",
+        "ogImage": "/images/illustrations/fbi-personnel-data-breach-shinyhunters.webp",
+        "twitterTitle": "FBI Personnel Data Breach Under Investigation",
+        "twitterDescription": "Hackers claimed sensitive employee data; FBI says it will pursue the group.",
+        "keywords": [
+          "FBI data breach",
+          "ShinyHunters",
+          "personnel data theft",
+          "cybersecurity"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "08",
+      "day": "31",
+      "image": "/images/illustrations/ftc-sues-amazon-advertising-practices.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": false,
+      "updatedAt": "2026-08-31T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "The FTC and more than 20 states sued Amazon over advertising practices.",
+        "The complaint alleges overcharging and limited competition for sellers.",
+        "Amazon is expected to contest the claims in court."
+      ],
+      "whyItMatters": "Advertising is a major profit center for large platforms; a successful case could change how search and sponsored results work for millions of sellers.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "ftc-sues-amazon-advertising-practices",
+      "title": "FTC and states sue Amazon over advertising practices",
+      "subtitle": "The complaint alleges the company overcharged advertisers and limited competition on its platform",
+      "excerpt": "The Federal Trade Commission and more than 20 states filed a lawsuit accusing Amazon of deceptive advertising practices that allegedly overcharged sellers and advertisers by billions of dollars.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "antitrust",
+        "amazon"
+      ],
+      "date": "2026-08-31",
+      "toc": [
+        {
+          "id": "the-allegations",
+          "text": "The allegations"
+        },
+        {
+          "id": "amazon-response",
+          "text": "Amazon's response"
+        },
+        {
+          "id": "what-the-case-could-mean",
+          "text": "What the case could mean"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Federal Trade Commission, joined by more than 20 state attorneys general, filed a lawsuit accusing Amazon of advertising practices that allegedly overcharged advertisers and distorted competition on its marketplace."
+        },
+        {
+          "type": "paragraph",
+          "text": "The complaint claims Amazon used its control of search placement and sponsored-product tools to extract higher fees while limiting the ability of sellers to reach customers through independent channels."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The allegations",
+          "id": "the-allegations"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the suit, Amazon's advertising systems favored higher-paying sponsored placements in ways that were not adequately disclosed, and the company used its data advantage to steer shoppers toward results that maximized its own ad revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "States joining the case argued that small and mid-size sellers bore the cost through rising advertising budgets that did not reliably improve organic visibility."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Amazon's response",
+          "id": "amazon-response"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amazon has denied the core allegations in prior related matters and is expected to contest the new complaint vigorously. The company has long argued that its advertising tools are optional, transparent and beneficial to sellers who choose to use them."
+        },
+        {
+          "type": "paragraph",
+          "text": "A company spokesperson said Amazon looks forward to showing that its practices comply with the law and that advertisers retain control over their spending."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What the case could mean",
+          "id": "what-the-case-could-mean"
+        },
+        {
+          "type": "paragraph",
+          "text": "If successful, the suit could force changes to how sponsored products appear in search results and how fees are calculated. Remedies under discussion in antitrust circles include stronger disclosure rules and limits on self-preferencing."
+        },
+        {
+          "type": "paragraph",
+          "text": "The case adds to a broader wave of federal and state actions targeting large platform companies over advertising, search and marketplace power."
+        }
+      ],
+      "seo": {
+        "metaTitle": "FTC and States Sue Amazon Over Advertising Practices",
+        "metaDescription": "The FTC and more than 20 states accused Amazon of deceptive ad practices that allegedly overcharged advertisers by billions of dollars.",
+        "ogTitle": "FTC Sues Amazon Over Ad Practices",
+        "ogDescription": "Multistate complaint alleges overcharging and limited competition on Amazon's platform.",
+        "ogImage": "/images/illustrations/ftc-sues-amazon-advertising-practices.webp",
+        "twitterTitle": "FTC and States Sue Amazon on Advertising",
+        "twitterDescription": "Complaint claims advertisers were overcharged and competition was limited.",
+        "keywords": [
+          "FTC Amazon lawsuit",
+          "advertising practices",
+          "antitrust",
+          "marketplace competition"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "08",
+      "day": "31",
+      "image": "/images/illustrations/house-republicans-investigate-dea-fentanyl-tactic.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-08-31T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "House Republicans are investigating a DEA tactic tied to fentanyl cases.",
+        "Critics say delayed seizures may have increased short-term street supply.",
+        "The DEA has defended controlled-delivery methods as necessary to target networks."
+      ],
+      "whyItMatters": "Fentanyl remains the leading driver of overdose deaths; any enforcement choice that trades short-term seizures for longer cases draws intense scrutiny.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "house-republicans-investigate-dea-fentanyl-tactic",
+      "title": "House Republicans open inquiry into DEA tactic tied to fentanyl trafficking",
+      "subtitle": "Lawmakers say a controversial enforcement approach may have allowed more of the drug onto U.S. streets",
+      "excerpt": "House Republicans launched an investigation into a Drug Enforcement Administration tactic that critics say permitted large volumes of fentanyl to reach the United States while agents pursued longer-term cases.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "dea",
+        "fentanyl"
+      ],
+      "date": "2026-08-31",
+      "toc": [
+        {
+          "id": "the-tactic",
+          "text": "The tactic under scrutiny"
+        },
+        {
+          "id": "congressional-concerns",
+          "text": "Congressional concerns"
+        },
+        {
+          "id": "agency-position",
+          "text": "Agency position"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "House Republicans have opened an investigation into a Drug Enforcement Administration approach that, according to critics, allowed significant quantities of fentanyl to move into the United States while agents built longer-running cases against trafficking networks."
+        },
+        {
+          "type": "paragraph",
+          "text": "The inquiry follows reporting and internal complaints that some controlled deliveries and delayed interdictions were authorized in ways that increased short-term street supply."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The tactic under scrutiny",
+          "id": "the-tactic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investigators are examining whether supervisors approved operations in which known shipments were monitored rather than immediately seized, with the goal of identifying higher-level organizers. Similar techniques are used in other drug investigations, but the lethality of fentanyl has raised the stakes of any delay."
+        },
+        {
+          "type": "paragraph",
+          "text": "Documents requested by the committee include after-action reports, risk assessments and communications between field offices and headquarters about specific operations."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Congressional concerns",
+          "id": "congressional-concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "Members of the House Oversight and Judiciary panels said the public deserves to know whether enforcement choices contributed to overdose deaths. They have asked the DEA for a full accounting of the policy and of any internal dissent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Democratic members have cautioned against second-guessing complex investigations without a complete record, while agreeing that fentanyl interdiction standards should be transparent."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Agency position",
+          "id": "agency-position"
+        },
+        {
+          "type": "paragraph",
+          "text": "The DEA has previously defended controlled-delivery techniques as essential to dismantling supply chains rather than merely seizing individual loads. The agency has not publicly detailed the specific operations under review."
+        },
+        {
+          "type": "paragraph",
+          "text": "A formal response to the committee's document requests is expected in the coming weeks."
+        }
+      ],
+      "seo": {
+        "metaTitle": "House GOP Investigates DEA Tactic Linked to Fentanyl Flow",
+        "metaDescription": "House Republicans are examining a DEA enforcement approach that critics say allowed more fentanyl onto U.S. streets during longer-term investigations.",
+        "ogTitle": "House Inquiry Into DEA Fentanyl Enforcement Tactic",
+        "ogDescription": "Lawmakers want records on controlled deliveries and delayed seizures involving fentanyl.",
+        "ogImage": "/images/illustrations/house-republicans-investigate-dea-fentanyl-tactic.webp",
+        "twitterTitle": "House Probes DEA Fentanyl Tactic",
+        "twitterDescription": "Investigation focuses on whether delayed seizures increased street supply.",
+        "keywords": [
+          "DEA investigation",
+          "fentanyl trafficking",
+          "House oversight",
+          "controlled delivery"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "08",
+      "day": "26",
+      "image": "/images/illustrations/secret-service-officials-under-investigation-misconduct.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-08-26T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "Three Secret Service employees are under internal investigation.",
+        "The review centers on the communications office and possible leaks.",
+        "Disciplinary outcomes have not yet been announced."
+      ],
+      "whyItMatters": "The Secret Service's handling of sensitive information is central to presidential security and to public confidence in the agency.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "secret-service-officials-under-investigation-misconduct",
+      "title": "Three Secret Service officials under investigation for potential misconduct",
+      "subtitle": "The internal review focuses on the agency's communications office amid broader scrutiny of security and leaks",
+      "excerpt": "The Secret Service's Office of Professional Responsibility is investigating three employees, including senior communications staff, for potential misconduct, according to people familiar with the matter.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "secret-service",
+        "security"
+      ],
+      "date": "2026-08-26",
+      "toc": [
+        {
+          "id": "who-is-under-review",
+          "text": "Who is under review"
+        },
+        {
+          "id": "context-of-scrutiny",
+          "text": "Context of scrutiny"
+        },
+        {
+          "id": "what-happens-next",
+          "text": "What happens next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Three Secret Service employees are under internal investigation for potential misconduct, the agency confirmed, with people familiar with the matter saying the review centers on the communications office rather than protective details."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Office of Professional Responsibility opened the review after concerns about possible unauthorized disclosures of sensitive information. Specific findings have not been made public."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Who is under review",
+          "id": "who-is-under-review"
+        },
+        {
+          "type": "paragraph",
+          "text": "The three employees are not sworn law-enforcement agents assigned to protection shifts, according to people briefed on the matter. One of the names circulating in reporting is a senior communications official who has served in the role since 2022."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency has declined to identify the individuals publicly while the process continues."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Context of scrutiny",
+          "id": "context-of-scrutiny"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Secret Service has faced repeated questions about security planning and about how information about the president's movements and protective details is controlled. The current administration has emphasized leak investigations across several agencies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Any finding that communications staff mishandled sensitive material would add to the pressure on an agency that has already undergone leadership and process reviews after prior security incidents."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What happens next",
+          "id": "what-happens-next"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Office of Professional Responsibility can recommend discipline ranging from counseling to removal. The timeline for a final decision was not disclosed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Congressional committees that oversee the agency said they will seek a briefing once the internal process concludes."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Three Secret Service Officials Under Misconduct Investigation",
+        "metaDescription": "The Secret Service is investigating three employees, including communications staff, for potential misconduct amid broader scrutiny of leaks and security.",
+        "ogTitle": "Secret Service Probes Three Officials for Misconduct",
+        "ogDescription": "Internal review focuses on the communications office and possible unauthorized disclosures.",
+        "ogImage": "/images/illustrations/secret-service-officials-under-investigation-misconduct.webp",
+        "twitterTitle": "Secret Service Officials Under Investigation",
+        "twitterDescription": "Three employees face internal review for potential misconduct.",
+        "keywords": [
+          "Secret Service investigation",
+          "misconduct",
+          "communications office",
+          "leaks"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "30",
+      "image": "/images/illustrations/foster-care-disabled-children-worst-outcomes.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-09-30T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "Children with disabilities are overrepresented in foster care and have the worst outcomes.",
+        "They stay longer, move more often and face higher rates of institutionalization and death.",
+        "Advocates want better training, support payments and limits on residential placement."
+      ],
+      "whyItMatters": "Foster care is meant to protect children; the data show the system is least effective for those who need the most support.",
+      "reportingNote": "This report is based on public statements, court filings and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "foster-care-disabled-children-worst-outcomes",
+      "title": "Foster care often fails children with disabilities, investigation finds",
+      "subtitle": "Disabled kids make up a large share of foster placements and face the highest risks of long stays and poor outcomes",
+      "excerpt": "An examination of foster-care data and case records shows that children with disabilities remain in care longer, experience worse outcomes and are more likely to die in the system than their peers without disabilities.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "child-welfare",
+        "disability"
+      ],
+      "date": "2026-09-30",
+      "toc": [
+        {
+          "id": "the-numbers",
+          "text": "The numbers"
+        },
+        {
+          "id": "system-gaps",
+          "text": "System gaps"
+        },
+        {
+          "id": "what-advocates-want",
+          "text": "What advocates want"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Children with disabilities form one of the largest groups in the foster-care system and consistently record the worst outcomes, according to a review of national data and individual case histories."
+        },
+        {
+          "type": "paragraph",
+          "text": "They stay in care longer, move among placements more often and face higher rates of institutionalization and death than children without documented disabilities."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The numbers",
+          "id": "the-numbers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Federal and state data show that disabled children are overrepresented in foster care relative to their share of the child population. Once in the system, they are less likely to exit to permanent family placements and more likely to age out without a permanent home."
+        },
+        {
+          "type": "paragraph",
+          "text": "Case reviews examined for this reporting described repeated placement breakdowns when caregivers lacked training or support for medical and behavioral needs."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "System gaps",
+          "id": "system-gaps"
+        },
+        {
+          "type": "paragraph",
+          "text": "Child-welfare agencies often struggle to find foster homes equipped for complex medical care. Group homes and residential facilities fill the gap in many states, but those settings can limit family contact and educational stability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Training for foster parents on disability-specific needs remains uneven, and coordination with Medicaid and special-education systems is frequently cited as a weak point by caseworkers."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What advocates want",
+          "id": "what-advocates-want"
+        },
+        {
+          "type": "paragraph",
+          "text": "Advocacy groups are pressing for higher support payments for specialized foster homes, mandatory disability training and stronger requirements that agencies exhaust family-based options before residential placement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Several state legislatures have opened hearings on the issue this year after high-profile deaths of children with disabilities in care. Federal child-welfare officials said they are reviewing guidance on placement standards."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Foster Care Often Fails Children With Disabilities",
+        "metaDescription": "Children with disabilities stay longer in foster care, face worse outcomes and higher death rates than peers without disabilities, according to data and case reviews.",
+        "ogTitle": "Investigation: Foster Care Fails Many Disabled Children",
+        "ogDescription": "Data show longer stays, more institutionalization and higher risk of death for children with disabilities in care.",
+        "ogImage": "/images/illustrations/foster-care-disabled-children-worst-outcomes.webp",
+        "twitterTitle": "Foster Care Outcomes Worst for Disabled Children",
+        "twitterDescription": "Investigation finds longer stays and higher risks for kids with disabilities in the system.",
+        "keywords": [
+          "foster care disabilities",
+          "child welfare investigation",
+          "disabled children outcomes",
+          "placement failures"
+        ]
+      }
+    }
+  ]
+}

@@ -13,6 +13,8 @@ export default function CategoryTabWidget({
 }) {
   const [page, setPage] = useState(0);
   const category = getCategoryBySlug(categorySlug);
+
+  // Strict: only unused posts from this category (no re-showing homepage duplicates)
   const pool = getPostsByCategory(categorySlug, excludeSlugs);
   const maxPage = Math.max(0, Math.ceil(pool.length / 3) - 1);
   const posts = pool.slice(page * 3, page * 3 + 3);

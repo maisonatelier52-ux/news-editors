@@ -6,9 +6,7 @@ import { getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/lib/data';
  * Full-bleed themed section on a tinted background, matching the reference
  * "SUMMER" package: an eyebrow label + full-width hairline across the top,
  * a text-only lead story on the left, one large image in the center, and
- * a small image with its own caption on the right. The rust/orange kicker
- * color is specific to this section (a themed accent, distinct from the
- * site's usual blue) — same treatment as the source.
+ * a small image with its own caption on the right.
  */
 export default function ThemedFeature({ label, posts = [] }) {
   if (posts.length < 2) return null;
@@ -20,14 +18,15 @@ export default function ThemedFeature({ label, posts = [] }) {
 
   return (
     <section className="bg-[#f7ede1]">
-      <div className="max-w-container mx-auto px-4 py-8">
-        <div className="pb-2 mb-6 border-b border-ink/70">
+      {/* Tighter vertical padding on mobile to avoid large empty bands */}
+      <div className="max-w-container mx-auto px-4 py-5 sm:py-7 lg:py-8">
+        <div className="pb-2 mb-4 sm:mb-5 border-b border-ink/70">
           <span className="font-serif font-bold text-xs uppercase tracking-widest text-ink">
             {label}
           </span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,280px)_1fr_minmax(0,280px)] gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,280px)_1fr_minmax(0,280px)] gap-5 sm:gap-6 lg:gap-8 items-start">
           {/* Left — text-only lead */}
           <div>
             <h3 className="text-[clamp(1.2rem,0.9vw+1rem,1.6rem)] font-serif font-bold leading-[1.15] text-ink">

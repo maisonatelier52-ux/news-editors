@@ -13,13 +13,11 @@ const sections = [
     ],
   },
   {
-    title: 'Technology',
+    title: 'More',
     links: [
-      ['Reviews', '/reviews'],
-      ['Phones', '/phones'],
-      ['Laptops', '/laptops'],
-      ['Cameras', '/cameras'],
-      ['Headphones', '/headphones'],
+      ['Politics', '/politics'],
+      ['Investigation', '/investigation'],
+      ['Technology', '/technology'],
     ],
   },
   {
@@ -27,7 +25,6 @@ const sections = [
     links: [
       ['How we write', '/editorial-standards'],
       ['Updates & corrections', '/editorial-standards#corrections'],
-      ['How we review', '/editorial-standards#reviews'],
       ['About News Editors', '/about'],
     ],
   },
@@ -43,7 +40,7 @@ export default function Footer() {
           <Logo variant="light" size="lg" />
           <p className="mt-5 font-serif text-lg leading-8 text-slate-300">{site.tagline}</p>
           <p className="mt-5 max-w-sm text-sm leading-6 text-slate-400">
-            Every post is labeled by format, carries a visible update record and links to the sources or review approach behind it.
+            Every post is labeled by format, carries a visible update record and links to the sources or reporting approach behind it.
           </p>
         </div>
 
@@ -68,7 +65,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-container flex-col gap-2 px-4 py-5 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
           <span>{site.copyright}</span>
-          <span>An independent blog about ideas, technology and the wider world.</span>
+          <span>An independent news site covering politics, investigations, technology and the wider world.</span>
         </div>
       </div>
     </footer>

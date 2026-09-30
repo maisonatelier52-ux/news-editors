@@ -1,31 +1,47 @@
 {
   "name": "News Editors",
-  "tagline": "An independent blog about technology, money and the wider world—written with curiosity, useful context and links worth following.",
-  "siteUrl": "https://www.news-editors.com",
+  "tagline": "Independent reporting on politics, investigations, technology and the wider world.",
+  "description": "An independent news site covering U.S. and world affairs, business, finance, politics, investigations and technology.",
+  "url": "https://news-editors.com",
   "logo": "/images/logo/site-logo.svg",
   "mainNav": [
-    { "label": "Home", "href": "/" },
-    { "label": "U.S.", "href": "/us" },
-    { "label": "World", "href": "/world" },
-    { "label": "Business", "href": "/business" },
-    { "label": "Finance", "href": "/finance" },
     {
-      "label": "Reviews",
-      "href": "/reviews",
-      "children": [
-        { "label": "Tablets", "href": "/tablets" },
-        { "label": "Laptops", "href": "/laptops" },
-        { "label": "Phones", "href": "/phones" },
-        { "label": "Cameras", "href": "/cameras" },
-        { "label": "Headphones", "href": "/headphones" }
-      ]
+      "label": "Home",
+      "href": "/"
     },
-    { "label": "How we write", "href": "/editorial-standards" }
+    {
+      "label": "U.S.",
+      "href": "/us"
+    },
+    {
+      "label": "World",
+      "href": "/world"
+    },
+    {
+      "label": "Business",
+      "href": "/business"
+    },
+    {
+      "label": "Finance",
+      "href": "/finance"
+    },
+    {
+      "label": "Politics",
+      "href": "/politics"
+    },
+    {
+      "label": "Investigation",
+      "href": "/investigation"
+    },
+    {
+      "label": "Technology",
+      "href": "/technology"
+    }
   ],
-  "copyright": "© 2026 News Editors",
+  "copyright": "\u00a9 2026 News Editors",
   "newsletter": {
     "eyebrow": "From the blog",
     "title": "Thoughtful posts for curious readers.",
-    "description": "A concise selection of explainers, observations and practical technology guides."
+    "description": "A concise selection of explainers, investigations and technology reporting."
   }
 }

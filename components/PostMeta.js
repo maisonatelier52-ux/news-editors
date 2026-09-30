@@ -29,7 +29,7 @@ export default function PostMeta({
         </Link>
       )}
       <span>{formatDate(post.date)}</span>
-      {showViews && (
+      {showViews && post.views > 0 && (
         <span className="flex items-center gap-1 text-brand font-semibold">
           <Icon name="bolt" className="w-3.5 h-3.5" />
           {formatViews(post.views)}

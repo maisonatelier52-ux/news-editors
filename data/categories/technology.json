@@ -1,0 +1,700 @@
+{
+  "articles": [
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "09",
+      "image": "/images/illustrations/apple-debuts-foldable-iphone-duo.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-09-09T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "Apple introduced two foldable iPhone models at its September event.",
+        "Preorders open later this month with shipments expected in October.",
+        "The move is expected to expand the foldable category beyond early adopters."
+      ],
+      "whyItMatters": "Apple's entry into foldables is likely to set software and durability expectations for the entire category.",
+      "reportingNote": "This report is based on public statements, company disclosures and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "apple-debuts-foldable-iphone-duo",
+      "title": "Apple debuts foldable iPhone duo in its biggest device redesign in years",
+      "subtitle": "The company unveiled two foldable models as part of a broader hardware refresh",
+      "excerpt": "Apple introduced a pair of foldable iPhones at its September event, marking the company's most significant industrial-design shift in the smartphone line since the move to larger displays a decade ago.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "apple",
+        "smartphones"
+      ],
+      "date": "2026-09-09",
+      "toc": [
+        {
+          "id": "the-devices",
+          "text": "The devices"
+        },
+        {
+          "id": "pricing-and-availability",
+          "text": "Pricing and availability"
+        },
+        {
+          "id": "what-it-signals",
+          "text": "What it signals"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Apple on Tuesday unveiled two foldable iPhone models, the centerpiece of a hardware event that also included updates to watches and computers. The foldables represent the largest change to iPhone industrial design in years."
+        },
+        {
+          "type": "paragraph",
+          "text": "One model folds inward like a book; the other uses a different hinge geometry aimed at a more compact closed form. Both run the latest version of iOS with interface adjustments for the dual-display layouts."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The devices",
+          "id": "the-devices"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apple emphasized durability testing of the hinge and display stack, addressing the durability questions that have followed foldable phones from other manufacturers. The company said the inner display uses a new cover material and that the hinge is rated for hundreds of thousands of open-close cycles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Camera systems on both models match or exceed the current flagship non-foldable iPhone in still and video capability, according to Apple's specifications."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pricing and availability",
+          "id": "pricing-and-availability"
+        },
+        {
+          "type": "paragraph",
+          "text": "Preorders open later this month, with first shipments expected in October. Pricing starts above the current non-foldable flagship, reflecting the more complex mechanics and display."
+        },
+        {
+          "type": "paragraph",
+          "text": "Carriers in the United States and major international markets have already published trade-in and installment plans for the new models."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What it signals",
+          "id": "what-it-signals"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apple's entry into foldables is widely expected to expand the category beyond early adopters. Competing manufacturers have sold foldables for several years; Apple's scale and software integration are likely to accelerate mainstream adoption."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts will watch early return rates and repair data closely, given the higher mechanical complexity compared with slab phones."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Apple Debuts Foldable iPhone Duo in Major Redesign",
+        "metaDescription": "Apple unveiled two foldable iPhone models at its September event, the biggest design shift in the smartphone line in years.",
+        "ogTitle": "Apple Launches Foldable iPhones",
+        "ogDescription": "Two foldable models headline a broader hardware refresh as Apple enters a category rivals have sold for years.",
+        "ogImage": "/images/illustrations/apple-debuts-foldable-iphone-duo.webp",
+        "twitterTitle": "Apple Unveils Foldable iPhone Pair",
+        "twitterDescription": "Biggest iPhone design change in years; preorders open later this month.",
+        "keywords": [
+          "Apple foldable iPhone",
+          "iPhone redesign 2026",
+          "foldable smartphone",
+          "Apple September event"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "29",
+      "image": "/images/illustrations/trump-meets-ai-executives-voluntary-safeguards.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-09-29T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "Trump met AI executives and secured voluntary safety commitments.",
+        "The administration continues to prefer the term 'super intelligence.'",
+        "No new binding regulation was announced."
+      ],
+      "whyItMatters": "How the largest AI firms are governed will shape both innovation speed and public risk for years; voluntary frameworks are the current centerpiece of U.S. policy.",
+      "reportingNote": "This report is based on public statements, company disclosures and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "trump-meets-ai-executives-voluntary-safeguards",
+      "title": "Trump meets AI executives, pushes voluntary safeguards and a rebrand",
+      "subtitle": "The White House asked industry leaders to police themselves and preferred the term 'super intelligence'",
+      "excerpt": "President Trump hosted major artificial-intelligence executives at the White House, extracting voluntary safety commitments while promoting a rebrand of AI as 'super intelligence,' the term he prefers.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "artificial-intelligence",
+        "policy"
+      ],
+      "date": "2026-09-29",
+      "toc": [
+        {
+          "id": "the-meeting",
+          "text": "The meeting"
+        },
+        {
+          "id": "voluntary-commitments",
+          "text": "Voluntary commitments"
+        },
+        {
+          "id": "the-rebrand",
+          "text": "The rebrand"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "President Trump met with leading artificial-intelligence executives at the White House and asked the industry to adopt voluntary safeguards while he promoted a rebrand of the technology as \"super intelligence.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The session produced public commitments on testing and transparency from several major labs and cloud providers. It stopped short of new binding regulation."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The meeting",
+          "id": "the-meeting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Attendees included executives from the largest model developers and infrastructure companies. Seating and speaking order were closely watched as indicators of which firms currently have the administration's ear."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trump told the group he does not intend to stifle growth and that the United States must stay ahead of China in advanced computing and model capability."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Voluntary commitments",
+          "id": "voluntary-commitments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies agreed to expand pre-deployment testing for certain high-capability systems and to share more information with the government about serious safety incidents. The commitments build on earlier voluntary frameworks that some firms had already joined."
+        },
+        {
+          "type": "paragraph",
+          "text": "Critics said voluntary measures lack enforcement and that the industry has repeatedly under-delivered on similar promises. Supporters argued that flexible guidelines can move faster than legislation."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The rebrand",
+          "id": "the-rebrand"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trump has repeatedly preferred the phrase \"super intelligence\" over \"artificial intelligence.\" An executive order and several White House materials this month used the preferred term, and the president urged companies to adopt it in public communications."
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether the rebrand sticks outside official channels remains to be seen; most technical and academic literature continues to use established terminology."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Trump Meets AI Executives on Voluntary Safeguards",
+        "metaDescription": "President Trump hosted AI industry leaders, secured voluntary safety commitments and pushed a rebrand of artificial intelligence as 'super intelligence.'",
+        "ogTitle": "White House AI Meeting Yields Voluntary Safeguards",
+        "ogDescription": "Executives agreed to expanded testing and incident reporting while the president promoted his preferred terminology.",
+        "ogImage": "/images/illustrations/trump-meets-ai-executives-voluntary-safeguards.webp",
+        "twitterTitle": "Trump Pushes AI Safeguards and Rebrand",
+        "twitterDescription": "Voluntary commitments and a push to call AI 'super intelligence' after White House meeting.",
+        "keywords": [
+          "AI policy",
+          "White House AI meeting",
+          "voluntary safeguards",
+          "super intelligence"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "08",
+      "day": "02",
+      "image": "/images/illustrations/eu-ai-act-transparency-rules-take-effect.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-08-02T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "EU AI Act transparency rules began applying in August 2026.",
+        "Providers must disclose certain AI-generated content.",
+        "High-risk system rules are scheduled for later years."
+      ],
+      "whyItMatters": "The EU regime is the most comprehensive AI law in force and influences how global companies design products for European users.",
+      "reportingNote": "This report is based on public statements, company disclosures and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "eu-ai-act-transparency-rules-take-effect",
+      "title": "EU AI Act transparency rules take effect for major providers",
+      "subtitle": "Key disclosure obligations began applying in August as the bloc phases in its comprehensive AI law",
+      "excerpt": "Major provisions of the European Union's AI Act governing transparency for certain AI systems began applying in August, requiring providers and deployers to disclose when content is machine-generated and to meet other labeling duties.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "ai-regulation",
+        "europe"
+      ],
+      "date": "2026-08-02",
+      "toc": [
+        {
+          "id": "what-took-effect",
+          "text": "What took effect"
+        },
+        {
+          "id": "industry-response",
+          "text": "Industry response"
+        },
+        {
+          "id": "timeline-ahead",
+          "text": "Timeline ahead"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Key transparency requirements under the European Union's Artificial Intelligence Act began applying on August 2, marking a major phase of the bloc's comprehensive AI regulation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Providers and deployers of certain systems must now disclose when content is generated by AI and meet related labeling and documentation duties. Nearly 200 companies, including large U.S. technology firms, had signed a code of practice intended to demonstrate compliance."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What took effect",
+          "id": "what-took-effect"
+        },
+        {
+          "type": "paragraph",
+          "text": "The August tranche focuses on transparency for general-purpose and generative systems rather than the full set of high-risk obligations. High-risk system rules are scheduled for later phases, with some postponed into 2027 and 2028."
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies must ensure users can recognize AI-generated material in the contexts covered by the act and maintain technical documentation that regulators can request."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Industry response",
+          "id": "industry-response"
+        },
+        {
+          "type": "paragraph",
+          "text": "Large providers said they had prepared labeling and watermarking systems in advance of the deadline. Some smaller European startups have argued that the compliance burden is heavier relative to their resources."
+        },
+        {
+          "type": "paragraph",
+          "text": "U.S. firms operating in Europe must meet the same standards for products and services offered to EU users, effectively exporting parts of the regime beyond the bloc's borders."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Timeline ahead",
+          "id": "timeline-ahead"
+        },
+        {
+          "type": "paragraph",
+          "text": "Enforcement capacity at national authorities is still being built. Early actions are expected to focus on clear non-compliance rather than edge cases."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next major deadlines involve high-risk systems used in employment, credit, law enforcement and critical infrastructure\u2014areas where the political and commercial stakes are higher."
+        }
+      ],
+      "seo": {
+        "metaTitle": "EU AI Act Transparency Rules Take Effect",
+        "metaDescription": "Major transparency obligations under the EU AI Act began applying in August, requiring disclosure of AI-generated content and related documentation.",
+        "ogTitle": "EU AI Transparency Rules Now in Force",
+        "ogDescription": "Providers must label certain AI-generated content as the bloc phases in its comprehensive AI law.",
+        "ogImage": "/images/illustrations/eu-ai-act-transparency-rules-take-effect.webp",
+        "twitterTitle": "EU AI Act Transparency Rules Begin",
+        "twitterDescription": "Labeling and disclosure duties now apply to major AI providers in Europe.",
+        "keywords": [
+          "EU AI Act",
+          "AI transparency",
+          "generative AI regulation",
+          "Europe AI law"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "08",
+      "day": "10",
+      "image": "/images/illustrations/nvidia-raises-500-billion-ai-infrastructure-financing.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": false,
+      "updatedAt": "2026-08-10T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "Nvidia is facilitating more than $500 billion in third-party AI infrastructure financing.",
+        "The capital is intended for data centers that will use Nvidia accelerators.",
+        "Power and interconnection remain constraints even with more funding available."
+      ],
+      "whyItMatters": "Chip supply is only useful if data centers can be built and powered; financing at this scale is meant to close that gap.",
+      "reportingNote": "This report is based on public statements, company disclosures and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "nvidia-raises-500-billion-ai-infrastructure-financing",
+      "title": "Nvidia mobilizes more than $500 billion for AI infrastructure financing",
+      "subtitle": "Partnerships with banks and investors aim to fund data-center buildouts tied to the company's chips",
+      "excerpt": "Nvidia said it has established financing partnerships expected to mobilize more than $500 billion in third-party capital for AI computing infrastructure, expanding the pool of money available for data-center construction.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "nvidia",
+        "ai-infrastructure"
+      ],
+      "date": "2026-08-10",
+      "toc": [
+        {
+          "id": "the-structure",
+          "text": "The structure"
+        },
+        {
+          "id": "why-it-matters-for-customers",
+          "text": "Why it matters for customers"
+        },
+        {
+          "id": "risks-and-competition",
+          "text": "Risks and competition"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nvidia announced financing partnerships designed to mobilize more than $500 billion in third-party capital for artificial-intelligence computing infrastructure, a move aimed at easing the funding bottleneck for large data-center projects that rely on its chips."
+        },
+        {
+          "type": "paragraph",
+          "text": "The structure involves banks, institutional investors and specialized infrastructure funds that will finance facilities expected to house Nvidia accelerators."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The structure",
+          "id": "the-structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than putting the full amount on Nvidia's own balance sheet, the company is facilitating capital from outside investors who will own or lend against data-center assets. Nvidia benefits by expanding the installed base of its hardware without carrying all of the real-estate and power risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Details on individual facility sizes and geographies were not fully disclosed; the program is global in ambition and focused on markets with available power and interconnection."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why it matters for customers",
+          "id": "why-it-matters-for-customers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cloud providers and large enterprises have struggled to secure enough financed capacity to match model-training and inference demand. A deeper financing pool can shorten the lag between chip availability and usable data-center space."
+        },
+        {
+          "type": "paragraph",
+          "text": "Power procurement and grid interconnection remain binding constraints in many regions; capital alone does not solve those bottlenecks."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Risks and competition",
+          "id": "risks-and-competition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Concentrated dependence on a single chip supplier creates financing and technology risk if demand patterns shift or if competing accelerators gain share. Hyperscalers continue to develop custom silicon even as they buy large volumes of Nvidia products."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors will watch utilization rates and power costs closely as the first wave of financed projects comes online."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Nvidia Mobilizes $500 Billion for AI Infrastructure Finance",
+        "metaDescription": "Nvidia said financing partnerships will mobilize more than $500 billion in third-party capital for data centers built around its AI chips.",
+        "ogTitle": "Nvidia Backs $500 Billion AI Infrastructure Push",
+        "ogDescription": "Banks and investors will fund data-center buildouts tied to Nvidia accelerators.",
+        "ogImage": "/images/illustrations/nvidia-raises-500-billion-ai-infrastructure-financing.webp",
+        "twitterTitle": "Nvidia Facilitates $500B AI Infrastructure Financing",
+        "twitterDescription": "Third-party capital aimed at data centers that will house Nvidia chips.",
+        "keywords": [
+          "Nvidia financing",
+          "AI data centers",
+          "infrastructure capital",
+          "AI chips"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "09",
+      "day": "29",
+      "image": "/images/illustrations/openai-security-warnings-ignored-employees.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": true,
+      "updatedAt": "2026-09-29T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "OpenAI staff raised repeated concerns about security and model testing.",
+        "The warnings covered both safety evaluation and corporate infrastructure.",
+        "The company says it continues to invest in safeguards and red-teaming."
+      ],
+      "whyItMatters": "How leading AI labs handle internal security dissent affects both product risk and the credibility of voluntary safety commitments.",
+      "reportingNote": "This report is based on public statements, company disclosures and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "openai-security-warnings-ignored-employees",
+      "title": "OpenAI employees warned about security gaps, reporting finds",
+      "subtitle": "Internal concerns about model testing and corporate infrastructure went unheeded, according to people familiar with the discussions",
+      "excerpt": "Employees and security researchers at OpenAI raised repeated concerns about how the company tested advanced models and hardened its infrastructure, according to reporting based on internal accounts, but the warnings did not produce the changes they sought.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "openai",
+        "cybersecurity"
+      ],
+      "date": "2026-09-29",
+      "toc": [
+        {
+          "id": "the-warnings",
+          "text": "The warnings"
+        },
+        {
+          "id": "company-position",
+          "text": "Company position"
+        },
+        {
+          "id": "broader-industry-pattern",
+          "text": "Broader industry pattern"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "OpenAI employees and outside security researchers warned the company that it was not doing enough to test advanced models safely or to strengthen corporate infrastructure, according to people familiar with internal discussions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The concerns covered both the evaluation of new model capabilities before release and the protection of systems that hold sensitive research and customer data."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The warnings",
+          "id": "the-warnings"
+        },
+        {
+          "type": "paragraph",
+          "text": "Staff who worked on safety and security described a pattern in which risk reports were acknowledged but did not consistently change release timelines or investment priorities. Some of the warnings related to how models could be misused; others focused on classical cybersecurity of the company's own networks."
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenAI has faced several high-profile security and safety incidents in the past two years, increasing scrutiny of its internal processes."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Company position",
+          "id": "company-position"
+        },
+        {
+          "type": "paragraph",
+          "text": "OpenAI has said it invests heavily in safety research and red-teaming and that it continuously improves its security posture. The company has not publicly detailed every internal warning described in recent reporting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Executives have argued that the pace of capability improvement requires parallel investment in safeguards and that perfect process is not a realistic standard in a fast-moving field."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Broader industry pattern",
+          "id": "broader-industry-pattern"
+        },
+        {
+          "type": "paragraph",
+          "text": "Similar tensions between product speed and security investment have surfaced at other major AI labs. Regulators in the United States and Europe are watching whether voluntary commitments translate into measurable process changes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors and enterprise customers are also asking harder questions about incident response and model-evaluation rigor before signing large contracts."
+        }
+      ],
+      "seo": {
+        "metaTitle": "OpenAI Staff Warned About Security Gaps, Report Says",
+        "metaDescription": "Employees and researchers at OpenAI raised concerns about model testing and infrastructure security that did not fully change the company's approach, according to internal accounts.",
+        "ogTitle": "OpenAI Security Warnings Went Unheeded, Reporting Finds",
+        "ogDescription": "Internal concerns covered both model evaluation and corporate cybersecurity.",
+        "ogImage": "/images/illustrations/openai-security-warnings-ignored-employees.webp",
+        "twitterTitle": "OpenAI Employees Raised Security Alarms",
+        "twitterDescription": "Warnings about model testing and infrastructure did not produce the changes staff sought.",
+        "keywords": [
+          "OpenAI security",
+          "AI safety",
+          "model testing",
+          "cybersecurity"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "08",
+      "day": "26",
+      "image": "/images/illustrations/microsoft-plans-data-center-capacity-triple.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-08-26T12:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "Microsoft plans to roughly triple its data-center computing capacity.",
+        "Demand for AI and cloud services has already exceeded available supply.",
+        "Power and local permitting remain the main execution risks."
+      ],
+      "whyItMatters": "Hyperscale capacity determines how quickly enterprises can deploy AI; Microsoft's expansion is one of the largest responses to the current shortage.",
+      "reportingNote": "This report is based on public statements, company disclosures and contemporaneous coverage of the events described.",
+      "sources": [],
+      "slug": "microsoft-plans-data-center-capacity-triple",
+      "title": "Microsoft plans data-center push to triple computing capacity",
+      "subtitle": "Shortages forced the company to turn away some AI and cloud customers; a multi-year buildout is meant to close the gap",
+      "excerpt": "Microsoft is planning a major expansion of data-center capacity, targeting roughly a tripling of its computing power to meet demand for artificial intelligence and cloud services that has already outstripped supply.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "microsoft",
+        "cloud"
+      ],
+      "date": "2026-08-26",
+      "toc": [
+        {
+          "id": "the-plan",
+          "text": "The plan"
+        },
+        {
+          "id": "demand-pressure",
+          "text": "Demand pressure"
+        },
+        {
+          "id": "constraints",
+          "text": "Constraints"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Microsoft is preparing a multi-year data-center expansion intended to roughly triple its available computing capacity, responding to AI and cloud demand that has already forced the company to turn away some business."
+        },
+        {
+          "type": "paragraph",
+          "text": "The plan contemplates on the order of 38 gigawatts of data-center capacity over time, a scale that would require substantial new power contracts and land in multiple regions."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The plan",
+          "id": "the-plan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microsoft has been one of the largest buyers of advanced AI accelerators and has tied much of its cloud growth to OpenAI-related and first-party AI services. Capacity shortfalls have limited how quickly some enterprise customers can scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "The expansion covers both training-oriented clusters and inference capacity closer to end users."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Demand pressure",
+          "id": "demand-pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Enterprise adoption of generative AI tools has grown faster than many operators expected. Microsoft's cloud segment has reported strong growth, but executives have acknowledged that supply, not demand, has been the binding constraint in several quarters."
+        },
+        {
+          "type": "paragraph",
+          "text": "Competitors face similar pressure; the race is as much about power and permits as about chips."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Constraints",
+          "id": "constraints"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grid interconnection queues, local opposition to large facilities and the cost of reliable power remain the main risks to the timeline. Some communities have resisted new data centers over water and electricity use."
+        },
+        {
+          "type": "paragraph",
+          "text": "Microsoft has said it will continue to invest in efficiency and in renewable energy contracts to address those concerns while still meeting customer demand."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Microsoft Plans Data-Center Expansion to Triple Capacity",
+        "metaDescription": "Microsoft is targeting a roughly threefold increase in computing capacity to meet AI and cloud demand that has already outstripped supply.",
+        "ogTitle": "Microsoft Aims to Triple Data-Center Computing Power",
+        "ogDescription": "Multi-year buildout responds to shortages that forced the company to turn away some customers.",
+        "ogImage": "/images/illustrations/microsoft-plans-data-center-capacity-triple.webp",
+        "twitterTitle": "Microsoft to Triple Computing Capacity",
+        "twitterDescription": "Data-center expansion planned as AI demand exceeds current supply.",
+        "keywords": [
+          "Microsoft data centers",
+          "cloud capacity",
+          "AI infrastructure",
+          "computing power"
+        ]
+      }
+    }
+  ]
+}

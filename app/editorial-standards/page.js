@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'How we write',
-  description: 'How the News Editors blog researches, labels, updates and corrects its posts and reviews.',
+  description: 'How News Editors researches, labels, updates and corrects its reporting.',
 };
 
 const evidence = [
