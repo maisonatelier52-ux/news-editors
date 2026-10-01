@@ -5,15 +5,20 @@ import {
   getSite,
 } from '@/lib/data';
 
+/** Required for next.config `output: 'export'` */
+export const dynamic = 'force-static';
+
 /**
- * Next.js App Router sitemap.
- * Reads live data from lib/data.js, so any article added to a category JSON
- * (or new category in categories.json) is included on the next request/build
- * without editing this file.
+ * Next.js App Router sitemap (static export compatible).
+ * New articles in category JSON files are included on each build.
  */
 export default function sitemap() {
   const site = getSite();
-  const SITE_URL = (site?.siteUrl || 'https://www.news-editors.com').replace(/\/$/, '');
+  const SITE_URL = (
+    site?.siteUrl ||
+    site?.url ||
+    'https://www.news-editors.com'
+  ).replace(/\/$/, '');
   const now = new Date();
 
   const staticPages = [

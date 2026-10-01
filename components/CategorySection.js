@@ -3,10 +3,19 @@ import Icon from '@/components/Icon';
 import PostCard from '@/components/PostCard';
 import { getPostsByCategory, getCategoryBySlug } from '@/lib/data';
 
-export default function CategorySection({ categorySlug, limit = 5, excludeSlugs = [] }) {
+export default function CategorySection({ categorySlug, limit = 4, excludeSlugs = [] }) {
   const category = getCategoryBySlug(categorySlug);
-  // Strict: only posts not already shown higher on the homepage
-  const posts = getPostsByCategory(categorySlug, excludeSlugs).slice(0, limit);
+
+  // Prefer unused; top up from full category so the 2-col layout has enough
+  // cards on the right and does not leave a large empty gap.
+  let posts = getPostsByCategory(categorySlug, excludeSlugs).slice(0, limit);
+  if (posts.length < limit) {
+    const have = new Set(posts.map((p) => p.slug));
+    const extra = getPostsByCategory(categorySlug, [])
+      .filter((p) => !have.has(p.slug))
+      .slice(0, limit - posts.length);
+    posts = [...posts, ...extra];
+  }
 
   if (!category || posts.length === 0) return null;
 
@@ -26,7 +35,7 @@ export default function CategorySection({ categorySlug, limit = 5, excludeSlugs 
           <Icon name="chevronRight" className="w-3.5 h-3.5" filled={false} />
         </Link>
       </div>
-      <div className={others.length > 0 ? 'grid grid-cols-1 lg:grid-cols-2 gap-6 items-start' : 'grid grid-cols-1'}>
+      <div className={others.length > 0 ? 'grid grid-cols-1 lg:grid-cols-2 gap-6' : 'grid grid-cols-1'}>
         <PostCard post={featured} variant="hero" showReadMore />
         {others.length > 0 && (
           <div className="flex flex-col gap-5">

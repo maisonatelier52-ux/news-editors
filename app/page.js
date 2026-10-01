@@ -5,6 +5,7 @@ import StandardsWidget from '@/components/StandardsWidget';
 import LastModifiedWidget from '@/components/LastModifiedWidget';
 import PopularWidget from '@/components/PopularWidget';
 import CategoryTabWidget from '@/components/CategoryTabWidget';
+import CategorySection from '@/components/CategorySection';
 import OpinionStrip from '@/components/OpinionStrip';
 import ThemedFeature from '@/components/ThemedFeature';
 import LatestArticles from '@/components/LatestArticles';
@@ -31,21 +32,26 @@ export default function HomePage() {
   take(
     getAllPosts()
       .filter((p) => !used.has(p.slug) && p.slug !== JULIO_SLUG && p.slug !== OPENAI_SLUG)
-      .slice(0, 7)
+      .slice(0, 6)
       .concat(getAllPosts().filter((p) => p.slug === JULIO_SLUG || p.slug === OPENAI_SLUG))
   );
 
   const mustReadExclude = usedSlugs();
-  take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 7));
+  take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 6));
 
   const popularExclude = usedSlugs();
   const popular = take(getMostViewedPosts(9, popularExclude));
 
   const recentForSidebar = getRecentPosts(6, null, usedSlugs());
 
-  // Technology column only (Politics middle removed — was often empty after dedupe)
-  const technologyExclude = usedSlugs();
-  take(getPostsByCategory('technology', technologyExclude).slice(0, 3));
+  // Politics & Technology: empty exclude so columns fill with 3 cards each
+  // (CategoryTabWidget also tops up from the full category if needed).
+  take(getPostsByCategory('politics', []).slice(0, 3));
+  take(getPostsByCategory('technology', []).slice(0, 3));
+
+  // Investigation: empty exclude so the 2-col section gets a full right stack
+  const investigationPosts = getPostsByCategory('investigation', []).slice(0, 4);
+  take(investigationPosts);
 
   let financePosts = getPostsByCategory('finance', usedSlugs()).slice(0, 2);
   if (financePosts.length < 2) {
@@ -92,18 +98,34 @@ export default function HomePage() {
         </aside>
       </div>
 
-      {/* Two columns: Reader guide expands full width up to Technology */}
-      <div className="max-w-container mx-auto px-4 py-6 sm:py-8 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8 lg:gap-0 items-start">
+      <div className="max-w-container mx-auto px-4 py-6 sm:py-8 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0 items-start">
         <div className="lg:pr-8">
           <PopularWidget posts={popular} />
+        </div>
+        <div className="lg:px-8 lg:border-l lg:border-[#808080]/40">
+          <CategoryTabWidget
+            categorySlug="politics"
+            excludeSlugs={[]}
+            showComments
+          />
         </div>
         <div className="lg:pl-8 lg:border-l lg:border-[#808080]/40">
           <CategoryTabWidget
             categorySlug="technology"
-            excludeSlugs={technologyExclude}
+            excludeSlugs={[]}
           />
         </div>
       </div>
+
+      {investigationPosts.length > 0 && (
+        <div className="max-w-container mx-auto px-4 pt-6 pb-4 sm:pt-8 sm:pb-5">
+          <CategorySection
+            categorySlug="investigation"
+            limit={4}
+            excludeSlugs={[]}
+          />
+        </div>
+      )}
 
       <ThemedFeature label="Finance" posts={financePosts} />
 

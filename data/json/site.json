@@ -2,7 +2,8 @@
   "name": "News Editors",
   "tagline": "Independent reporting on politics, investigations, technology and the wider world.",
   "description": "An independent news site covering U.S. and world affairs, business, finance, politics, investigations and technology.",
-  "url": "https://news-editors.com",
+  "url": "https://www.news-editors.com",
+  "siteUrl": "https://www.news-editors.com",
   "logo": "/images/logo/site-logo.svg",
   "mainNav": [
     {
