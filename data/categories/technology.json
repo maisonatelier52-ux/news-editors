@@ -14,7 +14,6 @@
       "commentsList": [],
       "articleType": "News report",
       "imageCaption": "Editorial illustration of two foldable smartphone devices opening like books",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI",
       "keyTakeaways": [
         "Apple introduced two foldable iPhone models at its September event.",
         "Preorders open later this month with shipments expected in October.",
@@ -130,7 +129,6 @@
       "commentsList": [],
       "articleType": "News report",
       "imageCaption": "Editorial illustration of AI network nodes and voluntary safeguard shields at a meeting table",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI",
       "keyTakeaways": [
         "Trump met AI executives and secured voluntary safety commitments.",
         "The administration continues to prefer the term 'super intelligence.'",
@@ -246,7 +244,6 @@
       "commentsList": [],
       "articleType": "News report",
       "imageCaption": "Editorial illustration of AI systems with transparency tags against a European map backdrop",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI",
       "keyTakeaways": [
         "EU AI Act transparency rules began applying in August 2026.",
         "Providers must disclose certain AI-generated content.",
@@ -362,7 +359,6 @@
       "commentsList": [],
       "articleType": "News report",
       "imageCaption": "Editorial illustration of AI chips channeling capital streams into expanding data centers",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI",
       "keyTakeaways": [
         "Nvidia is facilitating more than $500 billion in third-party AI infrastructure financing.",
         "The capital is intended for data centers that will use Nvidia accelerators.",
@@ -478,7 +474,6 @@
       "commentsList": [],
       "articleType": "News report",
       "imageCaption": "Editorial illustration of AI model cubes with ignored security warnings and cracked barriers",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI",
       "keyTakeaways": [
         "OpenAI staff raised repeated concerns about security and model testing.",
         "The warnings covered both safety evaluation and corporate infrastructure.",
@@ -594,7 +589,7 @@
       "commentsList": [],
       "articleType": "News report",
       "imageCaption": "Editorial illustration of expanding data-center buildings multiplying server capacity",
-      "imageCredit": "Original editorial illustration · News Editors / OpenAI",
+      "imageCredit": "Original editorial illustration · News Editors",
       "keyTakeaways": [
         "Microsoft plans to roughly triple its data-center computing capacity.",
         "Demand for AI and cloud services has already exceeded available supply.",

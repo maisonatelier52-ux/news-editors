@@ -1,25 +1,7 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { getCategoryBySlug } from '@/lib/data';
-import AuthorProfileActions from './AuthorProfileActions';
 import { SocialIcon, hasSocialIcon } from './icons';
 
-// Builds the "#Category" topic tags shown under the author's role, from the
-// distinct categories of the posts they've actually written.
-function getTopicTags(posts) {
-  const seen = new Map();
-  for (const post of posts) {
-    if (!seen.has(post.category)) {
-      const category = getCategoryBySlug(post.category);
-      seen.set(post.category, category?.name || post.category);
-    }
-  }
-  return [...seen.entries()].map(([slug, name]) => ({ slug, name }));
-}
-
-export default function AuthorProfileHeader({ author, posts }) {
-  const tags = getTopicTags(posts);
-
+export default function AuthorProfileHeader({ author }) {
   return (
     <div className="border border-gray-200 p-5 sm:p-6">
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-5">
@@ -29,28 +11,17 @@ export default function AuthorProfileHeader({ author, posts }) {
               <Image src={author.avatar} alt={author.name} fill className="object-cover" sizes="80px" />
             </div>
           )}
-          <div className="pt-0.5">
+          <div className="pt-0.5 min-w-0">
             <h1 className="font-serif font-bold text-2xl sm:text-[28px] text-ink leading-tight">
               {author.name}
             </h1>
             {author.role && (
               <p className="text-sm text-ink-muted font-sans mt-1">{author.role}</p>
             )}
-            {tags.length > 0 && (
-              <p className="mt-2 flex flex-wrap gap-x-2 gap-y-1 text-sm font-sans">
-                {tags.map((tag, i) => (
-                  <Link
-                    key={tag.slug}
-                    href={`/${tag.slug}`}
-                    className={
-                      i === tags.length - 1
-                        ? 'text-[#2E6D9C] font-semibold hover:underline'
-                        : 'text-ink font-medium hover:text-brand'
-                    }
-                  >
-                    #{tag.name.replace(/\s+/g, ' ')}
-                  </Link>
-                ))}
+            {/* Bio replaces the former hashtag row under the role */}
+            {author.bio && (
+              <p className="mt-2 text-sm text-ink-light font-sans leading-relaxed max-w-2xl">
+                {author.bio}
               </p>
             )}
           </div>
@@ -74,10 +45,6 @@ export default function AuthorProfileHeader({ author, posts }) {
               ))}
           </div>
         )}
-      </div>
-
-      <div className="mt-5">
-        <AuthorProfileActions bio={author.bio} />
       </div>
     </div>
   );

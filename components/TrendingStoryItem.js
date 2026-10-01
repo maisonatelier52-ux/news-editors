@@ -6,6 +6,10 @@ import Icon from '@/components/Icon';
  * A single text-led news story block for the trending package.
  * When `image` is provided, a gray placeholder box is always rendered
  * so missing webps still reserve layout space until uploaded.
+ *
+ * `fill` (desktop only use): the article becomes a flex column so an image
+ * given `flex-1` in `imageAspect` stretches into whatever height the parent
+ * has spare, instead of forcing its own height onto the layout.
  */
 export default function TrendingStoryItem({
   href,
@@ -18,6 +22,7 @@ export default function TrendingStoryItem({
   image,
   size = 'sm',
   imageAspect = 'aspect-[3/2]',
+  fill = false,
 }) {
   const headlineSize =
     size === 'lg'
@@ -25,7 +30,7 @@ export default function TrendingStoryItem({
       : 'text-[clamp(0.98rem,0.5vw+0.85rem,1.1rem)]';
 
   return (
-    <article>
+    <article className={fill ? 'flex min-h-0 flex-1 flex-col' : undefined}>
       {image && (
         <Link
           href={href}

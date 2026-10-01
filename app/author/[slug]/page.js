@@ -59,7 +59,7 @@ export default async function AuthorPage({ params }) {
       <Breadcrumb items={breadcrumbItems} />
 
       <div className="mt-4">
-        <AuthorProfileHeader author={author} posts={posts} />
+        <AuthorProfileHeader author={author} />
       </div>
 
       <div className="mt-8 flex flex-col lg:flex-row lg:items-start gap-x-10 gap-y-10">

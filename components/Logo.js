@@ -9,13 +9,18 @@ const SOURCES = {
 };
 
 export default function Logo({ variant = 'dark', size = 'base', eager = false }) {
-  // Heights match the slot the previous text wordmark occupied at each breakpoint,
-  // so swapping the logo never changes the header/menu/footer layout.
-  //   lg   -> 30px (mobile) / 40px (sm+)
-  //   base -> 20px (mobile) / 32px (sm+)
+  // Heights:
+  //   base -> header default (20px / 32px)
+  //   lg   -> header large / mobile menu (30px / 40px)
+  //   footer -> footer only, taller so it fills the space above the tagline
   // Width follows the 210:40 aspect ratio. max-w-none stops Tailwind's img { max-width: 100% }
   // from squashing the logo inside narrow flex/grid columns.
-  const heightClasses = size === 'lg' ? 'h-[30px] sm:h-10' : 'h-5 sm:h-8';
+  const heightClasses =
+    size === 'footer'
+      ? 'h-12 sm:h-14'
+      : size === 'lg'
+        ? 'h-[30px] sm:h-10'
+        : 'h-5 sm:h-8';
 
   return (
     <Image

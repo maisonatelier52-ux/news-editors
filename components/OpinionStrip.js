@@ -16,7 +16,9 @@ export default function OpinionStrip({ categorySlug, limit = 5, excludeSlugs = [
   const posts = getPostsByCategory(categorySlug, excludeSlugs).slice(0, limit);
   if (!category || posts.length < 4) return null;
 
-  const [lead, imageOnly, stack1, stack2, last] = posts;
+  // posts[1] is intentionally skipped: col 2 shows the lead story's own image,
+  // so the layout/slots below stay the same as before.
+  const [lead, , stack1, stack2, last] = posts;
   const leadAuthor = getAuthorBySlug(lead.author);
   const leadCategory = getCategoryBySlug(lead.category);
   const leadUrl = getPostUrl(lead);
@@ -62,7 +64,7 @@ export default function OpinionStrip({ categorySlug, limit = 5, excludeSlugs = [
         <div className="lg:pr-8 lg:border-r lg:border-[#808080]/40">
           <Link href={leadUrl} className="group relative block w-full aspect-[4/3] overflow-hidden bg-gray-100">
             <Image
-              src={imageOnly?.image || lead.image}
+              src={lead.image}
               alt={lead.title}
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-300"

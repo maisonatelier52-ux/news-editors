@@ -95,8 +95,8 @@ export default function TrendingGrid({
         )}
       </div>
 
-      {/* Right column — quoted + Julio (image) + optional compact below */}
-      <div className="order-3 pt-6 border-t border-[#808080]/40 lg:pt-0 lg:border-t-0 lg:border-l lg:border-[#808080]/40 lg:pl-8 space-y-5">
+      {/* Right column — quoted + Julio (image) + optional image-led story below */}
+      <div className="order-3 pt-6 border-t border-[#808080]/40 lg:pt-0 lg:border-t-0 lg:border-l lg:border-[#808080]/40 lg:pl-8 space-y-5 lg:flex lg:flex-col">
         <TrendingStoryItem
           {...(() => {
             const author = getAuthorBySlug(rightB.author);
@@ -119,8 +119,16 @@ export default function TrendingGrid({
           />
         </div>
         {rightBelow && (
-          <div className="pt-5 border-t border-[#808080]/40">
-            <TrendingStoryItem {...storyProps(rightBelow)} />
+          <div className="pt-5 border-t border-[#808080]/40 lg:flex lg:min-h-0 lg:flex-1 lg:flex-col">
+            {/* On desktop the image box stretches into the column's spare height
+                (this column is the shortest), so it can never make the grid taller
+                or push the sticky sidebar below. Stacked layouts use a plain 16:10. */}
+            <TrendingStoryItem
+              {...storyProps(rightBelow)}
+              image={{ src: rightBelow.image, alt: rightBelow.title }}
+              imageAspect="aspect-[16/10] lg:aspect-auto lg:min-h-[80px] lg:max-h-[220px] lg:flex-1"
+              fill
+            />
           </div>
         )}
       </div>
