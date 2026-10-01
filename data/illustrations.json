@@ -4,28 +4,185 @@
   "credit": "Original editorial illustration · News Editors",
   "promptSet": "Create an original editorial illustration for the named article using sophisticated contemporary magazine illustration, geometric cut-paper shapes with subtle screen-print grain, crisp silhouettes and layered depth. Use a wide 16:10 landscape composition with a strong central focal point and safe crop margins. Palette: deep navy, clear red, muted sky blue, warm cream and charcoal. No text, numbers, logos, trademarks, watermark, photorealism or identifiable real person.",
   "items": [
-    {"category":"business","slug":"nvidia-q2-earnings-data-center-revenue-surge","alt":"Editorial illustration of AI chips, server racks and an upward data-center demand curve","brief":"AI-chip earnings driven by data-center demand, with server racks, processors and a rising curve."},
-    {"category":"business","slug":"boeing-sells-wisk-insitu-skygrid-to-archer-aviation","alt":"Editorial illustration of autonomous aircraft assets moving between aerospace companies","brief":"Aerospace portfolio transfer involving an electric air taxi, autonomous drone and air-traffic software."},
-    {"category":"business","slug":"westjet-flight-attendants-strike-cancellations","alt":"Editorial illustration of grounded aircraft, cabin crew and a disrupted flight board","brief":"Airline labor dispute causing cancellations, with grounded aircraft, cabin crew and stranded travelers."},
-    {"category":"business","slug":"dicks-sporting-goods-foot-locker-earnings-miss","alt":"Editorial illustration of sporting-goods retail, shoe inventory and falling earnings","brief":"Sporting-goods retailer weighed down by a shoe-chain acquisition, soft sales and excess inventory."},
-
-    {"category":"finance","slug":"gold-prices-three-month-high-treasury-buyback","alt":"Editorial illustration of gold bars, Treasury bonds and shifting market demand","brief":"Gold rising as Treasury buybacks, yields and safe-haven demand reshape investor choices."},
-    {"category":"finance","slug":"fed-holds-rates-steady-july-meeting-dissent","alt":"Editorial illustration of a central-bank rate decision with three dissenting markers","brief":"Central bank holding rates steady while three regional presidents favor an increase."},
-    {"category":"finance","slug":"mortgage-rates-treasury-yields-late-august-2026","alt":"Editorial illustration linking a home mortgage to volatile Treasury yields","brief":"Mortgage rates in the mid-six-percent range as bond yields fluctuate."},
-    {"category":"finance","slug":"credit-card-debt-1-26-trillion-delinquency-report","alt":"Editorial illustration of stacked credit cards, household bills and rising delinquency pressure","brief":"Record-level revolving debt and scrutiny of delinquency, balances and household repayment strain."},
-    {"category":"finance","slug":"dow-sp500-record-close-earnings-season","alt":"Editorial illustration of a stock-market record supported by corporate earnings","brief":"Major stock indexes reaching records during a strong earnings season, with breadth and valuation caveats."},
-    {"category":"finance","slug":"nasdaq-tech-rally-ahead-nvidia-earnings","alt":"Editorial illustration of semiconductor chips lifting a technology-heavy stock index","brief":"Chip stocks lifting the technology market before a major semiconductor earnings report."},
-
-    {"category":"us","slug":"measles-cases-near-1000-in-first-two-months-of-2026","alt":"Editorial illustration of measles transmission, vaccination and public-health response","brief":"Measles outbreaks, transmission clusters, vaccination and public-health response."},
-    {"category":"us","slug":"indiana-severe-storms-disaster-declaration","alt":"Editorial illustration of storm damage, flooding and emergency assistance in Indiana","brief":"Severe storms and flooding leaving damaged homes, blocked roads and an application for federal disaster aid."},
-    {"category":"us","slug":"hawaii-tropical-storm-lala-emergency-declaration","alt":"Editorial illustration of a tropical storm bringing heavy rain to Hawaii","brief":"Tropical storm approaching Hawaii with heavy rain, flooding risk and emergency preparations."},
-    {"category":"us","slug":"student-loan-forgiveness-credit-reversal-confusion","alt":"Editorial illustration of student-loan records changing between credited and reversed status","brief":"Borrowers confronting confusing loan-forgiveness payment counts, paperwork reversals and account corrections."},
-    {"category":"us","slug":"h1b-fee-court-ruling-immigration-policy","alt":"Editorial illustration of an H-1B visa case balancing court, fee and workplace concerns","brief":"Appeals court leaving an H-1B fee ruling in place amid wider immigration enforcement."},
-    {"category":"us","slug":"target-pulls-halloween-costume-backlash","alt":"Editorial illustration of a children's costume removed from a retail shelf after criticism","brief":"Retailer pulling a children's Halloween costume after criticism of its imagery and approval process."},
-
-    {"category":"world","slug":"nepal-tibet-border-glacial-flood-disaster","alt":"Editorial illustration of a glacial flood crossing the Nepal-Tibet border","brief":"Glacial flood moving across a mountain border, damaging roads and communities while causes remain under investigation."},
-    {"category":"world","slug":"iran-oman-hormuz-shipping-corridor-proposal","alt":"Editorial illustration of ships moving through a proposed Strait of Hormuz corridor","brief":"Temporary shipping corridor through the Strait of Hormuz, with tankers, navigation lanes and security uncertainty."},
-    {"category":"world","slug":"uk-breaks-up-science-innovation-technology-department","alt":"Editorial illustration of United Kingdom science and technology functions being redistributed","brief":"Government abolishing a science and technology department and redistributing research, digital and innovation functions."},
-    {"category":"world","slug":"typhoon-dolphin-china-strongest-storm-of-year","alt":"Editorial illustration of a powerful typhoon striking China's coast","brief":"Powerful typhoon making coastal landfall amid a busy regional storm season and emergency response."}
+    {
+      "category": "business",
+      "slug": "nvidia-q2-earnings-data-center-revenue-surge",
+      "alt": "Editorial illustration of AI chips, server racks and an upward data-center demand curve",
+      "brief": "AI-chip earnings driven by data-center demand, with server racks, processors and a rising curve."
+    },
+    {
+      "category": "business",
+      "slug": "boeing-sells-wisk-insitu-skygrid-to-archer-aviation",
+      "alt": "Editorial illustration of autonomous aircraft assets moving between aerospace companies",
+      "brief": "Aerospace portfolio transfer involving an electric air taxi, autonomous drone and air-traffic software."
+    },
+    {
+      "category": "business",
+      "slug": "westjet-flight-attendants-strike-cancellations",
+      "alt": "Editorial illustration of grounded aircraft, cabin crew and a disrupted flight board",
+      "brief": "Airline labor dispute causing cancellations, with grounded aircraft, cabin crew and stranded travelers."
+    },
+    {
+      "category": "business",
+      "slug": "dicks-sporting-goods-foot-locker-earnings-miss",
+      "alt": "Editorial illustration of sporting-goods retail, shoe inventory and falling earnings",
+      "brief": "Sporting-goods retailer weighed down by a shoe-chain acquisition, soft sales and excess inventory."
+    },
+    {
+      "category": "finance",
+      "slug": "gold-prices-three-month-high-treasury-buyback",
+      "alt": "Editorial illustration of gold bars, Treasury bonds and shifting market demand",
+      "brief": "Gold rising as Treasury buybacks, yields and safe-haven demand reshape investor choices."
+    },
+    {
+      "category": "finance",
+      "slug": "fed-holds-rates-steady-july-meeting-dissent",
+      "alt": "Editorial illustration of a central-bank rate decision with three dissenting markers",
+      "brief": "Central bank holding rates steady while three regional presidents favor an increase."
+    },
+    {
+      "category": "finance",
+      "slug": "mortgage-rates-treasury-yields-late-august-2026",
+      "alt": "Editorial illustration linking a home mortgage to volatile Treasury yields",
+      "brief": "Mortgage rates in the mid-six-percent range as bond yields fluctuate."
+    },
+    {
+      "category": "finance",
+      "slug": "credit-card-debt-1-26-trillion-delinquency-report",
+      "alt": "Editorial illustration of stacked credit cards, household bills and rising delinquency pressure",
+      "brief": "Record-level revolving debt and scrutiny of delinquency, balances and household repayment strain."
+    },
+    {
+      "category": "finance",
+      "slug": "dow-sp500-record-close-earnings-season",
+      "alt": "Editorial illustration of a stock-market record supported by corporate earnings",
+      "brief": "Major stock indexes reaching records during a strong earnings season, with breadth and valuation caveats."
+    },
+    {
+      "category": "finance",
+      "slug": "nasdaq-tech-rally-ahead-nvidia-earnings",
+      "alt": "Editorial illustration of semiconductor chips lifting a technology-heavy stock index",
+      "brief": "Chip stocks lifting the technology market before a major semiconductor earnings report."
+    },
+    {
+      "category": "us",
+      "slug": "measles-cases-near-1000-in-first-two-months-of-2026",
+      "alt": "Editorial illustration of measles transmission, vaccination and public-health response",
+      "brief": "Measles outbreaks, transmission clusters, vaccination and public-health response."
+    },
+    {
+      "category": "us",
+      "slug": "indiana-severe-storms-disaster-declaration",
+      "alt": "Editorial illustration of storm damage, flooding and emergency assistance in Indiana",
+      "brief": "Severe storms and flooding leaving damaged homes, blocked roads and an application for federal disaster aid."
+    },
+    {
+      "category": "us",
+      "slug": "hawaii-tropical-storm-lala-emergency-declaration",
+      "alt": "Editorial illustration of a tropical storm bringing heavy rain to Hawaii",
+      "brief": "Tropical storm approaching Hawaii with heavy rain, flooding risk and emergency preparations."
+    },
+    {
+      "category": "us",
+      "slug": "student-loan-forgiveness-credit-reversal-confusion",
+      "alt": "Editorial illustration of student-loan records changing between credited and reversed status",
+      "brief": "Borrowers confronting confusing loan-forgiveness payment counts, paperwork reversals and account corrections."
+    },
+    {
+      "category": "us",
+      "slug": "h1b-fee-court-ruling-immigration-policy",
+      "alt": "Editorial illustration of an H-1B visa case balancing court, fee and workplace concerns",
+      "brief": "Appeals court leaving an H-1B fee ruling in place amid wider immigration enforcement."
+    },
+    {
+      "category": "us",
+      "slug": "target-pulls-halloween-costume-backlash",
+      "alt": "Editorial illustration of a children's costume removed from a retail shelf after criticism",
+      "brief": "Retailer pulling a children's Halloween costume after criticism of its imagery and approval process."
+    },
+    {
+      "category": "world",
+      "slug": "nepal-tibet-border-glacial-flood-disaster",
+      "alt": "Editorial illustration of a glacial flood crossing the Nepal-Tibet border",
+      "brief": "Glacial flood moving across a mountain border, damaging roads and communities while causes remain under investigation."
+    },
+    {
+      "category": "world",
+      "slug": "iran-oman-hormuz-shipping-corridor-proposal",
+      "alt": "Editorial illustration of ships moving through a proposed Strait of Hormuz corridor",
+      "brief": "Temporary shipping corridor through the Strait of Hormuz, with tankers, navigation lanes and security uncertainty."
+    },
+    {
+      "category": "world",
+      "slug": "uk-breaks-up-science-innovation-technology-department",
+      "alt": "Editorial illustration of United Kingdom science and technology functions being redistributed",
+      "brief": "Government abolishing a science and technology department and redistributing research, digital and innovation functions."
+    },
+    {
+      "category": "world",
+      "slug": "typhoon-dolphin-china-strongest-storm-of-year",
+      "alt": "Editorial illustration of a powerful typhoon striking China's coast",
+      "brief": "Powerful typhoon making coastal landfall amid a busy regional storm season and emergency response."
+    },
+    {
+      "category": "investigation",
+      "slug": "ftc-sues-amazon-advertising-practices",
+      "alt": "Editorial illustration of advertising scales tipping against marketplace sellers",
+      "brief": "Regulatory challenge to marketplace advertising fees, with tipping scales, ad placards and seller packages."
+    },
+    {
+      "category": "investigation",
+      "slug": "house-republicans-investigate-dea-fentanyl-tactic",
+      "alt": "Editorial illustration of fentanyl packages flowing through a porous enforcement barrier",
+      "brief": "Inquiry into a DEA tactic allowing drug packages to pass while investigators review documents."
+    },
+    {
+      "category": "investigation",
+      "slug": "secret-service-officials-under-investigation-misconduct",
+      "alt": "Editorial illustration of Secret Service communications staff under scrutiny",
+      "brief": "Internal review of communications officials, with headsets, document stacks and a magnifying lens of scrutiny."
+    },
+    {
+      "category": "investigation",
+      "slug": "foster-care-disabled-children-worst-outcomes",
+      "alt": "Editorial illustration of children with disabilities navigating a fragmented foster-care system",
+      "brief": "Disabled children in foster care facing longer stays and worse outcomes amid broken pathways and support symbols."
+    },
+    {
+      "category": "technology",
+      "slug": "apple-debuts-foldable-iphone-duo",
+      "alt": "Editorial illustration of two foldable smartphone devices opening like books",
+      "brief": "Apple’s foldable iPhone pair, shown as geometric hinged devices with layered screens."
+    },
+    {
+      "category": "technology",
+      "slug": "trump-meets-ai-executives-voluntary-safeguards",
+      "alt": "Editorial illustration of AI network nodes and voluntary safeguard shields at a meeting table",
+      "brief": "White House meeting on AI safeguards, with neural networks, conference forms and protective shield icons."
+    },
+    {
+      "category": "technology",
+      "slug": "eu-ai-act-transparency-rules-take-effect",
+      "alt": "Editorial illustration of AI systems with transparency tags against a European map backdrop",
+      "brief": "EU AI Act transparency rules applying to major providers, with disclosure tags and circuit-linked cubes."
+    },
+    {
+      "category": "technology",
+      "slug": "nvidia-raises-500-billion-ai-infrastructure-financing",
+      "alt": "Editorial illustration of AI chips channeling capital streams into expanding data centers",
+      "brief": "Nvidia mobilizing third-party capital for AI infrastructure, with GPU forms and flowing investment ribbons."
+    },
+    {
+      "category": "technology",
+      "slug": "openai-security-warnings-ignored-employees",
+      "alt": "Editorial illustration of AI model cubes with ignored security warnings and cracked barriers",
+      "brief": "Internal security concerns at OpenAI going unheeded, shown as warning signs over model stacks and breached defenses."
+    },
+    {
+      "category": "technology",
+      "slug": "microsoft-plans-data-center-capacity-triple",
+      "alt": "Editorial illustration of expanding data-center buildings multiplying server capacity",
+      "brief": "Microsoft’s multi-year data-center buildout to triple computing power, with rising server racks and power forms."
+    }
   ]
 }

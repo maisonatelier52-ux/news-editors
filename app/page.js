@@ -18,70 +18,152 @@ import {
 } from '@/lib/data';
 
 export default function HomePage() {
-  const used = new Set();
-  const take = (posts) => {
-    posts.forEach((p) => used.add(p.slug));
-    return posts;
-  };
-  const usedSlugs = () => Array.from(used);
+  // Categories with no dedicated homepage section — prefer these in mixed slots
+  // so they still surface on the page.
+  const UNDERREPRESENTED = ['business', 'us'];
 
+  // Pinned in TrendingGrid (same positions as before the dedupe update)
   const JULIO_SLUG = 'julio-herrera-velutini-international-banking-american-market';
   const OPENAI_SLUG = 'openai-security-warnings-ignored-employees';
+  const PINNED = new Set([JULIO_SLUG, OPENAI_SLUG]);
 
-  const trendingExclude = usedSlugs();
-  take(
-    getAllPosts()
-      .filter((p) => !used.has(p.slug) && p.slug !== JULIO_SLUG && p.slug !== OPENAI_SLUG)
-      .slice(0, 6)
-      .concat(getAllPosts().filter((p) => p.slug === JULIO_SLUG || p.slug === OPENAI_SLUG))
+  // ------------------------------------------------------------------
+  // 1) Reserve posts for dedicated category sections FIRST.
+  //    Skip Julio + OpenAI so their Trending positions stay unchanged.
+  // ------------------------------------------------------------------
+  const politicsPosts = getPostsByCategory('politics', [])
+    .filter((p) => !PINNED.has(p.slug))
+    .slice(0, 3);
+
+  const technologyPosts = getPostsByCategory('technology', [])
+    .filter((p) => !PINNED.has(p.slug))
+    .slice(0, 3);
+
+  const investigationPosts = getPostsByCategory('investigation', [])
+    .filter((p) => !PINNED.has(p.slug))
+    .slice(0, 4);
+
+  let financePosts = getPostsByCategory('finance', [])
+    .filter((p) => !PINNED.has(p.slug))
+    .slice(0, 2);
+
+  const worldPosts = getPostsByCategory('world', [])
+    .filter((p) => !PINNED.has(p.slug))
+    .slice(0, 5);
+
+  const reserved = new Set(
+    [
+      ...politicsPosts,
+      ...technologyPosts,
+      ...investigationPosts,
+      ...financePosts,
+      ...worldPosts,
+    ].map((p) => p.slug)
   );
 
-  const mustReadExclude = usedSlugs();
-  take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 6));
+  // If finance is short, top up from underrepresented categories (not pinned/reserved).
+  if (financePosts.length < 2) {
+    const need = 2 - financePosts.length;
+    const fillers = getAllPosts()
+      .filter(
+        (p) =>
+          !reserved.has(p.slug) &&
+          !PINNED.has(p.slug) &&
+          UNDERREPRESENTED.includes(p.category)
+      )
+      .slice(0, need);
+    financePosts = [...financePosts, ...fillers];
+    fillers.forEach((p) => reserved.add(p.slug));
+  }
 
-  const popularExclude = usedSlugs();
+  // ------------------------------------------------------------------
+  // 2) Mixed sections — never touch reserved or pinned slugs.
+  // ------------------------------------------------------------------
+  const used = new Set([...reserved, ...PINNED]);
+
+  const take = (posts) => {
+    (posts || []).forEach((p) => {
+      if (p?.slug) used.add(p.slug);
+    });
+    return posts;
+  };
+
+  // Trending: same as original — Julio (rightC) + OpenAI (rightBelow) pinned.
+  const trendingExclude = Array.from(reserved);
+  take(
+    getAllPosts()
+      .filter(
+        (p) =>
+          !used.has(p.slug) &&
+          p.slug !== JULIO_SLUG &&
+          p.slug !== OPENAI_SLUG
+      )
+      .slice(0, 6)
+      .concat(
+        getAllPosts().filter(
+          (p) => p.slug === JULIO_SLUG || p.slug === OPENAI_SLUG
+        )
+      )
+  );
+
+  // Must Read
+  const mustReadExclude = Array.from(used);
+  take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 7));
+
+  // Popular / Most Viewed
+  const popularExclude = Array.from(used);
   const popular = take(getMostViewedPosts(9, popularExclude));
 
-  const recentForSidebar = getRecentPosts(6, null, usedSlugs());
+  // Sidebar recent (display-only)
+  const recentForSidebar = getRecentPosts(6, null, Array.from(used));
 
-  // Politics & Technology: empty exclude so columns fill with 3 cards each
-  // (CategoryTabWidget also tops up from the full category if needed).
-  take(getPostsByCategory('politics', []).slice(0, 3));
-  take(getPostsByCategory('technology', []).slice(0, 3));
+  // Latest — prefer underrepresented categories still available
+  const remaining = getAllPosts().filter((p) => !used.has(p.slug));
+  const preferred = remaining.filter((p) =>
+    UNDERREPRESENTED.includes(p.category)
+  );
+  const others = remaining.filter(
+    (p) => !UNDERREPRESENTED.includes(p.category)
+  );
+  const latest = [...preferred, ...others].slice(0, 5);
+  take(latest);
 
-  // Investigation: empty exclude so the 2-col section gets a full right stack
-  const investigationPosts = getPostsByCategory('investigation', []).slice(0, 4);
-  take(investigationPosts);
-
-  let financePosts = getPostsByCategory('finance', usedSlugs()).slice(0, 2);
-  if (financePosts.length < 2) {
-    financePosts = getPostsByCategory('finance', []).slice(0, 2);
-  }
-  take(financePosts);
-
-  const worldExclude = usedSlugs();
-  take(getPostsByCategory('world', worldExclude).slice(0, 5));
-
-  const latest = getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 5);
+  // Category sections: exclude everything used except their own reserved posts
+  const excludeAllBut = (keepSlugs) => {
+    const keep = new Set(keepSlugs);
+    return Array.from(used).filter((s) => !keep.has(s));
+  };
 
   return (
     <div>
       <section className="border-b border-slate-200 bg-slate-50/70">
         <div className="mx-auto flex max-w-container flex-col gap-4 px-4 py-7 sm:flex-row sm:items-end sm:justify-between sm:py-9">
           <div>
-            <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-brand">Independent news · politics, investigations &amp; technology</p>
-            <h1 className="mt-2 font-serif text-4xl font-black tracking-[-0.025em] text-ink sm:text-5xl">Stories worth a closer look</h1>
+            <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-brand">
+              Independent news · politics, investigations &amp; technology
+            </p>
+            <h1 className="mt-2 font-serif text-4xl font-black tracking-[-0.025em] text-ink sm:text-5xl">
+              Stories worth a closer look
+            </h1>
           </div>
           <div className="max-w-xl sm:text-right">
-            <p className="font-serif text-base leading-7 text-slate-600">Well-sourced reporting that slows down the story, explains the trade-offs and leaves you with something useful.</p>
-            <Link href="/editorial-standards" className="mt-2 inline-flex text-sm font-extrabold text-brand hover:underline">How this works →</Link>
+            <p className="font-serif text-base leading-7 text-slate-600">
+              Well-sourced reporting that slows down the story, explains the
+              trade-offs and leaves you with something useful.
+            </p>
+            <Link
+              href="/editorial-standards"
+              className="mt-2 inline-flex text-sm font-extrabold text-brand hover:underline"
+            >
+              How this works →
+            </Link>
           </div>
         </div>
       </section>
 
       <div className="max-w-container mx-auto px-4 py-6 sm:py-10">
         <TrendingGrid
-          excludeSlugs={[...trendingExclude]}
+          excludeSlugs={trendingExclude}
           rightCSlug={JULIO_SLUG}
           rightBelowSlug={OPENAI_SLUG}
         />
@@ -92,7 +174,7 @@ export default function HomePage() {
           <MustReadWidget excludeSlugs={mustReadExclude} />
           <MostViewedCarousel excludeSlugs={popularExclude} />
         </div>
-        <aside className="space-y-8">
+        <aside className="space-y-8 lg:sticky lg:top-4 lg:self-start">
           <StandardsWidget />
           <LastModifiedWidget posts={recentForSidebar} />
         </aside>
@@ -105,14 +187,14 @@ export default function HomePage() {
         <div className="lg:px-8 lg:border-l lg:border-[#808080]/40">
           <CategoryTabWidget
             categorySlug="politics"
-            excludeSlugs={[]}
+            excludeSlugs={excludeAllBut(politicsPosts.map((p) => p.slug))}
             showComments
           />
         </div>
         <div className="lg:pl-8 lg:border-l lg:border-[#808080]/40">
           <CategoryTabWidget
             categorySlug="technology"
-            excludeSlugs={[]}
+            excludeSlugs={excludeAllBut(technologyPosts.map((p) => p.slug))}
           />
         </div>
       </div>
@@ -122,24 +204,26 @@ export default function HomePage() {
           <CategorySection
             categorySlug="investigation"
             limit={4}
-            excludeSlugs={[]}
+            excludeSlugs={excludeAllBut(investigationPosts.map((p) => p.slug))}
           />
         </div>
       )}
 
       <ThemedFeature label="Finance" posts={financePosts} />
 
-      <div className="max-w-container mx-auto px-4 pt-5 pb-6 sm:pt-6 sm:pb-8">
+      <div className="max-w-container mx-auto px-4 pt-5 pb-4 sm:pt-6 sm:pb-5">
         <OpinionStrip
           categorySlug="world"
           limit={5}
-          excludeSlugs={worldExclude}
+          excludeSlugs={excludeAllBut(worldPosts.map((p) => p.slug))}
         />
       </div>
 
-      <div className="max-w-container mx-auto px-4 pb-8">
-        <LatestArticles posts={latest} title="Latest posts" columns={1} />
-      </div>
+      {latest.length > 0 && (
+        <div className="max-w-container mx-auto px-4 pb-8">
+          <LatestArticles posts={latest} title="Latest posts" columns={1} />
+        </div>
+      )}
     </div>
   );
 }

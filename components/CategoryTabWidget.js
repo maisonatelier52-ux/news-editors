@@ -14,14 +14,9 @@ export default function CategoryTabWidget({
   const [page, setPage] = useState(0);
   const category = getCategoryBySlug(categorySlug);
 
-  // Prefer unused posts; if fewer than 3, top up from the full category
-  // so the column never shows a single lonely card with a huge gap.
-  let pool = getPostsByCategory(categorySlug, excludeSlugs);
-  if (pool.length < 3) {
-    const have = new Set(pool.map((p) => p.slug));
-    const extra = getPostsByCategory(categorySlug, []).filter((p) => !have.has(p.slug));
-    pool = [...pool, ...extra];
-  }
+  // Strictly respect excludeSlugs so the homepage never repeats a story.
+  // (Previously this topped up from the full category, which re-introduced duplicates.)
+  const pool = getPostsByCategory(categorySlug, excludeSlugs);
 
   const maxPage = Math.max(0, Math.ceil(pool.length / 3) - 1);
   const posts = pool.slice(page * 3, page * 3 + 3);

@@ -7,7 +7,7 @@ import { getAuthorBySlug, getCategoryBySlug, getPostsByCategory, getPostUrl } fr
  * Four-column divided strip matching the reference "opinion" section:
  * col 1 — text-only lead story (kicker + serif headline + byline)
  * col 2 — a single large image (borrows the lead story's photo)
- * col 3 — two stacked smaller stories, each with a round author avatar
+ * col 3 — two stacked smaller stories, each with a hero thumbnail
  * col 4 — one more story, image-led
  * Columns are separated by thin vertical hairlines, matching the source.
  */
@@ -71,7 +71,7 @@ export default function OpinionStrip({ categorySlug, limit = 5, excludeSlugs = [
           </Link>
         </div>
 
-        {/* Col 3 — two stacked stories with author avatar */}
+        {/* Col 3 — two stacked stories with hero image thumbnails (not author avatars) */}
         <div className={`${hasLast ? 'lg:pr-8 lg:border-r lg:border-[#808080]/40' : ''} space-y-6`}>
           {[stack1, stack2].filter(Boolean).map((post) => {
             const author = getAuthorBySlug(post.author);
@@ -79,11 +79,18 @@ export default function OpinionStrip({ categorySlug, limit = 5, excludeSlugs = [
             const url = getPostUrl(post);
             return (
               <div key={post.slug} className="flex gap-3 items-start">
-                {author?.avatar && (
-                  <Link href={url} className="relative w-11 h-11 rounded-full overflow-hidden bg-gray-100 shrink-0">
-                    <Image src={author.avatar} alt={author.name} fill className="object-cover" sizes="44px" />
-                  </Link>
-                )}
+                <Link
+                  href={url}
+                  className="relative w-16 h-16 sm:w-[4.5rem] sm:h-[4.5rem] overflow-hidden bg-gray-100 shrink-0"
+                >
+                  <Image
+                    src={post.image}
+                    alt={post.imageCaption || post.title}
+                    fill
+                    className="object-cover"
+                    sizes="72px"
+                  />
+                </Link>
                 <div className="min-w-0">
                   <h4 className="text-sm font-serif font-bold leading-snug text-ink">
                     <Link href={url} className="hover:opacity-80 transition-opacity">

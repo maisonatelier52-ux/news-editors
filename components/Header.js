@@ -41,75 +41,77 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Thin rule under the masthead on mobile/tablet, where the desktop nav row is hidden */}
-      <div className="lg:hidden border-t border-ink" />
-
-      {/* A rotating selection from the blog */}
-<div className="
-  flex
-  items-center
-  h-11
-  sm:h-12
-  overflow-hidden
-  border-t
-  border-gray-100
-  bg-gray-50
-">
-
-    {/* Flash Badge — angled ribbon, flush to the left edge of the screen */}
-    <div
-      className="
-        relative
+      {/*
+        Breaking / "From the blog" bar.
+        On mobile the top border is the single rule under the masthead
+        (no separate border div above), so the line sits flush against
+        the blue badge with no gap.
+      */}
+      <div className="
         flex
         items-center
-        gap-1.5
-        sm:gap-2
-        shrink-0
-        h-full
-        bg-brand
-        text-white
-        pl-4
-        pr-6
-        sm:pl-6
-        sm:pr-9
-        text-[11px]
-        sm:text-sm
-        font-sans
-        font-extrabold
-        uppercase
-        tracking-wide
-        rounded-l-md
-      "
-      style={{ clipPath: 'polygon(0 0, 100% 0, calc(100% - 16px) 100%, 0 100%)' }}
-    >
+        h-11
+        sm:h-12
+        overflow-hidden
+        border-t
+        border-ink
+        lg:border-gray-100
+        bg-gray-50
+      ">
 
-      <Icon
-        name="pen"
-        className="
-          w-3
-          h-3
-          sm:w-3.5
-          sm:h-3.5
-          shrink-0
-        "
-      />
+        {/* Flash Badge — angled ribbon, flush to the left edge (no rounded corners) */}
+        <div
+          className="
+            relative
+            flex
+            items-center
+            gap-1.5
+            sm:gap-2
+            shrink-0
+            h-full
+            bg-brand
+            text-white
+            pl-4
+            pr-6
+            sm:pl-6
+            sm:pr-9
+            text-[11px]
+            sm:text-sm
+            font-sans
+            font-extrabold
+            uppercase
+            tracking-wide
+          "
+          style={{ clipPath: 'polygon(0 0, 100% 0, calc(100% - 16px) 100%, 0 100%)' }}
+        >
 
-      <span className="whitespace-nowrap">From the blog</span>
+          <Icon
+            name="pen"
+            className="
+              w-3
+              h-3
+              sm:w-3.5
+              sm:h-3.5
+              shrink-0
+            "
+          />
 
-    </div>
+          <span className="whitespace-nowrap">From the blog</span>
 
-    {/* Divider */}
-    <span
-      className="hidden sm:block w-px h-5 bg-gray-300 shrink-0 ml-3 sm:ml-4"
-      aria-hidden="true"
-    />
+        </div>
 
-    {/* Flash Headline + prev/next controls (state lives together in BreakingNews) */}
-    <div className="flex-1 h-full min-w-0 pl-3 sm:pl-4 pr-3 sm:pr-6">
-      <BreakingNews breaking={breaking} />
-    </div>
+        {/* Divider */}
+        <span
+          className="hidden sm:block w-px h-5 bg-gray-300 shrink-0 ml-3 sm:ml-4"
+          aria-hidden="true"
+        />
 
-</div>
+        {/* Flash Headline + prev/next controls (state lives together in BreakingNews) */}
+        <div className="flex-1 h-full min-w-0 pl-3 sm:pl-4 pr-3 sm:pr-6">
+          <BreakingNews breaking={breaking} />
+        </div>
+
+      </div>
     </header>
   );
 }

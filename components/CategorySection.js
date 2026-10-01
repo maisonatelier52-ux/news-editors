@@ -6,16 +6,9 @@ import { getPostsByCategory, getCategoryBySlug } from '@/lib/data';
 export default function CategorySection({ categorySlug, limit = 4, excludeSlugs = [] }) {
   const category = getCategoryBySlug(categorySlug);
 
-  // Prefer unused; top up from full category so the 2-col layout has enough
-  // cards on the right and does not leave a large empty gap.
-  let posts = getPostsByCategory(categorySlug, excludeSlugs).slice(0, limit);
-  if (posts.length < limit) {
-    const have = new Set(posts.map((p) => p.slug));
-    const extra = getPostsByCategory(categorySlug, [])
-      .filter((p) => !have.has(p.slug))
-      .slice(0, limit - posts.length);
-    posts = [...posts, ...extra];
-  }
+  // Strictly respect excludeSlugs so the homepage never repeats a story.
+  // (Previously this topped up from the full category, which re-introduced duplicates.)
+  const posts = getPostsByCategory(categorySlug, excludeSlugs).slice(0, limit);
 
   if (!category || posts.length === 0) return null;
 
