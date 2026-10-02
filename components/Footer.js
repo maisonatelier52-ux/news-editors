@@ -34,8 +34,21 @@ const sections = [
   },
   {
     title: 'About the blog',
-    links: [['About News Editors', '/about']],
+    links: [
+      ['About News Editors', '/about'],
+      ['Our Team', '/our-team'],
+      ['Source Methodology', '/source-methodology'],
+      ['Right of Reply', '/right-of-reply-policy'],
+      ['Contact', '/contact'],
+    ],
   },
+];
+
+// Small links shown in the copyright bar, beside the copyright line.
+const legalLinks = [
+  ['Privacy Policy', '/privacy-policy'],
+  ['Terms & Conditions', '/terms-and-conditions'],
+  ['Legal', '/legal'],
 ];
 
 // Replace the "#" hrefs with the real profile URLs.
@@ -247,9 +260,23 @@ export default function Footer() {
       {/* Copyright bar */}
       <div className="relative border-t border-[#dfe7f1]/90">
         <div className="mx-auto max-w-container px-4 pb-[41px] pt-6 sm:px-6 lg:px-12">
-          <p className="font-[family-name:var(--font-footer-sans)] text-[12.4px] leading-4 text-[#b9c5d3]">
-            {site.copyright}. All rights reserved.
-          </p>
+          {/* Same column grid as the link area, so the legal links start in line with the Categories column. */}
+          <div className="grid gap-y-3 lg:grid-cols-[minmax(0,1.22fr)_minmax(0,0.835fr)_minmax(0,1fr)] lg:items-start">
+            <p className="font-[family-name:var(--font-footer-sans)] text-[12.4px] leading-4 text-[#b9c5d3]">
+              {site.copyright}. All rights reserved.
+            </p>
+            <nav aria-label="Legal" className="lg:col-span-2 lg:pl-[37px]">
+              <ul className="flex flex-wrap gap-x-6 gap-y-2 font-[family-name:var(--font-footer-sans)] text-[12.4px] leading-4 text-[#b9c5d3]">
+                {legalLinks.map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="transition-colors hover:text-white">
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </footer>

@@ -4,6 +4,7 @@ import {
   getAllAuthors,
   getSite,
 } from '@/lib/data';
+import { getStaticPages, LAST_UPDATED } from '@/lib/static-pages';
 
 /** Required for next.config `output: 'export'` */
 export const dynamic = 'force-static';
@@ -46,6 +47,12 @@ export default function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.3,
     },
+    ...getStaticPages().map((page) => ({
+      url: `${SITE_URL}${page.path}`,
+      lastModified: new Date(LAST_UPDATED),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    })),
   ];
 
   const categoryPages = getAllCategories().map((category) => ({
