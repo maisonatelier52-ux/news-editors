@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-og-images.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
     "content:refresh": "node scripts/content-pass.mjs",
-    "content:audit": "node scripts/content-audit.mjs"
+    "content:audit": "node scripts/content-audit.mjs",
+    "og:generate": "node scripts/generate-og-images.mjs"
   },
   "dependencies": {
     "next": "16.3.0",

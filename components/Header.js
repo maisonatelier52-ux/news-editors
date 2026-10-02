@@ -59,7 +59,9 @@ export default function Header() {
         bg-gray-50
       ">
 
-        {/* Flash Badge — angled ribbon, flush to the left edge (no rounded corners) */}
+        {/* Flash Badge — angled ribbon, flush to the left edge (no rounded corners).
+            Navy-to-brand gradient with a soft rising glow and a logo-blue base
+            line; the look lives in .blog-badge (app/globals.css). */}
         <div
           className="
             relative
@@ -69,7 +71,7 @@ export default function Header() {
             sm:gap-2
             shrink-0
             h-full
-            bg-brand
+            blog-badge
             text-white
             pl-4
             pr-6

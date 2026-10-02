@@ -142,3 +142,54 @@ body {
 .animate-breaking-pulse {
 animation: breakingPulse 4s ease-in-out infinite;
 }
+
+/* "From the blog" badge (components/Header.js): "Rising glow".
+   Navy-to-brand gradient, light rising softly from the base, and a thin line
+   in the logo's blade blues along the bottom. The glow breathes very slowly;
+   delete the `animation` line below for a static badge. */
+.blog-badge {
+  background-color: #0f3d91;
+  background-image: linear-gradient(105deg, #0a2a68, #0f3d91);
+}
+
+.blog-badge > * {
+  position: relative;
+}
+
+.blog-badge::before,
+.blog-badge::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+}
+
+.blog-badge::before {
+  inset: 0;
+  background: linear-gradient(to top, rgba(76, 147, 255, 0.75), transparent 55%);
+  animation: blog-badge-glow 4s ease-in-out infinite;
+}
+
+.blog-badge::after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2.5px;
+  background: linear-gradient(90deg, #3b82ff, #0026e4);
+}
+
+@keyframes blog-badge-glow {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blog-badge::before {
+    animation: none;
+    opacity: 0.85;
+  }
+}
