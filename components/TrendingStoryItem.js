@@ -10,6 +10,11 @@ import Icon from '@/components/Icon';
  * `fill` (desktop only use): the article becomes a flex column so an image
  * given `flex-1` in `imageAspect` stretches into whatever height the parent
  * has spare, instead of forcing its own height onto the layout.
+ *
+ * `priority`: set on the single above-the-fold image that is the page's
+ * Largest Contentful Paint element. It loads eagerly (no lazy-loading) and
+ * with fetchPriority="high" so the browser requests it straight from the
+ * initial HTML. Leave it off for every other image.
  */
 export default function TrendingStoryItem({
   href,
@@ -23,6 +28,7 @@ export default function TrendingStoryItem({
   size = 'sm',
   imageAspect = 'aspect-[3/2]',
   fill = false,
+  priority = false,
 }) {
   const headlineSize =
     size === 'lg'
@@ -42,6 +48,8 @@ export default function TrendingStoryItem({
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-500"
             sizes="(max-width: 1024px) 100vw, 33vw"
+            loading={priority ? 'eager' : undefined}
+            fetchPriority={priority ? 'high' : undefined}
           />
         </Link>
       )}

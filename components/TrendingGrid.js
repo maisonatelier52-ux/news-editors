@@ -85,6 +85,8 @@ export default function TrendingGrid({
               image: { src: center.image, alt: center.title },
               size: 'lg',
               imageAspect: 'aspect-[16/10]',
+              // First image on the page and the LCP element: load it eagerly.
+              priority: true,
             };
           })()}
         />
