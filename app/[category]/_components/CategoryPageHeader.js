@@ -1,35 +1,37 @@
 import Link from 'next/link';
 import { ChevronRightIcon } from './icons';
 
+// Category page masthead. Mirrors the article and info pages: serif black
+// headline with tight tracking, serif slate lede, pill links and a hairline
+// rule with a short brand-blue segment as the single accent.
 export default function CategoryPageHeader({ category, childCategories = [] }) {
   return (
-    <div className="border-t border-gray-300 pt-4">
-      {/* Minimal breadcrumb trail */}
-      <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs font-sans text-ink-muted mb-3">
-        <Link href="/" className="hover:text-brand transition-colors">
+    <header className="pt-5 sm:pt-7">
+      <nav aria-label="Breadcrumb" className="flex items-center gap-2 font-sans text-sm text-ink-muted">
+        <Link href="/" className="transition-colors hover:text-brand">
           Home
         </Link>
-        <ChevronRightIcon className="w-3 h-3" />
-        <span className="text-ink font-medium">{category.name}</span>
+        <ChevronRightIcon className="h-3.5 w-3.5" />
+        <span className="font-semibold text-ink">{category.name}</span>
       </nav>
 
-      <h1 className="font-sans font-extrabold uppercase tracking-tight text-2xl sm:text-[28px] text-ink">
+      <h1 className="mt-3 font-serif text-4xl font-black leading-[1.06] tracking-[-0.025em] text-ink sm:mt-4 sm:text-5xl lg:text-[3.25rem]">
         {category.name}
       </h1>
 
       {category.description && (
-        <p className="mt-1.5 max-w-2xl text-sm text-ink-muted font-sans">
+        <p className="mt-2.5 max-w-2xl font-serif text-lg leading-7 text-slate-600 sm:mt-3 sm:text-xl sm:leading-8">
           {category.description}
         </p>
       )}
 
       {childCategories.length > 0 && (
-        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1.5">
+        <div className="mt-5 flex flex-wrap items-center gap-2">
           {childCategories.map((child) => (
             <Link
               key={child.slug}
               href={`/${child.slug}`}
-              className="text-[13px] font-sans font-semibold text-[#2E6D9C] hover:underline"
+              className="rounded-full border border-slate-200 px-4 py-2 font-sans text-sm font-bold text-ink transition-colors hover:border-brand hover:text-brand"
             >
               {child.name}
             </Link>
@@ -37,7 +39,9 @@ export default function CategoryPageHeader({ category, childCategories = [] }) {
         </div>
       )}
 
-      <div className="mt-4 border-b border-gray-300" />
-    </div>
+      <div className="relative mt-5 border-b border-slate-200 sm:mt-7" aria-hidden="true">
+        <span className="absolute left-0 top-0 h-[3px] w-14 bg-brand sm:w-20" />
+      </div>
+    </header>
   );
 }
