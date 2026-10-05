@@ -13,7 +13,7 @@ export const metadata = getStaticPageMetadata('source-methodology');
 export default function SourceMethodologyPage() {
   return (
     <StaticPageShell slug="source-methodology">
-      <PageIntro eyebrow="About the blog" title="How to read our sources">
+      <PageIntro eyebrow="About the site" title="How to read our sources">
         Every post ends with a <em>Sources &amp; reading notes</em> block. This page explains what is in it, so you can
         judge a post by what it is built on.
       </PageIntro>

@@ -24,7 +24,7 @@ export default function AdBox({ size = 'sidebar' }) {
 
   return (
     <aside className={recommendation.wrapperClass} aria-label="Recommended article">
-      <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.16em] text-brand">From the blog</p>
+      <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.16em] text-brand">Recommended reading</p>
       <Link href={getPostUrl(post)} className="group block">
         <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-slate-100">
           <Image

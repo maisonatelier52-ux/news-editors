@@ -15,7 +15,7 @@ export default function RightOfReplyPage() {
 
   return (
     <StaticPageShell slug="right-of-reply-policy">
-      <PageIntro eyebrow="About the blog" title="Right of reply">
+      <PageIntro eyebrow="About the site" title="Right of reply">
         If a post names you, your company or your organization, you can ask for your response to be considered. This page
         explains how to ask and what happens next.
       </PageIntro>

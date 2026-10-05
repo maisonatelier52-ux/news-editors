@@ -206,18 +206,20 @@ export default function PostCard({
   }
 
   if (variant === 'horizontal') {
+    // h-full + larger thumbnail so stacked cards in CategorySection fill the
+    // height of the sibling hero column and close the empty-space gap.
     return (
-      <article className="flex gap-4 group">
-        <Link href={url} className="relative w-32 sm:w-44 aspect-[4/3] shrink-0 overflow-hidden bg-gray-100">
-          <Image src={post.image} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="176px" />
+      <article className="flex gap-4 group h-full items-stretch">
+        <Link href={url} className="relative w-36 sm:w-48 md:w-52 shrink-0 self-stretch min-h-[5.5rem] overflow-hidden bg-gray-100">
+          <Image src={post.image} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="208px" />
           {post.rating && (
             <span className="absolute top-2 right-2">
               <RatingBadge rating={post.rating} size="sm" />
             </span>
           )}
         </Link>
-        <div className="min-w-0 flex flex-col flex-1">
-          <h3 className="text-[clamp(1rem,0.5vw+0.9rem,1.2rem)] font-serif font-bold leading-[1.2] text-ink">
+        <div className="min-w-0 flex flex-col flex-1 justify-center py-0.5">
+          <h3 className="text-[clamp(1.05rem,0.55vw+0.95rem,1.28rem)] font-serif font-bold leading-[1.25] text-ink">
             <Link href={url} className="hover:opacity-80 transition-opacity">
               <CategoryBadge slug={post.category} asLink={false} />
               {' '}

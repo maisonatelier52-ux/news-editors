@@ -28,12 +28,14 @@ export default function CategorySection({ categorySlug, limit = 4, excludeSlugs 
           <Icon name="chevronRight" className="w-3.5 h-3.5" filled={false} />
         </Link>
       </div>
-      <div className={others.length > 0 ? 'grid grid-cols-1 lg:grid-cols-2 gap-6' : 'grid grid-cols-1'}>
+      <div className={others.length > 0 ? 'grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch' : 'grid grid-cols-1'}>
         <PostCard post={featured} variant="hero" showReadMore />
         {others.length > 0 && (
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-4 h-full">
             {others.map((post) => (
-              <PostCard key={post.slug} post={post} variant="horizontal" />
+              <div key={post.slug} className="flex-1 min-h-0">
+                <PostCard post={post} variant="horizontal" />
+              </div>
             ))}
           </div>
         )}

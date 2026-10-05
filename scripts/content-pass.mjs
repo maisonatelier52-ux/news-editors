@@ -595,9 +595,9 @@ const currentNotes = {
 };
 
 const notes = {
-  'Current-affairs note': 'This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.',
-  'Business analysis': 'This source-based blog post combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.',
-  'Money note': 'This source-based blog post explains a dated market or household-finance development. It is general information, not individualized financial advice; rates, prices and reported totals change.',
+  'Current-affairs note': 'This source-based article summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.',
+  'Business analysis': 'This source-based article combines dated company or regulatory material with editorial context. Company claims are identified as such, and subsequent filings may change the picture.',
+  'Money note': 'This source-based article explains a dated market or household-finance development. It is general information, not individualized financial advice; rates, prices and reported totals change.',
 };
 
 function makeContent(spec) {

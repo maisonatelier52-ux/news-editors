@@ -44,7 +44,7 @@ export default function OpinionStrip({ categorySlug, limit = 5, excludeSlugs = [
         <div className="lg:pr-8 lg:border-r lg:border-[#808080]/40">
           <h3 className="text-[clamp(1.05rem,0.6vw+0.9rem,1.3rem)] font-serif font-bold leading-[1.2] text-ink">
             <Link href={leadUrl} className="hover:opacity-80 transition-opacity">
-              <span className="text-[#2c6ca3]">{leadCategory ? `${leadCategory.name}.` : 'Blog.'}</span>
+              <span className="text-[#2c6ca3]">{leadCategory ? `${leadCategory.name}.` : 'News.'}</span>
               {' '}
               {lead.title}
             </Link>
@@ -96,7 +96,7 @@ export default function OpinionStrip({ categorySlug, limit = 5, excludeSlugs = [
                 <div className="min-w-0">
                   <h4 className="text-sm font-serif font-bold leading-snug text-ink">
                     <Link href={url} className="hover:opacity-80 transition-opacity">
-                      <span className="block text-[#2c6ca3] text-xs">{cat ? cat.name : 'Blog'}</span>
+                      <span className="block text-[#2c6ca3] text-xs">{cat ? cat.name : 'News'}</span>
                       {post.title}
                     </Link>
                   </h4>

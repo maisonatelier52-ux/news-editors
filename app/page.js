@@ -140,7 +140,7 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-container flex-col gap-4 px-4 py-7 sm:flex-row sm:items-end sm:justify-between sm:py-9">
           <div>
             <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-brand">
-              Independent news · politics, investigations &amp; technology
+              Editor-curated news · politics, investigations &amp; technology
             </p>
             <h1 className="mt-2 font-serif text-4xl font-black tracking-[-0.025em] text-ink sm:text-5xl">
               Stories worth a closer look

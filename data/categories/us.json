@@ -92,7 +92,7 @@
         "metaDescription": "Measles cases in the U.S. continue to climb in 2026, with major outbreaks concentrated in a handful of states and low vaccination coverage driving the spread.",
         "ogTitle": "U.S. Measles Outbreaks Keep Growing Through Summer 2026",
         "ogDescription": "Health officials say most of this year's measles cases trace back to a small number of outbreaks in under-vaccinated communities.",
-        "ogImage": "/images/illustrations/measles-cases-near-1000-in-first-two-months-of-2026.webp",
+        "ogImage": "/og/measles-cases-near-1000-in-first-two-months-of-2026.jpg",
         "twitterTitle": "Measles Cases Keep Climbing Across the U.S.",
         "twitterDescription": "A look at where 2026's biggest measles outbreaks are concentrated and why vaccination gaps are driving the spread.",
         "keywords": [
@@ -109,7 +109,7 @@
         "Sustained transmission can put the United States' measles-elimination status under review."
       ],
       "whyItMatters": "Measles spreads efficiently in undervaccinated communities, so local clusters can become a wider public-health test even when national vaccination coverage looks high.",
-      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "reportingNote": "This source-based article summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
       "sources": [
         {
           "publisher": "Centers for Disease Control and Prevention",
@@ -119,7 +119,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of measles transmission, vaccination and public-health response",
-      "imageCredit": "Original editorial illustration \u00b7 News Editors"
+      "imageCredit": "Original editorial illustration · News Editors"
     },
     {
       "slug": "indiana-severe-storms-disaster-declaration",
@@ -204,7 +204,7 @@
         "metaDescription": "Indiana's governor has requested a major disaster declaration after storms, tornadoes and flash flooding caused widespread damage across more than fifty counties.",
         "ogTitle": "Indiana Storm Damage Prompts Disaster Declaration Request",
         "ogDescription": "Tornadoes, high winds and flash flooding left a trail of damage across Indiana, with recovery efforts now underway.",
-        "ogImage": "/images/illustrations/indiana-severe-storms-disaster-declaration.webp",
+        "ogImage": "/og/indiana-severe-storms-disaster-declaration.jpg",
         "twitterTitle": "Indiana Seeks Federal Aid After Deadly Storms",
         "twitterDescription": "Severe storms and flash flooding across Indiana have left at least seven dead and prompted a disaster declaration request.",
         "keywords": [
@@ -221,7 +221,7 @@
         "A disaster declaration would determine which federal recovery programs become available."
       ],
       "whyItMatters": "The declaration process shapes the speed and type of help available to households, local governments and damaged public infrastructure.",
-      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "reportingNote": "This source-based article summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
       "sources": [
         {
           "publisher": "Federal Emergency Management Agency",
@@ -231,7 +231,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of storm damage, flooding and emergency assistance in Indiana",
-      "imageCredit": "Original editorial illustration \u00b7 News Editors"
+      "imageCredit": "Original editorial illustration · News Editors"
     },
     {
       "slug": "hawaii-tropical-storm-lala-emergency-declaration",
@@ -299,7 +299,7 @@
         "metaDescription": "A federal emergency declaration was approved for Hawaii as a tropical storm brought torrential rain and flood risk to the Big Island.",
         "ogTitle": "Tropical Storm Prompts Hawaii Emergency Declaration",
         "ogDescription": "Heavy rain and flood risk from a tropical storm led to a federal emergency declaration for Hawaii this month.",
-        "ogImage": "/images/illustrations/hawaii-tropical-storm-lala-emergency-declaration.webp",
+        "ogImage": "/og/hawaii-tropical-storm-lala-emergency-declaration.jpg",
         "twitterTitle": "Hawaii Declares Emergency Over Tropical Storm",
         "twitterDescription": "A tropical storm brought heavy rain and flood risk to Hawaii's Big Island, prompting a federal emergency declaration.",
         "keywords": [
@@ -316,7 +316,7 @@
         "An emergency declaration positioned state and federal agencies to support response and recovery."
       ],
       "whyItMatters": "Rainfall totals in steep island terrain can create dangerous local flooding even when a storm's wind category receives most of the attention.",
-      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "reportingNote": "This source-based article summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
       "sources": [
         {
           "publisher": "National Hurricane Center",
@@ -326,7 +326,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a tropical storm bringing heavy rain to Hawaii",
-      "imageCredit": "Original editorial illustration \u00b7 News Editors"
+      "imageCredit": "Original editorial illustration · News Editors"
     },
     {
       "slug": "student-loan-forgiveness-credit-reversal-confusion",
@@ -416,7 +416,7 @@
         "metaDescription": "The Education Department has confirmed it reversed some Public Service Loan Forgiveness credits, leaving many federal borrowers uncertain about their progress toward forgiveness.",
         "ogTitle": "Education Department Reverses Some Loan-Forgiveness Credits",
         "ogDescription": "Federal student loan borrowers report confusion after the Education Department reversed some Public Service Loan Forgiveness payment credits.",
-        "ogImage": "/images/illustrations/student-loan-forgiveness-credit-reversal-confusion.webp",
+        "ogImage": "/og/student-loan-forgiveness-credit-reversal-confusion.jpg",
         "twitterTitle": "Loan Forgiveness Credit Reversal Confuses Borrowers",
         "twitterDescription": "The Education Department has reversed some Public Service Loan Forgiveness credits amid a wider federal repayment overhaul.",
         "keywords": [
@@ -433,7 +433,7 @@
         "Public Service Loan Forgiveness normally requires 120 qualifying payments and complete employment records."
       ],
       "whyItMatters": "A changed payment count can alter a borrower's forgiveness timeline, making documentation and a clear appeal path consequential rather than merely administrative.",
-      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "reportingNote": "This source-based article summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
       "sources": [
         {
           "publisher": "Federal Student Aid",
@@ -443,7 +443,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of student-loan records changing between credited and reversed status",
-      "imageCredit": "Original editorial illustration \u00b7 News Editors"
+      "imageCredit": "Original editorial illustration · News Editors"
     },
     {
       "slug": "h1b-fee-court-ruling-immigration-policy",
@@ -524,7 +524,7 @@
         "metaDescription": "An appeals court has declined to pause a ruling against a new H-1B visa fee, as states advance rules requiring immigration agents to identify themselves.",
         "ogTitle": "H-1B Fee Ruling Stands as Immigration Enforcement Expands",
         "ogDescription": "A federal appeals court left in place a ruling against a contested H-1B visa fee amid wider immigration enforcement changes.",
-        "ogImage": "/images/illustrations/h1b-fee-court-ruling-immigration-policy.webp",
+        "ogImage": "/og/h1b-fee-court-ruling-immigration-policy.jpg",
         "twitterTitle": "H-1B Fee Ruling Left in Place by Appeals Court",
         "twitterDescription": "A federal appeals court declined to pause a ruling against a new H-1B visa fee as immigration enforcement expands nationally.",
         "keywords": [
@@ -541,7 +541,7 @@
         "Employers and applicants still faced uncertainty because further appeal or agency guidance could change implementation."
       ],
       "whyItMatters": "A fee of that size can change hiring plans, especially for smaller employers, while the unresolved litigation makes timing and eligibility difficult to plan.",
-      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "reportingNote": "This source-based article summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
       "sources": [
         {
           "publisher": "U.S. Citizenship and Immigration Services",
@@ -551,7 +551,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of an H-1B visa case balancing court, fee and workplace concerns",
-      "imageCredit": "Original editorial illustration \u00b7 News Editors"
+      "imageCredit": "Original editorial illustration · News Editors"
     },
     {
       "slug": "target-pulls-halloween-costume-backlash",
@@ -604,7 +604,7 @@
         "metaDescription": "Target removed a children's Halloween costume from shelves and apologized after social media backlash over imagery critics called racist.",
         "ogTitle": "Target Apologizes, Pulls Costume Amid Social Media Backlash",
         "ogDescription": "A children's Halloween costume drew widespread criticism online, prompting Target to remove it from stores and issue an apology.",
-        "ogImage": "/images/illustrations/target-pulls-halloween-costume-backlash.webp",
+        "ogImage": "/og/target-pulls-halloween-costume-backlash.jpg",
         "twitterTitle": "Target Pulls Costume After Backlash",
         "twitterDescription": "Target apologized and removed a children's Halloween costume after social media users criticized its imagery.",
         "keywords": [
@@ -621,7 +621,7 @@
         "The episode illustrates how product review, marketplace speed and cultural context intersect."
       ],
       "whyItMatters": "A retailer's response after a complaint matters, but the more useful question is how its review process allowed a foreseeable concern to reach shelves.",
-      "reportingNote": "This source-based blog post summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
+      "reportingNote": "This source-based article summarizes dated material available at publication; it is not live reporting. Figures and official assessments may change, so follow the linked records for later updates.",
       "sources": [
         {
           "publisher": "Target Corporation",
@@ -631,7 +631,7 @@
         }
       ],
       "imageCaption": "Editorial illustration of a children's costume removed from a retail shelf after criticism",
-      "imageCredit": "Original editorial illustration \u00b7 News Editors"
+      "imageCredit": "Original editorial illustration · News Editors"
     }
   ]
 }

@@ -28,7 +28,7 @@ export default function OurTeamPage() {
 
   return (
     <StaticPageShell slug="our-team">
-      <PageIntro eyebrow="About the blog" title="The team behind the byline">
+      <PageIntro eyebrow="About the site" title="The team behind the byline">
         News Editors publishes under one shared byline. No post on this site is credited to an individual writer, and we
         do not publish staff profiles.
       </PageIntro>

@@ -41,7 +41,7 @@ export default function TrendingGrid({
     const category = getCategoryBySlug(post.category);
     return {
       href: getPostUrl(post),
-      kicker: `${category ? category.name : 'Blog'}.`,
+      kicker: `${category ? category.name : 'News'}.`,
       headline: post.title,
       byline: author ? author.name.toUpperCase() : '',
       comments: post.comments,
@@ -77,7 +77,7 @@ export default function TrendingGrid({
             if (sentences[1]) bullets.push({ text: sentences[1] });
             return {
               href: getPostUrl(center),
-              kicker: `${category ? category.name : 'Blog'}.`,
+              kicker: `${category ? category.name : 'News'}.`,
               headline: center.title,
               byline: author ? author.name.toUpperCase() : '',
               comments: center.comments,

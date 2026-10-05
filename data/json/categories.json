@@ -9,14 +9,14 @@
   {
     "slug": "world",
     "name": "World",
-    "description": "Context-rich posts about global events, policy and the ideas crossing borders.",
+    "description": "Context-rich news and explainers on global events, policy and the ideas crossing borders.",
     "count": 5,
     "color": "#16a34a"
   },
   {
     "slug": "business",
     "name": "Business",
-    "description": "Thoughtful posts on companies, earnings, deals and the decisions shaping the economy.",
+    "description": "News and analysis on companies, earnings, deals and the decisions shaping the economy.",
     "count": 5,
     "color": "#2ecc71"
   },
@@ -38,7 +38,7 @@
     "slug": "investigation",
     "name": "Investigation",
     "description": "In-depth reporting on accountability, public institutions and stories that need extra scrutiny.",
-    "count": 6,
+    "count": 7,
     "color": "#b45309"
   },
   {

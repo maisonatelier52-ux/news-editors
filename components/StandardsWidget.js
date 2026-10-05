@@ -9,7 +9,7 @@ const principles = [
 export default function StandardsWidget() {
   return (
     <aside className="rounded-2xl bg-[#0b2239] p-6 text-white" aria-labelledby="standards-widget-title">
-      <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-sky-300">How this blog works</p>
+      <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-sky-300">How this site works</p>
       <h2 id="standards-widget-title" className="mt-2 font-serif text-2xl font-bold leading-tight">Curiosity, with receipts.</h2>
       <ul className="mt-5 space-y-3">
         {principles.map((principle) => (

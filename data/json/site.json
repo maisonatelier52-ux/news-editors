@@ -1,7 +1,7 @@
 {
   "name": "News Editors",
-  "tagline": "Independent reporting on politics, investigations, technology and the wider world.",
-  "description": "An independent news site covering U.S. and world affairs, business, finance, politics, investigations and technology.",
+  "tagline": "Editor-curated news and explainers on politics, investigations, technology and the wider world.",
+  "description": "An editor-curated news site publishing news briefs, explainers and analysis on U.S. and world affairs, business, finance, politics, investigations and technology.",
   "url": "https://www.news-editors.com",
   "siteUrl": "https://www.news-editors.com",
   "logo": "/images/logo/site-logo.png",
@@ -41,8 +41,8 @@
   ],
   "copyright": "\u00a9 2026 News Editors",
   "newsletter": {
-    "eyebrow": "From the blog",
-    "title": "Thoughtful posts for curious readers.",
-    "description": "A concise selection of explainers, investigations and technology reporting."
+    "eyebrow": "From the editors",
+    "title": "News and explainers, chosen by editors.",
+    "description": "A concise selection of news briefs, explainers and investigations from our editors."
   }
 }

@@ -14,10 +14,10 @@ export default function Header() {
   return (
     <header className="bg-white">
 
-      {/* Masthead: blog identity left, wordmark centered, search right */}
+      {/* Masthead: site identity left, wordmark centered, search right */}
       <div className="max-w-container mx-auto px-4 grid grid-cols-3 items-center h-14 sm:h-20">
 
-        {/* Left: mobile hamburger + blog identity */}
+        {/* Left: mobile hamburger + site identity */}
         <div className="flex items-center justify-start gap-3">
           <MobileMenu navItems={site.mainNav} />
 
@@ -42,7 +42,7 @@ export default function Header() {
       </div>
 
       {/*
-        Breaking / "From the blog" bar.
+        Breaking / "Latest news" bar.
         On mobile the top border is the single rule under the masthead
         (no separate border div above), so the line sits flush against
         the blue badge with no gap.
@@ -98,7 +98,7 @@ export default function Header() {
             "
           />
 
-          <span className="whitespace-nowrap">From the blog</span>
+          <span className="whitespace-nowrap">Latest news</span>
 
         </div>
 

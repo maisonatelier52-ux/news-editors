@@ -36,7 +36,7 @@ export default function MustReadWidget({ excludeSlugs = [] }) {
     const category = getCategoryBySlug(post.category);
     return {
       href: getPostUrl(post),
-      kicker: `${category ? category.name : 'Blog'}.`,
+      kicker: `${category ? category.name : 'News'}.`,
       headline: post.title,
       byline: author ? author.name.toUpperCase() : '',
       comments: post.comments,

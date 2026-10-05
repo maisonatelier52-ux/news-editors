@@ -33,7 +33,7 @@ const sections = [
     ],
   },
   {
-    title: 'About the blog',
+    title: 'About the site',
     links: [
       ['About News Editors', '/about'],
       ['Our Team', '/our-team'],

@@ -21,7 +21,7 @@ export default function PopularWidget({ posts = [] }) {
       <article className="pb-6 mb-6 border-b border-[#808080]/40">
         <h3 className="text-[clamp(1.05rem,0.6vw+0.9rem,1.25rem)] font-serif font-bold leading-[1.2] text-ink">
           <Link href={getPostUrl(lead)} className="hover:opacity-80 transition-opacity">
-            <span className="text-[#2c6ca3]">{leadCategory ? `${leadCategory.name}.` : 'Blog.'}</span>
+            <span className="text-[#2c6ca3]">{leadCategory ? `${leadCategory.name}.` : 'News.'}</span>
             {' '}
             {lead.title}
           </Link>

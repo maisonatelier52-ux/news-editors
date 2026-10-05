@@ -3,6 +3,232 @@
     {
       "author": "admin",
       "year": "2026",
+      "month": "10",
+      "day": "04",
+      "image": "/images/illustrations/norfolk-murder-investigation-woman-found-dead-dersingham.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-10-04T14:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "",
+      "imageCredit": "News Editors",
+      "keyTakeaways": [
+        "A murder investigation is underway after a woman in her 40s was found dead at a property in Fern Hill, Dersingham.",
+        "A man in his 40s has been arrested on suspicion of murder and is being questioned at King's Lynn Police Investigation Centre.",
+        "A Home Office post-mortem was scheduled for Monday 5 October as detectives continue inquiries and appeal for information."
+      ],
+      "whyItMatters": "Early-stage murder investigations in residential areas affect local residents and rely on public information and forensic work to establish the facts.",
+      "reportingNote": "This report is based on statements from Norfolk Constabulary and contemporaneous coverage by BBC News, Sky News and The Independent.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "label": "Coverage of Dersingham death and police response",
+          "url": "https://www.bbc.com/news/articles/c6vg7xv478e4o",
+          "accessed": "October 5, 2026"
+        },
+        {
+          "publisher": "Sky News",
+          "label": "Man arrested after woman in her 40s found dead in Norfolk",
+          "url": "https://news.sky.com/story/man-arrested-after-woman-in-her-40s-found-dead-in-norfolk-13595144",
+          "accessed": "October 5, 2026"
+        },
+        {
+          "publisher": "The Independent",
+          "label": "Norfolk murder investigation at Fern Hill",
+          "url": "https://www.independent.co.uk/news/uk/crime/norfolk-murder-fern-hill-police-b3061173.html",
+          "accessed": "October 5, 2026"
+        },
+        {
+          "publisher": "Norfolk Constabulary",
+          "label": "Police launch murder investigation - Dersingham",
+          "url": "https://www.norfolk.police.uk/news/norfolk/news/news/2026/october/police-launch-murder-investigation---dersingham/",
+          "accessed": "October 5, 2026"
+        }
+      ],
+      "slug": "norfolk-murder-investigation-woman-found-dead-dersingham",
+      "title": "Murder Investigation Underway After Woman Found Dead in Norfolk",
+      "subtitle": "A man in his 40s has been arrested on suspicion of murder after a woman was found dead at a property in Fern Hill, Dersingham",
+      "excerpt": "A murder investigation has been launched in Dersingham, Norfolk, after a woman in her 40s was found dead at a Fern Hill property. A man in his 40s has been arrested.",
+      "category": "investigation",
+      "tags": [
+        "Norfolk",
+        "Dersingham",
+        "Fern Hill",
+        "Norfolk Police",
+        "murder investigation",
+        "UK crime",
+        "police investigation",
+        "King's Lynn"
+      ],
+      "date": "2026-10-04",
+      "toc": [
+        {
+          "id": "woman-dies-at-dersingham-home",
+          "text": "Woman Dies at Dersingham Home"
+        },
+        {
+          "id": "man-held-on-suspicion-of-murder",
+          "text": "Man Held on Suspicion of Murder"
+        },
+        {
+          "id": "inspection-of-the-dead-body-anticipated-to-provide-more-evidence",
+          "text": "Inspection of the Dead Body Anticipated to Provide More Evidence"
+        },
+        {
+          "id": "investigation-continues-police-appeal-for-information-pmq",
+          "text": "Investigation Continues - Police Appeal for Information - PMQ"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A murder investigation has been launched in Norfolk after a woman in her 40s was discovered dead at a property in Fern Hill, Dersingham, in the early hours of Sunday, October 4. The ambulance service called police to the address shortly after 2.20am and the woman was pronounced dead after officers arrived."
+        },
+        {
+          "type": "paragraph",
+          "text": "A man in his 40s has been arrested on suspicion of murder and is being questioned at King's Lynn Police Investigation Center. Detectives are still trying to piece together how the woman died and he is in custody."
+        },
+        {
+          "type": "paragraph",
+          "text": "Norfolk Constabulary said detectives from the Norfolk and Suffolk Major Investigation Team are dealing with the case. Officers are continuing inquiries, and there is still a police cordon at the property. The woman's death is being investigated, and a post-mortem examination is being carried out by the Home Office to establish the cause and circumstances."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Woman Dies at Dersingham Home",
+          "id": "woman-dies-at-dersingham-home"
+        },
+        {
+          "type": "paragraph",
+          "text": "Emergency services were called to a property in Fern Hill, Dersingham just after 2.20am on Sunday after the ambulance service contacted police. Police officers who attended the address found a woman, in her 40s, who was pronounced dead at the scene."
+        },
+        {
+          "type": "paragraph",
+          "text": "The incident has led to a major investigation by Norfolk Constabulary and detectives from the Norfolk and Suffolk Major Investigation Team are now investigating what happened at the property. Police have not released the woman's identity publicly and details surrounding the circumstances of her death are limited as the investigation is in its early stages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Norfolk Constabulary said officers attended the property and found the woman, prompting the investigation. A man in his 40s has been arrested on suspicion of murder and taken to the King's Lynn Police Investigation Center for questioning, the force confirmed. Detectives are still investigating, and he is still in custody."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Independent and Sky News also said the police cordon was still in place around the property, with officers continuing to work at the scene. The cordon means investigators are still at the scene looking for evidence that could help them establish what happened before emergency services arrived."
+        },
+        {
+          "type": "paragraph",
+          "text": "Police have yet to release any further details about the relationship between the woman and the arrested man, nor have they publicly established a motive. As the inquiry progresses, investigators are expected to consider evidence from the property, witness information, and the results of forensic examinations."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Man Held on Suspicion of Murder",
+          "id": "man-held-on-suspicion-of-murder"
+        },
+        {
+          "type": "paragraph",
+          "text": "A man in his 40s has been arrested in connection with the death and is being questioned in police custody. Police have not released details of what led to the arrest, but officers attended the Fern Hill property and made the arrest."
+        },
+        {
+          "type": "paragraph",
+          "text": "The suspect was taken to the King's Lynn Police Investigation Center where he is being interviewed by detectives as part of the murder inquiry. He remains in custody and detectives from the Norfolk and Suffolk Major Investigation Team are leading the investigation, Norfolk Constabulary said in a statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Police have not released the man's name publicly and have not released any details of any other potential charges beyond the current suspicion of murder. Arrest on suspicion of murder does not mean that someone has been charged or convicted of a crime. Detectives will have to investigate the circumstances surrounding the death before deciding what action to take."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investigation is in its infancy. Detective Inspector Alix Wright, from the Norfolk and Suffolk Major Investigation Team, said detectives were trying to establish the exact circumstances surrounding the woman's death, and appealed for anyone with relevant information to contact police."
+        },
+        {
+          "type": "paragraph",
+          "text": "The arrested man is being questioned as part of a wider investigation, which includes work at the property and attempts to trace potential witnesses. Police will probably check all available evidence before deciding what to do next in the case."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Inspection of the Dead Body Anticipated to Provide More Evidence",
+          "id": "inspection-of-the-dead-body-anticipated-to-provide-more-evidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Home Office is carrying out a post-mortem examination as part of its investigation into the woman's death. For detectives, the examination is an important step in trying to determine the cause and manner of death, and possibly in providing evidence relevant to the larger investigation."
+        },
+        {
+          "type": "paragraph",
+          "text": "A post-mortem examination by the Home Office was to be held on Monday, October 5, Norfolk Constabulary said. Sky News and The Independent also reported that the examination would be held while investigators continued their work at the scene."
+        },
+        {
+          "type": "paragraph",
+          "text": "The findings could aid investigators in determining whether injuries caused the death or some other cause and could affect the direction of the investigation. But police have not yet released details on the nature of the woman's death and detectives have warned that the investigation is still in its early stages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Officers remain working at the property in Fern Hill, and a police cordon is in place. These sorts of restrictions enable the investigator to preserve possible evidence and to do a thorough search of the scene. Detectives may also speak to people who live nearby or who may have been in the area when emergency services were called."
+        },
+        {
+          "type": "paragraph",
+          "text": "Police haven't said how long the cordon will be in place. The investigation is expected to develop as forensic examinations; witness accounts and questioning give detectives a clearer picture of the events."
+        },
+        {
+          "type": "paragraph",
+          "text": "Authorities have urged the public to hold off on speculation about the circumstances of the death until investigators can figure out the facts. For now, the post-mortem findings and other evidence gathered during the inquiry could be important in determining what happens next with the case."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Investigation Continues - Police Appeal for Information - PMQ",
+          "id": "investigation-continues-police-appeal-for-information-pmq"
+        },
+        {
+          "type": "paragraph",
+          "text": "Detectives are appealing for anyone with information that could assist with the investigation to come forward. Detective Inspector Alix Wright said the inquiry was at a very early stage and appealed for anyone who thought they could help to give information to police."
+        },
+        {
+          "type": "paragraph",
+          "text": "Anyone who witnessed the incident or has information should contact Norfolk Constabulary, quoting incident number 27 of Sunday, October 4, 2026. Information can be given by calling 101 or the Norfolk Police website."
+        },
+        {
+          "type": "paragraph",
+          "text": "Detectives are trying to build up a picture of the events leading up to the woman's death and the appeal is part of that investigation. Information from residents, witnesses or anyone who may have seen or heard anything unusual could assist investigators in building a clearer picture of what occurred at the property."
+        },
+        {
+          "type": "paragraph",
+          "text": "So far, the authorities have released only a little information about the circumstances of the death. Police have confirmed the woman was in her 40s. She was found at a property in Fern Hill and a man in his 40s has been arrested on suspicion of murder. Further details are expected to emerge as detectives continue with their inquiries."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investigation indicates that police need the facts before they jump to conclusions about what happened. The post-mortem examination, forensic work, witness statements and the questioning of the arrested man are all expected to be considered as part of the evidence by detectives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Police are continuing to investigate the murder and are asking members of the public who may have information to contact them directly rather than speculate in public about the case. The investigation is continuing."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Murder Investigation After Woman Found Dead in Dersingham, Norfolk",
+        "metaDescription": "Norfolk Police have launched a murder investigation after a woman in her 40s was found dead in Fern Hill, Dersingham. A man in his 40s has been arrested.",
+        "ogTitle": "Murder Probe After Woman Found Dead in Norfolk",
+        "ogDescription": "A man in his 40s has been arrested on suspicion of murder following the death of a woman at a property in Dersingham.",
+        "ogImage": "/og/norfolk-murder-investigation-woman-found-dead-dersingham.jpg",
+        "twitterTitle": "Norfolk Murder Investigation: Woman Found Dead in Dersingham",
+        "twitterDescription": "Police investigate after a woman in her 40s was found dead; a man in his 40s is under arrest on suspicion of murder.",
+        "keywords": [
+          "Norfolk murder investigation",
+          "Dersingham",
+          "Fern Hill",
+          "Norfolk Police",
+          "King's Lynn",
+          "woman found dead"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
       "month": "09",
       "day": "29",
       "image": "/images/illustrations/second-prosecutor-resigns-grand-conspiracy-probe.webp",
@@ -105,7 +331,7 @@
         "metaDescription": "A second prosecutor has resigned from the Justice Department probe examining whether former officials conspired against President Trump.",
         "ogTitle": "Second Exit From DOJ 'Grand Conspiracy' Probe",
         "ogDescription": "The departure adds to upheaval in an investigation that has moved in fits and starts for more than a year.",
-        "ogImage": "/images/illustrations/second-prosecutor-resigns-grand-conspiracy-probe.webp",
+        "ogImage": "/og/second-prosecutor-resigns-grand-conspiracy-probe.jpg",
         "twitterTitle": "Second Prosecutor Leaves Grand-Conspiracy Probe",
         "twitterDescription": "Turnover continues in Justice Department investigation of alleged conspiracy against Trump.",
         "keywords": [
@@ -221,7 +447,7 @@
         "metaDescription": "The FBI is assessing how much employee data was taken after a hacking group claimed it stole sensitive personnel information from a bureau-related system.",
         "ogTitle": "FBI Scrambles After Claimed Personnel Data Breach",
         "ogDescription": "Officials say a jobs-related system was compromised; the bureau has vowed to pursue the attackers.",
-        "ogImage": "/images/illustrations/fbi-personnel-data-breach-shinyhunters.webp",
+        "ogImage": "/og/fbi-personnel-data-breach-shinyhunters.jpg",
         "twitterTitle": "FBI Personnel Data Breach Under Investigation",
         "twitterDescription": "Hackers claimed sensitive employee data; FBI says it will pursue the group.",
         "keywords": [
@@ -337,7 +563,7 @@
         "metaDescription": "The FTC and more than 20 states accused Amazon of deceptive ad practices that allegedly overcharged advertisers by billions of dollars.",
         "ogTitle": "FTC Sues Amazon Over Ad Practices",
         "ogDescription": "Multistate complaint alleges overcharging and limited competition on Amazon's platform.",
-        "ogImage": "/images/illustrations/ftc-sues-amazon-advertising-practices.webp",
+        "ogImage": "/og/ftc-sues-amazon-advertising-practices.jpg",
         "twitterTitle": "FTC and States Sue Amazon on Advertising",
         "twitterDescription": "Complaint claims advertisers were overcharged and competition was limited.",
         "keywords": [
@@ -453,7 +679,7 @@
         "metaDescription": "House Republicans are examining a DEA enforcement approach that critics say allowed more fentanyl onto U.S. streets during longer-term investigations.",
         "ogTitle": "House Inquiry Into DEA Fentanyl Enforcement Tactic",
         "ogDescription": "Lawmakers want records on controlled deliveries and delayed seizures involving fentanyl.",
-        "ogImage": "/images/illustrations/house-republicans-investigate-dea-fentanyl-tactic.webp",
+        "ogImage": "/og/house-republicans-investigate-dea-fentanyl-tactic.jpg",
         "twitterTitle": "House Probes DEA Fentanyl Tactic",
         "twitterDescription": "Investigation focuses on whether delayed seizures increased street supply.",
         "keywords": [
@@ -569,7 +795,7 @@
         "metaDescription": "The Secret Service is investigating three employees, including communications staff, for potential misconduct amid broader scrutiny of leaks and security.",
         "ogTitle": "Secret Service Probes Three Officials for Misconduct",
         "ogDescription": "Internal review focuses on the communications office and possible unauthorized disclosures.",
-        "ogImage": "/images/illustrations/secret-service-officials-under-investigation-misconduct.webp",
+        "ogImage": "/og/secret-service-officials-under-investigation-misconduct.jpg",
         "twitterTitle": "Secret Service Officials Under Investigation",
         "twitterDescription": "Three employees face internal review for potential misconduct.",
         "keywords": [
@@ -685,7 +911,7 @@
         "metaDescription": "Children with disabilities stay longer in foster care, face worse outcomes and higher death rates than peers without disabilities, according to data and case reviews.",
         "ogTitle": "Investigation: Foster Care Fails Many Disabled Children",
         "ogDescription": "Data show longer stays, more institutionalization and higher risk of death for children with disabilities in care.",
-        "ogImage": "/images/illustrations/foster-care-disabled-children-worst-outcomes.webp",
+        "ogImage": "/og/foster-care-disabled-children-worst-outcomes.jpg",
         "twitterTitle": "Foster Care Outcomes Worst for Disabled Children",
         "twitterDescription": "Investigation finds longer stays and higher risks for kids with disabilities in the system.",
         "keywords": [
