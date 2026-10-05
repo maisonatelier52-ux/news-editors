@@ -5,6 +5,12 @@
   "promptSet": "Create an original editorial illustration for the named article using sophisticated contemporary magazine illustration, geometric cut-paper shapes with subtle screen-print grain, crisp silhouettes and layered depth. Use a wide 16:10 landscape composition with a strong central focal point and safe crop margins. Palette: deep navy, clear red, muted sky blue, warm cream and charcoal. No text, numbers, logos, trademarks, watermark, photorealism or identifiable real person.",
   "items": [
     {
+      "category": "world",
+      "slug": "flydubai-pilot-smit-machchhar-opened-cockpit-door-attack",
+      "alt": "Editorial illustration of a commercial aircraft in steep descent with an open cockpit door and abstract intervention",
+      "brief": "Mid-air cockpit assault on a Dubai–Tel Aviv flight; captain opens door so passengers can intervene during a rapid descent."
+    },
+    {
       "category": "business",
       "slug": "nvidia-q2-earnings-data-center-revenue-surge",
       "alt": "Editorial illustration of AI chips, server racks and an upward data-center demand curve",
