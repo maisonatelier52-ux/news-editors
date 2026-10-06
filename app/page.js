@@ -8,7 +8,6 @@ import CategoryTabWidget from '@/components/CategoryTabWidget';
 import CategorySection from '@/components/CategorySection';
 import OpinionStrip from '@/components/OpinionStrip';
 import ThemedFeature from '@/components/ThemedFeature';
-import LatestArticles from '@/components/LatestArticles';
 import Link from 'next/link';
 import {
   getAllPosts,
@@ -117,17 +116,6 @@ export default function HomePage() {
   // Sidebar recent (display-only)
   const recentForSidebar = getRecentPosts(6, null, Array.from(used));
 
-  // Latest — prefer underrepresented categories still available
-  const remaining = getAllPosts().filter((p) => !used.has(p.slug));
-  const preferred = remaining.filter((p) =>
-    UNDERREPRESENTED.includes(p.category)
-  );
-  const others = remaining.filter(
-    (p) => !UNDERREPRESENTED.includes(p.category)
-  );
-  const latest = [...preferred, ...others].slice(0, 5);
-  take(latest);
-
   // Category sections: exclude everything used except their own reserved posts
   const excludeAllBut = (keepSlugs) => {
     const keep = new Set(keepSlugs);
@@ -218,12 +206,6 @@ export default function HomePage() {
           excludeSlugs={excludeAllBut(worldPosts.map((p) => p.slug))}
         />
       </div>
-
-      {latest.length > 0 && (
-        <div className="max-w-container mx-auto px-4 pb-8">
-          <LatestArticles posts={latest} title="Latest posts" columns={1} />
-        </div>
-      )}
     </div>
   );
 }
