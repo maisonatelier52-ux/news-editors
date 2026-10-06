@@ -36,6 +36,7 @@ try {
 fs.mkdirSync(outDir, { recursive: true });
 
 let created = 0;
+let existing = 0;
 let failed = 0;
 
 for (const file of fs.readdirSync(categoriesDir).filter((f) => f.endsWith('.json'))) {
@@ -43,10 +44,26 @@ for (const file of fs.readdirSync(categoriesDir).filter((f) => f.endsWith('.json
 
   for (const article of articles) {
     // Same source lib/seo.js uses: an explicit seo.ogImage wins over the hero.
-    const source = article.seo?.ogImage || article.image;
+    let source = article.seo?.ogImage || article.image;
     if (!source || /^https?:\/\//.test(source)) continue; // remote images are used as-is
 
-    const input = path.join(publicDir, source);
+    const outFile = path.join(outDir, `${article.slug}.jpg`);
+    let input = path.join(publicDir, source);
+
+    // seo.ogImage may already point at the generated file itself
+    // (/og/<slug>.jpg). That is this script's output, not a usable source
+    // (sharp cannot read and write the same file), so keep the existing file
+    // and only build it from the hero image if it is missing.
+    if (path.resolve(input) === path.resolve(outFile)) {
+      if (fs.existsSync(outFile)) {
+        existing++;
+        continue;
+      }
+      source = article.image;
+      if (!source || /^https?:\/\//.test(source)) continue;
+      input = path.join(publicDir, source);
+    }
+
     if (!fs.existsSync(input)) {
       console.warn(`[og] missing source image for "${article.slug}": ${source}`);
       failed++;
@@ -57,7 +74,7 @@ for (const file of fs.readdirSync(categoriesDir).filter((f) => f.endsWith('.json
       await sharp(input)
         .resize(WIDTH, HEIGHT, { fit: 'cover', position: 'centre' })
         .jpeg({ quality: 82, mozjpeg: true })
-        .toFile(path.join(outDir, `${article.slug}.jpg`));
+        .toFile(outFile);
       created++;
     } catch (error) {
       console.warn(`[og] could not convert "${article.slug}": ${error.message}`);
@@ -66,4 +83,6 @@ for (const file of fs.readdirSync(categoriesDir).filter((f) => f.endsWith('.json
   }
 }
 
-console.log(`[og] share images ready: ${created} generated${failed ? `, ${failed} skipped` : ''}.`);
+console.log(
+  `[og] share images ready: ${created} generated, ${existing} already present${failed ? `, ${failed} failed` : ''}.`
+);
