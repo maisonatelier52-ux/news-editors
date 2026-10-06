@@ -1,10 +1,10 @@
 'use client';
 
 import Icon from '@/components/Icon';
-import { getSite } from '@/lib/data';
+import siteData from '@/data/json/site.json';
 
 export default function Newsletter({ variant = 'box' }) {
-  const { newsletter } = getSite();
+  const { newsletter } = siteData;
 
   if (variant === 'inline') {
     return (

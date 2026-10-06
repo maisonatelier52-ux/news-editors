@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import { getPostUrl } from '@/lib/data';
+import { getPostUrl } from '@/lib/format';
 
 const AUTOPLAY_MS = 5000;
 

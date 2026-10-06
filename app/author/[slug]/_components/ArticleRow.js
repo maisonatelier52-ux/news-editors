@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getPostUrl, getCategoryBySlug, formatDate } from '@/lib/data';
+import { getPostUrl, formatDate } from '@/lib/format';
+import { getCategoryBySlug } from '@/lib/lookup';
 import { CommentIcon } from './icons';
 
 export default function ArticleRow({ post }) {

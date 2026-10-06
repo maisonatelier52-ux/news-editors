@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { CommentIcon } from './icons';
-import { getPostUrl, getAuthorBySlug, formatDate } from '@/lib/data';
+import { getPostUrl, formatDate } from '@/lib/format';
+import { getAuthorBySlug } from '@/lib/lookup';
 
 // Picks a short "kicker" label the way the reference design shows one
 // (e.g. "Public health.", "Office.") — falls back to the category name

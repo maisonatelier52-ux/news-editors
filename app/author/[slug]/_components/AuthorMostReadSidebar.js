@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import { getPostUrl } from '@/lib/data';
+import { getPostUrl } from '@/lib/format';
 
 const TABS = [
   { key: 'read', label: 'Recommended', icon: 'eye' },

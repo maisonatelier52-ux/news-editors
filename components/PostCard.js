@@ -3,7 +3,8 @@ import Image from 'next/image';
 import CategoryBadge from '@/components/CategoryBadge';
 import RatingBadge from '@/components/RatingBadge';
 import Icon from '@/components/Icon';
-import { getPostUrl, getAuthorBySlug, getCategoryBySlug, formatDate, formatPostType } from '@/lib/data';
+import { getPostUrl, formatDate, formatPostType } from '@/lib/format';
+import { getAuthorBySlug, getCategoryBySlug } from '@/lib/lookup';
 
 /**
  * variant:

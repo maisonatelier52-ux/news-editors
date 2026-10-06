@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Icon from '@/components/Icon';
 import CategoryBadge from '@/components/CategoryBadge';
-import { searchPosts, getPostUrl, formatDate } from '@/lib/data';
+import { getPostUrl, formatDate } from '@/lib/format';
 
 const MAX_SUGGESTIONS = 6;
 
@@ -23,6 +23,10 @@ const MAX_SUGGESTIONS = 6;
   slides down from the top over a dimmed backdrop.
 
   Performance notes
+  - The article index used for the suggestions (lib/data) is NOT part of the
+    page's JavaScript. It is a separate chunk that loads the first time the
+    person hovers / focuses / taps the search button, so it is normally ready
+    by the time they start typing and costs nothing for people who never search.
   - Only the small, absolutely positioned bar animates its width (nothing
     else on the page reflows). Everything else is opacity / transform.
   - No blur, no filters, no will-change, no JS animation loops.
@@ -102,12 +106,29 @@ export default function SearchButton() {
   const triggerRef = useRef(null);
   const router = useRouter();
 
+  // The search function lives in a separate chunk, fetched on first intent
+  // (hover / focus / touch / open). `searchFn` is null until it has arrived.
+  const [searchFn, setSearchFn] = useState(null);
+  const loadStartedRef = useRef(false);
+  const loadSearch = useCallback(() => {
+    if (loadStartedRef.current) return;
+    loadStartedRef.current = true;
+    import('@/lib/data')
+      .then((mod) => setSearchFn(() => mod.searchPosts))
+      .catch(() => {
+        // Allow a retry on the next hover / tap if the chunk failed to load.
+        loadStartedRef.current = false;
+      });
+  }, []);
+
   const trimmed = query.trim();
   const suggestions = useMemo(
-    () => (trimmed ? searchPosts(trimmed).slice(0, MAX_SUGGESTIONS) : []),
-    [trimmed]
+    () => (trimmed && searchFn ? searchFn(trimmed).slice(0, MAX_SUGGESTIONS) : []),
+    [trimmed, searchFn]
   );
-  const showDropdown = open && trimmed.length > 0;
+  // Wait for the index before showing results, so a fast typist never sees a
+  // misleading "No articles found" while the chunk is still arriving.
+  const showDropdown = open && trimmed.length > 0 && searchFn !== null;
 
   // restoreFocus: hand focus back to the Search button. Used for keyboard closes
   // (Esc, or Enter/Space on the X) so focus isn't lost; skipped for mouse/touch
@@ -149,6 +170,7 @@ export default function SearchButton() {
   // flushSync so the input is un-inert and focused inside the tap itself;
   // that is what makes iOS Safari bring up the keyboard straight away.
   function openSearch() {
+    loadSearch();
     flushSync(() => {
       setQuery('');
       setActiveIndex(-1);
@@ -210,6 +232,8 @@ export default function SearchButton() {
         aria-controls="site-search"
         inert={open}
         onClick={openSearch}
+        onPointerEnter={loadSearch}
+        onFocus={loadSearch}
         className={`group flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 bg-gray-100 text-ink transition-[background-color,border-color,box-shadow] duration-200 hover:border-brand/30 hover:bg-white hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/40 ${
           open ? TRIGGER_OPEN : TRIGGER_CLOSED
         }`}

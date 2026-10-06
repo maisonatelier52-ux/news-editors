@@ -9,7 +9,13 @@ import BreakingNews from '@/components/BreakingNews';
 
 export default function Header() {
   const site = getSite();
-  const breaking = getTrendingPosts(6);
+  // BreakingNews only needs the link + headline, so send just those fields
+  // (passing whole articles put ~40 KB of extra data into every page's HTML).
+  const breaking = getTrendingPosts(6).map(({ category, slug, title }) => ({
+    category,
+    slug,
+    title,
+  }));
 
   return (
     <header className="bg-white">

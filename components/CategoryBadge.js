@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getCategoryBySlug } from '@/lib/data';
+import { getCategoryBySlug } from '@/lib/lookup';
 
 /**
  * Newspaper-style kicker label — bold serif text in the brand blue,
