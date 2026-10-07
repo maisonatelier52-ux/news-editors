@@ -14,6 +14,9 @@ export function generateMetadata() {
       template: `%s – ${site.name}`,
     },
     description: site.tagline,
+    verification: {
+      google: 'j55e7_SUGzSoHpT8kqq6ikXUSmNn8c3I8Zi51cBZ2Y8',
+    },
     openGraph: {
       type: 'website',
       title: site.name,
