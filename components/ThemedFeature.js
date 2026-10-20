@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import { getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/lib/data';
 
 /**
@@ -53,7 +53,7 @@ export default function ThemedFeature({ label, posts = [] }) {
 
           {/* Center — large image */}
           <Link href={getPostUrl(lead)} className="group relative block w-full aspect-[16/10] overflow-hidden">
-            <Image
+            <ContentImage
               src={lead.image}
               alt={lead.title}
               fill
@@ -65,7 +65,7 @@ export default function ThemedFeature({ label, posts = [] }) {
           {/* Right — small image + caption */}
           <div>
             <Link href={getPostUrl(side)} className="group relative block w-full aspect-[4/3] overflow-hidden mb-3">
-              <Image
+              <ContentImage
                 src={side.image}
                 alt={side.title}
                 fill

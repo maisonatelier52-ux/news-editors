@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import { getPostUrl, getCategoryBySlug } from '@/lib/data';
 
 export default function RelatedStoryCard({ post }) {
@@ -9,7 +9,7 @@ export default function RelatedStoryCard({ post }) {
   return (
     <Link href={url} className="group block">
       <div className="relative w-full aspect-[4/3] overflow-hidden bg-gray-100">
-        <Image src={post.image} alt={post.title} fill className="object-cover" sizes="280px" />
+        <ContentImage src={post.image} alt={post.title} fill className="object-cover" sizes="280px" />
       </div>
       <p className="mt-2.5 font-sans font-bold text-[15px] leading-snug text-ink group-hover:text-brand transition-colors">
         {post.title}

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 
 export default function ArticleHeroImage({ post }) {
   if (!post.image) return null;
@@ -6,7 +6,7 @@ export default function ArticleHeroImage({ post }) {
   return (
     <figure className="mt-8">
       <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-gray-100">
-        <Image
+        <ContentImage
           src={post.image}
           alt={post.imageCaption || post.title}
           fill

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import { getPostUrl } from '@/lib/data';
 
 export default function ImageStrip({ posts }) {
@@ -13,7 +13,7 @@ export default function ImageStrip({ posts }) {
           href={getPostUrl(post)}
           className="group relative block aspect-[4/3] overflow-hidden"
         >
-          <Image
+          <ContentImage
             src={post.image}
             alt={post.title}
             fill

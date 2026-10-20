@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import Icon from '@/components/Icon';
 
 /**
@@ -42,14 +42,13 @@ export default function TrendingStoryItem({
           href={href}
           className={`group relative block w-full ${imageAspect} overflow-hidden bg-gray-100 mb-3`}
         >
-          <Image
+          <ContentImage
             src={image.src}
             alt={image.alt || ''}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-500"
             sizes="(max-width: 1024px) 100vw, 33vw"
-            loading={priority ? 'eager' : undefined}
-            fetchPriority={priority ? 'high' : undefined}
+            priority={priority}
           />
         </Link>
       )}

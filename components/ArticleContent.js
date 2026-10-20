@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 
 export default function ArticleContent({ blocks }) {
   if (!blocks || blocks.length === 0) return null;
@@ -29,7 +29,7 @@ export default function ArticleContent({ blocks }) {
             return (
               <figure key={i}>
                 <div className="relative w-full aspect-[3/2] rounded-lg overflow-hidden bg-gray-100">
-                  <Image
+                  <ContentImage
                     src={block.src}
                     alt={block.alt || ''}
                     fill

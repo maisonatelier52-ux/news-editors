@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import { getPostUrl, formatDate } from '@/lib/format';
 import { getCategoryBySlug } from '@/lib/lookup';
 import { CommentIcon } from './icons';
@@ -30,7 +30,7 @@ export default function ArticleRow({ post }) {
       </div>
       {post.image && (
         <Link href={url} className="relative block w-full aspect-[4/3] overflow-hidden bg-gray-100 shrink-0">
-          <Image src={post.image} alt={post.title} fill className="object-cover" sizes="180px" />
+          <ContentImage src={post.image} alt={post.title} fill className="object-cover" sizes="180px" />
         </Link>
       )}
     </article>

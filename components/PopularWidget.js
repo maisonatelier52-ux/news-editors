@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import Icon from '@/components/Icon';
 import { getPostUrl, getAuthorBySlug, getCategoryBySlug, formatDate } from '@/lib/data';
 
@@ -41,7 +41,7 @@ export default function PopularWidget({ posts = [] }) {
                 {i + 2}
               </span>
               <Link href={url} className="relative w-24 h-24 shrink-0 overflow-hidden bg-gray-100">
-                <Image src={post.image} alt={post.title} fill className="object-cover" sizes="96px" />
+                <ContentImage src={post.image} alt={post.title} fill className="object-cover" sizes="96px" />
               </Link>
               <div className="min-w-0 pt-0.5">
                 <span className="block text-xs font-serif font-bold text-[#2c6ca3] mb-1">

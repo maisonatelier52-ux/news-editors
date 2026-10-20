@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 
 const demoComments = [
   {
@@ -22,7 +22,7 @@ export default function CommentSection({ count = 1 }) {
         {demoComments.map((c, i) => (
           <div key={i} className="flex gap-4">
             <div className="relative w-11 h-11 rounded-full overflow-hidden bg-gray-100 shrink-0">
-              <Image src={c.avatar} alt={c.name} fill className="object-cover" sizes="44px" />
+              <ContentImage src={c.avatar} alt={c.name} fill className="object-cover" sizes="44px" />
             </div>
             <div className="flex-1 bg-gray-50 rounded-lg p-4">
               <div className="flex items-center gap-2 mb-1">

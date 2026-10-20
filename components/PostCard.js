@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import CategoryBadge from '@/components/CategoryBadge';
 import RatingBadge from '@/components/RatingBadge';
 import Icon from '@/components/Icon';
@@ -38,7 +38,7 @@ export default function PostCard({
     return (
       <div className="flex gap-3 items-start">
         <Link href={url} className="relative w-24 h-[70px] sm:w-28 sm:h-20 shrink-0 overflow-hidden bg-gray-100">
-          <Image src={post.image} alt={post.title} fill className="object-cover" sizes="112px" />
+          <ContentImage src={post.image} alt={post.title} fill className="object-cover" sizes="112px" />
           {post.rating && !isStars && (
             <span
               className="absolute bottom-0 left-0 right-0 px-2 py-0.5 text-right"
@@ -82,7 +82,7 @@ export default function PostCard({
     return (
       <article className="group">
         <Link href={url} className="relative block w-full aspect-[3/2] overflow-hidden bg-gray-100">
-          <Image
+          <ContentImage
             src={post.image}
             alt={post.title}
             fill
@@ -135,7 +135,7 @@ export default function PostCard({
     return (
       <article className="group">
         <Link href={url} className="relative block w-full aspect-[4/3] overflow-hidden bg-gray-100">
-          <Image
+          <ContentImage
             src={post.image}
             alt={post.title}
             fill
@@ -175,7 +175,7 @@ export default function PostCard({
     return (
       <div className="flex gap-3 items-start">
         <Link href={url} className="relative w-16 h-16 shrink-0 overflow-hidden bg-gray-100">
-          <Image src={post.image} alt={post.title} fill className="object-cover" sizes="64px" />
+          <ContentImage src={post.image} alt={post.title} fill className="object-cover" sizes="64px" />
         </Link>
         <div className="min-w-0">
           {post.rating ? (
@@ -212,7 +212,7 @@ export default function PostCard({
     return (
       <article className="flex gap-4 group h-full items-stretch">
         <Link href={url} className="relative w-36 sm:w-48 md:w-52 shrink-0 self-stretch min-h-[5.5rem] overflow-hidden bg-gray-100">
-          <Image src={post.image} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="208px" />
+          <ContentImage src={post.image} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="208px" />
           {post.rating && (
             <span className="absolute top-2 right-2">
               <RatingBadge rating={post.rating} size="sm" />
@@ -258,7 +258,7 @@ export default function PostCard({
   return (
     <article className="group h-full flex flex-col">
       <Link href={url} className="relative block w-full aspect-[16/10] overflow-hidden bg-gray-100">
-        <Image
+        <ContentImage
           src={post.image}
           alt={post.title}
           fill

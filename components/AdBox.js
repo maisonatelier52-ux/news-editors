@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import { getPostBySlug, getPostUrl } from '@/lib/data';
 
 export default function AdBox({ size = 'sidebar' }) {
@@ -27,7 +27,7 @@ export default function AdBox({ size = 'sidebar' }) {
       <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.16em] text-brand">Recommended reading</p>
       <Link href={getPostUrl(post)} className="group block">
         <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-slate-100">
-          <Image
+          <ContentImage
             src={post.image}
             alt={post.imageCaption || post.title}
             fill

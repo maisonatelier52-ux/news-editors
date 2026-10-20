@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import Icon from '@/components/Icon';
 
 // Client half of the category widget (prev/next paging state). The server
@@ -51,7 +51,7 @@ export default function CategoryTabPager({
           return (
             <article key={post.slug}>
               <Link href={url} className="group relative block w-full aspect-[4/3] overflow-hidden bg-gray-100 mb-3">
-                <Image
+                <ContentImage
                   src={post.image}
                   alt={post.title}
                   fill

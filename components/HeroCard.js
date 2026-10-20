@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import Icon from '@/components/Icon';
 import CategoryBadge from '@/components/CategoryBadge';
 import RatingBadge from '@/components/RatingBadge';
@@ -26,7 +26,7 @@ export default function HeroCard({ post, large = false, fill = false }) {
         fill ? 'h-full min-h-[220px] sm:min-h-[280px]' : 'aspect-[4/5] sm:aspect-[3/2] lg:aspect-[16/10]'
       }`}
     >
-      <Image
+      <ContentImage
         src={post.image}
         alt={post.title}
         fill

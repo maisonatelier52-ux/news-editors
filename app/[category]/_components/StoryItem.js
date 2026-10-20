@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import { CommentIcon } from './icons';
 import { getPostUrl, formatDate } from '@/lib/format';
 import { getAuthorBySlug } from '@/lib/lookup';
@@ -46,7 +46,7 @@ export default function StoryItem({ post, category, variant = 'horizontal' }) {
     return (
       <article className="pb-5 border-b border-gray-200">
         <Link href={url} className="relative block w-full aspect-[4/3] overflow-hidden bg-gray-100 mb-3">
-          <Image src={post.image} alt={post.title} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 320px" />
+          <ContentImage src={post.image} alt={post.title} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 320px" />
         </Link>
         <h3 className="font-serif leading-snug text-[17px] sm:text-lg">
           <Link href={url} className="group">
@@ -63,7 +63,7 @@ export default function StoryItem({ post, category, variant = 'horizontal' }) {
     return (
       <article className="pb-6 border-b border-gray-200">
         <Link href={url} className="relative block w-full aspect-[16/9] overflow-hidden bg-gray-100">
-          <Image src={post.image} alt={post.title} fill priority className="object-cover" sizes="(max-width: 1024px) 100vw, 60vw" />
+          <ContentImage src={post.image} alt={post.title} fill priority className="object-cover" sizes="(max-width: 1024px) 100vw, 60vw" />
         </Link>
         {post.imageCredit && (
           <p className="mt-1.5 text-right text-[11px] font-sans text-ink-muted">{post.imageCredit}</p>
@@ -93,7 +93,7 @@ export default function StoryItem({ post, category, variant = 'horizontal' }) {
         <Byline post={post} />
       </div>
       <Link href={url} className="relative block w-full aspect-[4/3] overflow-hidden bg-gray-100 shrink-0">
-        <Image src={post.image} alt={post.title} fill className="object-cover" sizes="180px" />
+        <ContentImage src={post.image} alt={post.title} fill className="object-cover" sizes="180px" />
       </Link>
     </article>
   );

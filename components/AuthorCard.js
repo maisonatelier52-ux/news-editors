@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import Icon from '@/components/Icon';
 
 export default function AuthorCard({ author, variant = 'compact' }) {
@@ -9,7 +9,7 @@ export default function AuthorCard({ author, variant = 'compact' }) {
     return (
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
         <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden bg-gray-100 shrink-0 ring-4 ring-gray-50">
-          <Image src={author.avatar} alt={author.name} fill className="object-cover" sizes="128px" />
+          <ContentImage src={author.avatar} alt={author.name} fill className="object-cover" sizes="128px" />
         </div>
         <div>
           <p className="text-xs font-bold uppercase tracking-wide text-brand mb-1">{author.role}</p>
@@ -35,7 +35,7 @@ export default function AuthorCard({ author, variant = 'compact' }) {
   return (
     <div className="bg-gray-50 rounded-xl p-6 flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
       <Link href={`/author/${author.slug}`} className="relative w-20 h-20 rounded-full overflow-hidden bg-gray-200 shrink-0">
-        <Image src={author.avatar} alt={author.name} fill className="object-cover" sizes="80px" />
+        <ContentImage src={author.avatar} alt={author.name} fill className="object-cover" sizes="80px" />
       </Link>
       <div>
         <Link

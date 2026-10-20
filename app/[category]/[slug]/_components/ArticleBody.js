@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 
 // Wraps any occurrences of the given phrases in <strong>, in the order they
 // appear in the text. `bold` phrases are exact substrings authored alongside
@@ -61,7 +61,7 @@ function Block({ block }) {
       return (
         <figure className="my-6">
           <div className="relative w-full aspect-[16/9] overflow-hidden bg-gray-100">
-            <Image src={block.src} alt={block.caption || ''} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 66vw" />
+            <ContentImage src={block.src} alt={block.caption || ''} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 66vw" />
           </div>
           {block.caption && (
             <figcaption className="mt-2 text-sm font-sans text-ink-muted">{block.caption}</figcaption>

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ContentImage from '@/components/ContentImage';
 import { SocialIcon, hasSocialIcon } from './icons';
 
 export default function AuthorProfileHeader({ author }) {
@@ -8,7 +8,7 @@ export default function AuthorProfileHeader({ author }) {
         <div className="flex gap-4 sm:gap-5">
           {author.avatar && (
             <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-full overflow-hidden bg-gray-100">
-              <Image src={author.avatar} alt={author.name} fill className="object-cover" sizes="80px" />
+              <ContentImage src={author.avatar} alt={author.name} fill className="object-cover" sizes="80px" />
             </div>
           )}
           <div className="pt-0.5 min-w-0">

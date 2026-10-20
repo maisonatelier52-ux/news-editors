@@ -193,3 +193,51 @@ animation: breakingPulse 4s ease-in-out infinite;
     opacity: 0.85;
   }
 }
+
+/* ---------- Day 1: speed + motion hygiene ---------- */
+
+/* Prefer reduced motion: stop the breaking-news marquee and hover zooms
+   from animating for users who requested less motion. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-marquee {
+    animation: none !important;
+  }
+  .group:hover img,
+  .group-hover\:scale-105 {
+    transform: none !important;
+  }
+}
+
+/* Non-fill images (logo, rare fixed-size assets) should never overflow. */
+img:not([data-nimg]) {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Screen-reader-only utility used by the skip link in layout.js.
+   Tailwind's `sr-only` is usually present; this guarantees it even if
+   the utility tree is purged unexpectedly. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
