@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
 import { getSite } from '@/lib/data';
+import { getOrganizationJsonLd, getWebsiteJsonLd } from '@/lib/seo';
 
 export function generateMetadata() {
   const site = getSite();
@@ -13,23 +14,34 @@ export function generateMetadata() {
       default: site.name,
       template: `%s – ${site.name}`,
     },
-    description: site.tagline,
+    description: site.description || site.tagline,
     verification: {
       google: 'j55e7_SUGzSoHpT8kqq6ikXUSmNn8c3I8Zi51cBZ2Y8',
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        'max-video-preview': -1,
+      },
     },
     openGraph: {
       type: 'website',
       title: site.name,
-      description: site.tagline,
+      description: site.description || site.tagline,
       url: siteUrl,
       siteName: site.name,
+      locale: 'en_US',
     },
     twitter: {
       card: 'summary_large_image',
       title: site.name,
-      description: site.tagline,
+      description: site.description || site.tagline,
     },
-    // Hint modern browsers that the site is light-first (matches body bg).
     other: {
       'color-scheme': 'light',
     },
@@ -37,25 +49,8 @@ export function generateMetadata() {
 }
 
 export default function RootLayout({ children }) {
-  const site = getSite();
-  const organizationJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: site.name,
-    url: site.siteUrl,
-    logo: site.siteUrl ? `${site.siteUrl}${site.logo}` : site.logo,
-  };
-  const websiteJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: site.name,
-    url: site.siteUrl,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${site.siteUrl}/search?q={search_term_string}`,
-      'query-input': 'required name=search_term_string',
-    },
-  };
+  const organizationJsonLd = getOrganizationJsonLd();
+  const websiteJsonLd = getWebsiteJsonLd();
 
   return (
     <html lang="en">

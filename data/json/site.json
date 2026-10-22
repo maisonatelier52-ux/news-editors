@@ -39,10 +39,17 @@
       "href": "/technology"
     }
   ],
-  "copyright": "\u00a9 2026 News Editors",
+  "copyright": "© 2026 News Editors",
   "newsletter": {
     "eyebrow": "From the editors",
     "title": "News and explainers, chosen by editors.",
     "description": "A concise selection of news briefs, explainers and investigations from our editors."
-  }
+  },
+  "sameAs": [
+    "https://x.com/news_editors",
+    "https://www.instagram.com/newseditors_/",
+    "https://substack.com/@newseditors",
+    "https://medium.com/@editornews65"
+  ],
+  "contactEmail": "editorial@news-editors.com"
 }

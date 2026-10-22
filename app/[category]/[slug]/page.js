@@ -7,6 +7,7 @@ import {
 import {
   getArticleMetadata,
   getArticleJsonLd,
+  getArticleFaqJsonLd,
   getBreadcrumbJsonLd,
   getArticleBreadcrumbItems,
 } from '@/lib/seo';
@@ -38,6 +39,7 @@ export default async function DetailPage({ params }) {
   const category = getCategoryBySlug(categorySlug);
 
   const articleJsonLd = getArticleJsonLd(post);
+  const faqJsonLd = getArticleFaqJsonLd(post);
   const breadcrumbItems = getArticleBreadcrumbItems(post, category);
   const breadcrumbJsonLd = getBreadcrumbJsonLd(breadcrumbItems);
 
@@ -51,6 +53,12 @@ export default async function DetailPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <Breadcrumb items={breadcrumbItems} />
 

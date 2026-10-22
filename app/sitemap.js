@@ -1,3 +1,8 @@
+/**
+ * Site sitemap (static export).
+ * Article lastModified uses each post's date; static pages use LAST_UPDATED
+ * from lib/static-pages.js so changefreq/priority stay honest for crawlers.
+ */
 import {
   getAllPosts,
   getAllCategories,
