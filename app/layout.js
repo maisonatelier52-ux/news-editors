@@ -45,6 +45,8 @@ export function generateMetadata() {
     other: {
       'color-scheme': 'light',
     },
+    themeColor: '#0F3D91',
+    manifest: '/site.webmanifest',
   };
 }
 

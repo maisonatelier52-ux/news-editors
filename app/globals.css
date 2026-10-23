@@ -241,3 +241,24 @@ img:not([data-nimg]) {
   clip: auto;
   white-space: normal;
 }
+
+/* ---------- Day 5: focus-visible for keyboard users ---------- */
+/* Prefer :focus-visible so mouse clicks do not show heavy rings. */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:not([tabindex="-1"]):focus-visible {
+  outline: 2px solid #0F3D91;
+  outline-offset: 2px;
+}
+
+/* Ensure brand links remain readable under forced colors / high contrast. */
+@media (forced-colors: active) {
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid CanvasText;
+  }
+}

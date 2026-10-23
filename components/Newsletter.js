@@ -1,6 +1,9 @@
 import Icon from '@/components/Icon';
 import { getSite } from '@/lib/data';
 
+// Short topic chips for the homepage banner (mirrors the description copy).
+const INLINE_TOPICS = ['News briefs', 'Explainers', 'Investigations'];
+
 /**
  * Newsletter / subscribe CTA for a static export.
  * Primary action is an external list (Substack) so it works without a form backend.
@@ -15,26 +18,79 @@ export default function Newsletter({ variant = 'box' }) {
   if (variant === 'inline') {
     return (
       <aside
-        className="flex flex-col items-center gap-6 bg-ink p-6 sm:flex-row sm:p-8"
+        className="relative isolate overflow-hidden rounded-2xl bg-[#0b2239] px-6 py-8 text-white shadow-[0_24px_48px_-28px_rgba(11,34,57,0.75)] sm:px-10 sm:py-10 lg:px-12 lg:py-11"
         aria-labelledby="newsletter-inline-title"
       >
-        <div className="flex-1 text-center sm:text-left">
-          <p className="mb-1 text-xs font-bold uppercase tracking-wide text-brand">
-            {newsletter.eyebrow}
-          </p>
-          <h3 id="newsletter-inline-title" className="text-xl font-extrabold text-white sm:text-2xl">
-            {newsletter.title}
-          </h3>
-          <p className="mt-1 text-sm text-gray-400">{newsletter.description}</p>
+        {/* Decorative layers (all aria-hidden, none intercept clicks) */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(115deg,#0b2239_0%,#0a2a68_58%,#0f3d91_100%)]"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -right-20 -top-28 -z-10 h-72 w-72 rounded-full bg-[#4c93ff]/30 blur-3xl sm:h-96 sm:w-96"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(rgba(255,255,255,0.09)_1px,transparent_1px)] bg-[length:22px_22px] [mask-image:linear-gradient(to_left,black,transparent_70%)]"
+        />
+        <span
+          aria-hidden="true"
+          className="absolute left-6 top-0 h-[3px] w-14 bg-gradient-to-r from-[#60a5fa] to-[#3b82ff] sm:left-10 sm:w-20 lg:left-12"
+        />
+
+        <div className="flex flex-col gap-7 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
+          <div className="max-w-2xl">
+            <p className="inline-flex items-center gap-2.5 text-xs font-extrabold uppercase tracking-[0.18em] text-sky-300">
+              <span className="h-1.5 w-1.5 rounded-full bg-sky-300" aria-hidden="true" />
+              {newsletter.eyebrow || 'From the editors'}
+            </p>
+            <h3
+              id="newsletter-inline-title"
+              className="mt-3 font-serif text-[1.7rem] font-black leading-[1.12] tracking-[-0.02em] text-white sm:text-4xl"
+            >
+              {newsletter.title}
+            </h3>
+            <p className="mt-3 max-w-xl font-sans text-[15px] leading-6 text-slate-300 sm:text-base sm:leading-7">
+              {newsletter.description}
+            </p>
+            <ul className="mt-5 flex flex-wrap gap-2" aria-label="What you will find">
+              {INLINE_TOPICS.map((topic) => (
+                <li
+                  key={topic}
+                  className="rounded-full border border-white/15 bg-white/5 px-3 py-1 font-sans text-xs font-bold text-sky-100/90"
+                >
+                  {topic}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex w-full shrink-0 items-center justify-center gap-2.5 rounded-full bg-white px-7 py-3.5 font-sans text-sm font-extrabold text-[#0b2239] shadow-lg shadow-black/25 transition-all duration-200 hover:bg-sky-100 hover:shadow-xl focus-visible:outline-white sm:w-auto"
+          >
+            <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden="true">
+              <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+            </svg>
+            {cta}
+            <svg
+              viewBox="0 0 24 24"
+              className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M5 12h14m-6-6 6 6-6 6" />
+            </svg>
+            <span className="sr-only">(opens in a new tab)</span>
+          </a>
         </div>
-        <a
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex shrink-0 items-center justify-center bg-brand px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-brand-dark"
-        >
-          {cta}
-        </a>
       </aside>
     );
   }

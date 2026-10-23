@@ -208,7 +208,7 @@ export default function HomePage() {
         />
       </div>
 
-      <div className="max-w-container mx-auto px-4 pb-10 pt-4 sm:pb-14">
+      <div className="max-w-container mx-auto -mb-10 px-4 pt-4 sm:-mb-8">
         <Newsletter variant="inline" />
       </div>
     </div>

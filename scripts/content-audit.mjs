@@ -96,7 +96,39 @@ for (const filename of fs.readdirSync(categoriesDir).filter((name) => name.endsW
     if (images.has(post.image)) errors.push(`${label}: duplicate article image`);
     images.add(post.image);
     if (post.seo?.ogImage !== post.image) errors.push(`${label}: social image does not match article image`);
+    // Day 5: modern SEO hygiene for Search Console / rankings readiness
+    if (!post.seo?.metaTitle || String(post.seo.metaTitle).trim().length < 12) {
+      errors.push(`${label}: seo.metaTitle missing or too short`);
+    }
+    if (!post.seo?.metaDescription || String(post.seo.metaDescription).trim().length < 50) {
+      errors.push(`${label}: seo.metaDescription missing or too short`);
+    }
+    if (post.seo?.metaTitle && post.seo.metaTitle.length > 70) {
+      errors.push(`${label}: seo.metaTitle is long (>70 chars; may truncate in SERPs)`);
+    }
+    if (!Array.isArray(post.tags) || post.tags.length === 0) {
+      errors.push(`${label}: tags missing (needed for related posts / topical clustering)`);
+    }
+    if (!post.author) errors.push(`${label}: missing author slug`);
     if (!fs.existsSync(path.join(root, 'public', String(post.image).replace(/^\//, '')))) errors.push(`${label}: image file is missing`);
+  }
+}
+
+
+// Day 5: author EEAT fields
+const authorsPath = path.join(root, 'data', 'json', 'authors.json');
+if (fs.existsSync(authorsPath)) {
+  const authors = JSON.parse(fs.readFileSync(authorsPath, 'utf8'));
+  if (!Array.isArray(authors) || authors.length === 0) {
+    errors.push('authors.json: expected at least one author');
+  }
+  for (const author of authors || []) {
+    const alabel = `authors.json:${author.slug || '?'}`;
+    if (!author.slug || !author.name) errors.push(`${alabel}: missing slug or name`);
+    if (!author.bio || String(author.bio).trim().length < 40) {
+      errors.push(`${alabel}: bio missing or too short for EEAT`);
+    }
+    if (!author.role) errors.push(`${alabel}: role missing`);
   }
 }
 
