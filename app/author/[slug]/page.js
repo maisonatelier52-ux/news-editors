@@ -4,6 +4,7 @@ import {
   getAuthorBySlug,
   getPostsByAuthor,
   getTrendingPosts,
+  getCategoryBySlug,
 } from '@/lib/data';
 import {
   getAuthorMetadata,
@@ -35,9 +36,13 @@ export default async function AuthorPage({ params }) {
 
   const posts = getPostsByAuthor(slug);
 
-  // Sidebar: "Most read" is scoped to this author's own posts; "Trending
-  // now" pulls site-wide trending posts (excluding ones already by this
-  // author) so the two tabs offer genuinely different lists.
+  // Distinct categories this author has written in (topics covered).
+  const topicSlugs = [...new Set(posts.map((p) => p.category).filter(Boolean))];
+  const topics = topicSlugs
+    .map((s) => getCategoryBySlug(s))
+    .filter(Boolean)
+    .map((c) => ({ slug: c.slug, name: c.name }));
+
   const mostRead = [...posts].sort((a, b) => b.views - a.views).slice(0, 5);
   const trending = getTrendingPosts(5, posts.map((p) => p.slug));
 
@@ -46,7 +51,7 @@ export default async function AuthorPage({ params }) {
   const breadcrumbJsonLd = getBreadcrumbJsonLd(breadcrumbItems);
 
   return (
-    <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 py-6 pb-10">
+    <div className="mx-auto max-w-[1400px] px-4 py-6 pb-10 sm:px-6 lg:px-10">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(authorJsonLd) }}
@@ -59,10 +64,10 @@ export default async function AuthorPage({ params }) {
       <Breadcrumb items={breadcrumbItems} />
 
       <div className="mt-4">
-        <AuthorProfileHeader author={author} />
+        <AuthorProfileHeader author={author} topics={topics} />
       </div>
 
-      <div className="mt-8 flex flex-col lg:flex-row lg:items-start gap-x-10 gap-y-10">
+      <div className="mt-8 flex flex-col gap-x-10 gap-y-10 lg:flex-row lg:items-start">
         <div className="min-w-0 flex-1">
           <AuthorArticleList posts={posts} />
         </div>

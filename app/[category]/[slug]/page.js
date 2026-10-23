@@ -3,6 +3,7 @@ import {
   getAllPosts,
   getPostByCategoryAndSlug,
   getCategoryBySlug,
+  getRelatedPosts,
 } from '@/lib/data';
 import {
   getArticleMetadata,
@@ -13,6 +14,8 @@ import {
 } from '@/lib/seo';
 
 import Breadcrumb from '@/components/Breadcrumb';
+import RelatedPosts from '@/components/RelatedPosts';
+import ArticleTrustFooter from '@/components/ArticleTrustFooter';
 import ArticleHeader from './_components/ArticleHeader';
 import ArticleHeroImage from './_components/ArticleHeroImage';
 import ArticleByline from './_components/ArticleByline';
@@ -37,6 +40,7 @@ export default async function DetailPage({ params }) {
   if (!post) notFound();
 
   const category = getCategoryBySlug(categorySlug);
+  const related = getRelatedPosts(post, 4);
 
   const articleJsonLd = getArticleJsonLd(post);
   const faqJsonLd = getArticleFaqJsonLd(post);
@@ -72,7 +76,10 @@ export default async function DetailPage({ params }) {
         <ArticleBody post={post} />
         <SourceLedger post={post} />
         <ArticleFooterMeta premium={post.premium} linksOfInterest={post.linksOfInterest} />
+        <ArticleTrustFooter />
       </div>
+
+      <RelatedPosts posts={related} categoryName={category?.name} />
     </article>
   );
 }

@@ -82,8 +82,17 @@ export function SourceLedger({ post }) {
       <p className="mt-5 text-sm leading-6 text-slate-500">
         Spot something that needs attention?{' '}
         <Link href="/editorial-standards#corrections" className="font-bold text-ink underline decoration-slate-300 underline-offset-4">
-          Review our corrections process.
+          Review our corrections process
         </Link>
+        {' · '}
+        <Link href="/source-methodology" className="font-bold text-ink underline decoration-slate-300 underline-offset-4">
+          Source methodology
+        </Link>
+        {' · '}
+        <Link href="/right-of-reply-policy" className="font-bold text-ink underline decoration-slate-300 underline-offset-4">
+          Right of reply
+        </Link>
+        .
       </p>
     </section>
   );
