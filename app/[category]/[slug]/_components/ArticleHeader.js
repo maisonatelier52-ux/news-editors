@@ -2,22 +2,25 @@ import Link from 'next/link';
 import { formatPostType, getCategoryBySlug } from '@/lib/data';
 import ShareButton from './ShareButton';
 
-export default function ArticleHeader({ post }) {
+export default function ArticleHeader({ post, shareUrl }) {
   const category = getCategoryBySlug(post.category);
+  const shareText = post.subtitle || post.excerpt || post.title;
 
   return (
     <header>
       {category && (
         <Link
           href={`/${category.slug}`}
-          className="inline-block font-sans font-extrabold uppercase tracking-wide text-xs sm:text-sm text-ink hover:text-brand"
+          className="inline-block font-sans text-xs font-extrabold uppercase tracking-wide text-ink hover:text-brand sm:text-sm"
         >
           {category.name}
         </Link>
       )}
 
       <div className="mt-3 flex flex-wrap items-center gap-2 text-xs font-extrabold uppercase tracking-[0.14em] text-slate-500">
-        <span className="rounded-full bg-slate-100 px-3 py-1.5 text-ink">{formatPostType(post.articleType)}</span>
+        <span className="rounded-full bg-slate-100 px-3 py-1.5 text-ink">
+          {formatPostType(post.articleType)}
+        </span>
         {post.readingTime && <span>{post.readingTime}</span>}
       </div>
 
@@ -31,9 +34,12 @@ export default function ArticleHeader({ post }) {
         </p>
       )}
 
-      <div className="mt-6 flex items-center gap-3">
-        <ShareButton title={post.title} />
-        <a href="#sources" className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-sm font-bold text-ink transition-colors hover:border-brand hover:text-brand">
+      <div className="mt-6 flex flex-wrap items-center gap-3">
+        <ShareButton title={post.title} url={shareUrl} text={shareText} />
+        <a
+          href="#sources"
+          className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-sm font-bold text-ink transition-colors hover:border-brand hover:text-brand"
+        >
           Sources &amp; notes
         </a>
       </div>

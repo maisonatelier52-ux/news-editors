@@ -74,7 +74,7 @@ export default async function CategoryPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <CategoryPageHeader category={category} childCategories={childCategories} />
+      <CategoryPageHeader category={category} childCategories={childCategories} relatedTopics={exploreCategories} />
 
       {posts.length === 0 ? (
         <p className="py-10 text-ink-muted">No posts in this topic yet.</p>

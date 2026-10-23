@@ -1,10 +1,18 @@
 import Link from 'next/link';
 import { ChevronRightIcon } from './icons';
 
-// Category page masthead. Mirrors the article and info pages: serif black
-// headline with tight tracking, serif slate lede, pill links and a hairline
-// rule with a short brand-blue segment as the single accent.
-export default function CategoryPageHeader({ category, childCategories = [] }) {
+/**
+ * Category hub masthead.
+ * childCategories = subtopics; relatedTopics = sibling / peer sections for topical navigation.
+ */
+export default function CategoryPageHeader({
+  category,
+  childCategories = [],
+  relatedTopics = [],
+}) {
+  const chips = childCategories.length > 0 ? childCategories : relatedTopics;
+  const chipLabel = childCategories.length > 0 ? 'In this section' : 'Related topics';
+
   return (
     <header className="pt-5 sm:pt-7">
       <nav aria-label="Breadcrumb" className="flex items-center gap-2 font-sans text-sm text-ink-muted">
@@ -25,17 +33,22 @@ export default function CategoryPageHeader({ category, childCategories = [] }) {
         </p>
       )}
 
-      {childCategories.length > 0 && (
-        <div className="mt-5 flex flex-wrap items-center gap-2">
-          {childCategories.map((child) => (
-            <Link
-              key={child.slug}
-              href={`/${child.slug}`}
-              className="rounded-full border border-slate-200 px-4 py-2 font-sans text-sm font-bold text-ink transition-colors hover:border-brand hover:text-brand"
-            >
-              {child.name}
-            </Link>
-          ))}
+      {chips.length > 0 && (
+        <div className="mt-5">
+          <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.14em] text-slate-500">
+            {chipLabel}
+          </p>
+          <div className="flex flex-wrap items-center gap-2">
+            {chips.map((item) => (
+              <Link
+                key={item.slug}
+                href={`/${item.slug}`}
+                className="rounded-full border border-slate-200 px-4 py-2 font-sans text-sm font-bold text-ink transition-colors hover:border-brand hover:text-brand"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
 

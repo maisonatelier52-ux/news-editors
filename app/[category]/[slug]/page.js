@@ -4,6 +4,8 @@ import {
   getPostByCategoryAndSlug,
   getCategoryBySlug,
   getRelatedPosts,
+  getSite,
+  getPostUrl,
 } from '@/lib/data';
 import {
   getArticleMetadata,
@@ -16,6 +18,7 @@ import {
 import Breadcrumb from '@/components/Breadcrumb';
 import RelatedPosts from '@/components/RelatedPosts';
 import ArticleTrustFooter from '@/components/ArticleTrustFooter';
+import Newsletter from '@/components/Newsletter';
 import ArticleHeader from './_components/ArticleHeader';
 import ArticleHeroImage from './_components/ArticleHeroImage';
 import ArticleByline from './_components/ArticleByline';
@@ -41,6 +44,8 @@ export default async function DetailPage({ params }) {
 
   const category = getCategoryBySlug(categorySlug);
   const related = getRelatedPosts(post, 4);
+  const site = getSite();
+  const shareUrl = `${(site.siteUrl || '').replace(/\/$/, '')}${getPostUrl(post)}`;
 
   const articleJsonLd = getArticleJsonLd(post);
   const faqJsonLd = getArticleFaqJsonLd(post);
@@ -67,7 +72,7 @@ export default async function DetailPage({ params }) {
       <Breadcrumb items={breadcrumbItems} />
 
       <div className="mt-5 max-w-[900px]">
-        <ArticleHeader post={post} />
+        <ArticleHeader post={post} shareUrl={shareUrl} />
       </div>
       <ArticleHeroImage post={post} />
       <div className="mx-auto max-w-[820px]">
@@ -77,6 +82,7 @@ export default async function DetailPage({ params }) {
         <SourceLedger post={post} />
         <ArticleFooterMeta premium={post.premium} linksOfInterest={post.linksOfInterest} />
         <ArticleTrustFooter />
+        <Newsletter variant="article" />
       </div>
 
       <RelatedPosts posts={related} categoryName={category?.name} />

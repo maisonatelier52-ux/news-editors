@@ -2,6 +2,7 @@ import TrendingGrid from '@/components/TrendingGrid';
 import MustReadWidget from '@/components/MustReadWidget';
 import MostViewedCarousel from '@/components/MostViewedCarousel';
 import StandardsWidget from '@/components/StandardsWidget';
+import Newsletter from '@/components/Newsletter';
 import LastModifiedWidget from '@/components/LastModifiedWidget';
 import PopularWidget from '@/components/PopularWidget';
 import CategoryTabWidget from '@/components/CategoryTabWidget';
@@ -205,6 +206,10 @@ export default function HomePage() {
           limit={5}
           excludeSlugs={excludeAllBut(worldPosts.map((p) => p.slug))}
         />
+      </div>
+
+      <div className="max-w-container mx-auto px-4 pb-10 pt-4 sm:pb-14">
+        <Newsletter variant="inline" />
       </div>
     </div>
   );

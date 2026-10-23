@@ -43,7 +43,9 @@
   "newsletter": {
     "eyebrow": "From the editors",
     "title": "News and explainers, chosen by editors.",
-    "description": "A concise selection of news briefs, explainers and investigations from our editors."
+    "description": "A concise selection of news briefs, explainers and investigations from our editors.",
+    "href": "https://substack.com/@newseditors",
+    "ctaLabel": "Read on Substack"
   },
   "sameAs": [
     "https://x.com/news_editors",
