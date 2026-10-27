@@ -15,6 +15,7 @@ import {
   getMostViewedPosts,
   getRecentPosts,
   getPostsByCategory,
+  getPostBySlug,
 } from '@/lib/data';
 
 export default function HomePage() {
@@ -26,6 +27,16 @@ export default function HomePage() {
   const JULIO_SLUG = 'julio-herrera-velutini-international-banking-american-market';
   const OPENAI_SLUG = 'openai-security-warnings-ignored-employees';
   const PINNED = new Set([JULIO_SLUG, OPENAI_SLUG]);
+
+  // Latest U.S. story: takes over the lead slot of the Must Read block,
+  // replacing the U.S. story that held it before. The replaced story is
+  // retired from the homepage (it stays on its article page and in the U.S.
+  // category archive). Every other homepage slot keeps its current story.
+  // To swap in a newer U.S. story later, update these two slugs.
+  const US_LEAD_SLUG = 'judge-limits-trump-east-potomac-golf-course-renovation';
+  const US_RETIRED_SLUG = 'measles-cases-near-1000-in-first-two-months-of-2026';
+  const HOME_HELD = new Set([US_LEAD_SLUG, US_RETIRED_SLUG]);
+  const usLead = getPostBySlug(US_LEAD_SLUG);
 
   // ------------------------------------------------------------------
   // 1) Reserve posts for dedicated category sections FIRST.
@@ -69,6 +80,7 @@ export default function HomePage() {
         (p) =>
           !reserved.has(p.slug) &&
           !PINNED.has(p.slug) &&
+          !HOME_HELD.has(p.slug) &&
           UNDERREPRESENTED.includes(p.category)
       )
       .slice(0, need);
@@ -79,7 +91,7 @@ export default function HomePage() {
   // ------------------------------------------------------------------
   // 2) Mixed sections — never touch reserved or pinned slugs.
   // ------------------------------------------------------------------
-  const used = new Set([...reserved, ...PINNED]);
+  const used = new Set([...reserved, ...PINNED, ...HOME_HELD]);
 
   const take = (posts) => {
     (posts || []).forEach((p) => {
@@ -89,7 +101,7 @@ export default function HomePage() {
   };
 
   // Trending: same as original — Julio (rightC) + OpenAI (rightBelow) pinned.
-  const trendingExclude = Array.from(reserved);
+  const trendingExclude = Array.from(new Set([...reserved, ...HOME_HELD]));
   take(
     getAllPosts()
       .filter(
@@ -106,9 +118,13 @@ export default function HomePage() {
       )
   );
 
-  // Must Read
-  const mustReadExclude = Array.from(used);
-  take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 7));
+  // Must Read: the U.S. lead story plus the next 6 (7 slots, as before).
+  const mustReadExclude = Array.from(used).filter((s) => s !== US_LEAD_SLUG);
+  take(
+    getAllPosts()
+      .filter((p) => !used.has(p.slug))
+      .slice(0, usLead ? 6 : 7)
+  );
 
   // Popular / Most Viewed
   const popularExclude = Array.from(used);
@@ -160,7 +176,10 @@ export default function HomePage() {
 
       <div className="max-w-container mx-auto px-4 py-4 sm:py-8 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-10">
         <div className="space-y-10">
-          <MustReadWidget excludeSlugs={mustReadExclude} />
+          <MustReadWidget
+            excludeSlugs={mustReadExclude}
+            leadSlug={usLead ? US_LEAD_SLUG : null}
+          />
           <MostViewedCarousel excludeSlugs={popularExclude} />
         </div>
         <aside className="space-y-8 lg:sticky lg:top-4 lg:self-start">
