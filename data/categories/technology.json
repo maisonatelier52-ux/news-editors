@@ -3,6 +3,151 @@
     {
       "author": "admin",
       "year": "2026",
+      "month": "11",
+      "day": "03",
+      "image": "/images/illustrations/apple-ternus-record-quarter-memory-costs-holiday-outlook.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of an Apple retail storefront with glass facade and illuminated logo at dusk",
+      "keyTakeaways": [
+        "Apple reported record September-quarter revenue of $114.5 billion, up 12%, in CEO John Ternus's first earnings report.",
+        "iPhone revenue rose 17% to $57.6 billion; Services hit an all-time high; full-year revenue reached about $479 billion.",
+        "CFO guided holiday-quarter gross margin to 45%–46%, below analyst expectations, citing unprecedented memory-chip costs.",
+        "Apple expects constrained supply on Mac, iPad and iPhone Duo this holiday season as demand outruns plans."
+      ],
+      "whyItMatters": "Memory shortages driven by AI data-center demand are raising component costs across consumer electronics; Apple's margin warning and supply constraints signal how that pressure is already reshaping holiday pricing and availability for the industry's largest hardware seller.",
+      "reportingNote": "This report is based on public statements, company disclosures and contemporaneous coverage of the events described.",
+      "sources": [
+        {
+          "publisher": "CNBC",
+          "label": "Apple Q4 2026 earnings live updates",
+          "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+          "accessed": "November 3, 2026"
+        },
+        {
+          "publisher": "MacRumors",
+          "label": "Apple Q4 2026 earnings takeaways",
+          "url": "https://www.macrumors.com/2026/11/02/apple-q4-2026-earnings-takeaways/",
+          "accessed": "November 3, 2026"
+        },
+        {
+          "publisher": "U.S. Securities and Exchange Commission",
+          "label": "Apple Form 8-K exhibit (Q4 2026 results)",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm",
+          "accessed": "November 3, 2026"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "label": "Apple beats Q4 estimates on strong iPhone sales but misses on China revenue",
+          "url": "https://finance.yahoo.com/markets/stocks/live/apple-earnings-live-apple-beats-q4-estimates-on-strong-iphone-sales-but-misses-on-china-revenue-221806957.html",
+          "accessed": "November 3, 2026"
+        },
+        {
+          "publisher": "Quartz",
+          "label": "Apple stock, memory costs and holiday margin forecast",
+          "url": "https://qz.com/apple-stock-memory-costs-holiday-margin-forecast-110326",
+          "accessed": "November 3, 2026"
+        }
+      ],
+      "slug": "apple-ternus-record-quarter-memory-costs-holiday-outlook",
+      "title": "Apple posts a record quarter, but memory costs cloud the holiday outlook in Ternus's first report",
+      "subtitle": "Strong iPhone and Services results met a below-expectations margin guide as memory-chip prices surge",
+      "excerpt": "Apple's first earnings report under CEO John Ternus delivered record September-quarter revenue of $114.5 billion and a holiday gross-margin guide of 45% to 46%, below estimates, as the company blamed a global shortage of memory chips.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "apple",
+        "earnings",
+        "iphone",
+        "memory chips"
+      ],
+      "date": "2026-11-03",
+      "toc": [
+        {
+          "id": "record-quarter-headline-numbers",
+          "text": "Record quarter, mixed details"
+        },
+        {
+          "id": "memory-shortage-and-margin-pressure",
+          "text": "Memory shortage and margin pressure"
+        },
+        {
+          "id": "holiday-outlook-and-supply",
+          "text": "Holiday outlook and supply"
+        },
+        {
+          "id": "market-reaction",
+          "text": "Market reaction"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Apple's first earnings report under CEO John Ternus delivered a record September quarter and a warning in the same breath. The company said Monday that revenue rose 12% to $114.5 billion. Then its chief financial officer guided to a gross margin of 45% to 46% for the holiday quarter, below the 46.3% analysts expected, and blamed a global shortage of memory chips that has pushed component prices sharply higher, CNBC reported. Ternus took over from Tim Cook on Sept. 1."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Record quarter, mixed details",
+          "id": "record-quarter-headline-numbers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most of the headline numbers were strong. iPhone revenue grew 17% to $57.6 billion, ahead of the roughly $56.5 billion analysts were looking for, and Apple said Services reached an all-time high. Net income was $30.7 billion, and earnings per share of $2.10 beat the roughly $2.00 forecast. Mac revenue climbed to $10.8 billion from $8.7 billion a year earlier despite supply limits, MacRumors reported. For the full fiscal year, revenue reached a record of about $479 billion, up 15%. Apple's release credited the iPhone 18 Pro lineup and the new iPhone Duo."
+        },
+        {
+          "type": "paragraph",
+          "text": "There were soft spots. iPad sales fell short of estimates, and Greater China revenue rose 21% to $17.54 billion, a September-quarter record that still came in below the $18.75 billion Wall Street had expected, Yahoo Finance said."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Memory shortage and margin pressure",
+          "id": "memory-shortage-and-margin-pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "The memory problem was the main event of the call. Ternus described current memory pricing as \"unprecedented\" and said Apple expects costs to rise again in the December quarter and keep climbing after that. The shortage comes as AI data centers compete with consumer electronics makers for the same chips. Apple raised some prices in June and September to offset part of the pressure, and it benefited from older, cheaper inventory and lower costs on other components."
+        },
+        {
+          "type": "paragraph",
+          "text": "The margin math is blunt. Apple's 47.9% gross margin in the September quarter included about one percentage point from tariff refunds, and without them the company said margins would have fallen by about a point from June, mostly because of memory. CFO Kevan Parekh said the December forecast also includes costs tied to the rollout of the upgraded Siri AI. At the midpoint, Quartz noted, that margin would be Apple's weakest since the fiscal fourth quarter of 2023."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Holiday outlook and supply",
+          "id": "holiday-outlook-and-supply"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sales outlook was still upbeat. Apple expects revenue to grow 7% to 10% in the December quarter, which it said would be the best quarter in its history, with Services growing 8% to 9%. Parekh added that the forecast reflects constrained supply, and Apple expects shortages on the Mac, the iPad and the iPhone Duo because demand has been stronger than planned."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Market reaction",
+          "id": "market-reaction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors focused on the margin. Apple shares fell about 4% in premarket trading Tuesday, according to Quartz, and Yahoo Finance's market wrap listed the iPad miss and the weak margin outlook among the reasons the stock lost ground. For shoppers, the more practical takeaway may be about availability: if Apple's own supply estimates hold, some Macs, iPads and iPhones could be hard to find this holiday season even if demand stays strong."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Apple Record Quarter Under Ternus, Memory Costs Cloud Holiday | Technology",
+        "metaDescription": "Apple posted record $114.5B September revenue in John Ternus's first report as CEO, but guided holiday gross margin to 45–46% on rising memory-chip costs.",
+        "ogTitle": "Apple posts a record quarter, but memory costs cloud the holiday outlook",
+        "ogDescription": "Strong iPhone and Services results met a below-expectations margin guide as memory-chip prices surge in Ternus's first earnings report as CEO."
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
       "month": "09",
       "day": "09",
       "image": "/images/illustrations/apple-debuts-foldable-iphone-duo.webp",
