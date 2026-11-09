@@ -35,8 +35,25 @@ export default function HomePage() {
   // To swap in a newer U.S. story later, update these two slugs.
   const US_LEAD_SLUG = 'judge-limits-trump-east-potomac-golf-course-renovation';
   const US_RETIRED_SLUG = 'measles-cases-near-1000-in-first-two-months-of-2026';
-  const HOME_HELD = new Set([US_LEAD_SLUG, US_RETIRED_SLUG]);
   const usLead = getPostBySlug(US_LEAD_SLUG);
+
+  // Newest U.S. story: takes over the Must Read slot the Target Halloween
+  // costume story held (4th card, top of the right-hand column). The Target
+  // story is retired from the homepage only; it stays on its article page and
+  // in the U.S. category and author listings, which are sorted by date.
+  // To swap in a newer U.S. story later, update US_SLOT_SLUG (and move the
+  // outgoing slug into US_SLOT_RETIRED_SLUGS).
+  const US_SLOT_SLUG = 'democrats-win-congress-2026-midterms-races-uncalled';
+  const US_SLOT_INDEX = 3;
+  const US_SLOT_RETIRED_SLUGS = ['target-pulls-halloween-costume-backlash'];
+  const usSlot = getPostBySlug(US_SLOT_SLUG);
+
+  const HOME_HELD = new Set([
+    US_LEAD_SLUG,
+    US_RETIRED_SLUG,
+    US_SLOT_SLUG,
+    ...US_SLOT_RETIRED_SLUGS,
+  ]);
 
   // ------------------------------------------------------------------
   // 1) Reserve posts for dedicated category sections FIRST.
@@ -118,12 +135,15 @@ export default function HomePage() {
       )
   );
 
-  // Must Read: the U.S. lead story plus the next 6 (7 slots, as before).
-  const mustReadExclude = Array.from(used).filter((s) => s !== US_LEAD_SLUG);
+  // Must Read: the U.S. lead story, the pinned U.S. slot story, plus the
+  // next posts by date (7 slots in total, as before).
+  const mustReadExclude = Array.from(used).filter(
+    (s) => s !== US_LEAD_SLUG && s !== US_SLOT_SLUG
+  );
   take(
     getAllPosts()
       .filter((p) => !used.has(p.slug))
-      .slice(0, usLead ? 6 : 7)
+      .slice(0, 7 - (usLead ? 1 : 0) - (usSlot ? 1 : 0))
   );
 
   // Popular / Most Viewed
@@ -179,6 +199,7 @@ export default function HomePage() {
           <MustReadWidget
             excludeSlugs={mustReadExclude}
             leadSlug={usLead ? US_LEAD_SLUG : null}
+            pins={usSlot ? [{ slug: US_SLOT_SLUG, index: US_SLOT_INDEX }] : []}
           />
           <MostViewedCarousel excludeSlugs={popularExclude} />
         </div>
