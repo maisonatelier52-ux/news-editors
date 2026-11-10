@@ -2,7 +2,7 @@ import TrendingGrid from '@/components/TrendingGrid';
 import MustReadWidget from '@/components/MustReadWidget';
 import MostViewedCarousel from '@/components/MostViewedCarousel';
 import StandardsWidget from '@/components/StandardsWidget';
-import Newsletter from '@/components/Newsletter';
+import Newsletter, { NEWSLETTER_ENABLED } from '@/components/Newsletter';
 import LastModifiedWidget from '@/components/LastModifiedWidget';
 import PopularWidget from '@/components/PopularWidget';
 import CategoryTabWidget from '@/components/CategoryTabWidget';
@@ -265,9 +265,11 @@ export default function HomePage() {
         />
       </div>
 
-      <div className="max-w-container mx-auto -mb-10 px-4 pt-4 sm:-mb-8">
-        <Newsletter variant="inline" />
-      </div>
+      {NEWSLETTER_ENABLED && (
+        <div className="max-w-container mx-auto -mb-10 px-4 pt-4 sm:-mb-8">
+          <Newsletter variant="inline" />
+        </div>
+      )}
     </div>
   );
 }

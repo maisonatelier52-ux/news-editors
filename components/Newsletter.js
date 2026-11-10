@@ -1,6 +1,10 @@
 import Icon from '@/components/Icon';
 import { getSite } from '@/lib/data';
 
+// Set to true once the Substack account is live. While false, the "From the
+// editors" banner is hidden on the homepage and on every article page.
+export const NEWSLETTER_ENABLED = false;
+
 // Short topic chips for the homepage banner (mirrors the description copy).
 const INLINE_TOPICS = ['News briefs', 'Explainers', 'Investigations'];
 
@@ -10,6 +14,8 @@ const INLINE_TOPICS = ['News briefs', 'Explainers', 'Investigations'];
  * Email field is optional progressive enhancement — submit still routes to the list URL.
  */
 export default function Newsletter({ variant = 'box' }) {
+  if (!NEWSLETTER_ENABLED) return null;
+
   const site = getSite();
   const newsletter = site.newsletter || {};
   const href = newsletter.href || 'https://substack.com/@newseditors';
