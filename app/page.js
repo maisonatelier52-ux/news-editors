@@ -48,11 +48,22 @@ export default function HomePage() {
   const US_SLOT_RETIRED_SLUGS = ['target-pulls-halloween-costume-backlash'];
   const usSlot = getPostBySlug(US_SLOT_SLUG);
 
+  // Latest investigation: takes over the slot directly under the centre card
+  // of the TrendingGrid that the DEA fentanyl story held. The DEA story is
+  // retired from the homepage only; it stays on its article page and in the
+  // Investigation category and author listings, which are sorted by date.
+  // To swap in a newer investigation later, update INV_SLOT_SLUG (and move the
+  // outgoing slug into INV_SLOT_RETIRED_SLUGS).
+  const INV_SLOT_SLUG = 'doj-grand-jury-probe-alaska-decoy-dan-senate-race';
+  const INV_SLOT_RETIRED_SLUGS = ['house-republicans-investigate-dea-fentanyl-tactic'];
+  const invSlot = getPostBySlug(INV_SLOT_SLUG);
+
   const HOME_HELD = new Set([
     US_LEAD_SLUG,
     US_RETIRED_SLUG,
     US_SLOT_SLUG,
     ...US_SLOT_RETIRED_SLUGS,
+    ...INV_SLOT_RETIRED_SLUGS,
   ]);
 
   // ------------------------------------------------------------------
@@ -67,8 +78,10 @@ export default function HomePage() {
     .filter((p) => !PINNED.has(p.slug))
     .slice(0, 3);
 
+  // The pinned investigation already has its own prominent slot, so the
+  // Investigation section below lists the stories that follow it.
   const investigationPosts = getPostsByCategory('investigation', [])
-    .filter((p) => !PINNED.has(p.slug))
+    .filter((p) => !PINNED.has(p.slug) && p.slug !== INV_SLOT_SLUG)
     .slice(0, 4);
 
   let financePosts = getPostsByCategory('finance', [])
@@ -117,7 +130,8 @@ export default function HomePage() {
     return posts;
   };
 
-  // Trending: same as original — Julio (rightC) + OpenAI (rightBelow) pinned.
+  // Trending: Julio (rightC) + OpenAI (rightBelow) pinned, plus the pinned
+  // investigation (centerB). The rest of the grid fills by date as before.
   const trendingExclude = Array.from(new Set([...reserved, ...HOME_HELD]));
   take(
     getAllPosts()
@@ -125,9 +139,11 @@ export default function HomePage() {
         (p) =>
           !used.has(p.slug) &&
           p.slug !== JULIO_SLUG &&
-          p.slug !== OPENAI_SLUG
+          p.slug !== OPENAI_SLUG &&
+          p.slug !== INV_SLOT_SLUG
       )
-      .slice(0, 6)
+      .slice(0, invSlot ? 5 : 6)
+      .concat(invSlot ? [invSlot] : [])
       .concat(
         getAllPosts().filter(
           (p) => p.slug === JULIO_SLUG || p.slug === OPENAI_SLUG
@@ -191,6 +207,7 @@ export default function HomePage() {
           excludeSlugs={trendingExclude}
           rightCSlug={JULIO_SLUG}
           rightBelowSlug={OPENAI_SLUG}
+          centerBSlug={invSlot ? INV_SLOT_SLUG : null}
         />
       </div>
 

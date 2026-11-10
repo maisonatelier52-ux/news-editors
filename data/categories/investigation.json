@@ -3,6 +3,236 @@
     {
       "author": "admin",
       "year": "2026",
+      "month": "11",
+      "day": "10",
+      "image": "/images/illustrations/doj-grand-jury-probe-alaska-decoy-dan-senate-race.webp",
+      "views": 0,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-11-10T09:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of a doubled ballot entry under a magnifying glass beside subpoena papers",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "keyTakeaways": [
+        "Federal prosecutors have reportedly issued more than 100 subpoenas and at least 20 target and preservation letters in a criminal probe of how a second “Dan Sullivan” reached Alaska’s Senate ballot.",
+        "Peltola’s campaign, the DSCC and the candidate himself deny coordinating; no charges have been announced, and a judge has already dismissed a related Justice Department lawsuit, which the department is appealing.",
+        "Alaska’s count is unfinished: Peltola led Sen. Dan Sullivan by 2,517 votes on Nov. 9, a ranked-choice tabulation is expected Nov. 18, and certification is set for Nov. 25."
+      ],
+      "whyItMatters": "The case tests where aggressive ballot-access tactics end and election-fraud law begins, and it is unfolding while a close Senate race is still being counted.",
+      "reportingNote": "This report is based on coverage by ABC News, Fox News, the Associated Press, Newsweek and CNN (as relayed by The Jerusalem Post). Details attributed to unnamed sources have not been independently confirmed by News Editors. A target letter or subpoena does not mean anyone will be charged.",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "label": "DOJ ramps up probe of Alaska Senate race with target letters, new subpoenas: Sources",
+          "url": "https://abcnews.com/US/doj-ramps-probe-alaska-senate-race-target-letters/story?id=137819400",
+          "accessed": "November 10, 2026"
+        },
+        {
+          "publisher": "Fox News",
+          "label": "Trump admin puts alleged ‘Decoy Dan’ conspirators on notice in Alaska election spoiler probe",
+          "url": "https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe",
+          "accessed": "November 10, 2026"
+        },
+        {
+          "publisher": "The Associated Press (via The Atlanta Journal-Constitution)",
+          "label": "Judge dismisses lawsuit seeking to block certification of Alaska Senate race if GOP incumbent loses",
+          "url": "https://www.ajc.com/news/2026/11/judge-dismisses-lawsuit-seeking-to-block-certification-of-alaska-senate-race-if-gop-incumbent-loses/",
+          "accessed": "November 10, 2026"
+        },
+        {
+          "publisher": "The Associated Press (via ITV News)",
+          "label": "Report: Second Dan Sullivan in Alaska Senate race recruited by Democrats",
+          "url": "https://www.itv.com/news/2026-10-28/second-dan-sullivan-in-alaska-senate-race-recruited-by-democrats-report-says",
+          "accessed": "November 10, 2026"
+        },
+        {
+          "publisher": "Newsweek",
+          "label": "Alaska Senate margin keeps Justice Department lawsuit alive",
+          "url": "https://www.newsweek.com/alaska-senate-margin-keeps-justice-department-lawsuit-alive-12667820",
+          "accessed": "November 10, 2026"
+        },
+        {
+          "publisher": "Newsweek",
+          "label": "Alaska governor gives ‘Decoy Dan’ probe update amid tight Senate race",
+          "url": "https://www.newsweek.com/alaska-governor-gives-decoy-dan-probe-update-amid-tight-senate-race-12690756",
+          "accessed": "November 10, 2026"
+        },
+        {
+          "publisher": "The Jerusalem Post (citing CNN)",
+          "label": "Alaska Senate long-shot subpoenaed in probe of alleged spoiler recruitment",
+          "url": "https://www.jpost.com/international/article-914115",
+          "accessed": "November 10, 2026"
+        }
+      ],
+      "slug": "doj-grand-jury-probe-alaska-decoy-dan-senate-race",
+      "title": "Federal Grand Jury Probe Into Alaska’s ‘Decoy Dan’ Senate Candidacy Widens",
+      "subtitle": "Prosecutors have issued scores of subpoenas and target letters as Alaska counts ballots; those named deny wrongdoing and no charges have been announced",
+      "excerpt": "Federal prosecutors have reportedly issued more than 100 subpoenas and at least 20 target and preservation letters in a criminal investigation into how a second “Dan Sullivan” reached Alaska’s U.S. Senate ballot, as the race is still being counted.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "Alaska",
+        "Senate race",
+        "Justice Department",
+        "grand jury",
+        "Mary Peltola",
+        "Dan Sullivan",
+        "Decoy Dan"
+      ],
+      "date": "2026-11-10",
+      "toc": [
+        {
+          "id": "what-federal-prosecutors-are-doing",
+          "text": "What federal prosecutors are doing"
+        },
+        {
+          "id": "how-the-second-sullivan-reached-the-ballot",
+          "text": "How the second Dan Sullivan reached the ballot"
+        },
+        {
+          "id": "denials-and-responses",
+          "text": "Denials and responses"
+        },
+        {
+          "id": "court-fight-over-certification",
+          "text": "The court fight over certification"
+        },
+        {
+          "id": "state-inquiry-and-open-legal-questions",
+          "text": "State inquiry and open legal questions"
+        },
+        {
+          "id": "what-happens-next",
+          "text": "What happens next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Federal prosecutors have widened a criminal investigation into how a second candidate named Dan Sullivan came to appear on Alaska’s U.S. Senate ballot, issuing scores of grand jury subpoenas and sending target and preservation letters to political operatives and lawyers, according to reporting by ABC News and Fox News. No charges have been announced, and the people and groups named in the reporting have denied wrongdoing."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investigation is unfolding while Alaska is still counting ballots from the Nov. 3 general election. As of Monday afternoon, Democrat Mary Peltola led Republican Sen. Dan Sullivan by 2,517 votes, Newsweek reported. Retired Petersburg teacher Daniel J. Sullivan Jr., who is listed on the ballot with no party affiliation and is widely nicknamed “Decoy Dan,” received 3,651 votes, or 1.7 percent, more than the gap between the two leading candidates."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What federal prosecutors are doing",
+          "id": "what-federal-prosecutors-are-doing"
+        },
+        {
+          "type": "paragraph",
+          "text": "ABC News reported on Nov. 3, citing sources, that a federal grand jury in Alaska is examining possible conspiracy and donor-fraud offenses and that prosecutors are issuing more than 100 subpoenas. Fox News, also citing sources, put the total at more than 120 since the investigation began in July, including more than 30 in a single 24-hour period after The New York Times published its report in late October."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both outlets reported that at least 20 target and preservation letters have been sent. A target letter tells the recipient they are under investigation, while a preservation letter asks them to keep communications and documents; neither means charges will follow. ABC described the use of target letters at this stage as unusually early. Citing the Times, Fox reported that letters went to Marc Elias, whose Elias Law Group represents Peltola’s campaign, and to an official at the Democratic Senatorial Campaign Committee (DSCC)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Separately, CNN reported, as relayed by The Jerusalem Post on Nov. 7, that Gerald Heikes, a long-shot Republican candidate in the race, was subpoenaed to appear before the grand jury and to produce records about political groups and other candidates, along with communications involving Peltola’s campaign, several political action committees and operatives tied to them. The subpoena was reportedly signed by a senior official in the Justice Department’s Civil Rights Division in Washington. Heikes told CNN he was not recruited and “just took a chance.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Associated Press reported that FBI agents have also contacted donors to Daniel J. Sullivan Jr., some of whom said they were asked whether they had been misled about which candidate they were supporting. U.S. Attorney Michael Heyman told reporters at a news conference before Election Day that he was not making assumptions about whether a crime had been committed, according to Fox News. The Justice Department has declined to comment on the ongoing investigation. Attorney General Todd Blanche told Fox News Digital there is a “FRAUD on the ballot.”"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How the second Dan Sullivan reached the ballot",
+          "id": "how-the-second-sullivan-reached-the-ballot"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dan J. Sullivan entered the race in June and finished in the top four in the August primary with about 2.5 percent of the vote, which qualified him for the general election, the AP reported. He appears on the ballot as “Daniel J. Sullivan Jr.” with no party listed, while the incumbent is identified as a Republican. State election officials had earlier tried to keep him off the ballot, but state courts, including the Alaska Supreme Court, rejected a Republican-backed effort to remove him."
+        },
+        {
+          "type": "paragraph",
+          "text": "On Oct. 28, The New York Times reported that Peltola’s campaign had tried to get a second Sullivan onto the ballot to confuse voters. According to the AP’s account of the report, the Times reviewed text messages among campaign members about recruiting people with the Sullivan name, reported that DSCC staffers were part of some of the text exchanges, and drew in part on interviews with Peltola’s former campaign manager, Elisa Rios, who was fired in August and reportedly tried to retract her comments."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Denials and responses",
+          "id": "denials-and-responses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peltola’s campaign said it “has no involvement with either Sullivan campaign,” and the DSCC said it “is not involved with Dan J. Sullivan.” Peltola has denied any knowledge of attempts to recruit other candidates. Dan J. Sullivan said in June that he had no contact with her campaign (“Zero, none, zilch”), and Newsweek reported on Nov. 10 that he continues to deny coordinating with it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elias said, according to ABC News, that he “will not be intimidated by a sham investigation” and accused the administration of weaponizing the Justice Department against political opponents. Sen. Sullivan’s campaign said Alaskans “deserve the truth,” and Sullivan told CNN he expects to “lose a lot of votes to that trickery.”"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The court fight over certification",
+          "id": "court-fight-over-certification"
+        },
+        {
+          "type": "paragraph",
+          "text": "Less than two weeks before Election Day, the Justice Department sued in federal court to block Alaska from certifying the Senate result if Sen. Sullivan lost, asking for a review of whether votes cast for the namesake were meant for the incumbent. President Trump has said he ordered the suit. On Nov. 1, U.S. District Judge Sharon Gleason dismissed it, calling the requested relief infeasible and writing that the government “provides no workable plan” for separating ballots while protecting ballot secrecy. She also cited the Constitution’s grant of election authority to the states and the Purcell principle, which discourages federal courts from changing election rules close to an election."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Justice Department said the ruling rested on procedural grounds and did not dispute its claim that the namesake ran as a decoy. It appealed the same day, and Newsweek reported that briefing is not due until several weeks after Alaska plans to certify its results. Peltola’s campaign, the DSCC, Common Cause, the League of Women Voters of Alaska and two voters represented by the ACLU had intervened on the state’s side."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "State inquiry and open legal questions",
+          "id": "state-inquiry-and-open-legal-questions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alaska Gov. Mike Dunleavy, a Republican who leaves office next month, has ordered a state investigation. In a Nov. 8 interview on WABC radio’s The Cats Roundtable, he said investigators are examining whether any wrongdoing occurred, “especially anything that might resemble perjury,” Newsweek reported. His office did not respond to the outlet’s request for comment."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is unclear whether recruiting a ballot-name candidate violates any criminal law. Newsweek reported that ballot stacking is not illegal at the federal level and quoted Florida State University law professor Michael Morley as calling the Justice Department’s lawsuit “completely meritless.” Scott Kendall, the Anchorage attorney who wrote the state’s 2020 ranked-choice voting measure, says the system neutralizes spoiler candidates and that “Decoy Dan” is unlikely to change the outcome, while the group Repeal Now says some voters picked the wrong Dan Sullivan or failed to rank candidates."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What happens next",
+          "id": "what-happens-next"
+        },
+        {
+          "type": "paragraph",
+          "text": "No candidate is expected to reach 50 percent, so a ranked-choice tabulation is likely on Nov. 18. If current standings hold, Daniel J. Sullivan Jr. would be the first candidate eliminated and his voters’ next choices would be redistributed. Mail ballots postmarked by Election Day can arrive through Nov. 13, overseas ballots through Nov. 18, and certification is scheduled for Nov. 25."
+        },
+        {
+          "type": "paragraph",
+          "text": "The grand jury investigation and the Justice Department’s appeal both continue. The allegations in the Times report and the department’s claims about voter confusion have not been tested in court, and a subpoena or target letter is not a charge. This report will be updated as the count and the investigations develop."
+        }
+      ],
+      "seo": {
+        "metaTitle": "DOJ Grand Jury Probe Into Alaska ‘Decoy Dan’ Candidacy Widens",
+        "metaDescription": "Federal prosecutors have issued scores of subpoenas and target letters in a probe of how a second Dan Sullivan reached Alaska’s Senate ballot. Here is what is known.",
+        "ogTitle": "DOJ Probe Into Alaska’s ‘Decoy Dan’ Senate Candidacy Widens",
+        "ogDescription": "Subpoenas, target letters and a dismissed lawsuit: where the federal investigation into Alaska’s second Dan Sullivan stands as ballots are counted.",
+        "ogImage": "/og/doj-grand-jury-probe-alaska-decoy-dan-senate-race.jpg",
+        "twitterTitle": "Alaska ‘Decoy Dan’ Probe: DOJ Subpoenas and Target Letters",
+        "twitterDescription": "Prosecutors widen a grand jury probe of Alaska’s second Dan Sullivan as the Senate count continues; those named deny wrongdoing.",
+        "keywords": [
+          "Decoy Dan",
+          "Alaska Senate race",
+          "DOJ grand jury",
+          "Mary Peltola",
+          "Dan Sullivan",
+          "target letters",
+          "ranked-choice voting"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
       "month": "10",
       "day": "04",
       "image": "/images/illustrations/norfolk-murder-investigation-woman-found-dead-dersingham.webp",
