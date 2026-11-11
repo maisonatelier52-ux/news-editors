@@ -58,11 +58,25 @@ export default function HomePage() {
   const INV_SLOT_RETIRED_SLUGS = ['house-republicans-investigate-dea-fentanyl-tactic'];
   const invSlot = getPostBySlug(INV_SLOT_SLUG);
 
+  // Latest business story: takes over the Must Read slot the Dick's Sporting
+  // Goods story held (6th card, second text-only story in the right-hand
+  // column). The Dick's story is retired from the homepage only; it stays on
+  // its article page and in the Business category and author listings, which
+  // are sorted by date.
+  // To swap in a newer business story later, update BIZ_SLOT_SLUG (and move the
+  // outgoing slug into BIZ_SLOT_RETIRED_SLUGS).
+  const BIZ_SLOT_SLUG = 'costco-30-special-dividend-13-billion-buyback-november-2026';
+  const BIZ_SLOT_INDEX = 5;
+  const BIZ_SLOT_RETIRED_SLUGS = ['dicks-sporting-goods-foot-locker-earnings-miss'];
+  const bizSlot = getPostBySlug(BIZ_SLOT_SLUG);
+
   const HOME_HELD = new Set([
     US_LEAD_SLUG,
     US_RETIRED_SLUG,
     US_SLOT_SLUG,
+    BIZ_SLOT_SLUG,
     ...US_SLOT_RETIRED_SLUGS,
+    ...BIZ_SLOT_RETIRED_SLUGS,
     ...INV_SLOT_RETIRED_SLUGS,
   ]);
 
@@ -151,15 +165,18 @@ export default function HomePage() {
       )
   );
 
-  // Must Read: the U.S. lead story, the pinned U.S. slot story, plus the
-  // next posts by date (7 slots in total, as before).
+  // Must Read: the U.S. lead story, the pinned U.S. and business slot
+  // stories, plus the next posts by date (7 slots in total, as before).
   const mustReadExclude = Array.from(used).filter(
-    (s) => s !== US_LEAD_SLUG && s !== US_SLOT_SLUG
+    (s) => s !== US_LEAD_SLUG && s !== US_SLOT_SLUG && s !== BIZ_SLOT_SLUG
   );
   take(
     getAllPosts()
       .filter((p) => !used.has(p.slug))
-      .slice(0, 7 - (usLead ? 1 : 0) - (usSlot ? 1 : 0))
+      .slice(
+        0,
+        7 - (usLead ? 1 : 0) - (usSlot ? 1 : 0) - (bizSlot ? 1 : 0)
+      )
   );
 
   // Popular / Most Viewed
@@ -216,7 +233,10 @@ export default function HomePage() {
           <MustReadWidget
             excludeSlugs={mustReadExclude}
             leadSlug={usLead ? US_LEAD_SLUG : null}
-            pins={usSlot ? [{ slug: US_SLOT_SLUG, index: US_SLOT_INDEX }] : []}
+            pins={[
+              ...(usSlot ? [{ slug: US_SLOT_SLUG, index: US_SLOT_INDEX }] : []),
+              ...(bizSlot ? [{ slug: BIZ_SLOT_SLUG, index: BIZ_SLOT_INDEX }] : []),
+            ]}
           />
           <MostViewedCarousel excludeSlugs={popularExclude} />
         </div>
