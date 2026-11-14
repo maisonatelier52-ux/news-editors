@@ -7,12 +7,14 @@ import { getAllPosts, getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/l
  * rightBelowSlug adds a compact third story under that image card.
  * centerBSlug pins the story directly under the centre feature card (the
  * first slot of the left-to-right "starting section" below it).
+ * leftCSlug pins the third (last) story of the left column.
  */
 export default function TrendingGrid({
   excludeSlugs = [],
   rightCSlug = null,
   rightBelowSlug = null,
   centerBSlug = null,
+  leftCSlug = null,
 }) {
   const exclude = new Set(excludeSlugs);
 
@@ -20,6 +22,12 @@ export default function TrendingGrid({
   if (centerBSlug) {
     centerBOverride = getAllPosts().find((p) => p.slug === centerBSlug) || null;
     if (centerBOverride) exclude.add(centerBSlug);
+  }
+
+  let leftCOverride = null;
+  if (leftCSlug) {
+    leftCOverride = getAllPosts().find((p) => p.slug === leftCSlug) || null;
+    if (leftCOverride) exclude.add(leftCSlug);
   }
 
   let rightCOverride = null;
@@ -35,10 +43,15 @@ export default function TrendingGrid({
   }
 
   const pool = getAllPosts().filter((p) => !exclude.has(p.slug));
-  const minNeeded = (rightCOverride ? 6 : 7) - (centerBOverride ? 1 : 0);
+  const minNeeded =
+    (rightCOverride ? 6 : 7) - (centerBOverride ? 1 : 0) - (leftCOverride ? 1 : 0);
   if (pool.length < minNeeded) return null;
 
-  const [leftA, leftB, leftC, center, ...rest] = pool;
+  // A pinned leftC takes the last left-column slot; otherwise it is the next
+  // story by date.
+  const [leftA, leftB, ...afterLeft] = pool;
+  const leftC = leftCOverride || afterLeft.shift();
+  const [center, ...rest] = afterLeft;
   // A pinned centerB takes that slot; otherwise it is the next story by date.
   const centerB = centerBOverride || rest.shift();
   const [rightB, rightCFallback] = rest;

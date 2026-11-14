@@ -3,6 +3,194 @@
     {
       "author": "admin",
       "year": "2026",
+      "month": "11",
+      "day": "14",
+      "image": "/images/illustrations/bessent-blames-commerce-megaspeed-blacklist-delay-lutnick-to-testify.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-11-14T12:00:00+05:30",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of two cabinet chairs at a long government table, one pushed back, with a stack of AI chips and a glowing blacklist ledger between them under the dome of a Senate hearing room",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "keyTakeaways": [
+        "Treasury Secretary Scott Bessent said on CNBC that other agencies backed blacklisting Megaspeed for months, but that Commerce controls the Entity List.",
+        "Commerce Secretary Howard Lutnick has agreed to testify before the Senate Banking Committee on Dec. 10, according to a U.S. official cited by CBS News.",
+        "Reuters reported that White House officials discussed Lutnick’s future, while a White House official said Trump maintains complete confidence in him."
+      ],
+      "whyItMatters": "Who controls export blacklists, and how fast they are used, decides whether advanced AI chips reach China. A public Cabinet split, bipartisan pressure and a Democratic Congress arriving in January make Commerce’s record a major oversight fight.",
+      "reportingNote": "This source-based news report summarizes public reporting from CBS News, Reuters, Axios, Newsweek and Fortune available as of Nov. 14, 2026. Accounts of internal White House discussions rely on anonymous sources, Commerce has denied the reported Situation Room confrontation, and the allegations about Megaspeed and Alice Huang are suspicions reported by news outlets rather than established findings. Details may change as officials respond.",
+      "sources": [
+        {
+          "publisher": "CBS News",
+          "label": "Lutnick agrees to testify as Bessent blames him for not banning Nvidia chip exports to China-linked firm",
+          "url": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/",
+          "accessed": "November 14, 2026"
+        },
+        {
+          "publisher": "Reuters (via Investing.com)",
+          "label": "White House discussing Howard Lutnick’s future as Commerce secretary, people familiar say",
+          "url": "https://www.investing.com/news/stock-market-news/white-house-discussing-howard-lutnicks-future-as-commerce-secretary-people-familiar-say-5022941",
+          "accessed": "November 14, 2026"
+        },
+        {
+          "publisher": "Newsweek",
+          "label": "Trump’s inner circle throws Howard Lutnick under the bus",
+          "url": "https://www.newsweek.com/scott-bessent-howard-lutnick-nvidia-scandal-12712195",
+          "accessed": "November 14, 2026"
+        },
+        {
+          "publisher": "Axios",
+          "label": "Scoop: Bessent confronts Lutnick in Situation Room over China inaction",
+          "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+          "accessed": "November 14, 2026"
+        },
+        {
+          "publisher": "CBS News",
+          "label": "Timeline of a scandal: How Jensen Huang’s abrupt resignation unfolded at Nvidia",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-resignation-scandal-timeline/",
+          "accessed": "November 14, 2026"
+        },
+        {
+          "publisher": "Fortune",
+          "label": "Scott Bessent says Treasury wanted to blacklist Megaspeed ‘for months,’ blaming Howard Lutnick as Nvidia fallout widens",
+          "url": "https://fortune.com/2026/11/13/scott-bessent-treasury-blacklist-megaspeed-howard-lutnick-nvidia-jensen-huang/",
+          "accessed": "November 14, 2026"
+        }
+      ],
+      "slug": "bessent-blames-commerce-megaspeed-blacklist-delay-lutnick-to-testify",
+      "title": "Bessent Blames Commerce for Megaspeed Blacklist Delay as Lutnick Agrees to Testify",
+      "subtitle": "The Treasury secretary’s public rebuke, a reported White House debate over Lutnick’s future and bipartisan demands for answers put Commerce’s China chip policy under scrutiny",
+      "excerpt": "Treasury Secretary Scott Bessent said Commerce “has the pen” on export blacklists, a day after Reuters reported White House officials were discussing Howard Lutnick’s future and as Lutnick agreed to testify to the Senate Banking Committee on Dec. 10.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "commerce-department",
+        "howard-lutnick",
+        "scott-bessent",
+        "nvidia",
+        "export-controls",
+        "china",
+        "senate-banking-committee"
+      ],
+      "date": "2026-11-14",
+      "toc": [
+        {
+          "id": "what-bessent-said",
+          "text": "What Bessent said"
+        },
+        {
+          "id": "why-megaspeed-is-at-the-center",
+          "text": "Why Megaspeed is at the center"
+        },
+        {
+          "id": "pressure-from-both-parties",
+          "text": "Pressure from both parties"
+        },
+        {
+          "id": "what-comes-next",
+          "text": "What comes next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treasury Secretary Scott Bessent has publicly pointed to the Commerce Department for the Trump administration’s failure to blacklist Megaspeed International, a Singapore-based buyer of Nvidia chips that U.S. officials suspect of routing advanced processors to China. Speaking on CNBC on Friday, Bessent said Treasury, the Pentagon, the U.S. Trade Representative and the State Department had favored adding the company to the Entity List for months, but that Commerce “has the pen.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The remarks came one day after Reuters reported that senior White House officials were discussing whether Commerce Secretary Howard Lutnick should be pushed out, and on the same day CBS News reported that Lutnick had agreed to testify before the Senate Banking Committee on Dec. 10, according to a U.S. official. A White House official has said President Donald Trump “maintains complete confidence” in Lutnick, and no decision to remove him has been announced."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Bessent said",
+          "id": "what-bessent-said"
+        },
+        {
+          "type": "paragraph",
+          "text": "Asked on CNBC’s Squawk Box about reported tension between him and Lutnick, Bessent declined to discuss those reports but made the division of responsibility plain. The Entity List, which restricts which foreign companies can receive sensitive U.S. technology, is administered by Commerce’s Bureau of Industry and Security. Other agencies could push for a listing, he said, but the decision sits with Commerce, and questions about its internal process should go there."
+        },
+        {
+          "type": "paragraph",
+          "text": "Axios reported on Wednesday that Bessent confronted Lutnick in a White House Situation Room meeting after the Nov. 3 midterms, asking why Megaspeed had not been listed. According to Axios, Lutnick answered that he would look into it. A Commerce Department spokesperson told Axios the account was false and that the two secretaries had no such conversation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Axios also noted that the rivalry between the two men dates to Trump’s transition, when both sought the Treasury job, and that Commerce has not added a single company to the Entity List in more than a year, based on a review of the Federal Register."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Megaspeed is at the center",
+          "id": "why-megaspeed-is-at-the-center"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reuters reported that Megaspeed has bought more than $4.8 billion in advanced Nvidia AI chips since June 2024. The U.S. government suspects the company of directing advanced chips to China in a way that circumvents American export restrictions. Megaspeed has said it is a compliant and legal company, and China’s Foreign Ministry has dismissed the espionage allegations as groundless, according to CNN as relayed by Newsweek."
+        },
+        {
+          "type": "paragraph",
+          "text": "The scrutiny intensified after Nvidia CEO Jensen Huang resigned on Nov. 12, effective immediately. Four days earlier, Huang had told employees in a message that he had an extramarital affair, and Nvidia’s board had announced an independent investigation amid reports that he was the target of a foreign intelligence effort. The relationship was with Alice Huang, who is not related to him and previously led Megaspeed. U.S. officials suspect her of passing information to Beijing, according to reporting by The New York Times summarized by CBS News. The reporting describes suspicion, and this article does not treat it as proven."
+        },
+        {
+          "type": "paragraph",
+          "text": "The New York Times has also reported that Commerce Undersecretary Jeffrey Kessler abruptly halted a Megaspeed investigation after Nvidia intervened, according to Axios’s account of that reporting."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pressure from both parties",
+          "id": "pressure-from-both-parties"
+        },
+        {
+          "type": "paragraph",
+          "text": "Republicans have been among the sharpest critics. Sen. Jim Banks of Indiana, a Banking Committee member, said Commerce appeared to have used loopholes to allow chip sales that Trump had directed the department not to permit. Sen. John Kennedy of Louisiana told Politico that Lutnick should explain his choices publicly. Asked on CNN whether Lutnick should lose his job, Kennedy said he did not know yet. Rep. Bill Huizenga of Michigan said Commerce had not been responsive to lawmakers, while Rep. Brian Mast of Florida said he has confidence in Lutnick but wants Congress to examine how the department approves chip exports."
+        },
+        {
+          "type": "paragraph",
+          "text": "Democrats, who won control of Congress in the midterms and take over in January, are seeking records. Sens. Elizabeth Warren and Chris Coons asked Lutnick, Secretary of State Marco Rubio and White House chief of staff Stephen Miller to preserve documents on Nvidia’s advanced chip exports to China. Warren is set to chair the Senate Banking Committee next year. Sen. Ron Wyden and Rep. Richard Neal said they are investigating the administration’s approval of chip sales to Chinese companies with troubling ties, and they described the December 2025 arrangement that allowed Nvidia H200 sales to China in exchange for a share of revenue as an “unconstitutional export tax.”"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What comes next",
+          "id": "what-comes-next"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Dec. 10 Banking Committee appearance is the next fixed date. Lutnick is likely to face questions about the Entity List freeze that began in October 2025, the reported halt of the Megaspeed inquiry and what he told colleagues. Reuters has reported that the administration also held off blacklisting Chinese AI startup DeepSeek, memory chipmaker CXMT and more than 100 other companies flagged as potential national security risks, amid concerns about tensions with Beijing."
+        },
+        {
+          "type": "paragraph",
+          "text": "The White House has so far stood by Lutnick publicly. Separately, CBS News’s timeline notes that Trump said on Nov. 9 he learned of the allegations surrounding Huang’s relationship only recently. Whether that public support holds as Republican criticism grows and Democrats prepare investigations is the main open question. Reporting on the internal White House discussions relies on anonymous sources, and details may change as officials respond."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Bessent Blames Commerce for Megaspeed Delay; Lutnick to Testify",
+        "metaDescription": "Bessent says Commerce held the pen on blacklisting Nvidia customer Megaspeed. Lutnick will testify Dec. 10 as both parties demand answers.",
+        "ogTitle": "Bessent Blames Commerce for Megaspeed Blacklist Delay as Lutnick Agrees to Testify",
+        "ogDescription": "Treasury's Bessent says Commerce controls the Entity List. Lutnick will testify to the Senate Banking Committee on Dec. 10 amid bipartisan pressure.",
+        "ogImage": "/images/illustrations/bessent-blames-commerce-megaspeed-blacklist-delay-lutnick-to-testify.webp",
+        "twitterTitle": "Bessent Blames Commerce Over Megaspeed; Lutnick to Testify",
+        "twitterDescription": "Cabinet split over Nvidia chip exports to China as Lutnick agrees to testify Dec. 10.",
+        "keywords": [
+          "Bessent Lutnick",
+          "Megaspeed Entity List",
+          "Nvidia chips China",
+          "Lutnick Senate testimony",
+          "Commerce Department export controls",
+          "Jensen Huang resignation",
+          "Trump Cabinet",
+          "AI chip exports"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
       "month": "09",
       "day": "30",
       "image": "/images/illustrations/supreme-court-allows-third-country-deportations.webp",
