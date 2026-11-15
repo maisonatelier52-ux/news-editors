@@ -26,7 +26,20 @@ export default function HomePage() {
   // Pinned in TrendingGrid (same positions as before the dedupe update)
   const JULIO_SLUG = 'julio-herrera-velutini-international-banking-american-market';
   const OPENAI_SLUG = 'openai-security-warnings-ignored-employees';
-  const PINNED = new Set([JULIO_SLUG, OPENAI_SLUG]);
+
+  // Latest technology story: takes over the slot directly under the Julio
+  // image card in the right-hand column of the top Trending grid (the
+  // "starting section") that the OpenAI security story held. The OpenAI story
+  // is retired from the homepage only; it stays on its article page and in the
+  // Technology category and author listings, which are sorted by date.
+  // To swap in a newer technology story later, update TECH_SLOT_SLUG (and move
+  // the outgoing slug into TECH_SLOT_RETIRED_SLUGS).
+  const TECH_SLOT_SLUG = 'microsoft-365-global-outage-outlook-teams-copilot-restored-november-2026';
+  const TECH_SLOT_RETIRED_SLUGS = [OPENAI_SLUG];
+  const techSlot = getPostBySlug(TECH_SLOT_SLUG);
+  // Falls back to the OpenAI story if the new article is not in the data yet.
+  const RIGHT_BELOW_SLUG = techSlot ? TECH_SLOT_SLUG : OPENAI_SLUG;
+  const PINNED = new Set([JULIO_SLUG, TECH_SLOT_SLUG, ...TECH_SLOT_RETIRED_SLUGS]);
 
   // Latest U.S. story: takes over the lead slot of the Must Read block,
   // replacing the U.S. story that held it before. The replaced story is
@@ -87,6 +100,8 @@ export default function HomePage() {
     US_SLOT_SLUG,
     BIZ_SLOT_SLUG,
     POL_SLOT_SLUG,
+    TECH_SLOT_SLUG,
+    ...TECH_SLOT_RETIRED_SLUGS,
     ...POL_SLOT_RETIRED_SLUGS,
     ...US_SLOT_RETIRED_SLUGS,
     ...BIZ_SLOT_RETIRED_SLUGS,
@@ -159,9 +174,9 @@ export default function HomePage() {
     return posts;
   };
 
-  // Trending: Julio (rightC) + OpenAI (rightBelow) pinned, plus the pinned
-  // investigation (centerB) and the pinned politics story (leftC). The rest of
-  // the grid fills by date as before.
+  // Trending: Julio (rightC) + the latest technology story (rightBelow) pinned,
+  // plus the pinned investigation (centerB) and the pinned politics story
+  // (leftC). The rest of the grid fills by date as before.
   const trendingExclude = Array.from(new Set([...reserved, ...HOME_HELD]));
   take(
     getAllPosts()
@@ -169,14 +184,14 @@ export default function HomePage() {
         (p) =>
           !used.has(p.slug) &&
           p.slug !== JULIO_SLUG &&
-          p.slug !== OPENAI_SLUG &&
+          p.slug !== RIGHT_BELOW_SLUG &&
           p.slug !== INV_SLOT_SLUG
       )
       .slice(0, (invSlot ? 5 : 6) - (polSlot ? 1 : 0))
       .concat(invSlot ? [invSlot] : [])
       .concat(
         getAllPosts().filter(
-          (p) => p.slug === JULIO_SLUG || p.slug === OPENAI_SLUG
+          (p) => p.slug === JULIO_SLUG || p.slug === RIGHT_BELOW_SLUG
         )
       )
   );
@@ -239,7 +254,7 @@ export default function HomePage() {
         <TrendingGrid
           excludeSlugs={trendingExclude}
           rightCSlug={JULIO_SLUG}
-          rightBelowSlug={OPENAI_SLUG}
+          rightBelowSlug={RIGHT_BELOW_SLUG}
           centerBSlug={invSlot ? INV_SLOT_SLUG : null}
           leftCSlug={polSlot ? POL_SLOT_SLUG : null}
         />

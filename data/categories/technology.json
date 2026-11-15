@@ -4,6 +4,195 @@
       "author": "admin",
       "year": "2026",
       "month": "11",
+      "day": "15",
+      "image": "/images/illustrations/microsoft-365-global-outage-outlook-teams-copilot-restored-november-2026.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": true,
+      "updatedAt": "2026-11-15T12:00:00+05:30",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of a stack of server cubes with several gone dark, a stalled envelope queue and a globe of severed connection lines linking a courthouse, a hospital cross and a government dome",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "keyTakeaways": [
+        "Microsoft said Saturday that Outlook, Teams and Copilot were fully restored after an outage that began around midday Thursday and reached users in more than 70 countries and territories.",
+        "The company traced the incident to an issue in an earlier network capacity upgrade that surfaced after a recent network change, and said it was not related to a cyberattack or AI agents.",
+        "Governments, courts, healthcare services, banks and businesses reported disruption, and Microsoft has promised a post-incident report with a fuller root-cause explanation."
+      ],
+      "whyItMatters": "A single fault in one provider’s email infrastructure disrupted courts, ministries, pharmacies and companies across continents, and it also reached AI tools that rely on Microsoft 365 connectors. The outage renews questions about concentration risk in cloud services and about what resilience organizations can build when email, calendars and AI assistants share the same backend.",
+      "reportingNote": "This source-based news report summarizes reporting from the Associated Press, Reuters, SecurityWeek, The Conversation and Anadolu Agency available as of Nov. 15, 2026. The coverage reviewed did not cite a published Microsoft post-incident report, the total number of people affected has not been made clear, and details may change as the company releases more information.",
+      "sources": [
+        {
+          "publisher": "Associated Press (via PBS News)",
+          "label": "Microsoft says services fully restored after global outage",
+          "url": "https://www.pbs.org/newshour/world/microsoft-says-services-fully-restored-after-global-outage",
+          "accessed": "November 15, 2026"
+        },
+        {
+          "publisher": "Reuters (via The Standard)",
+          "label": "Microsoft outage drags on for hours, disrupting Outlook, Teams for businesses and governments",
+          "url": "https://www.thestandard.com.hk/world/article/348391/Microsoft-outage-drags-on-for-hours-disrupting-Outlook-Teams-for-businesses-and-governments",
+          "accessed": "November 15, 2026"
+        },
+        {
+          "publisher": "SecurityWeek",
+          "label": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+          "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+          "accessed": "November 15, 2026"
+        },
+        {
+          "publisher": "The Conversation (via PBS News)",
+          "label": "What to know about Microsoft’s outage and why it takes so long to restore email services",
+          "url": "https://www.pbs.org/newshour/science/what-to-know-about-microsofts-outage-and-why-it-takes-so-long-to-restore-email-services",
+          "accessed": "November 15, 2026"
+        },
+        {
+          "publisher": "Anadolu Agency",
+          "label": "Morning Briefing: Nov. 14, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+          "accessed": "November 15, 2026"
+        }
+      ],
+      "slug": "microsoft-365-global-outage-outlook-teams-copilot-restored-november-2026",
+      "title": "Microsoft 365 Is Restored After a Two-Day Global Outage That Disrupted Outlook, Teams and Copilot",
+      "subtitle": "A fault tied to an earlier network capacity upgrade disrupted email for governments, courts, healthcare services and businesses in more than 70 countries",
+      "excerpt": "Microsoft said Saturday that Outlook, Teams and Copilot were fully restored after an outage that began around midday Thursday and reached users in more than 70 countries. The company blamed a fault tied to an earlier network capacity upgrade and said it was not a cyberattack.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "microsoft",
+        "microsoft-365",
+        "outage",
+        "cloud"
+      ],
+      "date": "2026-11-15",
+      "toc": [
+        {
+          "id": "what-happened",
+          "text": "What happened"
+        },
+        {
+          "id": "what-microsoft-says-caused-it",
+          "text": "What Microsoft says caused it"
+        },
+        {
+          "id": "who-was-affected",
+          "text": "Who was affected"
+        },
+        {
+          "id": "why-email-takes-so-long-to-recover",
+          "text": "Why email takes so long to recover"
+        },
+        {
+          "id": "what-comes-next",
+          "text": "What comes next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Microsoft said Saturday that its Microsoft 365 services were fully restored after a global outage that disrupted Outlook email, Teams and the Copilot AI assistant for users in more than 70 countries and territories, the Associated Press reported. The problems began around midday Eastern time on Thursday and ran across two workdays. Microsoft apologized and said the cause was a technical fault tied to a network upgrade, not a cyberattack."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What happened",
+          "id": "what-happened"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microsoft first said it was investigating reports of trouble reaching Exchange Online mailboxes in the Americas, then identified possible disruption to Teams, SharePoint Online, Copilot and other services, SecurityWeek reported. Within an hour of the first U.S. problems, Downdetector had received outage reports from 74 countries and territories, according to the AP. Reuters reported that the tracker logged more than 130,000 Outlook problem reports in the United States at the peak, around 1 p.m. Eastern."
+        },
+        {
+          "type": "paragraph",
+          "text": "Microsoft said features that depend on Exchange Online and email were affected, while parts of its services that do not rely on Exchange kept working. Recovery was slow. Reuters reported that the disruption lasted about 10 hours on Thursday, and that late in the day Microsoft said its efforts to improve serviceability were not progressing as expected and that it was looking for other ways to add capacity. Microsoft apologized on Friday, and on Saturday it said it had finished work on the underlying issue and restored service to the remaining customers and regions."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Microsoft says caused it",
+          "id": "what-microsoft-says-caused-it"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microsoft said the incident was not related to a cyberattack or to artificial intelligence agents, and it has said it saw no indication of malicious activity. It described the problem as an issue introduced during an earlier network capacity upgrade that surfaced after a recent network change, the AP reported. Earlier in the outage, the company said a large number of servers had become unavailable after failing automated health checks, leaving the remaining servers to carry the same traffic, and that overall traffic had not increased. SecurityWeek reported that Microsoft also began rolling back a recent network configuration change that coincided with the start of the disruption."
+        },
+        {
+          "type": "paragraph",
+          "text": "Australia’s home affairs and cyber security minister, Tony Burke, said Microsoft believed it was dealing with something in some ways similar to the 2024 CrowdStrike failure, in which a faulty update disrupted systems worldwide, Reuters reported. Microsoft has said it will publish a post-incident report with the root cause and the repair steps it plans. The coverage reviewed for this article had not cited a published report as of Nov. 15."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Who was affected",
+          "id": "who-was-affected"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microsoft says more than 430 million people use Microsoft 365 apps, and the AP reported that the outage touched governments, courts, healthcare services, businesses, airlines and banks. In Britain, a trial in Manchester was halted when Judge Maurice Greene sent jurors home, citing the court’s reliance on technology. British police said they could not receive crime reports online, and the National Pharmacy Association warned of delays to some prescriptions because the outage threatened to stop doctors emailing them to pharmacies. Governments in Singapore, Japan, Greece and Norway said the outage affected some operations, including email for certain ministries or agencies, and in Colorado the Arapahoe County sheriff’s office said online bond payments were affected."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reuters reported that Australia’s spy agency and federal police were among the organizations hit and that the U.S. House of Representatives said its users were affected. Anadolu Agency reported that Japan’s government email services went down and that New Zealand suspended all visa processing until further notice."
+        },
+        {
+          "type": "paragraph",
+          "text": "The outage also reached AI tools that connect to Microsoft 365. OpenAI said new connections through its Microsoft connectors might be broken, and Anthropic said an upstream provider issue was affecting its Microsoft 365 connector, according to Reuters. Electric truck maker Workhorse Group moved its third-quarter earnings report from Nov. 12 to Nov. 16, citing business disruption from the outage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Microsoft said it had no indication that a separate nationwide Federal Aviation Administration ground stop this week, which authorities attributed to a telecommunications outage affecting air route traffic control centers, was related to any of its services, Anadolu Agency reported."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why email takes so long to recover",
+          "id": "why-email-takes-so-long-to-recover"
+        },
+        {
+          "type": "paragraph",
+          "text": "Even after a provider announces a fix, inboxes can lag. Doug Jacobson, a professor of electrical and computer engineering at Iowa State University, wrote in The Conversation that email was built to store messages and retry delivery rather than fail fast. While a major provider is down, other mail systems keep queuing messages and resending them, so the restored service faces a flood of pending mail when it returns. Clearing that backlog typically takes hours to days, he wrote, which is why messages can arrive late or out of order after an official all-clear."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What comes next",
+          "id": "what-comes-next"
+        },
+        {
+          "type": "paragraph",
+          "text": "The immediate questions are about cause and concentration. The AP noted that some lawmakers outside the United States argued the outage shows the consequences of overreliance on American technology, and Jeremy Singer, a computing science professor at the University of Glasgow, said it shows how dependent organizations have become on one company’s infrastructure. Reuters noted the incident followed an Azure cloud outage last month that disrupted Microsoft’s productivity software and industries worldwide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Administrators can track the incidents in the Microsoft 365 admin center under reference numbers EX1550543 for Exchange Online and MO1550821 for the broader service. Microsoft has said a post-incident report will follow once its review is complete."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Microsoft 365 Fully Restored After Two-Day Global Outage",
+        "metaDescription": "Microsoft says Outlook, Teams and Copilot are fully restored after a two-day outage in 70+ countries, blaming a network upgrade fault, not a cyberattack.",
+        "ogTitle": "Microsoft 365 Is Restored After a Two-Day Global Outage",
+        "ogDescription": "A fault tied to an earlier network capacity upgrade disrupted Outlook, Teams and Copilot for governments, courts and businesses in more than 70 countries.",
+        "ogImage": "/og/microsoft-365-global-outage-outlook-teams-copilot-restored-november-2026.jpg",
+        "twitterTitle": "Microsoft 365 Restored After Two-Day Global Outage",
+        "twitterDescription": "Outlook, Teams and Copilot are back after an outage across 70+ countries. Microsoft says it was a network upgrade fault, not a cyberattack.",
+        "keywords": [
+          "Microsoft 365 outage",
+          "Outlook outage",
+          "Microsoft Teams outage",
+          "Copilot outage",
+          "Exchange Online outage",
+          "Microsoft outage November 2026",
+          "cloud outage",
+          "Microsoft post-incident report"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "11",
       "day": "03",
       "image": "/images/illustrations/apple-ternus-record-quarter-memory-costs-holiday-outlook.webp",
       "comments": 0,
