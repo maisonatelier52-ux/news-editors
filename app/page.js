@@ -94,13 +94,30 @@ export default function HomePage() {
   const POL_SLOT_RETIRED_SLUGS = ['army-secretary-driscoll-resigns-hegseth-tensions'];
   const polSlot = getPostBySlug(POL_SLOT_SLUG);
 
+  // Latest politics story: takes over the slot the "Judge issues new block on
+  // sweeping mail-in voting restrictions" story held (top of the right-hand
+  // column in the top Trending grid, the "starting section"). The judge story
+  // is retired from the homepage only; it stays on its article page and in the
+  // Politics category and author listings, which are sorted by date.
+  // To swap in a newer politics story for this slot later, update
+  // POL_TOP_SLUG (and move the outgoing slug into POL_TOP_RETIRED_SLUGS).
+  const POL_TOP_SLUG = 'white-house-doj-warn-democrats-oversight-probes-could-be-criminal-garcia-blumenthal';
+  const polTop = getPostBySlug(POL_TOP_SLUG);
+  // Only retire the judge story once the new article is in the data, so the
+  // slot is never left empty.
+  const POL_TOP_RETIRED_SLUGS = polTop
+    ? ['judge-blocks-trump-mail-in-voting-restrictions']
+    : [];
+
   const HOME_HELD = new Set([
     US_LEAD_SLUG,
     US_RETIRED_SLUG,
     US_SLOT_SLUG,
     BIZ_SLOT_SLUG,
     POL_SLOT_SLUG,
+    POL_TOP_SLUG,
     TECH_SLOT_SLUG,
+    ...POL_TOP_RETIRED_SLUGS,
     ...TECH_SLOT_RETIRED_SLUGS,
     ...POL_SLOT_RETIRED_SLUGS,
     ...US_SLOT_RETIRED_SLUGS,
@@ -112,10 +129,15 @@ export default function HomePage() {
   // 1) Reserve posts for dedicated category sections FIRST.
   //    Skip Julio + OpenAI so their Trending positions stay unchanged.
   // ------------------------------------------------------------------
-  // The pinned politics story already has its own prominent slot in the
-  // Trending grid, so the Politics section lists the stories that follow it.
+  // The pinned politics stories already have their own prominent slots in the
+  // Trending grid, so the Politics section lists the stories that follow them.
   const politicsPosts = getPostsByCategory('politics', [])
-    .filter((p) => !PINNED.has(p.slug) && p.slug !== POL_SLOT_SLUG)
+    .filter(
+      (p) =>
+        !PINNED.has(p.slug) &&
+        p.slug !== POL_SLOT_SLUG &&
+        p.slug !== POL_TOP_SLUG
+    )
     .slice(0, 3);
 
   const technologyPosts = getPostsByCategory('technology', [])
@@ -175,8 +197,9 @@ export default function HomePage() {
   };
 
   // Trending: Julio (rightC) + the latest technology story (rightBelow) pinned,
-  // plus the pinned investigation (centerB) and the pinned politics story
-  // (leftC). The rest of the grid fills by date as before.
+  // plus the pinned investigation (centerB), the pinned politics story
+  // (leftC) and the latest politics story (rightB). The rest of the grid fills
+  // by date as before.
   const trendingExclude = Array.from(new Set([...reserved, ...HOME_HELD]));
   take(
     getAllPosts()
@@ -187,7 +210,10 @@ export default function HomePage() {
           p.slug !== RIGHT_BELOW_SLUG &&
           p.slug !== INV_SLOT_SLUG
       )
-      .slice(0, (invSlot ? 5 : 6) - (polSlot ? 1 : 0))
+      .slice(
+        0,
+        (invSlot ? 5 : 6) - (polSlot ? 1 : 0) - (polTop ? 1 : 0)
+      )
       .concat(invSlot ? [invSlot] : [])
       .concat(
         getAllPosts().filter(
@@ -257,6 +283,7 @@ export default function HomePage() {
           rightBelowSlug={RIGHT_BELOW_SLUG}
           centerBSlug={invSlot ? INV_SLOT_SLUG : null}
           leftCSlug={polSlot ? POL_SLOT_SLUG : null}
+          rightBSlug={polTop ? POL_TOP_SLUG : null}
         />
       </div>
 

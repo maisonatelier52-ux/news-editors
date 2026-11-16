@@ -8,6 +8,7 @@ import { getAllPosts, getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/l
  * centerBSlug pins the story directly under the centre feature card (the
  * first slot of the left-to-right "starting section" below it).
  * leftCSlug pins the third (last) story of the left column.
+ * rightBSlug pins the quoted-kicker story at the top of the right column.
  */
 export default function TrendingGrid({
   excludeSlugs = [],
@@ -15,6 +16,7 @@ export default function TrendingGrid({
   rightBelowSlug = null,
   centerBSlug = null,
   leftCSlug = null,
+  rightBSlug = null,
 }) {
   const exclude = new Set(excludeSlugs);
 
@@ -28,6 +30,12 @@ export default function TrendingGrid({
   if (leftCSlug) {
     leftCOverride = getAllPosts().find((p) => p.slug === leftCSlug) || null;
     if (leftCOverride) exclude.add(leftCSlug);
+  }
+
+  let rightBOverride = null;
+  if (rightBSlug) {
+    rightBOverride = getAllPosts().find((p) => p.slug === rightBSlug) || null;
+    if (rightBOverride) exclude.add(rightBSlug);
   }
 
   let rightCOverride = null;
@@ -44,7 +52,10 @@ export default function TrendingGrid({
 
   const pool = getAllPosts().filter((p) => !exclude.has(p.slug));
   const minNeeded =
-    (rightCOverride ? 6 : 7) - (centerBOverride ? 1 : 0) - (leftCOverride ? 1 : 0);
+    (rightCOverride ? 6 : 7) -
+    (centerBOverride ? 1 : 0) -
+    (leftCOverride ? 1 : 0) -
+    (rightBOverride ? 1 : 0);
   if (pool.length < minNeeded) return null;
 
   // A pinned leftC takes the last left-column slot; otherwise it is the next
@@ -54,7 +65,10 @@ export default function TrendingGrid({
   const [center, ...rest] = afterLeft;
   // A pinned centerB takes that slot; otherwise it is the next story by date.
   const centerB = centerBOverride || rest.shift();
-  const [rightB, rightCFallback] = rest;
+  // A pinned rightB takes the top slot of the right column; otherwise it is the
+  // next story by date.
+  const rightB = rightBOverride || rest.shift();
+  const [rightCFallback] = rest;
   const rightC = rightCOverride || rightCFallback;
 
   const storyProps = (post, { bullet = false } = {}) => {
