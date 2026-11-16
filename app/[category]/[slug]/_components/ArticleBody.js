@@ -17,7 +17,7 @@ function renderParagraphText(text, boldPhrases = []) {
 
   return parts.map((part, i) =>
     boldPhrases.includes(part) ? (
-      <strong key={i} className="font-bold text-ink">
+      <strong key={i} className="font-bold text-brand">
         {part}
       </strong>
     ) : (
