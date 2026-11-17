@@ -4,6 +4,212 @@
       "author": "admin",
       "year": "2026",
       "month": "11",
+      "day": "17",
+      "image": "/images/illustrations/commerce-doj-disclose-megaspeed-criminal-probe-began-2024.webp",
+      "views": 0,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-11-17T09:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of a microchip on a shipping crate under a magnifying glass beside a timeline of case files",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "keyTakeaways": [
+        "The Commerce and Justice departments said Monday that Commerce opened its Megaspeed export-control investigation in 2024 and that the Justice Department later took the lead in a criminal probe.",
+        "No charges against Megaspeed or former CEO Alice Huang have been announced; the statement does not mention Jensen Huang, and Reuters could not verify the espionage allegations against Alice Huang.",
+        "Singapore, which opened its own case in February 2025, says it has received limited U.S. help; Congress has asked Lutnick to testify on Dec. 10 and has sought interviews with Huang and Nvidia’s top lawyer in early December."
+      ],
+      "whyItMatters": "The disclosure is the first official timeline of a case that sits where chip export controls, U.S.–China tensions and a leadership crisis at Nvidia meet, and it sets up congressional questions about how quickly Commerce and the Justice Department acted.",
+      "reportingNote": "This report is based on the Commerce–Justice joint statement as relayed by Reuters, Anadolu Agency, Business Today and CNBC, a Singapore Ministry of Home Affairs press release, and congressional coverage by Decrypt. Espionage allegations have not been independently verified by News Editors or confirmed by officials on the record. An investigation does not mean anyone will be charged.",
+      "sources": [
+        {
+          "publisher": "Reuters (via Investing.com)",
+          "label": "US releases details of Megaspeed probe, says investigation began in 2024",
+          "url": "https://www.investing.com/news/stock-market-news/us-releases-details-ofmegaspeed-probe-says-investigation-began-in-2024-5031663",
+          "accessed": "November 17, 2026"
+        },
+        {
+          "publisher": "Anadolu Agency",
+          "label": "US confirms criminal probe into Singapore’s Megaspeed over Nvidia chip exports",
+          "url": "https://www.aa.com.tr/en/world/us-confirms-criminal-probe-into-singapores-megaspeed-over-nvidia-chip-exports/4127470",
+          "accessed": "November 17, 2026"
+        },
+        {
+          "publisher": "Business Today",
+          "label": "US launches criminal probe into Megaspeed over suspected semiconductor export violations",
+          "url": "https://www.businesstoday.in/technology/news/story/us-launches-criminal-probe-into-megaspeed-over-suspected-semiconductor-export-violations-567787-2026-11-17",
+          "accessed": "November 17, 2026"
+        },
+        {
+          "publisher": "CNBC",
+          "label": "U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024",
+          "url": "https://cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html",
+          "accessed": "November 17, 2026"
+        },
+        {
+          "publisher": "Singapore Ministry of Home Affairs",
+          "label": "Singapore’s Investigations into Alice Huang (Huang Le) and Megaspeed International Pte Ltd (press release, Nov. 12, 2026)",
+          "url": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/",
+          "accessed": "November 17, 2026"
+        },
+        {
+          "publisher": "Decrypt",
+          "label": "Congress Summons Ex-Nvidia CEO Jensen Huang, Lutnick Over Chip Exports to China",
+          "url": "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china",
+          "accessed": "November 17, 2026"
+        }
+      ],
+      "slug": "commerce-doj-disclose-megaspeed-criminal-probe-began-2024",
+      "title": "U.S. Discloses Criminal Probe of Nvidia Partner Megaspeed, Saying It Began in 2024",
+      "subtitle": "A joint Commerce–Justice timeline traces the export-control case to 2024 while Singapore pursues its own; no charges have been announced",
+      "excerpt": "The Commerce and Justice departments said Monday that their investigation into Nvidia partner Megaspeed began in 2024 and that the Justice Department now leads a criminal probe. No charges have been announced, and Singapore is running its own parallel case.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "megaspeed",
+        "nvidia",
+        "export-controls",
+        "commerce-department",
+        "justice-department",
+        "singapore",
+        "china",
+        "alice-huang"
+      ],
+      "date": "2026-11-17",
+      "toc": [
+        {
+          "id": "the-timeline-the-agencies-released",
+          "text": "The timeline the agencies released"
+        },
+        {
+          "id": "what-the-statement-says-and-does-not-say",
+          "text": "What the statement says, and what it does not"
+        },
+        {
+          "id": "singapores-separate-investigation",
+          "text": "Singapore’s separate investigation"
+        },
+        {
+          "id": "disputed-and-unverified-claims",
+          "text": "Disputed and unverified claims"
+        },
+        {
+          "id": "what-happens-next",
+          "text": "What happens next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. Commerce and Justice departments disclosed on Monday that their investigation into Megaspeed International, a Singapore-based cloud-computing company and Nvidia’s Asia-Pacific partner, dates to 2024, giving the public its first official timeline of a case that has drawn heavy scrutiny since Nvidia CEO Jensen Huang resigned. According to the agencies’ joint statement, as relayed by Reuters and Anadolu Agency, the Justice Department now leads a criminal investigation. No charges against the company or its former chief executive, Alice Huang, have been announced."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agencies said they do not usually comment on ongoing investigations but judged the details to be in the public interest, Reuters reported. The statement, which the departments said was meant to address inaccurate information circulating in public reporting, does not mention Jensen Huang or connect him to the Megaspeed case, Business Today noted. Huang, who is not related to Alice Huang, resigned from Nvidia on Nov. 12 after reports of an affair with her."
+        },
+        {
+          "type": "heading",
+          "id": "the-timeline-the-agencies-released",
+          "text": "The timeline the agencies released"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the statement, the Commerce Department opened an export-control investigation into Megaspeed in 2024 after proactive monitoring flagged suspicious activity that pointed to the possible diversion of sensitive semiconductors. In May 2025, Commerce investigators asked Nvidia for records of direct or indirect sales to Megaspeed, and in June 2025 Nvidia placed the company on its internal “no sell” list."
+        },
+        {
+          "type": "paragraph",
+          "text": "Also in June 2025, agents from Commerce’s Bureau of Industry and Security, working with Singaporean law enforcement, carried out an on-site end-use check at Megaspeed and interviewed Alice Huang, who was then the company’s chief executive. Singapore’s Ministry of Home Affairs dates that check to June 24, 2025, describes it as a voluntary post-shipment verification and says it was the first time Singapore learned of U.S. interest in the company and in Huang. After that enforcement action, the agencies said, the Justice Department took the lead in the criminal investigation."
+        },
+        {
+          "type": "heading",
+          "id": "what-the-statement-says-and-does-not-say",
+          "text": "What the statement says, and what it does not"
+        },
+        {
+          "type": "paragraph",
+          "text": "The departments pledged to pursue “any criminal conduct that may have occurred” at Megaspeed, with the Justice Department and Commerce’s Bureau of Industry and Security working together. They did not announce charges against the company or Alice Huang, Business Today reported, and the coverage reviewed describes the suspected conduct only as potential export-control violations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The statement also credited Commerce Secretary Howard Lutnick and Attorney General Todd Blanche. It said the administration has charged 17 defendants in six cases involving billions of dollars’ worth of semiconductors and has raised monetary penalties in export-control cases 18-fold compared with the previous administration. Those figures come from the agencies themselves and have not been independently verified. The defense of Lutnick came as lawmakers and Treasury Secretary Scott Bessent criticized delays in placing Megaspeed on the Commerce Department’s Entity List, the formal export blacklist, according to Anadolu Agency."
+        },
+        {
+          "type": "paragraph",
+          "text": "President Donald Trump said Monday that he has no plans to replace Lutnick. Anadolu reported that Trump pointed to differing views inside his administration on how hard to press China and argued it would be unwise to antagonize Beijing shortly before a planned visit."
+        },
+        {
+          "type": "heading",
+          "id": "singapores-separate-investigation",
+          "text": "Singapore’s separate investigation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Singapore is running its own case. In a Nov. 12 statement, its Ministry of Home Affairs said the Singapore Police Force and Singapore Customs began an independent investigation in February 2025 into several companies and their key officers, including Megaspeed, over suspected false declarations about server purchases. The ministry said the probe was not started at any country’s request. Police are examining whether servers exported through Singapore to Malaysia, without entering the Singapore market, were later routed elsewhere contrary to what was declared."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ministry said Alice Huang, a Hong Kong resident who was then Megaspeed’s chief executive, chairperson and one of its key controllers, was investigated over those suspected offences and not for espionage. In February 2026, police concluded there was insufficient evidence that she had committed offences over the declarations, but found that she knowingly gave inaccurate information to downplay her role. She received a stern warning and was barred from re-entering Singapore. Investigations into Megaspeed and six other individuals continue, and none of the six has been in Singapore since the probe began. Singapore has also charged four individuals and four companies since February 2025, including with fraud by false representation over server purchases, the ministry said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Singapore also said it has received limited information or assistance from U.S. authorities. According to the ministry, police have asked the Justice Department and the FBI several times since September 2025 for help securing the cooperation of U.S. server supplier Supermicro, which it said had provided limited cooperation. The ministry’s statement does not allege wrongdoing by the company. Reuters reported that Singapore’s government said on Monday it had agreed to keep discussing Megaspeed with Washington."
+        },
+        {
+          "type": "heading",
+          "id": "disputed-and-unverified-claims",
+          "text": "Disputed and unverified claims"
+        },
+        {
+          "type": "paragraph",
+          "text": "Megaspeed said on Sunday that Alice Huang left the company on Aug. 30, 2025, and that it conducts legitimate and lawful business, Reuters reported. Reuters said it could not reach Alice Huang for comment, and Nvidia did not immediately respond to a request for comment on the joint statement outside regular business hours."
+        },
+        {
+          "type": "paragraph",
+          "text": "Several news organizations, including The New York Times, have reported that U.S. and other authorities suspected Alice Huang of spying for Beijing. Reuters said it has not been able to verify those allegations. Two sources told Reuters that U.S. intelligence agencies are still trying to determine her relationship with China’s Ministry of State Security, and that the evidence so far suggests she was probably an asset who shared information rather than a fully trained spy. Beijing has rejected the allegations, and Singapore says its police did not investigate her for espionage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Separately, China’s Foreign Ministry criticized the U.S. move, according to Anadolu Agency. Spokesperson Guo Jiakun said Washington was overstretching the concept of national security and abusing export controls, and that Beijing would take necessary measures to safeguard its interests."
+        },
+        {
+          "type": "heading",
+          "id": "what-happens-next",
+          "text": "What happens next"
+        },
+        {
+          "type": "paragraph",
+          "text": "Congress is the next venue. Senate Banking Committee Chairman Tim Scott has asked Lutnick to testify at a public hearing on Dec. 10, and Lutnick’s spokesperson has said he agreed to appear voluntarily. Scott also asked Jensen Huang to appear on Dec. 3, according to Decrypt’s reporting. Three House committee chairs, Reps. Brian Mast, John Moolenaar and Rick Crawford, requested closed-door, transcribed interviews with Huang on Dec. 1 and Nvidia general counsel Tim Teter on Dec. 2, and invited Commerce Under Secretary Jeffrey Kessler to a Dec. 3 hearing. Mast told reporters Huang had agreed to brief lawmakers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Several questions remain open: whether the Justice Department will bring charges against Megaspeed or any individuals, how U.S. and Singaporean investigators will coordinate after Singapore’s complaint about limited U.S. help, and whether Commerce will add Megaspeed to the Entity List, a step Bessent and lawmakers have pressed. An investigation does not mean anyone will be charged, and the espionage claims remain unverified."
+        }
+      ],
+      "seo": {
+        "metaTitle": "U.S. Reveals Criminal Probe of Nvidia Partner Megaspeed",
+        "metaDescription": "Commerce and Justice say a criminal probe of Singapore-based Megaspeed began in 2024. Here is the timeline, Singapore’s case and what is unverified.",
+        "ogTitle": "U.S. Discloses 2024 Origins of Megaspeed Criminal Probe",
+        "ogDescription": "Commerce and Justice released a timeline of the Megaspeed investigation; no charges announced, and espionage claims remain unverified.",
+        "ogImage": "/og/commerce-doj-disclose-megaspeed-criminal-probe-began-2024.jpg",
+        "twitterTitle": "Megaspeed Probe: U.S. Releases Timeline, No Charges Yet",
+        "twitterDescription": "Commerce and Justice say the Megaspeed probe began in 2024; Singapore runs a parallel case and espionage claims are unverified.",
+        "keywords": [
+          "Megaspeed investigation",
+          "Nvidia",
+          "export controls",
+          "Justice Department",
+          "Commerce Department",
+          "Alice Huang",
+          "Singapore"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "11",
       "day": "10",
       "image": "/images/illustrations/doj-grand-jury-probe-alaska-decoy-dan-senate-race.webp",
       "views": 0,

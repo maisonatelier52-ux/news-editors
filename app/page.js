@@ -71,6 +71,21 @@ export default function HomePage() {
   const INV_SLOT_RETIRED_SLUGS = ['house-republicans-investigate-dea-fentanyl-tactic'];
   const invSlot = getPostBySlug(INV_SLOT_SLUG);
 
+  // Latest investigation (lead): takes over the lead (centre feature) slot of
+  // the top Trending grid, the "starting section", that the FTC / Amazon
+  // advertising story held. The FTC story is retired from the homepage only;
+  // it stays on its article page and in the Investigation category and author
+  // listings, which are sorted by date.
+  // To swap in a newer investigation for this slot later, update INV_LEAD_SLUG
+  // (and move the outgoing slug into INV_LEAD_RETIRED_SLUGS).
+  const INV_LEAD_SLUG = 'commerce-doj-disclose-megaspeed-criminal-probe-began-2024';
+  const invLead = getPostBySlug(INV_LEAD_SLUG);
+  // Only retire the FTC story once the new article is in the data, so the slot
+  // is never left empty.
+  const INV_LEAD_RETIRED_SLUGS = invLead
+    ? ['ftc-sues-amazon-advertising-practices']
+    : [];
+
   // Latest business story: takes over the Must Read slot the Dick's Sporting
   // Goods story held (6th card, second text-only story in the right-hand
   // column). The Dick's story is retired from the homepage only; it stays on
@@ -117,6 +132,8 @@ export default function HomePage() {
     POL_SLOT_SLUG,
     POL_TOP_SLUG,
     TECH_SLOT_SLUG,
+    INV_LEAD_SLUG,
+    ...INV_LEAD_RETIRED_SLUGS,
     ...POL_TOP_RETIRED_SLUGS,
     ...TECH_SLOT_RETIRED_SLUGS,
     ...POL_SLOT_RETIRED_SLUGS,
@@ -147,7 +164,12 @@ export default function HomePage() {
   // The pinned investigation already has its own prominent slot, so the
   // Investigation section below lists the stories that follow it.
   const investigationPosts = getPostsByCategory('investigation', [])
-    .filter((p) => !PINNED.has(p.slug) && p.slug !== INV_SLOT_SLUG)
+    .filter(
+      (p) =>
+        !PINNED.has(p.slug) &&
+        p.slug !== INV_SLOT_SLUG &&
+        p.slug !== INV_LEAD_SLUG
+    )
     .slice(0, 4);
 
   let financePosts = getPostsByCategory('finance', [])
@@ -197,9 +219,9 @@ export default function HomePage() {
   };
 
   // Trending: Julio (rightC) + the latest technology story (rightBelow) pinned,
-  // plus the pinned investigation (centerB), the pinned politics story
-  // (leftC) and the latest politics story (rightB). The rest of the grid fills
-  // by date as before.
+  // plus the latest investigation (center lead), the pinned investigation
+  // (centerB), the pinned politics story (leftC) and the latest politics story
+  // (rightB). The rest of the grid fills by date as before.
   const trendingExclude = Array.from(new Set([...reserved, ...HOME_HELD]));
   take(
     getAllPosts()
@@ -212,7 +234,10 @@ export default function HomePage() {
       )
       .slice(
         0,
-        (invSlot ? 5 : 6) - (polSlot ? 1 : 0) - (polTop ? 1 : 0)
+        (invSlot ? 5 : 6) -
+          (polSlot ? 1 : 0) -
+          (polTop ? 1 : 0) -
+          (invLead ? 1 : 0)
       )
       .concat(invSlot ? [invSlot] : [])
       .concat(
@@ -281,6 +306,7 @@ export default function HomePage() {
           excludeSlugs={trendingExclude}
           rightCSlug={JULIO_SLUG}
           rightBelowSlug={RIGHT_BELOW_SLUG}
+          centerSlug={invLead ? INV_LEAD_SLUG : null}
           centerBSlug={invSlot ? INV_SLOT_SLUG : null}
           leftCSlug={polSlot ? POL_SLOT_SLUG : null}
           rightBSlug={polTop ? POL_TOP_SLUG : null}
