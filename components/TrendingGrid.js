@@ -8,6 +8,7 @@ import { getAllPosts, getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/l
  * centerSlug pins the centre feature (lead) card at the top of the grid.
  * centerBSlug pins the story directly under the centre feature card (the
  * first slot of the left-to-right "starting section" below it).
+ * leftBSlug pins the second story of the left column.
  * leftCSlug pins the third (last) story of the left column.
  * rightBSlug pins the quoted-kicker story at the top of the right column.
  */
@@ -17,6 +18,7 @@ export default function TrendingGrid({
   rightBelowSlug = null,
   centerSlug = null,
   centerBSlug = null,
+  leftBSlug = null,
   leftCSlug = null,
   rightBSlug = null,
 }) {
@@ -32,6 +34,12 @@ export default function TrendingGrid({
   if (centerBSlug) {
     centerBOverride = getAllPosts().find((p) => p.slug === centerBSlug) || null;
     if (centerBOverride) exclude.add(centerBSlug);
+  }
+
+  let leftBOverride = null;
+  if (leftBSlug) {
+    leftBOverride = getAllPosts().find((p) => p.slug === leftBSlug) || null;
+    if (leftBOverride) exclude.add(leftBSlug);
   }
 
   let leftCOverride = null;
@@ -63,13 +71,18 @@ export default function TrendingGrid({
     (rightCOverride ? 6 : 7) -
     (centerOverride ? 1 : 0) -
     (centerBOverride ? 1 : 0) -
+    (leftBOverride ? 1 : 0) -
     (leftCOverride ? 1 : 0) -
     (rightBOverride ? 1 : 0);
   if (pool.length < minNeeded) return null;
 
+  // A pinned leftB takes the second left-column slot; otherwise it is the next
+  // story by date.
+  const [leftA, ...afterLeftA] = pool;
+  const leftB = leftBOverride || afterLeftA.shift();
+  const afterLeft = afterLeftA;
   // A pinned leftC takes the last left-column slot; otherwise it is the next
   // story by date.
-  const [leftA, leftB, ...afterLeft] = pool;
   const leftC = leftCOverride || afterLeft.shift();
   // A pinned centre takes the lead slot; otherwise it is the next story by date.
   const center = centerOverride || afterLeft[0];

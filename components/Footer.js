@@ -54,7 +54,7 @@ const legalLinks = [
 // Replace the "#" hrefs with the real profile URLs.
 const socials = [
   { label: 'X', href: 'https://x.com/news_editors', icon: 'x' },
-  { label: 'Instagram', href: 'https://www.instagram.com/newseditors_/', icon: 'instagram' },
+  { label: 'Instagram', href: 'https://www.instagram.com/edit_orsnews/', icon: 'instagram' },
   { label: 'Substack', href: 'https://substack.com/@newseditors', icon: 'substack' },
   { label: 'Medium', href: 'https://medium.com/@editornews65', icon: 'medium' },
 ];

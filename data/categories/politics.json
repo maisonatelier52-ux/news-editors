@@ -4,6 +4,214 @@
       "author": "admin",
       "year": "2026",
       "month": "11",
+      "day": "19",
+      "image": "/images/illustrations/peltola-wins-alaska-senate-race-democrats-56-seats-sullivan-yet-to-concede.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": true,
+      "trending": true,
+      "updatedAt": "2026-11-19T12:00:00+05:30",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of a Capitol dome rising behind snow-capped Alaska peaks, with a ballot box, a salmon drying rack and a small bush plane in the foreground and a balanced scale at the center",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "keyTakeaways": [
+        "The AP called Alaska’s Senate race for Democrat Mary Peltola on Nov. 17, giving Democrats a 56-44 majority after unofficial results showed her ahead of Sen. Dan Sullivan by 12,458 votes.",
+        "Peltola is the first Alaska Native elected to the Senate and the first Democrat to win a Senate race in Alaska since 2008, and Alaskans also elected a Democratic governor for the first time since 1998.",
+        "Sullivan has not conceded, Alaska is targeting Nov. 25 for certification, and a Justice Department criminal probe and court appeal tied to the ‘other Dan Sullivan’ candidacy remain open."
+      ],
+      "whyItMatters": "The result closes the last Senate contest of the 2026 midterms and widens the Democratic majority that takes office in January. It also leaves a live test of how certification, the Justice Department’s pending appeal and its criminal probe play out after a race in which President Trump personally weighed in.",
+      "reportingNote": "This source-based news report summarizes public reporting from the Associated Press (via PBS News), Newsweek, CBS News, the Alaska Beacon, Democracy Docket and Al Jazeera available as of Nov. 19, 2026. Vote totals are unofficial results reported by Newsweek from the Alaska Division of Elections. The figure of more than 200 subpoenas comes from a Fox News Digital report that Newsweek said it had not independently confirmed. Democracy Docket’s founder, Marc Elias, leads the law firm that represents Peltola’s campaign, so we use its reporting only for court and procedural details. Peltola, the Democratic Senatorial Campaign Committee and Daniel J. Sullivan Jr. deny coordinating, and no charges have been announced. Details may change as officials and courts act.",
+      "sources": [
+        {
+          "publisher": "PBS News (Associated Press)",
+          "label": "Democrat Mary Peltola wins Alaska Senate seat, beating Republican incumbent Dan Sullivan",
+          "url": "https://www.pbs.org/newshour/politics/democrat-mary-peltola-wins-alaska-senate-seat-beating-republican-incumbent-dan-sullivan",
+          "accessed": "November 19, 2026"
+        },
+        {
+          "publisher": "Newsweek",
+          "label": "DOJ ‘Other Dan Sullivan’ Criminal Probe Widens After Peltola Win",
+          "url": "https://www.newsweek.com/dojs-other-dan-sullivan-criminal-probe-widens-after-peltola-win-12737508",
+          "accessed": "November 19, 2026"
+        },
+        {
+          "publisher": "Newsweek",
+          "label": "Mary Peltola Wins Alaska Senate Race: What Comes Next",
+          "url": "https://newsweek.com/mary-peltola-wins-alaska-senate-race-what-comes-next-12731595",
+          "accessed": "November 19, 2026"
+        },
+        {
+          "publisher": "CBS News",
+          "label": "Peltola wins Alaska 2026 Senate election, CBS News projects, flipping seat for Democrats",
+          "url": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/",
+          "accessed": "November 19, 2026"
+        },
+        {
+          "publisher": "Alaska Beacon",
+          "label": "Peltola elected to fill Alaska U.S. Senate seat, becomes Senate’s 56th Democrat nationally",
+          "url": "https://alaskabeacon.com/2026/11/17/peltola-elected-to-fill-alaska-u-s-senate-seat-becomes-senates-56th-democrat-nationally",
+          "accessed": "November 19, 2026"
+        },
+        {
+          "publisher": "Democracy Docket",
+          "label": "Mary Peltola wins Alaska Senate race — but GOP looks set to fight results",
+          "url": "https://www.democracydocket.com/news-alerts/mary-peltola-wins-alaska-senate-race-but-gop-looks-set-to-fight-results/",
+          "accessed": "November 19, 2026"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "label": "Why Democrat Mary Peltola’s US Senate win in Alaska matters",
+          "url": "https://www.aljazeera.com/news/2026/11/18/why-democrat-mary-peltolas-us-senate-win-in-alaska-matters",
+          "accessed": "November 19, 2026"
+        }
+      ],
+      "slug": "peltola-wins-alaska-senate-race-democrats-56-seats-sullivan-yet-to-concede",
+      "title": "Peltola Wins Alaska Senate Race, Lifting Democrats to 56 Seats",
+      "subtitle": "Sen. Dan Sullivan has not conceded, and a Justice Department probe into the ‘other Dan Sullivan’ candidacy continues as Alaska targets Nov. 25 for certification",
+      "excerpt": "Democrat Mary Peltola defeated Sen. Dan Sullivan, according to the Associated Press, flipping Alaska’s seat and giving Democrats a 56-44 Senate majority. Sullivan has not conceded, certification is targeted for Nov. 25, and a Justice Department probe into the ‘other Dan Sullivan’ candidacy continues.",
+      "category": "politics",
+      "tags": [
+        "politics",
+        "alaska",
+        "mary-peltola",
+        "dan-sullivan",
+        "us-senate",
+        "midterms",
+        "justice-department",
+        "ranked-choice-voting"
+      ],
+      "date": "2026-11-19",
+      "toc": [
+        {
+          "id": "the-count-and-what-it-means",
+          "text": "The count and what it means"
+        },
+        {
+          "id": "how-peltola-won",
+          "text": "How Peltola won"
+        },
+        {
+          "id": "the-other-dan-sullivan-dispute",
+          "text": "The ‘other Dan Sullivan’ dispute"
+        },
+        {
+          "id": "legal-fights-still-open",
+          "text": "Legal fights still open"
+        },
+        {
+          "id": "what-comes-next",
+          "text": "What comes next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Democrat Mary Peltola has defeated Republican Sen. Dan Sullivan in Alaska, winning the last U.S. Senate race left undecided from the Nov. 3 midterms and lifting Democrats to a 56-44 majority in the chamber, according to the Associated Press. The AP called the contest at 10:19 p.m. Eastern on Tuesday, Nov. 17, two weeks after Election Day, shortly after officials confirmed she had topped 50 percent of the first-choice vote, so no ranked-choice runoff was needed."
+        },
+        {
+          "type": "paragraph",
+          "text": "The result is not final. Alaska is aiming to certify it on Nov. 25, Sullivan has not conceded, and a Justice Department criminal investigation into how a second candidate named Dan Sullivan reached the ballot is still running, Newsweek reported."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The count and what it means",
+          "id": "the-count-and-what-it-means"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unofficial results from the Alaska Division of Elections, as reported by Newsweek, showed Peltola with 144,302 votes (50.12 percent) and Sullivan with 131,844 (45.80 percent). Daniel J. Sullivan Jr., a retired Petersburg teacher who appeared on the ballot with no party label, received 4,760 votes (1.65 percent). Peltola’s lead of 12,458 votes is larger than his entire total, a point Newsweek highlighted because the Justice Department’s lawsuit rested on the idea that votes for him might otherwise have gone to the incumbent."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBS News reported that Peltola is the first Alaska Native elected to the Senate and the first Democrat to win a Senate race in the state since 2008. The AP noted she will be only the fifth Democrat since statehood to represent Alaska in the chamber; the last was Mark Begich, whom Sullivan defeated in 2014. Al Jazeera observed that her win does not decide which party controls the Senate, since Democrats already had enough seats, but it widens their majority. The AP said Democrats flipped nine Republican-held seats overall, including in conservative states such as South Carolina, Texas, Kansas and Mississippi."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Peltola won",
+          "id": "how-peltola-won"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peltola, who is Yup’ik, was the first Alaska Native to serve in Congress. She lost her House seat to Republican Nick Begich in 2024 and then became central to Democratic plans to retake the Senate, the AP reported. She finished first in the August open primary with 49.5 percent to Sullivan’s 41.4 percent."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the general election she ran an Alaska-first campaign built around fuel prices, housing and the cost of food and supplies in remote communities, and she tried to keep her distance from national Democrats. Sullivan’s campaign sought to link her to liberal priorities in the Lower 48 that it said would restrict oil, gas and mining development. Peltola said she would work with President Donald Trump where it helped Alaska, and after the call she said the result showed Alaskans want change from business as usual in Washington, according to the AP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alaskans also elected Democrat Jonathan Kreiss-Tomkins governor, the party’s first win for that office since 1998, and voters rejected a ballot measure to repeal the state’s open primaries and ranked-choice system, the AP reported. As of Nov. 18 the AP had not called the U.S. House race between Republican Rep. Nick Begich and independent Bill Hill."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The ‘other Dan Sullivan’ dispute",
+          "id": "the-other-dan-sullivan-dispute"
+        },
+        {
+          "type": "paragraph",
+          "text": "The final weeks of the race were dominated by Sullivan Jr.’s candidacy. Less than a week before Election Day, The New York Times reported that people connected to Peltola’s campaign had helped try to recruit a candidate who shares the incumbent’s name. The AP said the report drew on text messages, documents and interviews with a former campaign manager who was fired before the primary and later sought to retract her statements. Trump called for Peltola to be prosecuted."
+        },
+        {
+          "type": "paragraph",
+          "text": "Peltola says she knew nothing about other candidates on the ballot, and the Democratic Senatorial Campaign Committee denies involvement. Sullivan Jr. has said he had no contact with her campaign, and Newsweek noted he has long maintained that running was his own idea. Democracy Docket, whose founder’s law firm represents Peltola’s campaign, argued that political groups working with other candidates to draw votes from a rival is neither unusual nor illegal. The Justice Department has not said which federal laws it believes may have been broken."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Legal fights still open",
+          "id": "legal-fights-still-open"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Justice Department sued Alaska on Oct. 22 to block certification if Sullivan lost, and Trump has said he ordered the suit. U.S. District Judge Sharon Gleason dismissed it on Nov. 1, finding the government lacked standing and that setting aside ballots would violate ballot secrecy, Newsweek reported. The department appealed to the 9th U.S. Circuit Court of Appeals, where voting-rights groups have asked the court to uphold the ruling without full briefing, a motion that pauses the department’s Dec. 14 brief deadline. UCLA election-law scholar Richard Hasen wrote that he would not be surprised if the department dropped the appeal, and a response to that request was due Nov. 19. Separately, an Alaska attorney has asked Gleason to sanction three Justice Department lawyers who brought the suit."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the criminal side, Fox News Digital reported, citing a law enforcement source, that prosecutors have issued more than 200 subpoenas in an investigation reaching several states with more than one target. Newsweek said it had not independently confirmed that figure. The AP earlier reported that target letters went to several people, including Democratic election lawyer Marc Elias, whose firm represents Peltola’s campaign; Elias has said he is being targeted. Newsweek also relayed the AP’s observation that the administration has had repeated trouble getting grand juries to indict in politically charged cases. A state inquiry opened at Gov. Mike Dunleavy’s direction also continues, Alaska’s public safety department told Newsweek."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What comes next",
+          "id": "what-comes-next"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alaska’s elections division has targeted Nov. 25 to certify the result after review by the State Review Board, and Nov. 30 is the last day to request a recount in the Senate race and most other contests, Newsweek reported. Under Alaska law, a challenger can file an election contest once state review is complete, according to Democracy Docket. Sullivan’s campaign has said it will let the process run until every legal vote is counted and certified, and it has not conceded."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trump has called the contest rigged and demanded that votes cast for Sullivan Jr. be awarded to the incumbent, Newsweek and Democracy Docket reported, and Democracy Docket said some congressional Republicans have questioned whether Peltola would be seated. Dunleavy, who has not committed to certifying a Peltola win, is set to leave office Dec. 7 and is expected to be succeeded by Kreiss-Tomkins. The key open questions are whether certification happens on schedule, whether the Justice Department keeps pursuing its appeal and criminal probe, and what happens when the Senate convenes in January. Details may change as officials and courts act."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Peltola Wins Alaska Senate Race; Democrats Reach 56 Seats",
+        "metaDescription": "Mary Peltola beat Sen. Dan Sullivan, flipping Alaska’s Senate seat. Sullivan hasn’t conceded and a DOJ probe into the ‘other Dan Sullivan’ continues.",
+        "ogTitle": "Mary Peltola Wins Alaska Senate Race, Lifting Democrats to 56 Seats",
+        "ogDescription": "The AP called Alaska’s Senate race for Peltola. Sullivan has not conceded, certification is targeted for Nov. 25, and a DOJ probe and appeal continue.",
+        "ogImage": "/images/illustrations/peltola-wins-alaska-senate-race-democrats-56-seats-sullivan-yet-to-concede.webp",
+        "twitterTitle": "Peltola Wins Alaska Senate Race; Democrats Reach 56 Seats",
+        "twitterDescription": "Sullivan hasn’t conceded; Alaska targets Nov. 25 to certify as DOJ appeal and probe continue.",
+        "keywords": [
+          "Mary Peltola",
+          "Alaska Senate race",
+          "Dan Sullivan",
+          "Daniel J. Sullivan Jr.",
+          "Senate 56-44",
+          "Alaska certification",
+          "Justice Department Alaska probe",
+          "2026 midterms"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "11",
       "day": "16",
       "image": "/images/illustrations/white-house-doj-warn-democrats-oversight-probes-could-be-criminal-garcia-blumenthal.webp",
       "comments": 0,

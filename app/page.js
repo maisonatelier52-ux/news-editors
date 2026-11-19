@@ -124,6 +124,21 @@ export default function HomePage() {
     ? ['judge-blocks-trump-mail-in-voting-restrictions']
     : [];
 
+  // Latest politics story: takes over the slot the "Newsom signs California
+  // laws targeting ICE detention practices" story held (second story of the
+  // left column in the top Trending grid, the "starting section"). The Newsom
+  // story is retired from the homepage only; it stays on its article page and
+  // in the Politics category and author listings, which are sorted by date.
+  // To swap in a newer politics story for this slot later, update
+  // POL_LEFT_SLUG (and move the outgoing slug into POL_LEFT_RETIRED_SLUGS).
+  const POL_LEFT_SLUG = 'peltola-wins-alaska-senate-race-democrats-56-seats-sullivan-yet-to-concede';
+  const polLeft = getPostBySlug(POL_LEFT_SLUG);
+  // Only retire the Newsom story once the new article is in the data, so the
+  // slot is never left empty.
+  const POL_LEFT_RETIRED_SLUGS = polLeft
+    ? ['newsom-signs-laws-targeting-ice-detention-practices']
+    : [];
+
   const HOME_HELD = new Set([
     US_LEAD_SLUG,
     US_RETIRED_SLUG,
@@ -131,10 +146,12 @@ export default function HomePage() {
     BIZ_SLOT_SLUG,
     POL_SLOT_SLUG,
     POL_TOP_SLUG,
+    POL_LEFT_SLUG,
     TECH_SLOT_SLUG,
     INV_LEAD_SLUG,
     ...INV_LEAD_RETIRED_SLUGS,
     ...POL_TOP_RETIRED_SLUGS,
+    ...POL_LEFT_RETIRED_SLUGS,
     ...TECH_SLOT_RETIRED_SLUGS,
     ...POL_SLOT_RETIRED_SLUGS,
     ...US_SLOT_RETIRED_SLUGS,
@@ -153,7 +170,8 @@ export default function HomePage() {
       (p) =>
         !PINNED.has(p.slug) &&
         p.slug !== POL_SLOT_SLUG &&
-        p.slug !== POL_TOP_SLUG
+        p.slug !== POL_TOP_SLUG &&
+        p.slug !== POL_LEFT_SLUG
     )
     .slice(0, 3);
 
@@ -220,8 +238,9 @@ export default function HomePage() {
 
   // Trending: Julio (rightC) + the latest technology story (rightBelow) pinned,
   // plus the latest investigation (center lead), the pinned investigation
-  // (centerB), the pinned politics story (leftC) and the latest politics story
-  // (rightB). The rest of the grid fills by date as before.
+  // (centerB), the pinned politics story (leftC), the latest politics story
+  // (rightB) and the newest politics story (leftB). The rest of the grid fills
+  // by date as before.
   const trendingExclude = Array.from(new Set([...reserved, ...HOME_HELD]));
   take(
     getAllPosts()
@@ -237,6 +256,7 @@ export default function HomePage() {
         (invSlot ? 5 : 6) -
           (polSlot ? 1 : 0) -
           (polTop ? 1 : 0) -
+          (polLeft ? 1 : 0) -
           (invLead ? 1 : 0)
       )
       .concat(invSlot ? [invSlot] : [])
@@ -308,6 +328,7 @@ export default function HomePage() {
           rightBelowSlug={RIGHT_BELOW_SLUG}
           centerSlug={invLead ? INV_LEAD_SLUG : null}
           centerBSlug={invSlot ? INV_SLOT_SLUG : null}
+          leftBSlug={polLeft ? POL_LEFT_SLUG : null}
           leftCSlug={polSlot ? POL_SLOT_SLUG : null}
           rightBSlug={polTop ? POL_TOP_SLUG : null}
         />
