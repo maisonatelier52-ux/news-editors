@@ -4,6 +4,209 @@
       "author": "admin",
       "year": "2026",
       "month": "11",
+      "day": "20",
+      "image": "/images/illustrations/anthropic-record-ipo-nasdaq-debut-closes-up-17-percent-november-2026.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": true,
+      "updatedAt": "2026-11-20T12:00:00+05:30",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of a brass exchange opening bell above a staircase of server-rack blocks that peaks and settles on a higher step, with a dimmer row of falling bars and a neoclassical exchange facade behind",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "keyTakeaways": [
+        "Anthropic shares closed at $97.17 on their Nasdaq debut Thursday, up 17% from the $83 IPO price, after opening at $111.50 and giving back much of the early gain.",
+        "The offering raised $81.3 billion, the largest IPO on record, and a $26 billion private placement with Google, Nvidia, Microsoft and other partners brings the total to about $107.3 billion.",
+        "The listing did not lift the market: U.S. stocks fell sharply as investors kept weighing AI spending, debt and regulatory risk, and analysts say the first year will test the valuation."
+      ],
+      "whyItMatters": "The listing gives ordinary investors their first chance to buy into a stand-alone AI developer of this size, so its trading will be read as a verdict on what the public will pay for a company that is unprofitable by standard accounting while committing hundreds of billions of dollars to computing capacity. The result also shapes how rivals such as OpenAI, which is not expected to list until next year, can raise money.",
+      "reportingNote": "This source-based news report summarizes reporting from the Associated Press, AFP, Reuters, CNBC, CNN, NBC News and The National, plus Anthropic’s final prospectus filed with the SEC, available as of Nov. 20, 2026. Valuation figures differ by method (fully diluted, including options and restricted shares, versus shares outstanding), and outlets report different totals for SpaceX’s June offering, so this report does not state one. Prices and market values change with every trade. This is a news report, not investment advice.",
+      "sources": [
+        {
+          "publisher": "Associated Press (via PBS News)",
+          "label": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+          "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion",
+          "accessed": "November 20, 2026"
+        },
+        {
+          "publisher": "CNBC",
+          "label": "Anthropic IPO live updates: ANT stock price and Nasdaq debut",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+          "accessed": "November 20, 2026"
+        },
+        {
+          "publisher": "CNN",
+          "label": "Anthropic valued at $1.76 trillion after historic first day of trading",
+          "url": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo",
+          "accessed": "November 20, 2026"
+        },
+        {
+          "publisher": "NBC News",
+          "label": "Live updates: Anthropic’s record-setting IPO can’t halt broader market slide",
+          "url": "https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159",
+          "accessed": "November 20, 2026"
+        },
+        {
+          "publisher": "The National",
+          "label": "Anthropic shares close 17% above IPO price after volatile Nasdaq debut",
+          "url": "https://www.thenationalnews.com/business/markets/2026/11/20/anthropic-share-price-today-ant-listing/",
+          "accessed": "November 20, 2026"
+        },
+        {
+          "publisher": "Reuters (via The Standard)",
+          "label": "Wall Street ends sharply lower as Anthropic’s debut fails to revive AI fervor",
+          "url": "https://www.thestandard.com.hk/finance/article/349077/Wall-Street-ends-sharply-lower-as-Anthropics-debut-fails-to-revive-AI-fervor",
+          "accessed": "November 20, 2026"
+        },
+        {
+          "publisher": "AFP (via Yahoo Finance)",
+          "label": "Anthropic set to price IPO in key test for AI boom",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html",
+          "accessed": "November 20, 2026"
+        },
+        {
+          "publisher": "U.S. Securities and Exchange Commission",
+          "label": "Anthropic, PBC – Form 424B4 prospectus",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026074944/anthropicpbc-424b4.htm",
+          "accessed": "November 20, 2026"
+        }
+      ],
+      "slug": "anthropic-record-ipo-nasdaq-debut-closes-up-17-percent-november-2026",
+      "title": "Anthropic Closes Up 17% in Record Nasdaq Debut as Wall Street Slides",
+      "subtitle": "The $81.3 billion offering, the largest IPO on record, opened near a $2 trillion value before the early gains faded in a falling market",
+      "excerpt": "Anthropic shares closed at $97.17 on their first day on the Nasdaq, 17% above the $83 offer price, after the AI company raised $81.3 billion in the largest IPO on record. An early jump to $111.50 faded as U.S. stocks fell sharply.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "anthropic",
+        "ai",
+        "ipo",
+        "nasdaq"
+      ],
+      "date": "2026-11-20",
+      "toc": [
+        {
+          "id": "what-happened-on-debut-day",
+          "text": "What happened on debut day"
+        },
+        {
+          "id": "how-the-offering-was-priced",
+          "text": "How the offering was priced"
+        },
+        {
+          "id": "what-the-filings-show",
+          "text": "What the filings show"
+        },
+        {
+          "id": "a-weak-market-for-a-landmark-listing",
+          "text": "A weak market for a landmark listing"
+        },
+        {
+          "id": "what-to-watch-next",
+          "text": "What to watch next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Anthropic, the maker of the Claude AI assistant, closed its first day of trading on the Nasdaq on Thursday at $97.17 a share, 17% above its $83 offer price, after completing the largest initial public offering on record, CNBC and CNN reported. The stock opened at $111.50, 34% above the offer price, but gave back much of that gain as U.S. stocks fell sharply and investors kept questioning how long the AI spending boom can last."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What happened on debut day",
+          "id": "what-happened-on-debut-day"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trading under the ticker ANT, Anthropic shares became eligible to trade at 10 a.m. Eastern and opened at about 11:50 a.m., NBC News reported. At the opening price the company briefly carried a fully diluted value of about $2 trillion. The shares then cooled as the broader market fell and finished at $97.17, up 17.07% from the IPO price, according to CNN."
+        },
+        {
+          "type": "paragraph",
+          "text": "Valuation depends on how it is counted. CNBC put the closing value at roughly $1.8 trillion on a fully diluted basis, which would make Anthropic the seventh most valuable U.S. company, behind Apple, Microsoft, Nvidia, Alphabet, Amazon and SpaceX. The National calculated about $1.27 trillion on the shares actually outstanding. More than 846 million shares changed hands, CNBC reported, well above the roughly 522 million that traded on SpaceX’s first day in June. NBC News reported that the stock was down more than 2.5% in after-hours trading."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How the offering was priced",
+          "id": "how-the-offering-was-priced"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anthropic priced the deal on Wednesday evening at $83 a share, above the $70 to $78 range it had marketed the week before, and enlarged it to 980 million shares from 825 million, the Associated Press and CNBC reported. About 956 million of the shares were sold by the company and roughly 24 million by selling stockholders that include its seven co-founders. The base offering raised about $81.3 billion, ahead of SpaceX’s June listing, and valued the company at about $1.5 trillion, the AP said, a figure that AFP reported includes employee stock options and restricted shares. A PitchBook analyst told The National that orders reached about six times the number of shares available."
+        },
+        {
+          "type": "paragraph",
+          "text": "A separate private placement added more money. Under the final prospectus filed with the Securities and Exchange Commission, Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC Partners agreed to buy a combined $26 billion of Class N stock at the IPO price. AFP noted that the buyers are investors in Anthropic or major suppliers of its computing power. Together with the public offering, The National reported, the raise comes to about $107.3 billion."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What the filings show",
+          "id": "what-the-filings-show"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anthropic’s IPO filing, as summarized by AFP, reported third-quarter revenue of $17 billion, up from $1.4 billion a year earlier, and an annualized run-rate of about $81 billion as of Oct. 31, up $10 billion from the end of September. The AP reported that the company is not profitable under standard accounting rules, carries $6.2 billion in debt that it calls substantial, and has signed leases and other agreements committing it to roughly $900 billion of spending on computing power and infrastructure in the coming years, including about $70 billion over the next 12 months."
+        },
+        {
+          "type": "paragraph",
+          "text": "Anthropic is a public-benefit corporation, and a long-term benefit trust will be able to elect or remove a majority of its board, which gives outside shareholders less control than at a typical listed company, according to the AP. AFP reported that the seven co-founders pledged to donate 80% of their personal equity to charity and that the company will put 5% of its shares into a new public benefit fund. With an employee donation-matching program, that would direct roughly 20% of the shares toward public purposes."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "A weak market for a landmark listing",
+          "id": "a-weak-market-for-a-landmark-listing"
+        },
+        {
+          "type": "paragraph",
+          "text": "The debut did not lift Wall Street. Reuters reported that all three major U.S. indexes ended sharply lower, with the S&P 500 logging a fifth straight session of losses and heading for its steepest weekly decline since April 2025. The National reported that Asian chip stocks also fell on Friday."
+        },
+        {
+          "type": "paragraph",
+          "text": "The AP said Anthropic went ahead despite investor jitters over market volatility, a possible regulatory crackdown by a Democratic-led Congress next year, public anti-AI sentiment and the ouster of Nvidia’s chief executive, Jensen Huang. Rival OpenAI is not planning to go public until next year, the AP added."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What to watch next",
+          "id": "what-to-watch-next"
+        },
+        {
+          "type": "paragraph",
+          "text": "PitchBook senior research analyst Harrison Rolfes told The National that the first year will test the price, and the firm expects 2027 to be the weakest year in its forecast as locked-up shares are released in stages around Anthropic’s first earnings reports as a public company."
+        },
+        {
+          "type": "paragraph",
+          "text": "The company’s own filing lists risks. AFP reported that it warns advanced AI systems could pose catastrophic or existential risks if not developed and deployed responsibly, and that its public positions on regulation could expose it to political backlash. AFP linked that language to Anthropic’s dispute with the Trump administration, which ordered federal agencies to stop using its technology and labeled it a supply-chain risk after the company refused to let the Pentagon use Claude for domestic mass surveillance or lethal autonomous weapons."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Anthropic Closes Up 17% in Record $81B Nasdaq IPO Debut",
+        "metaDescription": "Anthropic shares closed at $97.17, up 17% from the $83 IPO price, after a record $81.3 billion offering. Early gains faded as U.S. stocks fell sharply.",
+        "ogTitle": "Anthropic Closes Up 17% in Record Nasdaq Debut",
+        "ogDescription": "The largest IPO on record raised $81.3 billion and opened near a $2 trillion value, but early gains faded as Wall Street slid.",
+        "ogImage": "/og/anthropic-record-ipo-nasdaq-debut-closes-up-17-percent-november-2026.jpg",
+        "twitterTitle": "Anthropic Closes Up 17% in Record IPO Debut",
+        "twitterDescription": "Shares ended at $97.17 versus an $83 offer price after a $81.3 billion IPO, as U.S. stocks fell sharply.",
+        "keywords": [
+          "Anthropic IPO",
+          "Anthropic Nasdaq debut",
+          "ANT stock",
+          "largest IPO on record",
+          "AI stocks",
+          "Anthropic valuation",
+          "Anthropic share price",
+          "AI IPO November 2026"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "11",
       "day": "15",
       "image": "/images/illustrations/microsoft-365-global-outage-outlook-teams-copilot-restored-november-2026.webp",
       "comments": 0,

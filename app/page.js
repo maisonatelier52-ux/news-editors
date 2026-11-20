@@ -39,7 +39,31 @@ export default function HomePage() {
   const techSlot = getPostBySlug(TECH_SLOT_SLUG);
   // Falls back to the OpenAI story if the new article is not in the data yet.
   const RIGHT_BELOW_SLUG = techSlot ? TECH_SLOT_SLUG : OPENAI_SLUG;
-  const PINNED = new Set([JULIO_SLUG, TECH_SLOT_SLUG, ...TECH_SLOT_RETIRED_SLUGS]);
+
+  // Latest technology story (Must Read): takes over the Must Read slot the
+  // "Microsoft plans data-center push to triple computing capacity" story held
+  // (5th card, the image card in the right-hand column). The Microsoft story is
+  // retired from the homepage only; it stays on its article page and in the
+  // Technology category and author listings, which are sorted by date.
+  // To swap in a newer technology story for this slot later, update
+  // TECH_MUST_READ_SLUG (and move the outgoing slug into
+  // TECH_MUST_READ_RETIRED_SLUGS).
+  const TECH_MUST_READ_SLUG = 'anthropic-record-ipo-nasdaq-debut-closes-up-17-percent-november-2026';
+  const TECH_MUST_READ_INDEX = 4;
+  const techMustRead = getPostBySlug(TECH_MUST_READ_SLUG);
+  // Only retire the Microsoft story once the new article is in the data, so
+  // the slot is never left empty.
+  const TECH_MUST_READ_RETIRED_SLUGS = techMustRead
+    ? ['microsoft-plans-data-center-capacity-triple']
+    : [];
+
+  const PINNED = new Set([
+    JULIO_SLUG,
+    TECH_SLOT_SLUG,
+    ...TECH_SLOT_RETIRED_SLUGS,
+    TECH_MUST_READ_SLUG,
+    ...TECH_MUST_READ_RETIRED_SLUGS,
+  ]);
 
   // Latest U.S. story: takes over the lead slot of the Must Read block,
   // replacing the U.S. story that held it before. The replaced story is
@@ -148,11 +172,13 @@ export default function HomePage() {
     POL_TOP_SLUG,
     POL_LEFT_SLUG,
     TECH_SLOT_SLUG,
+    TECH_MUST_READ_SLUG,
     INV_LEAD_SLUG,
     ...INV_LEAD_RETIRED_SLUGS,
     ...POL_TOP_RETIRED_SLUGS,
     ...POL_LEFT_RETIRED_SLUGS,
     ...TECH_SLOT_RETIRED_SLUGS,
+    ...TECH_MUST_READ_RETIRED_SLUGS,
     ...POL_SLOT_RETIRED_SLUGS,
     ...US_SLOT_RETIRED_SLUGS,
     ...BIZ_SLOT_RETIRED_SLUGS,
@@ -267,17 +293,25 @@ export default function HomePage() {
       )
   );
 
-  // Must Read: the U.S. lead story, the pinned U.S. and business slot
-  // stories, plus the next posts by date (7 slots in total, as before).
+  // Must Read: the U.S. lead story, the pinned U.S., technology and business
+  // slot stories, plus the next posts by date (7 slots in total, as before).
   const mustReadExclude = Array.from(used).filter(
-    (s) => s !== US_LEAD_SLUG && s !== US_SLOT_SLUG && s !== BIZ_SLOT_SLUG
+    (s) =>
+      s !== US_LEAD_SLUG &&
+      s !== US_SLOT_SLUG &&
+      s !== BIZ_SLOT_SLUG &&
+      s !== TECH_MUST_READ_SLUG
   );
   take(
     getAllPosts()
       .filter((p) => !used.has(p.slug))
       .slice(
         0,
-        7 - (usLead ? 1 : 0) - (usSlot ? 1 : 0) - (bizSlot ? 1 : 0)
+        7 -
+          (usLead ? 1 : 0) -
+          (usSlot ? 1 : 0) -
+          (bizSlot ? 1 : 0) -
+          (techMustRead ? 1 : 0)
       )
   );
 
@@ -341,6 +375,9 @@ export default function HomePage() {
             leadSlug={usLead ? US_LEAD_SLUG : null}
             pins={[
               ...(usSlot ? [{ slug: US_SLOT_SLUG, index: US_SLOT_INDEX }] : []),
+              ...(techMustRead
+                ? [{ slug: TECH_MUST_READ_SLUG, index: TECH_MUST_READ_INDEX }]
+                : []),
               ...(bizSlot ? [{ slug: BIZ_SLOT_SLUG, index: BIZ_SLOT_INDEX }] : []),
             ]}
           />
