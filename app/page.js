@@ -163,8 +163,26 @@ export default function HomePage() {
     ? ['newsom-signs-laws-targeting-ice-detention-practices']
     : [];
 
+  // Latest finance story: takes over the slot the "Mortgage rates hold in the
+  // mid-6% range as bond market stays volatile" story held (the text-led lead
+  // with the large image in the homepage Finance section). The mortgage story
+  // is retired from the homepage only; it stays on its article page and in the
+  // Finance category and author listings, which are sorted by date. The Finance
+  // section lists the newest finance stories by date, so the new story leads.
+  // To swap in a newer finance story later, update FIN_SLOT_SLUG (and move the
+  // outgoing slug into FIN_SLOT_RETIRED_SLUGS).
+  const FIN_SLOT_SLUG = 'ai-selloff-sp-500-dow-correction-nasdaq-erases-2026-gains-november-2026';
+  const finSlot = getPostBySlug(FIN_SLOT_SLUG);
+  // Only retire the mortgage story once the new article is in the data, so the
+  // slot is never left empty.
+  const FIN_SLOT_RETIRED_SLUGS = finSlot
+    ? ['mortgage-rates-treasury-yields-late-august-2026']
+    : [];
+
   const HOME_HELD = new Set([
     US_LEAD_SLUG,
+    FIN_SLOT_SLUG,
+    ...FIN_SLOT_RETIRED_SLUGS,
     US_RETIRED_SLUG,
     US_SLOT_SLUG,
     BIZ_SLOT_SLUG,
@@ -216,8 +234,10 @@ export default function HomePage() {
     )
     .slice(0, 4);
 
+  // Newest finance stories by date; the retired mortgage story is skipped here
+  // (homepage only), so the latest story leads the Finance section.
   let financePosts = getPostsByCategory('finance', [])
-    .filter((p) => !PINNED.has(p.slug))
+    .filter((p) => !PINNED.has(p.slug) && !FIN_SLOT_RETIRED_SLUGS.includes(p.slug))
     .slice(0, 2);
 
   const worldPosts = getPostsByCategory('world', [])

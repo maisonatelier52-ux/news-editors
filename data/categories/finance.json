@@ -1,6 +1,247 @@
 {
   "articles": [
     {
+      "slug": "ai-selloff-sp-500-dow-correction-nasdaq-erases-2026-gains-november-2026",
+      "title": "AI selloff pushes S&P 500 and Dow into correction as Nasdaq erases its 2026 gains",
+      "subtitle": "The Nasdaq’s worst week since March 2020 hit chip stocks hardest, and futures rebounded Monday as traders reassessed Federal Reserve rate bets",
+      "excerpt": "An AI-led selloff on Friday pushed the S&P 500 and the Dow into correction territory and erased the Nasdaq’s gains for 2026, with the S&P 500 down 3.7% for a seventh straight loss, before U.S. stock futures rebounded sharply on Monday.",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "stock-market",
+        "ai-stocks",
+        "nasdaq",
+        "nvidia",
+        "federal-reserve"
+      ],
+      "author": "admin",
+      "date": "2026-11-23",
+      "year": "2026",
+      "month": "11",
+      "day": "23",
+      "image": "/images/illustrations/ai-selloff-sp-500-dow-correction-nasdaq-erases-2026-gains-november-2026.webp",
+      "views": 0,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": true,
+      "toc": [
+        {
+          "id": "how-deep-the-weeks-losses-ran",
+          "text": "How deep the week’s losses ran"
+        },
+        {
+          "id": "why-chip-stocks-led-the-drop",
+          "text": "Why chip stocks led the drop"
+        },
+        {
+          "id": "bonds-and-the-feds-rate-path",
+          "text": "Bonds and the Fed’s rate path"
+        },
+        {
+          "id": "what-it-means-for-mortgage-rates",
+          "text": "What it means for mortgage rates"
+        },
+        {
+          "id": "what-to-watch-this-week",
+          "text": "What to watch this week"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "U.S. stocks sank on Friday in a selloff led by chipmakers and other AI-linked companies, pushing the S&P 500 and the Dow Jones Industrial Average into correction territory and wiping out the Nasdaq Composite’s gains for the year. The S&P 500 fell 3.7% to 6,910.39, its seventh straight daily loss and its longest losing streak since February 2020, according to Fox Business and closing data carried by Yahoo Finance."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Dow lost 949.77 points, or 1.93%, to 48,147.33, and the Nasdaq Composite dropped 5.28% to 22,617.73, which Fox Business described as its second-largest single-day point drop on record."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock futures bounced early Monday. Nasdaq 100 futures were up about 3.3%, S&P 500 futures about 2.5% and Dow futures about 1.9% ahead of the U.S. open, according to Reuters figures relayed by Beinsure. Pre-market moves can fade or reverse once regular trading begins, and the cash session had not opened when this article was written."
+        },
+        {
+          "type": "heading",
+          "id": "how-deep-the-weeks-losses-ran",
+          "text": "How deep the week’s losses ran"
+        },
+        {
+          "type": "paragraph",
+          "text": "The S&P 500 and the Dow each closed more than 10% below their record highs, the usual threshold for a correction. Weekly summaries of Friday’s closing data put the S&P 500’s decline for the week at about 8.6%, the Nasdaq Composite’s at about 10% and the Dow’s at about 8%. Fox Business reported that the S&P 500 had its worst week since April 2025, while Bloomberg reported that the Nasdaq 100 had its worst week since March 2020 after falling 5.6% on Friday alone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volatility spiked. The Cboe Volatility Index, Wall Street’s so-called fear gauge, closed at 35.89, up about 26% on the day, and Bloomberg said it was at its highest level since April 2025. The selling was global: the MSCI World Index fell 3.4%."
+        },
+        {
+          "type": "paragraph",
+          "text": "It was the second major AI-linked rout this month. On Nov. 5, the S&P 500 fell 4.4%, its worst day since April 2025, as worries that data-center construction will slow because of higher borrowing costs weighed on AI stocks, the Associated Press reported."
+        },
+        {
+          "type": "heading",
+          "id": "why-chip-stocks-led-the-drop",
+          "text": "Why chip stocks led the drop"
+        },
+        {
+          "type": "paragraph",
+          "text": "Semiconductor shares took the worst of it. A closely watched chip gauge sank 11%, Bloomberg reported. Nvidia fell 14.01% to close at $125.53, while Advanced Micro Devices dropped about 13.3% to $424.32 and Broadcom about 12.1% to $304.65, according to The Motley Fool. Micron fell nearly 14%, according to Dim Sum Daily."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nvidia’s slide followed a Reuters report that Securities and Exchange Commission staff are examining possible accounting issues at the company, according to Bloomberg and other outlets. Neither Nvidia nor the SEC had confirmed an inquiry in the coverage reviewed for this article, and an investigation by itself does not establish wrongdoing. The stock fell even though Nvidia had reported strong quarterly results and raised its outlook earlier in the week, The Motley Fool reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts pointed to a broader reassessment of AI spending. Richard Saperstein of Treasury Partners cited a repricing of AI expectations, slower data-center expansion, tighter funding for AI projects and moderating tech earnings growth, according to Dim Sum Daily. Anthropic, which began trading on the Nasdaq on Thursday after pricing its IPO at $83 a share, fell 8.5% to $88.91 in its second session, giving back part of a 17% first-day gain, according to Fox Business."
+        },
+        {
+          "type": "heading",
+          "id": "bonds-and-the-feds-rate-path",
+          "text": "Bonds and the Fed’s rate path"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors rushed into government bonds. The 10-year Treasury yield fell to about 4.9% on Friday from 5.04% a day earlier, according to Bloomberg and Yahoo Finance data. On Monday it rose about 5 basis points to 4.96% as that flight to safety eased, Reuters reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The moves reshaped bets on the Federal Reserve. The central bank raised its benchmark rate by a quarter point to a range of 3.75% to 4.00% on Sept. 16 and held on Oct. 28 in a 10-2 vote, according to a meeting preview from Admirals. Governor Christopher Waller said on CNBC on Nov. 18 that if the Fed does not clearly signal a January move, “you have to go 50 in December,” Admirals reported, and CME FedWatch readings earlier in the week put the odds of a quarter-point December increase at 90% to 97%. October core consumer prices had risen 0.3%, above the 0.2% forecast."
+        },
+        {
+          "type": "paragraph",
+          "text": "After Friday’s selloff, Bloomberg reported that traders no longer fully priced in a quarter-point hike at the Fed’s Dec. 8–9 meeting, and CME FedWatch data cited by CoinDesk showed the probability of a half-point hike falling to zero from about 10%. Neil Dutta of Renaissance Macro Research cautioned that a Fed pullback could reignite inflation, Bloomberg reported."
+        },
+        {
+          "type": "heading",
+          "id": "what-it-means-for-mortgage-rates",
+          "text": "What it means for mortgage rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mortgage rates tend to follow the 10-year Treasury yield. Freddie Mac’s latest weekly survey, released Nov. 19 before Friday’s bond rally, showed the average 30-year fixed rate rising to 7.28% from 7.11%, which ended four straight weekly declines; a year earlier it was 6.26%. The 15-year fixed rate averaged 6.66%, up from 6.45% a week earlier and 5.54% a year ago, WRE News reported from the release."
+        },
+        {
+          "type": "paragraph",
+          "text": "By News Editors’ calculation, principal and interest on a $400,000, 30-year loan would be about $2,737 a month at 7.28%, roughly $46 more than at 7.11%, before taxes, insurance and closing costs. Freddie Mac notes that its figures are national survey averages, not individual loan quotes. Whether Friday’s drop in yields reaches borrowers depends on whether it lasts; the next weekly survey should begin to show, and Monday’s partial rebound in yields is a reminder of how quickly the picture can change."
+        },
+        {
+          "type": "heading",
+          "id": "what-to-watch-this-week",
+          "text": "What to watch this week"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monday’s futures gains followed steps by Asian regulators to support markets: Taiwan tightened short-selling rules and Chinese exchanges eased margin-financing conditions, Reuters reported. In pre-market trading, Nvidia rose about 8% and Anthropic about 3%, after falling 14% and 8.5% on Friday, respectively."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts were divided on what comes next. Chris Larkin of E*Trade from Morgan Stanley noted that only five of the past 15 corrections from all-time highs since 1983 became bear markets, Bloomberg reported. Jonathan Krinsky of BTIG said that trading below the 200-day moving average “shifts risks to the downside,” and Massimo Santicchia of Procyon described sentiment as “decisively risk-off,” according to Dim Sum Daily. All three major averages slipped below their 200-day moving averages on Friday."
+        },
+        {
+          "type": "paragraph",
+          "text": "The calendar is crowded. The Fed’s October PCE inflation report is due Wednesday, Nov. 25, according to Admirals; U.S. markets are closed Thursday, Nov. 26, for Thanksgiving and close early on Friday, Nov. 27, according to Swingfolio; and the Fed’s next policy meeting runs Dec. 8–9, according to the Federal Reserve’s calendar. Because market figures change quickly and some of those above are pre-market, readers should check live quotes. This article is general information, not investment advice."
+        }
+      ],
+      "updatedAt": "2026-11-23T16:30:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "S&P 500, Dow Enter Correction as AI Selloff Erases Nasdaq Gains",
+        "metaDescription": "An AI-led selloff pushed the S&P 500 and Dow into correction and erased the Nasdaq’s 2026 gains; futures rebounded Monday as traders weighed Fed rate bets.",
+        "ogTitle": "AI Selloff Pushes S&P 500 and Dow Into Correction, Nasdaq Erases 2026 Gains",
+        "ogDescription": "Chip stocks led Friday’s rout, the S&P 500 fell for a seventh straight day, and futures rebounded Monday as traders reassessed Fed rate bets.",
+        "ogImage": "/og/ai-selloff-sp-500-dow-correction-nasdaq-erases-2026-gains-november-2026.jpg",
+        "twitterTitle": "S&P 500, Dow Fall Into Correction as AI Selloff Erases Nasdaq’s 2026 Gains",
+        "twitterDescription": "The Nasdaq had its worst week since March 2020; stock futures rebounded Monday as the Fed’s December meeting looms.",
+        "keywords": [
+          "stock market correction",
+          "S&P 500 correction November 2026",
+          "Nasdaq erases 2026 gains",
+          "AI stocks selloff",
+          "Nvidia stock",
+          "Fed rate hike December 2026",
+          "stock futures Monday"
+        ]
+      },
+      "articleType": "Money note",
+      "keyTakeaways": [
+        "The S&P 500 fell 3.7% Friday to 6,910.39, its seventh straight loss, while it and the Dow closed in correction territory and the Nasdaq Composite erased its 2026 gains after its worst week since March 2020.",
+        "Chip stocks led the drop: Nvidia fell 14% after a report that SEC staff are examining its accounting, which had not been confirmed, and investors questioned AI valuations and spending.",
+        "The 10-year Treasury yield fell to about 4.9% and traders pared Fed rate-hike bets; futures rebounded Monday, but the Fed meets Dec. 8–9 and the latest 30-year mortgage rate was 7.28%."
+      ],
+      "whyItMatters": "A correction is a decline of 10% or more from a recent high, not a forecast of a bear market, but Friday’s drop hit the AI-linked shares that had led the market higher, and the moves in yields and Fed bets feed directly into mortgage rates, savings yields and retirement-account values.",
+      "reportingNote": "This source-based article combines market data and coverage published Nov. 20–23, 2026 with editorial context. Monday’s figures are pre-market futures and stock quotes reported before the U.S. open and may change, and closing figures differ slightly across data providers. The reported SEC review of Nvidia was unconfirmed at the time of writing. Comparisons described as News Editors’ calculations are derived from the published figures. It is general information, not investment advice.",
+      "sources": [
+        {
+          "publisher": "Bloomberg (via SWI swissinfo.ch)",
+          "label": "Nasdaq 100 Has Worst Week Since 2020 on AI Drama: Markets Wrap",
+          "url": "https://www.swissinfo.ch/eng/nasdaq-100-has-worst-week-since-2020-on-ai-drama:-markets-wrap/92410554",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Fox Business",
+          "label": "Stock market slide wipes out Nasdaq gains for the year on AI rout; correction on",
+          "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "The Motley Fool (via Yahoo Finance)",
+          "label": "Stock Market Today, Nov. 20: Nvidia’s $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street’s AI Sell-Off",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-20-215502847.html",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Dim Sum Daily",
+          "label": "S&P 500 and Dow close in correction as Nasdaq erases 2026 gains",
+          "url": "https://www.dimsumdaily.hk/sp-500-and-dow-close-in-correction-as-nasdaq-erases-2026-gains/",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Swingfolio",
+          "label": "US Week 21 Nov 2026: S&P 500 -8.61%, Nasdaq -10.02%",
+          "url": "https://swingfolio.com/daily/us/2026-11-21/weekend",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Reuters (via Beinsure)",
+          "label": "Dow Jones and US stock futures surge as Nasdaq 100 rebounds 3% after AI selloff",
+          "url": "https://beinsure.com/news/dow-jones-and-us-stock-futures-surge-as-nasdaq-100-rebounds/",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Associated Press (via The Atlanta Journal-Constitution)",
+          "label": "A wipeout for AI stocks sends Wall Street reeling and the S&P 500 tumbles (Nov. 5, 2026)",
+          "url": "https://www.ajc.com/news/2026/11/a-wipeout-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-more-than-35/",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Bloomingbit (citing CoinDesk)",
+          "label": "Fed’s December 50-Basis-Point Rate-Hike Odds Drop to Zero as U.S. Stocks Plunge",
+          "url": "https://en.bloomingbit.io/feed/news/125006",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Admirals",
+          "label": "Fed Meeting December 2026: Date and Time, Rate Hike Odds",
+          "url": "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-december-2026-preview",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Federal Reserve Board",
+          "label": "FOMC meeting calendars, statements, and minutes",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "accessed": "November 23, 2026"
+        },
+        {
+          "publisher": "Freddie Mac (via WRE News)",
+          "label": "Mortgage Rates Rise to 7.28% on November 19, Freddie Mac Says",
+          "url": "https://wrenews.com/freddie-mac-mortgage-rates-november-19-2026-728/",
+          "accessed": "November 23, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a steep stock-market drop pulling down a skyline of AI chips and data centers",
+      "imageCredit": "Original editorial illustration · News Editors"
+    },
+    {
       "slug": "gold-prices-three-month-high-treasury-buyback",
       "title": "Gold hits three-month high as Treasury boosts bond buyback program",
       "subtitle": "A weaker dollar and geopolitical tension are adding to the rally",
