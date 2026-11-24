@@ -5,6 +5,8 @@ import Link from 'next/link';
 import ContentImage from '@/components/ContentImage';
 import Icon from '@/components/Icon';
 
+const PER_PAGE = 3;
+
 // Client half of the category widget (prev/next paging state). The server
 // component in CategoryTabWidget.js picks the posts and passes them in, so the
 // full article dataset is never shipped to the browser.
@@ -15,8 +17,13 @@ export default function CategoryTabPager({
 }) {
   const [page, setPage] = useState(0);
 
-  const maxPage = Math.max(0, Math.ceil(pool.length / 3) - 1);
-  const posts = pool.slice(page * 3, page * 3 + 3);
+  const pageCount = Math.max(1, Math.ceil(pool.length / PER_PAGE));
+  const current = Math.min(page, pageCount - 1);
+  // The last page is the final PER_PAGE stories, so it is always full (a plain
+  // slice would leave 1-2 stories and an empty gap when the pool isn't a
+  // multiple of PER_PAGE).
+  const start = Math.min(current * PER_PAGE, Math.max(0, pool.length - PER_PAGE));
+  const posts = pool.slice(start, start + PER_PAGE);
   if (posts.length === 0) return null;
 
   return (
@@ -27,18 +34,20 @@ export default function CategoryTabPager({
         </h2>
         <div className="flex items-center gap-1.5 shrink-0">
           <button
+            type="button"
             aria-label="Previous"
-            onClick={() => setPage((p) => Math.max(0, p - 1))}
-            disabled={page === 0}
-            className="w-7 h-7 flex items-center justify-center border border-gray-200 text-ink-muted hover:border-[#2c6ca3] hover:text-[#2c6ca3] transition-colors disabled:opacity-40"
+            onClick={() => setPage(Math.max(0, current - 1))}
+            disabled={current === 0}
+            className="w-7 h-7 flex items-center justify-center border border-gray-200 text-ink-muted hover:border-[#2c6ca3] hover:text-[#2c6ca3] transition-colors disabled:opacity-40 disabled:hover:border-gray-200 disabled:hover:text-ink-muted"
           >
             <Icon name="chevronRight" className="w-3.5 h-3.5 rotate-180" filled={false} />
           </button>
           <button
+            type="button"
             aria-label="Next"
-            onClick={() => setPage((p) => Math.min(maxPage, p + 1))}
-            disabled={page >= maxPage}
-            className="w-7 h-7 flex items-center justify-center border border-gray-200 text-ink-muted hover:border-[#2c6ca3] hover:text-[#2c6ca3] transition-colors disabled:opacity-40"
+            onClick={() => setPage(Math.min(pageCount - 1, current + 1))}
+            disabled={current >= pageCount - 1}
+            className="w-7 h-7 flex items-center justify-center border border-gray-200 text-ink-muted hover:border-[#2c6ca3] hover:text-[#2c6ca3] transition-colors disabled:opacity-40 disabled:hover:border-gray-200 disabled:hover:text-ink-muted"
           >
             <Icon name="chevronRight" className="w-3.5 h-3.5" filled={false} />
           </button>

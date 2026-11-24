@@ -14,7 +14,7 @@ export default function ArticleRow({ post }) {
       <div>
         <h2 className="font-serif leading-snug text-[17px] sm:text-xl">
           <Link href={url} className="group">
-            <span className="font-bold text-[#2E6D9C] group-hover:underline">{kicker}.</span>{' '}
+            <span className="font-bold text-[#2E6D9C] group-hover:underline">{String(kicker).replace(/\.$/, '')}.</span>{' '}
             <span className="font-bold text-ink">{post.title}</span>
           </Link>
         </h2>

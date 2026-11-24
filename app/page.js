@@ -196,6 +196,24 @@ export default function HomePage() {
     ? ['mortgage-rates-treasury-yields-late-august-2026']
     : [];
 
+  // Every story retired from the homepage. The Must Read category tabs and the
+  // Politics / Technology pagers can page through whole categories, but never
+  // bring these back.
+  const RETIRED_SLUGS = [
+    US_RETIRED_SLUG,
+    ...FIN_SLOT_RETIRED_SLUGS,
+    ...POL_SLOT_RETIRED_SLUGS,
+    ...POL_TOP_RETIRED_SLUGS,
+    ...POL_LEFT_RETIRED_SLUGS,
+    ...TECH_SLOT_RETIRED_SLUGS,
+    ...TECH_MUST_READ_RETIRED_SLUGS,
+    ...INV_LEAD_RETIRED_SLUGS,
+    ...INV_MUST_RETIRED_SLUGS,
+    ...INV_SLOT_RETIRED_SLUGS,
+    ...US_SLOT_RETIRED_SLUGS,
+    ...BIZ_SLOT_RETIRED_SLUGS,
+  ];
+
   const HOME_HELD = new Set([
     US_LEAD_SLUG,
     FIN_SLOT_SLUG,
@@ -416,6 +434,7 @@ export default function HomePage() {
           <MustReadWidget
             excludeSlugs={mustReadExclude}
             leadSlug={usLead ? US_LEAD_SLUG : null}
+            retiredSlugs={RETIRED_SLUGS}
             pins={[
               ...(invMust ? [{ slug: INV_MUST_SLUG, index: INV_MUST_INDEX }] : []),
               ...(usSlot ? [{ slug: US_SLOT_SLUG, index: US_SLOT_INDEX }] : []),
@@ -441,6 +460,7 @@ export default function HomePage() {
           <CategoryTabWidget
             categorySlug="politics"
             excludeSlugs={excludeAllBut(politicsPosts.map((p) => p.slug))}
+            retiredSlugs={RETIRED_SLUGS}
             showComments
           />
         </div>
@@ -448,6 +468,7 @@ export default function HomePage() {
           <CategoryTabWidget
             categorySlug="technology"
             excludeSlugs={excludeAllBut(technologyPosts.map((p) => p.slug))}
+            retiredSlugs={RETIRED_SLUGS}
           />
         </div>
       </div>

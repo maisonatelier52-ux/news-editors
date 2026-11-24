@@ -1,5 +1,24 @@
 import MustReadTabs from '@/components/MustReadTabs';
-import { getAllPosts } from '@/lib/data';
+import { getAllPosts, getPostsByCategory } from '@/lib/data';
+
+// Categories that have their own tab in the Must Read header (slugs, in the
+// same order as the tabs in MustReadTabs.js).
+const TAB_CATEGORIES = ['politics', 'investigation', 'technology', 'us'];
+
+// Only the fields the cards actually use are sent to the browser.
+const toCard = (p) => ({
+  slug: p.slug,
+  category: p.category,
+  title: p.title,
+  excerpt: p.excerpt,
+  image: p.image,
+  date: p.date,
+  author: p.author,
+  comments: p.comments,
+  trending: p.trending,
+  rating: p.rating,
+  articleType: p.articleType,
+});
 
 // Server component: picks the posts here (where the article data lives) and
 // hands only the fields the cards actually use to the interactive client
@@ -8,6 +27,7 @@ export default function MustReadWidget({
   excludeSlugs = [],
   leadSlug = null,
   pins = [],
+  retiredSlugs = [],
 }) {
   const exclude = new Set(excludeSlugs);
   const available = getAllPosts().filter((p) => !exclude.has(p.slug));
@@ -36,19 +56,18 @@ export default function MustReadWidget({
       ordered.splice(Math.min(index, ordered.length), 0, post);
     });
   }
-  const posts = ordered
-    .map((p) => ({
-      slug: p.slug,
-      category: p.category,
-      title: p.title,
-      image: p.image,
-      date: p.date,
-      author: p.author,
-      comments: p.comments,
-      trending: p.trending,
-      rating: p.rating,
-      articleType: p.articleType,
-    }));
+  const posts = ordered.map(toCard);
 
-  return <MustReadTabs posts={posts} />;
+  // Category tabs: each shows that category's own stories, newest first.
+  // They are NOT limited to what the "All" list left over (that left some
+  // categories with one story, or none). Only stories retired from the
+  // homepage are left out.
+  const categoryPosts = Object.fromEntries(
+    TAB_CATEGORIES.map((slug) => [
+      slug,
+      getPostsByCategory(slug, retiredSlugs).map(toCard),
+    ])
+  );
+
+  return <MustReadTabs posts={posts} categoryPosts={categoryPosts} />;
 }

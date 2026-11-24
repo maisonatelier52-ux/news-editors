@@ -15,12 +15,12 @@ export default function CategoryBadge({ slug, size = 'sm', asLink = true }) {
   const className = `inline-block font-serif font-bold ${sizeClasses} text-[#2c6ca3] hover:opacity-80 transition-opacity`;
 
   if (!asLink) {
-    return <span className={className}>{category.name}.</span>;
+    return <span className={className}>{category.name.replace(/\.$/, '')}.</span>;
   }
 
   return (
     <Link href={`/${category.slug}`} className={className}>
-      {category.name}.
+      {category.name.replace(/\.$/, '')}.
     </Link>
   );
 }

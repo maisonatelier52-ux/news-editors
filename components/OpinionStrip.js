@@ -44,7 +44,7 @@ export default function OpinionStrip({ categorySlug, limit = 5, excludeSlugs = [
         <div className="lg:pr-8 lg:border-r lg:border-[#808080]/40">
           <h3 className="text-[clamp(1.05rem,0.6vw+0.9rem,1.3rem)] font-serif font-bold leading-[1.2] text-ink">
             <Link href={leadUrl} className="hover:opacity-80 transition-opacity">
-              <span className="text-[#2c6ca3]">{leadCategory ? `${leadCategory.name}.` : 'News.'}</span>
+              <span className="text-[#2c6ca3]">{leadCategory ? `${leadCategory.name.replace(/\.$/, '')}.` : 'News.'}</span>
               {' '}
               {lead.title}
             </Link>

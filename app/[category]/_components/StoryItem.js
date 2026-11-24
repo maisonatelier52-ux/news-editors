@@ -33,7 +33,7 @@ export default function StoryItem({ post, category, variant = 'horizontal' }) {
       <article className="pb-5 border-b border-gray-200">
         <h3 className="font-serif leading-snug text-[17px] sm:text-lg">
           <Link href={url} className="group">
-            <span className="font-bold text-[#2E6D9C] group-hover:underline">{kicker}.</span>{' '}
+            <span className="font-bold text-[#2E6D9C] group-hover:underline">{String(kicker).replace(/\.$/, '')}.</span>{' '}
             <span className="font-bold text-ink">{post.title}</span>
           </Link>
         </h3>
@@ -50,7 +50,7 @@ export default function StoryItem({ post, category, variant = 'horizontal' }) {
         </Link>
         <h3 className="font-serif leading-snug text-[17px] sm:text-lg">
           <Link href={url} className="group">
-            <span className="font-bold text-[#2E6D9C] group-hover:underline">{kicker}.</span>{' '}
+            <span className="font-bold text-[#2E6D9C] group-hover:underline">{String(kicker).replace(/\.$/, '')}.</span>{' '}
             <span className="font-bold text-ink">{post.title}</span>
           </Link>
         </h3>
@@ -70,7 +70,7 @@ export default function StoryItem({ post, category, variant = 'horizontal' }) {
         )}
         <h2 className="mt-3 font-serif leading-snug text-2xl sm:text-[28px]">
           <Link href={url} className="group">
-            <span className="font-bold text-[#2E6D9C] group-hover:underline">{kicker}.</span>{' '}
+            <span className="font-bold text-[#2E6D9C] group-hover:underline">{String(kicker).replace(/\.$/, '')}.</span>{' '}
             <span className="font-bold text-ink">{post.title}</span>
           </Link>
         </h2>
@@ -86,7 +86,7 @@ export default function StoryItem({ post, category, variant = 'horizontal' }) {
       <div>
         <h3 className="font-serif leading-snug text-[17px] sm:text-xl">
           <Link href={url} className="group">
-            <span className="font-bold text-[#2E6D9C] group-hover:underline">{kicker}.</span>{' '}
+            <span className="font-bold text-[#2E6D9C] group-hover:underline">{String(kicker).replace(/\.$/, '')}.</span>{' '}
             <span className="font-bold text-ink">{post.title}</span>
           </Link>
         </h3>

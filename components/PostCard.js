@@ -14,6 +14,7 @@ import { getAuthorBySlug, getCategoryBySlug } from '@/lib/lookup';
  *  - 'minimal' : title + date only, no image (text-only lists)
  *  - 'featureOverlay' : big image with badge/rating/title/author/views all
  *    overlaid on a dark gradient — used by the Must Read widget's left card.
+ *    Pass `fill` (desktop) to let the image stretch into spare column height.
  *  - 'ratedList' : thumbnail with a colored rating bar across the bottom,
  *    date + title beside it. Accepts `barColor` (hex) to theme the bar;
  *    defaults to green. Renders a 5-star row instead of the date when
@@ -30,6 +31,7 @@ export default function PostCard({
   barColor = '#2c6ca3',
   accent = '#2c6ca3',
   showComments = false,
+  fill = false,
 }) {
   const url = getPostUrl(post);
 
@@ -133,8 +135,15 @@ export default function PostCard({
   if (variant === 'featureOverlay') {
     const author = getAuthorBySlug(post.author);
     return (
-      <article className="group">
-        <Link href={url} className="relative block w-full aspect-[4/3] overflow-hidden bg-gray-100">
+      <article className={fill ? 'group flex min-h-0 flex-1 flex-col' : 'group'}>
+        <Link
+          href={url}
+          className={`relative block w-full overflow-hidden bg-gray-100 ${
+            // `fill` (desktop): the image stretches into whatever height the
+            // neighbouring column leaves, so the two columns end level.
+            fill ? 'aspect-[4/3] lg:aspect-auto lg:min-h-[250px] lg:flex-1' : 'aspect-[4/3]'
+          }`}
+        >
           <ContentImage
             src={post.image}
             alt={post.title}

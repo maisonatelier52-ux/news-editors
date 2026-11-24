@@ -31,7 +31,7 @@ export default function ThemedFeature({ label, posts = [] }) {
           <div>
             <h3 className="text-[clamp(1.2rem,0.9vw+1rem,1.6rem)] font-serif font-bold leading-[1.15] text-ink">
               <Link href={getPostUrl(lead)} className="hover:opacity-80 transition-opacity">
-                <span className="text-[#b5502e]">{leadCategory ? `${leadCategory.name}.` : ''}</span>
+                <span className="text-[#b5502e]">{leadCategory ? `${leadCategory.name.replace(/\.$/, '')}.` : ''}</span>
                 {' '}
                 {lead.title}
               </Link>
@@ -75,7 +75,7 @@ export default function ThemedFeature({ label, posts = [] }) {
             </Link>
             <h4 className="text-sm font-serif font-bold leading-snug text-ink">
               <Link href={getPostUrl(side)} className="hover:opacity-80 transition-opacity">
-                <span className="text-[#b5502e]">{sideCategory ? `${sideCategory.name}.` : ''}</span>
+                <span className="text-[#b5502e]">{sideCategory ? `${sideCategory.name.replace(/\.$/, '')}.` : ''}</span>
                 {' '}
                 {side.title}
               </Link>
