@@ -110,6 +110,23 @@ export default function HomePage() {
     ? ['ftc-sues-amazon-advertising-practices']
     : [];
 
+  // Latest investigation (Must Read): takes over the Must Read slot the "Three
+  // Secret Service officials under investigation for potential misconduct"
+  // story held (3rd card, the second text-only story in the left column under
+  // the featured story). The Secret Service story is retired from the homepage
+  // only; it stays on its article page and in the Investigation category and
+  // author listings, which are sorted by date.
+  // To swap in a newer investigation for this slot later, update INV_MUST_SLUG
+  // (and move the outgoing slug into INV_MUST_RETIRED_SLUGS).
+  const INV_MUST_SLUG = 'fbi-investigating-apparent-breach-ncic-criminal-database-second-hack-november-2026';
+  const INV_MUST_INDEX = 2;
+  const invMust = getPostBySlug(INV_MUST_SLUG);
+  // Only retire the Secret Service story once the new article is in the data,
+  // so the slot is never left empty.
+  const INV_MUST_RETIRED_SLUGS = invMust
+    ? ['secret-service-officials-under-investigation-misconduct']
+    : [];
+
   // Latest business story: takes over the Must Read slot the Dick's Sporting
   // Goods story held (6th card, second text-only story in the right-hand
   // column). The Dick's story is retired from the homepage only; it stays on
@@ -192,7 +209,9 @@ export default function HomePage() {
     TECH_SLOT_SLUG,
     TECH_MUST_READ_SLUG,
     INV_LEAD_SLUG,
+    INV_MUST_SLUG,
     ...INV_LEAD_RETIRED_SLUGS,
+    ...INV_MUST_RETIRED_SLUGS,
     ...POL_TOP_RETIRED_SLUGS,
     ...POL_LEFT_RETIRED_SLUGS,
     ...TECH_SLOT_RETIRED_SLUGS,
@@ -230,7 +249,8 @@ export default function HomePage() {
       (p) =>
         !PINNED.has(p.slug) &&
         p.slug !== INV_SLOT_SLUG &&
-        p.slug !== INV_LEAD_SLUG
+        p.slug !== INV_LEAD_SLUG &&
+        p.slug !== INV_MUST_SLUG
     )
     .slice(0, 4);
 
@@ -313,14 +333,16 @@ export default function HomePage() {
       )
   );
 
-  // Must Read: the U.S. lead story, the pinned U.S., technology and business
-  // slot stories, plus the next posts by date (7 slots in total, as before).
+  // Must Read: the U.S. lead story, the pinned U.S., technology, business and
+  // investigation slot stories, plus the next posts by date (7 slots in total,
+  // as before).
   const mustReadExclude = Array.from(used).filter(
     (s) =>
       s !== US_LEAD_SLUG &&
       s !== US_SLOT_SLUG &&
       s !== BIZ_SLOT_SLUG &&
-      s !== TECH_MUST_READ_SLUG
+      s !== TECH_MUST_READ_SLUG &&
+      s !== INV_MUST_SLUG
   );
   take(
     getAllPosts()
@@ -331,7 +353,8 @@ export default function HomePage() {
           (usLead ? 1 : 0) -
           (usSlot ? 1 : 0) -
           (bizSlot ? 1 : 0) -
-          (techMustRead ? 1 : 0)
+          (techMustRead ? 1 : 0) -
+          (invMust ? 1 : 0)
       )
   );
 
@@ -394,6 +417,7 @@ export default function HomePage() {
             excludeSlugs={mustReadExclude}
             leadSlug={usLead ? US_LEAD_SLUG : null}
             pins={[
+              ...(invMust ? [{ slug: INV_MUST_SLUG, index: INV_MUST_INDEX }] : []),
               ...(usSlot ? [{ slug: US_SLOT_SLUG, index: US_SLOT_INDEX }] : []),
               ...(techMustRead
                 ? [{ slug: TECH_MUST_READ_SLUG, index: TECH_MUST_READ_INDEX }]

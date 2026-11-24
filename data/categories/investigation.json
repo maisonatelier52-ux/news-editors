@@ -4,6 +4,233 @@
       "author": "admin",
       "year": "2026",
       "month": "11",
+      "day": "24",
+      "image": "/images/illustrations/fbi-investigating-apparent-breach-ncic-criminal-database-second-hack-november-2026.webp",
+      "views": 0,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "updatedAt": "2026-11-24T09:00:00+00:00",
+      "commentsList": [],
+      "articleType": "News report",
+      "imageCaption": "Editorial illustration of a tall archive tower of record drawers split by a red fracture beneath a magnifying glass, with a patrol-car silhouette at a roadside stop and a federal building behind",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "keyTakeaways": [
+        "The FBI is investigating an apparent breach of the National Crime Information Center, the database police use for warrant, stolen-vehicle and missing-person checks, according to CNN, NBC News, the AP and Fox News, which cite people briefed on the matter; the bureau has declined to comment.",
+        "When the access began, how the intruders got in and whether any records were copied or altered have not been made public, and nothing reported so far links the incident to the September ShinyHunters breach of an FBI jobs portal.",
+        "Trump called the reports “not good,” Director of National Intelligence Jay Clayton said the FBI is working to establish the origin and scope, and the story lands amid a run of federal outages and a separate Agriculture Department hack."
+      ],
+      "whyItMatters": "NCIC sits behind routine traffic stops, warrant checks and the federal gun-purchase background-check system, so an intrusion raises two questions: whether sensitive records were exposed and, as former officials stress, whether the accuracy of data officers rely on could be compromised. It also adds to scrutiny of federal cybersecurity after a run of outages and breaches.",
+      "reportingNote": "This report is based on published reporting from CNN, NBC News, the Associated Press, Fox News, ABC News, The Epoch Times and BleepingComputer, most of which cite unnamed people familiar with the matter, as well as the FBI’s public overview of NCIC. The FBI has not publicly detailed the incident, so the scope, method and perpetrators described as unknown remain unverified by News Editors. An investigation does not establish who was responsible or what data, if any, was taken.",
+      "sources": [
+        {
+          "publisher": "CNN",
+          "label": "Trump downplays breach into FBI’s crime database while reviving complaints about agency’s Russia probe",
+          "url": "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
+          "accessed": "November 24, 2026"
+        },
+        {
+          "publisher": "Associated Press (via PBS News)",
+          "label": "AP source: FBI investigating apparent hack of its key national criminal justice database",
+          "url": "https://www.pbs.org/newshour/politics/ap-source-fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database",
+          "accessed": "November 24, 2026"
+        },
+        {
+          "publisher": "NBC News",
+          "label": "FBI investigating potential breach of its crime database",
+          "url": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
+          "accessed": "November 24, 2026"
+        },
+        {
+          "publisher": "Fox News",
+          "label": "FBI probes second cyberattack in months as hackers breach key crime database, sources say",
+          "url": "https://www.foxnews.com/politics/fbi-probes-second-cyberattack-months-hackers-breach-key-crime-database-sources-say",
+          "accessed": "November 24, 2026"
+        },
+        {
+          "publisher": "ABC News",
+          "label": "FBI’s national crime database targeted in hack, Trump says",
+          "url": "https://abcnews.com/US/fbis-national-crime-database-targeted-hack-trump/story?id=138347810",
+          "accessed": "November 24, 2026"
+        },
+        {
+          "publisher": "The Epoch Times",
+          "label": "FBI Looking Into Potential Hack of National Crime Database: Intelligence Director",
+          "url": "https://www.theepochtimes.com/us/fbi-looking-into-potential-hack-of-national-crime-database-intelligence-director-6128172",
+          "accessed": "November 24, 2026"
+        },
+        {
+          "publisher": "BleepingComputer",
+          "label": "FBI reportedly hacked again, this time targeting nationwide police database",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+          "accessed": "November 24, 2026"
+        },
+        {
+          "publisher": "FBI Law Enforcement Resources",
+          "label": "National Crime Information Center (NCIC)",
+          "url": "https://le.fbi.gov/informational-tools/ncic",
+          "accessed": "November 24, 2026"
+        }
+      ],
+      "slug": "fbi-investigating-apparent-breach-ncic-criminal-database-second-hack-november-2026",
+      "title": "FBI Investigates Apparent Hack of Its National Crime Database, Second Breach in Months",
+      "subtitle": "The bureau has not publicly detailed the NCIC intrusion; how it happened, what was reached and who is responsible remain unknown",
+      "excerpt": "The FBI is investigating an apparent breach of the National Crime Information Center, the database police use for warrant and stolen-vehicle checks, according to CNN, NBC News and the AP. The bureau has declined to comment, and how the intruders got in, what they reached and who is responsible have not been made public.",
+      "category": "investigation",
+      "tags": [
+        "investigation",
+        "fbi",
+        "cybersecurity",
+        "ncic",
+        "national-crime-information-center",
+        "data-breach",
+        "shinyhunters",
+        "kash-patel",
+        "usda"
+      ],
+      "date": "2026-11-24",
+      "toc": [
+        {
+          "id": "what-ncic-does-and-why-it-matters",
+          "text": "What NCIC does and why it matters"
+        },
+        {
+          "id": "what-has-been-reported-about-the-intrusion",
+          "text": "What has been reported about the intrusion"
+        },
+        {
+          "id": "what-is-not-yet-known",
+          "text": "What is not yet known"
+        },
+        {
+          "id": "a-second-fbi-breach-in-recent-months",
+          "text": "A second FBI breach in recent months"
+        },
+        {
+          "id": "a-week-of-outages-and-a-separate-usda-hack",
+          "text": "A week of outages and a separate USDA hack"
+        },
+        {
+          "id": "what-happens-next",
+          "text": "What happens next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The FBI is investigating an apparent breach of the National Crime Information Center, the nationwide database that police, sheriffs and federal agents use to check warrants, stolen property and missing-person records, according to reports published since Friday night. CNN first reported the intrusion on Nov. 20, citing two people briefed on the investigation, and NBC News, the Associated Press and Fox News later reported it from their own sources. The bureau has declined to comment on the record."
+        },
+        {
+          "type": "paragraph",
+          "text": "CNN described the incident as the second breach of an FBI system in recent months, and BleepingComputer, citing CNN, said the intrusion was discovered in recent days. President Donald Trump acknowledged the reports in a Saturday interview with Fox News, telling the network the incident was “not good,” according to the AP. Trump declined to share specifics, CNN reported, and the FBI has not publicly said when the unauthorized access began, how it happened or who may be responsible."
+        },
+        {
+          "type": "heading",
+          "id": "what-ncic-does-and-why-it-matters",
+          "text": "What NCIC does and why it matters"
+        },
+        {
+          "type": "paragraph",
+          "text": "The FBI launched the system, known as NCIC, in 1967. As of 2023, the bureau says, it holds more than 18 million active records across 22 files, handles millions of transactions a day and serves more than 100,000 criminal justice and law enforcement partners. The AP describes it as a computerized database of criminal justice information that includes records on fugitives, missing persons, criminal history data and stolen property, and Fox News reported that it also helps authorities monitor registered sex offenders and check whether someone has failed a gun background check."
+        },
+        {
+          "type": "paragraph",
+          "text": "Its most familiar use is the traffic stop, where an officer can check whether a driver is wanted or a vehicle has been reported stolen, and BleepingComputer noted that officers also use it routinely in investigations and background checks. Agencies enter the records, and the FBI’s Criminal Justice Information Services Division serves as their custodian. The FBI says agencies must verify that the information is accurate and up to date before taking official action on a record."
+        },
+        {
+          "type": "heading",
+          "id": "what-has-been-reported-about-the-intrusion",
+          "text": "What has been reported about the intrusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "The reporting so far rests largely on unnamed sources. CNN and NBC News each cited two people briefed on the matter, Fox News cited three people familiar with it, and the AP cited one person who was not authorized to speak publicly. ABC News reported that a law enforcement source confirmed the database was hacked. The FBI declined to comment to the AP on Saturday and did not immediately respond to CNN’s request. Fox News reported that the bureau is working to determine the point of unauthorized entry, and that it is unclear what information was compromised."
+        },
+        {
+          "type": "paragraph",
+          "text": "On Sunday, Director of National Intelligence Jay Clayton told Fox News he had spoken with the FBI and that investigators would establish the origin and scope of the incident before the government communicates with the public, The Epoch Times reported. Clayton did not say specifically whether the database had been breached, the outlet noted. CNN described Trump’s Saturday remarks as a return to his longstanding and unrelated complaints about the FBI’s investigation of Russian interference in the 2016 election, and The Epoch Times reported that he suggested hackers might have obtained information with some upside, such as material from past investigations."
+        },
+        {
+          "type": "paragraph",
+          "text": "CNN also reported that, after bureau officials learned of the intrusion, FBI Director Kash Patel appeared on Fox News this week to promote the bureau’s cybersecurity work, including an earlier operation aimed at urging companies to update their systems. The coverage reviewed does not include an on-the-record comment from Patel about the NCIC incident."
+        },
+        {
+          "type": "heading",
+          "id": "what-is-not-yet-known",
+          "text": "What is not yet known"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nothing public establishes when the unauthorized access began, how the intruders got in, which parts of NCIC they could reach, or whether any records were copied, altered or deleted. BleepingComputer noted that it is also unclear whether the intrusion affected the system’s availability to agencies. The FBI has not said who may be responsible, and the reporting reviewed does not name a suspect or describe any claim of responsibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "A former FBI official who led investigations of cybercriminal groups told CNN that stolen data is only part of the concern. The larger question, the official said, is whether intruders could compromise the accuracy of the information officers depend on. Retired FBI supervisory special agent Jason Pack made a similar point to Fox News, warning that altered records could endanger officers at traffic stops. Both are assessments of risk, not findings about what happened in this case."
+        },
+        {
+          "type": "heading",
+          "id": "a-second-fbi-breach-in-recent-months",
+          "text": "A second FBI breach in recent months"
+        },
+        {
+          "type": "paragraph",
+          "text": "The earlier incident came in September, when the extortion group ShinyHunters claimed it had broken into a platform tied to the FBI’s FBIjobs.gov recruiting site and taken data on employees and applicants. Fox News reported that the group claimed to hold information on almost every FBI agent, including names, home addresses, Social Security numbers, assignments and, in some cases, the names of family members. The FBI said at the time that it was investigating the claims, and BleepingComputer reported that the group said it used an unpatched flaw in Oracle PeopleSoft software, a claim that has not been independently verified."
+        },
+        {
+          "type": "paragraph",
+          "text": "Arrests followed. Fox News reported, citing court records and law enforcement sources who spoke to Reuters, that Canadian cybersecurity executive Edward Dubrovsky was arrested Oct. 8 and faces charges in the FBI’s ShinyHunters investigation, although the court records remain sealed. Patel announced the arrest of a suspected co-conspirator the next day. The AP also noted that in March the FBI disclosed it was investigating suspicious activity on an internal system holding sensitive information about surveillance operations and investigations. Nothing reported so far connects the September breach to the NCIC intrusion, and BleepingComputer said there is no indication of a link."
+        },
+        {
+          "type": "heading",
+          "id": "a-week-of-outages-and-a-separate-usda-hack",
+          "text": "A week of outages and a separate USDA hack"
+        },
+        {
+          "type": "paragraph",
+          "text": "The reports arrived during a stretch of disruption across public and private systems. The Epoch Times listed a nationwide FAA ground stop on Nov. 13, bank outages on Nov. 16 and a Microsoft outage on Nov. 12 that affected government agencies in several countries and was fully restored two days later. NBC News reported that an internal classified NSA network was down for several days before being restored, with sources saying there was no sign of a cyberattack. Trump administration officials have said the outages stemmed from routine system upgrades and vulnerability fixes rather than cyberattacks, the AP reported, and the AP said there was no immediate indication that the FBI incident was related to them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Separately, NBC News reported that Agriculture Department employees were told on Thursday that one of the department’s systems had been targeted, and that officials with knowledge of the matter said the system used to pay farmers was hit. As of Friday, no other systems were reported to have been targeted, though officials raised concerns that the hackers could reach more sensitive information, NBC reported. NBC also reported that a White House official confirmed National Cyber Director Sean Cairncross was leaving his role. The reports reviewed do not link the Agriculture Department incident to the FBI’s."
+        },
+        {
+          "type": "heading",
+          "id": "what-happens-next",
+          "text": "What happens next"
+        },
+        {
+          "type": "paragraph",
+          "text": "The FBI has not said when it expects to share findings. Clayton said officials will inform the public once the origin and scope are established, and he told CNN on Sunday that Americans should expect bumps as the government upgrades aging digital infrastructure, The Epoch Times reported. Open questions include how the intruders gained access, whether NCIC records were copied or changed, and what, if anything, partner agencies have been told about the integrity of the records they rely on."
+        },
+        {
+          "type": "paragraph",
+          "text": "Until the FBI or the Justice Department provides on-the-record details, much of what is known comes from anonymous sources and secondary reporting. An investigation into an apparent breach does not establish who was responsible or what, if anything, was taken, and the details described here may change as more information is confirmed."
+        }
+      ],
+      "seo": {
+        "metaTitle": "FBI Probes Apparent Hack of National Crime Database",
+        "metaDescription": "The FBI is investigating an apparent NCIC breach, the database police use for warrant checks. What is reported, what is unknown and what comes next.",
+        "ogTitle": "FBI Investigates Apparent Breach of NCIC Crime Database",
+        "ogDescription": "CNN, NBC and the AP report an apparent hack of the database police use for warrant checks; the FBI has declined to comment.",
+        "ogImage": "/og/fbi-investigating-apparent-breach-ncic-criminal-database-second-hack-november-2026.jpg",
+        "twitterTitle": "FBI Probes Second Breach in Months: NCIC Crime Database",
+        "twitterDescription": "The FBI is investigating an apparent NCIC hack. How it happened, what was reached and who is responsible remain unknown.",
+        "keywords": [
+          "FBI NCIC breach",
+          "National Crime Information Center",
+          "FBI database hack",
+          "ShinyHunters",
+          "FBI cybersecurity",
+          "Kash Patel",
+          "Jay Clayton"
+        ]
+      }
+    },
+    {
+      "author": "admin",
+      "year": "2026",
+      "month": "11",
       "day": "17",
       "image": "/images/illustrations/commerce-doj-disclose-megaspeed-criminal-probe-began-2024.webp",
       "views": 0,
