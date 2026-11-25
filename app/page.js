@@ -57,12 +57,31 @@ export default function HomePage() {
     ? ['microsoft-plans-data-center-capacity-triple']
     : [];
 
+  // Latest finance story (Must Read): takes over the Must Read slot the "Nasdaq
+  // gains as chip stocks rally ahead of Nvidia earnings" story held (7th card,
+  // the last text-only story in the right-hand column). The Nasdaq story is
+  // retired from the homepage only; it stays on its article page and in the
+  // Finance category and author listings, which are sorted by date. The story
+  // is pinned here (not in the Finance section below), so it never shows twice.
+  // To swap in a newer finance story for this slot later, update
+  // FIN_MUST_SLUG (and move the outgoing slug into FIN_MUST_RETIRED_SLUGS).
+  const FIN_MUST_SLUG = 'dow-closes-above-50000-nasdaq-slides-ai-stocks-reverse-nvidia-surge-november-2026';
+  const FIN_MUST_INDEX = 6;
+  const finMust = getPostBySlug(FIN_MUST_SLUG);
+  // Only retire the Nasdaq story once the new article is in the data, so the
+  // slot is never left empty.
+  const FIN_MUST_RETIRED_SLUGS = finMust
+    ? ['nasdaq-tech-rally-ahead-nvidia-earnings']
+    : [];
+
   const PINNED = new Set([
     JULIO_SLUG,
     TECH_SLOT_SLUG,
     ...TECH_SLOT_RETIRED_SLUGS,
     TECH_MUST_READ_SLUG,
     ...TECH_MUST_READ_RETIRED_SLUGS,
+    FIN_MUST_SLUG,
+    ...FIN_MUST_RETIRED_SLUGS,
   ]);
 
   // Latest U.S. story: takes over the lead slot of the Must Read block,
@@ -212,6 +231,7 @@ export default function HomePage() {
     ...INV_SLOT_RETIRED_SLUGS,
     ...US_SLOT_RETIRED_SLUGS,
     ...BIZ_SLOT_RETIRED_SLUGS,
+    ...FIN_MUST_RETIRED_SLUGS,
   ];
 
   const HOME_HELD = new Set([
@@ -221,6 +241,7 @@ export default function HomePage() {
     US_RETIRED_SLUG,
     US_SLOT_SLUG,
     BIZ_SLOT_SLUG,
+    FIN_MUST_SLUG,
     POL_SLOT_SLUG,
     POL_TOP_SLUG,
     POL_LEFT_SLUG,
@@ -228,6 +249,7 @@ export default function HomePage() {
     TECH_MUST_READ_SLUG,
     INV_LEAD_SLUG,
     INV_MUST_SLUG,
+    ...FIN_MUST_RETIRED_SLUGS,
     ...INV_LEAD_RETIRED_SLUGS,
     ...INV_MUST_RETIRED_SLUGS,
     ...POL_TOP_RETIRED_SLUGS,
@@ -359,6 +381,7 @@ export default function HomePage() {
       s !== US_LEAD_SLUG &&
       s !== US_SLOT_SLUG &&
       s !== BIZ_SLOT_SLUG &&
+      s !== FIN_MUST_SLUG &&
       s !== TECH_MUST_READ_SLUG &&
       s !== INV_MUST_SLUG
   );
@@ -371,6 +394,7 @@ export default function HomePage() {
           (usLead ? 1 : 0) -
           (usSlot ? 1 : 0) -
           (bizSlot ? 1 : 0) -
+          (finMust ? 1 : 0) -
           (techMustRead ? 1 : 0) -
           (invMust ? 1 : 0)
       )
@@ -442,6 +466,7 @@ export default function HomePage() {
                 ? [{ slug: TECH_MUST_READ_SLUG, index: TECH_MUST_READ_INDEX }]
                 : []),
               ...(bizSlot ? [{ slug: BIZ_SLOT_SLUG, index: BIZ_SLOT_INDEX }] : []),
+              ...(finMust ? [{ slug: FIN_MUST_SLUG, index: FIN_MUST_INDEX }] : []),
             ]}
           />
           <MostViewedCarousel excludeSlugs={popularExclude} />

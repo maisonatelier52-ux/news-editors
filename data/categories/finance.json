@@ -1,6 +1,238 @@
 {
   "articles": [
     {
+      "slug": "dow-closes-above-50000-nasdaq-slides-ai-stocks-reverse-nvidia-surge-november-2026",
+      "title": "Dow closes back above 50,000 as AI stocks give up Nvidia’s surge and the Nasdaq slides",
+      "subtitle": "A day after Nvidia’s biggest gain in more than two decades, chip and AI shares reversed on Tuesday while investors rotated into retailers and healthcare ahead of Wednesday’s inflation report",
+      "excerpt": "The Dow closed above 50,000 on Tuesday as investors took profits in AI and chip stocks, sending the Nasdaq down 1.5% and the S&P 500 down 0.5% a day after Nvidia’s 31% surge on Jensen Huang’s return as CEO.",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "stock-market",
+        "dow-jones",
+        "nasdaq",
+        "nvidia",
+        "ai-stocks",
+        "federal-reserve"
+      ],
+      "author": "admin",
+      "date": "2026-11-25",
+      "year": "2026",
+      "month": "11",
+      "day": "25",
+      "image": "/images/illustrations/dow-closes-above-50000-nasdaq-slides-ai-stocks-reverse-nvidia-surge-november-2026.webp",
+      "views": 0,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": true,
+      "toc": [
+        {
+          "id": "how-tuesdays-session-ended",
+          "text": "How Tuesday’s session ended"
+        },
+        {
+          "id": "why-the-ai-trade-reversed",
+          "text": "Why the AI trade reversed"
+        },
+        {
+          "id": "where-investors-rotated",
+          "text": "Where investors rotated"
+        },
+        {
+          "id": "rates-inflation-and-the-fed",
+          "text": "Rates, inflation and the Fed"
+        },
+        {
+          "id": "what-to-watch-before-thanksgiving",
+          "text": "What to watch before Thanksgiving"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Dow Jones Industrial Average closed above 50,000 on Tuesday even as artificial-intelligence and chip stocks gave back a large part of Monday’s surge, leaving the Nasdaq composite down 1.5% and the S&P 500 down 0.5%. The Dow rose 423.39 points, or 0.9%, to 50,018.70, while the S&P 500 fell 36.08 points to 7,201.09 and the Nasdaq dropped 356.02 points to 23,733.54, the Associated Press reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stocks outside the AI trade held up better, the AP said. It was the S&P 500’s eighth loss in nine days, and the market has mostly fallen since its all-time high last month. The pullback came one session after Nvidia shares jumped 31.5% on news that Jensen Huang would return as chief executive, the stock’s biggest one-day gain in more than two decades."
+        },
+        {
+          "type": "heading",
+          "id": "how-tuesdays-session-ended",
+          "text": "How Tuesday’s session ended"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuesday’s losses took back only part of Monday’s rebound. Fox Business reported that on Monday the Dow rose 1,447.98 points, or 3.01%, to 49,595.31, while the S&P 500 gained 4.73% and the Nasdaq composite 6.51%. Compared with Friday’s closes of 48,147.33 for the Dow, 6,910.39 for the S&P 500 and 22,617.73 for the Nasdaq, as reported in our earlier coverage of the selloff, the Dow ended Tuesday about 3.9% higher, the S&P 500 about 4.2% higher and the Nasdaq about 4.9% higher, by News Editors’ calculation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Nasdaq had the steepest decline among the major indexes, the AP said, and The Motley Fool reported that healthcare led sector gains while technology lagged. The 10-year Treasury yield edged up to 4.93% from 4.92% late Monday, according to the AP."
+        },
+        {
+          "type": "heading",
+          "id": "why-the-ai-trade-reversed",
+          "text": "Why the AI trade reversed"
+        },
+        {
+          "type": "paragraph",
+          "text": "The AP said investors remain worried that AI stock prices climbed too high, possibly into a bubble, and may need to deflate, and that Huang’s return did not settle those concerns. It also listed doubts that AI will generate enough profit and productivity to justify data-center spending, the difficulty of financing that growth at high interest rates, and fears that Democrats’ midterm election victories could bring more AI regulation, including possible halts to data-center construction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nvidia fell 5.9% a day after its 31.5% jump, the AP reported. CoreWeave, which rents out access to Nvidia chips through the cloud, fell 11.8%, and GE Vernova, which helps power data centers, fell 4.8%. Anthropic, which listed on the Nasdaq last week, fell 6.5% to below $83, the price at which it sold shares in its IPO; the stock briefly reached $115 on its first day of trading, according to the AP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nvidia’s board reinstated Huang as chief executive and president on Monday, less than two weeks after he resigned on Nov. 12 following reports about his personal relationships. Board chair Harvey Jones said in a statement that “the board believes Jensen is the right person to lead Nvidia,” Yahoo Finance reported, and the board said it had received input from senior U.S. government officials and does not believe his return poses a national security risk. Fortune reported that Jones had told investors last week the board did not plan to bring Huang back, that President Donald Trump had publicly urged his return, and that the board’s independent investigation will continue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts were unsure how much of Monday’s move reflected Huang himself. Steve Sosnick, chief strategist at Interactive Brokers, told Reuters that “there were definitely a lot of people who wanted him back,” while the extent to which the administration and shareholders pushed for it “will be impossible to know,” Fortune reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The selling spread through hardware makers. Hewlett Packard Enterprise fell about 16% after warning that component shortages could last through the second half of 2028 and lowering its cloud and AI margin outlook, and Dell fell about 12% in the regular session alongside it, The Motley Fool reported. Analog Devices dropped more than 17%, according to The Motley Fool, and the Philadelphia Semiconductor Index fell about 7.9%, according to Kotak Neo’s market report."
+        },
+        {
+          "type": "paragraph",
+          "text": "After the close, Dell reported record third-quarter revenue of $54.9 billion, up 103% from a year earlier, including $22.0 billion from AI-optimized servers, up 291%, according to its filing. The company raised its full-year revenue forecast to $202 billion from $192 billion, reported a record AI backlog of $132.3 billion and approved an additional $25 billion share buyback. Adjusted earnings of $9.45 a share compared with $6.59 expected by analysts, The Motley Fool reported, and the shares rose about 3% in after-hours trading, a move that can change once regular trading resumes."
+        },
+        {
+          "type": "heading",
+          "id": "where-investors-rotated",
+          "text": "Where investors rotated"
+        },
+        {
+          "type": "paragraph",
+          "text": "Money moved toward companies tied to consumers and away from AI. Dollar Tree rose 11.2% after its results beat expectations, and Kohl’s jumped 19.5% after reporting a profit when analysts had expected roughly none and giving a fourth-quarter revenue forecast that was better than expected, the AP said."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Conference Board’s consumer confidence index rose 11.4 points from October to 103.3, well above the 92.2 economists expected, The Motley Fool reported. The AP said confidence rose sharply among Democrats and independents while Republicans’ slipped slightly. It also cited FactSet data showing S&P 500 companies on pace for earnings-per-share growth above 25% for a third straight quarter, a sign that profits remain strong across the market even as AI valuations are questioned."
+        },
+        {
+          "type": "heading",
+          "id": "rates-inflation-and-the-fed",
+          "text": "Rates, inflation and the Fed"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interest rates remain central to the market’s mood. Fox Business, citing the CME FedWatch tool, said traders on Monday priced about a 96% chance that the Federal Reserve will raise rates by a quarter point at its December meeting. An Investing.com preview published Wednesday put the odds at 99%, with a 64% chance of another increase in January."
+        },
+        {
+          "type": "paragraph",
+          "text": "That puts Wednesday’s data in focus. The October PCE price index, the Fed’s preferred inflation gauge, is expected to show core prices up 0.3% on the month and 3.1% from a year earlier, matching September’s pace, according to the Investing.com preview. The same release is expected to include a second estimate of third-quarter GDP growth, forecast at 3.5% at an annualized rate. Both are due at 8:30 a.m. Eastern."
+        },
+        {
+          "type": "heading",
+          "id": "what-to-watch-before-thanksgiving",
+          "text": "What to watch before Thanksgiving"
+        },
+        {
+          "type": "paragraph",
+          "text": "U.S. stock markets are closed Thursday for Thanksgiving and close at 1:00 p.m. Eastern on Friday, according to the New York Stock Exchange, which leaves a shortened week for Wednesday’s inflation data and any follow-through in AI stocks to play out. The Fed’s next policy meeting runs Dec. 8–9."
+        },
+        {
+          "type": "paragraph",
+          "text": "Index levels, individual stock moves and Fed-odds readings differ slightly across data providers, and after-hours moves can reverse, so readers should check live quotes. This article is general information, not investment advice."
+        }
+      ],
+      "updatedAt": "2026-11-25T14:50:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Dow Closes Above 50,000 as AI Stocks Reverse and Nasdaq Slides",
+        "metaDescription": "The Dow closed above 50,000 while the Nasdaq fell 1.5% as AI and chip stocks gave back Nvidia’s surge; investors now await Wednesday’s PCE inflation data.",
+        "ogTitle": "Dow Closes Above 50,000 as AI Stocks Give Up Nvidia’s Surge",
+        "ogDescription": "The Nasdaq fell 1.5% and the S&P 500 0.5% as chip stocks reversed, while investors rotated into retailers and healthcare ahead of the PCE report.",
+        "ogImage": "/og/dow-closes-above-50000-nasdaq-slides-ai-stocks-reverse-nvidia-surge-november-2026.jpg",
+        "twitterTitle": "Dow Tops 50,000 as AI Stocks Reverse and the Nasdaq Slides",
+        "twitterDescription": "A day after Nvidia’s 31% surge, AI and chip stocks fell; the Fed’s preferred inflation gauge is due Wednesday.",
+        "keywords": [
+          "Dow Jones 50,000",
+          "stock market today November 24 2026",
+          "Nasdaq falls AI stocks",
+          "Nvidia stock after Huang return",
+          "Dell earnings AI servers",
+          "Fed December rate hike odds",
+          "PCE inflation report"
+        ]
+      },
+      "articleType": "Money note",
+      "keyTakeaways": [
+        "The Dow rose 423.39 points to 50,018.70 on Tuesday, while the S&P 500 fell 0.5% to 7,201.09 and the Nasdaq composite fell 1.5% to 23,733.54, the Associated Press reported.",
+        "AI and chip stocks reversed after Monday’s surge: Nvidia fell 5.9% a day after jumping 31.5% on Jensen Huang’s return as CEO, and Hewlett Packard Enterprise and Dell dropped on component-shortage worries.",
+        "Investors rotated toward retailers and healthcare as consumer confidence rose to 103.3, while traders put the odds of a December Fed rate hike at 96% to 99% ahead of Wednesday’s PCE inflation report."
+      ],
+      "whyItMatters": "The back-to-back swings show how much of the market’s direction now rests on a handful of AI-linked companies, so index moves can hide very different results underneath. Rate-hike expectations and inflation data also feed into mortgage rates, savings yields and retirement accounts, which makes the next readings matter beyond Wall Street.",
+      "reportingNote": "This source-based article combines market data and coverage published Nov. 23–25, 2026 with editorial context. Figures are closing data for Tuesday, Nov. 24; Dell’s after-hours move and Fed rate-hike odds can change, and Wednesday’s PCE and GDP releases had not been published at the time of writing. Closing levels and percentage moves differ slightly across data providers. Comparisons described as News Editors’ calculations are derived from published closing figures. It is general information, not investment advice.",
+      "sources": [
+        {
+          "publisher": "Associated Press (via BNN Bloomberg)",
+          "label": "Markets today: Nvidia and other AI stocks fall, dragging Wall Street",
+          "url": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "Fox Business",
+          "label": "US stocks rebound as battered AI and chip stocks rally after correction",
+          "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "The Motley Fool (via Yahoo Finance)",
+          "label": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "Yahoo Finance",
+          "label": "Nvidia stock has best day since May 2003, gaining nearly $1T in market cap after Jensen Huang is reinstated as CEO",
+          "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "Fortune",
+          "label": "Wall Street just put a $1 trillion price on Jensen Huang as Nvidia stock soars 31% after his return as CEO",
+          "url": "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "The Motley Fool (via Yahoo Finance)",
+          "label": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday’s Selloff?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dell-just-reported-earnings-raised-221443041.html",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "Dell Technologies (SEC Form 8-K)",
+          "label": "Exhibit 99.1: third quarter fiscal year 2027 financial results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "Kotak Neo",
+          "label": "Wall Street Ends Mixed as Nasdaq and S&P 500 Fall Amid Renewed AI Sell-Off; Dow Jones Gains 423 Points",
+          "url": "https://www.kotakneo.com/news/global-markets/wall-street-falls-as-ai-selloff-hits-nasdaq-and-sp-500-while-dow-jones-rises-423-points/",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "Investing.com",
+          "label": "Wednesday’s PCE Report Marks Final Major Inflation Test Before Fed Decision",
+          "url": "https://www.investing.com/analysis/wednesdays-pce-report-marks-final-major-inflation-test-before-fed-decision-200692279",
+          "accessed": "November 25, 2026"
+        },
+        {
+          "publisher": "New York Stock Exchange",
+          "label": "Holidays & Trading Hours",
+          "url": "https://www.nyse.com/markets/hours-calendars",
+          "accessed": "November 25, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a see-saw on a navy pivot, with a stack of sturdy blue-chip blocks rising on one end and a cluster of red chip and server shapes sliding down on the other, against an exchange skyline",
+      "imageCredit": "Original editorial illustration · News Editors"
+    },
+    {
       "slug": "ai-selloff-sp-500-dow-correction-nasdaq-erases-2026-gains-november-2026",
       "title": "AI selloff pushes S&P 500 and Dow into correction as Nasdaq erases its 2026 gains",
       "subtitle": "The Nasdaq’s worst week since March 2020 hit chip stocks hardest, and futures rebounded Monday as traders reassessed Federal Reserve rate bets",
