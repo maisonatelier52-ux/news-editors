@@ -9,6 +9,7 @@ import CategoryTabWidget from '@/components/CategoryTabWidget';
 import CategorySection from '@/components/CategorySection';
 import OpinionStrip from '@/components/OpinionStrip';
 import ThemedFeature from '@/components/ThemedFeature';
+import HealthSection from '@/components/HealthSection';
 import Link from 'next/link';
 import {
   getAllPosts,
@@ -304,6 +305,12 @@ export default function HomePage() {
     .filter((p) => !PINNED.has(p.slug))
     .slice(0, 5);
 
+  // Newest health stories: they get their own dedicated section after the
+  // World strip, so they are reserved here and never repeated in the mixed
+  // sections above (Trending, Must Read, Most Viewed, sidebar).
+  const HEALTH_LIMIT = 5;
+  const healthPosts = getPostsByCategory('health', []).slice(0, HEALTH_LIMIT);
+
   const reserved = new Set(
     [
       ...politicsPosts,
@@ -311,6 +318,7 @@ export default function HomePage() {
       ...investigationPosts,
       ...financePosts,
       ...worldPosts,
+      ...healthPosts,
     ].map((p) => p.slug)
   );
 
@@ -517,6 +525,12 @@ export default function HomePage() {
           excludeSlugs={excludeAllBut(worldPosts.map((p) => p.slug))}
         />
       </div>
+
+      <HealthSection
+        categorySlug="health"
+        limit={HEALTH_LIMIT}
+        excludeSlugs={excludeAllBut(healthPosts.map((p) => p.slug))}
+      />
 
       {NEWSLETTER_ENABLED && (
         <div className="max-w-container mx-auto -mb-10 px-4 pt-4 sm:-mb-8">

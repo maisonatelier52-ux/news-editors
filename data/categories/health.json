@@ -1,0 +1,869 @@
+{
+  "articles": [
+    {
+      "slug": "us-loses-measles-elimination-status-paho-november-2026",
+      "title": "U.S. Loses Measles Elimination Status After More Than 25 Years as 2026 Cases Pass 5,400",
+      "subtitle": "The Pan American Health Organization says measles has now spread continuously in the United States for more than a year, ending a status the country first earned in 2000.",
+      "excerpt": "The Pan American Health Organization announced Tuesday that the United States has lost its measles elimination status, with the CDC counting more than 5,400 cases this year. Mexico lost the designation too.",
+      "category": "health",
+      "tags": [
+        "health",
+        "measles",
+        "vaccination",
+        "paho",
+        "cdc",
+        "mmr",
+        "public-health",
+        "outbreak"
+      ],
+      "author": "admin",
+      "date": "2026-11-18",
+      "year": "2026",
+      "month": "11",
+      "day": "18",
+      "image": "/images/illustrations/us-loses-measles-elimination-status-paho-november-2026.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "views": 0,
+      "updatedAt": "2026-11-26T12:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "U.S. Loses Measles Elimination Status After 25+ Years",
+        "metaDescription": "PAHO says the U.S. has lost measles elimination status as 2026 cases top 5,400, the most in over three decades. What it means and what happens next.",
+        "ogTitle": "U.S. Loses Measles Elimination Status After More Than 25 Years",
+        "ogDescription": "PAHO says measles has spread continuously in the U.S. for over a year. The CDC counts more than 5,400 cases in 2026, the highest in three decades.",
+        "ogImage": "/og/us-loses-measles-elimination-status-paho-november-2026.jpg",
+        "twitterTitle": "U.S. Loses Measles Elimination Status",
+        "twitterDescription": "PAHO ended the status the U.S. held since 2000 as 2026 measles cases passed 5,400. Mexico lost its status too.",
+        "keywords": [
+          "measles elimination status",
+          "U.S. measles cases 2026",
+          "PAHO measles",
+          "measles outbreak",
+          "MMR vaccine",
+          "kindergarten vaccination rates",
+          "CDC measles",
+          "Pennsylvania measles outbreak",
+          "public health"
+        ]
+      },
+      "articleType": "News report",
+      "keyTakeaways": [
+        "The Pan American Health Organization said Nov. 17 that the United States lost the measles elimination status it had held since 2000, because the virus has spread continuously for more than a year.",
+        "The CDC had confirmed 5,412 cases this year as of Nov. 12, the highest total in more than three decades, with large outbreaks in Pennsylvania, Wisconsin, Minnesota and Indiana and deaths counted in several states.",
+        "Kindergarten MMR coverage has slipped to 92.4%, below the roughly 95% level experts say is needed to block sustained spread, and the U.S. must now submit a corrective action plan to PAHO."
+      ],
+      "whyItMatters": "Elimination status was a measure of whether the country could keep an extremely contagious disease from re-establishing itself. Losing it signals that measles is now circulating domestically rather than arriving only from abroad, which raises the stakes for families with unvaccinated children, for adults who may have no immunity, and for health departments already stretched by outbreak response.",
+      "reportingNote": "This source-based news report summarizes reporting from ABC News, the Associated Press and Healio available as of Nov. 26, 2026. Case and death counts differ between the CDC and state health departments and change frequently; figures below are attributed to the source that reported them.",
+      "sources": [
+        {
+          "publisher": "ABC News",
+          "label": "US officially loses measles elimination status, PAHO says",
+          "url": "https://abcnews.com/Health/story?id=138203543",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Associated Press (via The News Tribune)",
+          "label": "US loses measles elimination status after nearly three decades",
+          "url": "https://www.newstribune.com/news/2026/nov/18/us-loses-measles-elimination-status-after-nearly/",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Healio",
+          "label": "US loses measles elimination status, PAHO announces",
+          "url": "https://www.healio.com/news/pediatrics/20261117/us-loses-measles-elimination-status-paho-announces",
+          "accessed": "November 26, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a large navy shield cracked by a red fracture, with a row of small figure shapes beneath it and a single syringe silhouette, set against a pale map of the Americas",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "toc": [
+        {
+          "id": "what-losing-elimination-status-means",
+          "text": "What losing elimination status means"
+        },
+        {
+          "id": "where-the-outbreaks-are-and-what-they-have-cost",
+          "text": "Where the outbreaks are and what they have cost"
+        },
+        {
+          "id": "the-vaccination-gap-behind-the-spread",
+          "text": "The vaccination gap behind the spread"
+        },
+        {
+          "id": "how-officials-and-experts-responded",
+          "text": "How officials and experts responded"
+        },
+        {
+          "id": "what-to-watch-next",
+          "text": "What to watch next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Pan American Health Organization (PAHO), the World Health Organization’s regional office for the Americas, announced on Tuesday, Nov. 17, that the United States no longer has measles elimination status, ending a designation the country first earned in 2000. PAHO said the virus has circulated without interruption in the U.S. for more than a year. Mexico also lost its status, and the Associated Press reported that Bolivia did as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "The CDC had confirmed 5,412 measles cases this year as of Nov. 12, the highest annual total in more than three decades, according to the AP and ABC News. Cases have been reported in nearly every state, and most involved people who were not vaccinated."
+        },
+        {
+          "type": "heading",
+          "id": "what-losing-elimination-status-means",
+          "text": "What losing elimination status means"
+        },
+        {
+          "type": "paragraph",
+          "text": "Elimination does not mean zero cases. It means the same strain has not circulated continuously for 12 months or more, so imported cases that fizzle out do not count against a country. By that measure, ABC News reported, the U.S. recorded fewer than 300 cases in 2024. ABC News described outbreaks in Texas, Utah, South Carolina and Pennsylvania as home-grown rather than simply imported."
+        },
+        {
+          "type": "paragraph",
+          "text": "PAHO Director Jarbas Barbosa called the ruling a setback but said countries are acting. “While this is a significant setback, countries are already taking action to bring their outbreaks under control,” he said, according to the AP. Under PAHO’s process, the U.S. must submit a corrective action plan, which PAHO’s Dr. Daniel Salas said is expected in the coming weeks, and then show it has been free of the virus for 12 consecutive months."
+        },
+        {
+          "type": "heading",
+          "id": "where-the-outbreaks-are-and-what-they-have-cost",
+          "text": "Where the outbreaks are and what they have cost"
+        },
+        {
+          "type": "paragraph",
+          "text": "ABC News reported 48 outbreaks identified so far in 2026, with large ongoing outbreaks in Pennsylvania, Wisconsin, Minnesota and Indiana, and a state of emergency declared in New York. Healio, citing state updates from Nov. 13, reported that Pennsylvania had counted 1,542 cases across 46 counties and a seventh death, and that Wisconsin had reported a second outbreak-linked death. New York recorded a child’s death in Lewis County, which the AP described as the state’s first measles-associated death in more than 30 years."
+        },
+        {
+          "type": "paragraph",
+          "text": "Death counts vary by source. The AP reported that the CDC had confirmed six deaths as of Nov. 12, while state health departments had reported 10 this year. Counting from the start of 2025, the AP put the toll at about 7,700 infections and 13 deaths. Healio noted that is compared with three measles deaths in the previous 25 years. Adults 20 and older made up 41% of 2026 cases, up from 29% in 2025, Healio reported."
+        },
+        {
+          "type": "heading",
+          "id": "the-vaccination-gap-behind-the-spread",
+          "text": "The vaccination gap behind the spread"
+        },
+        {
+          "type": "paragraph",
+          "text": "Healio reported that kindergarten MMR coverage fell from 95.2% in the 2019–2020 school year to 92.4% in 2025–2026. Only 10 states report coverage of 95% or higher, and 18 report coverage below 90%. ABC News noted the decline leaves nearly 300,000 kindergartners unprotected. Health officials generally treat 95% coverage as the level needed to prevent sustained spread. The CDC says two doses of the MMR vaccine are 97% effective, with the first given at 12 to 15 months and the second at 4 to 6 years."
+        },
+        {
+          "type": "heading",
+          "id": "how-officials-and-experts-responded",
+          "text": "How officials and experts responded"
+        },
+        {
+          "type": "paragraph",
+          "text": "HHS Secretary Robert F. Kennedy Jr. said: “We will stop measles outbreaks, protect American families, and work to regain U.S. measles elimination status.” On social media, Healio reported, he also attributed vaccination gaps to worldwide COVID-era disruptions in routine childhood immunization. CDC Director Dr. Erica Schwartz said: “The measles elimination designation is not what protects Americans. Vaccination does.” The CDC says it has invested $100 million in state and local health departments in the hardest-hit communities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Outside experts were blunter. Dr. Amesh Adalja of the Johns Hopkins Center for Health Security said PAHO’s ruling “formalizes what was already plainly visible,” and Dr. Paul Offit of Children’s Hospital of Philadelphia said measles “has gained a foothold and is now endemic in this country,” according to Healio. Jennifer Nuzzo of the Brown University Pandemic Center said national health leaders are not visibly doing enough to help states end outbreaks, the AP reported. ABC News added that medical groups have criticized Kennedy’s vaccine positions and changes to the childhood schedule, and that some have sued."
+        },
+        {
+          "type": "heading",
+          "id": "what-to-watch-next",
+          "text": "What to watch next"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first marker is the corrective action plan the U.S. owes PAHO. After that, the trend in the big state outbreaks, the next kindergarten coverage data and any change in the share of adult cases will show whether transmission is slowing. The CDC continues to recommend MMR vaccination as the most effective protection, and anyone unsure of their immunity can ask a clinician about records or a blood test."
+        }
+      ]
+    },
+    {
+      "slug": "white-house-withdraws-heidi-overton-fda-commissioner-nomination-november-2026",
+      "title": "White House Pulls FDA Commissioner Nominee Heidi Overton as Fast-Track Voucher Program Stalls",
+      "subtitle": "The withdrawal leaves the FDA under an acting commissioner since May, while Reuters reports the agency has quietly shelved its national priority voucher pilot, which HHS disputes.",
+      "excerpt": "The White House withdrew Heidi Overton’s nomination to lead the FDA a day before a Senate committee vote, saying she lacked the votes. Days earlier, Reuters reported the agency had shelved its fast-track voucher program; HHS says the pilot is ongoing.",
+      "category": "health",
+      "tags": [
+        "health",
+        "fda",
+        "heidi-overton",
+        "kyle-diamantas",
+        "drug-approvals",
+        "hhs",
+        "senate-help-committee",
+        "national-priority-voucher"
+      ],
+      "author": "admin",
+      "date": "2026-11-17",
+      "year": "2026",
+      "month": "11",
+      "day": "17",
+      "image": "/images/illustrations/white-house-withdraws-heidi-overton-fda-commissioner-nomination-november-2026.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "views": 0,
+      "updatedAt": "2026-11-26T12:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "White House Pulls FDA Nominee Heidi Overton",
+        "metaDescription": "The White House withdrew Heidi Overton’s FDA commissioner nomination before a Senate vote, as Reuters reports the agency’s fast-track voucher pilot is stalled.",
+        "ogTitle": "White House Withdraws FDA Commissioner Nominee Heidi Overton",
+        "ogDescription": "With no permanent FDA chief since May, the withdrawal leaves Kyle Diamantas acting, while a Reuters report says the priority voucher program has stalled.",
+        "ogImage": "/og/white-house-withdraws-heidi-overton-fda-commissioner-nomination-november-2026.jpg",
+        "twitterTitle": "White House Pulls FDA Nominee Heidi Overton",
+        "twitterDescription": "Overton’s nomination was withdrawn before a Senate vote. Reuters says the FDA’s fast-track voucher pilot has also stalled; HHS disagrees.",
+        "keywords": [
+          "Heidi Overton",
+          "FDA commissioner nomination",
+          "Kyle Diamantas",
+          "acting FDA commissioner",
+          "national priority voucher",
+          "CNPV",
+          "Marty Makary",
+          "Bill Cassidy",
+          "FDA leadership",
+          "drug review"
+        ]
+      },
+      "articleType": "News report",
+      "keyTakeaways": [
+        "The White House withdrew Dr. Heidi Overton’s FDA commissioner nomination on Nov. 17, a day before the Senate HELP Committee was due to vote, saying she lacked the votes; Sen. Bill Cassidy disputed that.",
+        "The FDA has had no permanent commissioner since Marty Makary resigned in May; Kyle Diamantas, the agency’s deputy commissioner for food, remains acting commissioner and the White House has not named a new nominee.",
+        "Reuters reported Nov. 12 that the FDA shelved Makary’s priority voucher program, which promised decisions in one to two months; HHS says the pilot is continuing while the agency refines it."
+      ],
+      "whyItMatters": "The FDA decides which drugs, vaccines, devices, foods and tobacco products reach the public, and it does so with a workforce reported to be about 20% smaller than when President Trump took office. A prolonged stretch without a confirmed leader, plus uncertainty about review pathways that companies built launch plans around, can affect how quickly new treatments are approved and how predictable the agency is for patients and the industry.",
+      "reportingNote": "This source-based news report summarizes reporting from BioPharma Dive, Healio, NBC Chicago, Pharmacy Times, Pharmaceutical Executive and RAPS, plus FDA program material, available as of Nov. 26, 2026. The voucher-program account rests on Reuters’ anonymous sources and HHS disputes it; the next nominee and any program decision may change.",
+      "sources": [
+        {
+          "publisher": "BioPharma Dive",
+          "label": "White House withdraws Heidi Overton’s FDA commissioner nomination",
+          "url": "https://www.biopharmadive.com/news/white-house-withdraw-heidi-overton-fda-commissioner-nomination/874961/",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Healio",
+          "label": "White House withdraws FDA commissioner nomination for Heidi Overton, MD",
+          "url": "https://www.healio.com/news/primary-care/20261118/white-house-withdraws-fda-commissioner-nomination-for-heidi-overton-md",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "NBC Chicago",
+          "label": "White House withdraws Heidi Overton’s FDA nomination",
+          "url": "https://www.nbcchicago.com/news/politics/heidi-overton-fda-nomination-dropped/4018181/",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Pharmacy Times",
+          "label": "FDA reportedly shelves Commissioner’s National Priority Voucher program",
+          "url": "https://www.pharmacytimes.com/view/fda-reportedly-shelves-commissioner-s-national-priority-voucher-program",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Pharmaceutical Executive",
+          "label": "FDA shelves commissioner’s national priority voucher program, report says",
+          "url": "https://www.pharmexec.com/view/fda-shelves-commissioner-national-priority-voucher-program-report",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Regulatory Affairs Professionals Society (RAPS)",
+          "label": "This week: Senate HELP to vote on Overton; FDA shelves CNPV",
+          "url": "https://www.raps.org/resource/this-week-senate-help-to-vote-on-overton-fda-shelves-cnpv-and-more.html",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "U.S. Food and Drug Administration",
+          "label": "FDA awards first-ever national priority vouchers to nine sponsors",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-awards-first-ever-national-priority-vouchers-nine-sponsors",
+          "accessed": "November 26, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of an empty chair at the head of a long conference table in front of a government-building facade, with a stack of unopened voucher envelopes and a pill capsule shape on the table",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "toc": [
+        {
+          "id": "why-the-nomination-collapsed",
+          "text": "Why the nomination collapsed"
+        },
+        {
+          "id": "who-runs-the-fda-now",
+          "text": "Who runs the FDA now"
+        },
+        {
+          "id": "the-voucher-program-reuters-says-is-shelved",
+          "text": "The voucher program Reuters says is shelved"
+        },
+        {
+          "id": "what-to-watch-next",
+          "text": "What to watch next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The White House withdrew Dr. Heidi Overton’s nomination to lead the Food and Drug Administration on Tuesday, Nov. 17, a day before the Senate Health, Education, Labor and Pensions (HELP) Committee was scheduled to vote on it. NBC Chicago reported the White House acted because she appeared to lack the votes for confirmation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The move leaves the agency without a permanent commissioner since Dr. Marty Makary resigned in May. It also came days after Reuters reported on Nov. 12 that the FDA had shelved Makary’s signature program for speeding drug reviews, a characterization HHS disputes."
+        },
+        {
+          "type": "heading",
+          "id": "why-the-nomination-collapsed",
+          "text": "Why the nomination collapsed"
+        },
+        {
+          "type": "paragraph",
+          "text": "Overton, a physician and White House domestic policy adviser, was announced as President Trump’s pick in August. At her Sept. 24 confirmation hearing she pledged to “follow the law” on vaccines and acknowledged that the abortion pill mifepristone met the agency’s standards for safety and effectiveness, BioPharma Dive reported. She also backed the administration’s push to split the combined measles, mumps and rubella vaccine into separate shots, and played a role in loosening access to flavored vapes."
+        },
+        {
+          "type": "paragraph",
+          "text": "NBC Chicago reported that senators from both parties questioned whether she would break with the president on vaccines, and that Sen. Bill Cassidy, the Louisiana Republican who chairs the committee, had called her support for splitting combination vaccines “almost disqualifying.” Sen. Susan Collins raised concerns about flavored e-cigarettes, and Sen. Lisa Murkowski pressed her on political pressure over mifepristone. Because Democrats hold 11 seats on the panel, confirmation needed all 12 Republicans, NBC Chicago noted. BioPharma Dive reported that multiple “MAHA” groups and GOP lawmakers also opposed her."
+        },
+        {
+          "type": "paragraph",
+          "text": "The explanation is contested. Cassidy, who lost a June primary and has weeks left in his term, said on X that the White House “abandoned a viable confirmation path,” according to Healio, and BioPharma Dive quoted him saying he believed she would have had the votes to clear the committee and the full Senate. He said pro-life senators had sought final assurances on life issues and the administration withdrew her rather than make them."
+        },
+        {
+          "type": "heading",
+          "id": "who-runs-the-fda-now",
+          "text": "Who runs the FDA now"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kyle Diamantas, an attorney who previously served as the agency’s top food official, has been acting commissioner since May. Under federal law an acting commissioner may serve 210 days, and BioPharma Dive reported that Overton’s withdrawal resets that clock. RAPS, citing Politico, reported earlier this month that Diamantas is expected to leave the administration at the end of 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "NBC Chicago reported that the FDA has lost about 20% of its employees since Trump took office through layoffs, buyouts, retirements and resignations. The White House has not said when it will name a new nominee. BioPharma Dive cited a Semafor report that Sen. Roger Marshall, a Kansas Republican and physician, could be the pick, and Cassidy said confirming a permanent commissioner now “appears to fall to Senate Democrats” given how little time remains in the session."
+        },
+        {
+          "type": "heading",
+          "id": "the-voucher-program-reuters-says-is-shelved",
+          "text": "The voucher program Reuters says is shelved"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Commissioner’s National Priority Voucher (CNPV) pilot launched in 2025 and promised decisions within one to two months of a complete application, versus the standard 10 to 12 months, for products tied to national priorities such as unmet need, public health crises, domestic manufacturing or affordability, according to the FDA. Pharmacy Times reported that 22 products received vouchers and 12 have been approved, five of them since May, including Novo Nordisk’s higher-dose Wegovy, Regeneron’s gene therapy for genetic hearing loss, Eli Lilly’s Foundayo and Merck’s Lipfendra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reuters, citing six sources, reported that no new vouchers have been awarded since Makary left, that FDA leadership told companies the agency is not moving forward with the program, and that applications remain open but do not advance. Nine products remain in the program, with career scientists again overseeing their review timelines. HHS spokesperson Emily Hilliard said the pilot is ongoing and that the FDA is reviewing feedback from a June 4 public hearing to refine the framework."
+        },
+        {
+          "type": "paragraph",
+          "text": "The program drew scrutiny over legal questions and over possible preferential treatment for companies that met administration demands, such as lowering prices. Rich Danker, a former HHS assistant secretary, said it was “quietly being phased out,” while University of Pennsylvania health policy professor Holly Fernandez Lynch called it “the worst of both worlds,” according to Pharmaceutical Executive."
+        },
+        {
+          "type": "heading",
+          "id": "what-to-watch-next",
+          "text": "What to watch next"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first questions are who the White House nominates and whether any nominee can be confirmed before the new Congress, and whether Diamantas stays. BioPharma Dive quoted RBC Capital Markets analyst Brian Abrahams as expecting FDA operations to keep running reasonably smoothly, with more instability possible if Diamantas leaves. The FDA’s mifepristone safety review, due in March, is another pressure point, and drugmakers that planned around one-to-two-month voucher reviews may need to reset launch timelines."
+        }
+      ]
+    },
+    {
+      "slug": "flu-season-early-h1n1-surge-hospital-admissions-seven-times-higher-november-2026",
+      "title": "Flu Season Arrives Early as H1N1 Pushes Hospital Admissions to Seven Times Last Year’s Level",
+      "subtitle": "CDC data for the week ending Nov. 7 show test positivity above 11% and seven jurisdictions at high or very high activity, though the agency still rates the season’s severity low.",
+      "excerpt": "The CDC’s latest weekly report counts 9,584 flu hospital admissions in the week ending Nov. 7, more than seven times the same week last season, driven almost entirely by H1N1. The agency still rates severity low and urges vaccination and early antivirals.",
+      "category": "health",
+      "tags": [
+        "health",
+        "flu",
+        "influenza",
+        "h1n1",
+        "cdc",
+        "hospitalizations",
+        "vaccination",
+        "flu-season"
+      ],
+      "author": "admin",
+      "date": "2026-11-16",
+      "year": "2026",
+      "month": "11",
+      "day": "16",
+      "image": "/images/illustrations/flu-season-early-h1n1-surge-hospital-admissions-seven-times-higher-november-2026.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "views": 0,
+      "updatedAt": "2026-11-26T12:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Early Flu Season: Admissions 7x Higher Than Last Year",
+        "metaDescription": "CDC data show 9,584 flu admissions in a week, over seven times last year’s level, as H1N1 drives an early season. Where activity is high and what to do.",
+        "ogTitle": "Early Flu Season: H1N1 Drives Admissions to 7x Last Year’s Level",
+        "ogDescription": "Flu test positivity hit 11.3% and seven jurisdictions reported high activity, but the CDC still rates the 2026–27 season’s severity low so far.",
+        "ogImage": "/og/flu-season-early-h1n1-surge-hospital-admissions-seven-times-higher-november-2026.jpg",
+        "twitterTitle": "Flu Season Arrives Early as H1N1 Surges",
+        "twitterDescription": "Weekly flu hospital admissions are more than seven times last year’s level, the CDC reports. Severity is still rated low.",
+        "keywords": [
+          "flu season 2026",
+          "H1N1 flu",
+          "CDC FluView",
+          "flu hospitalizations",
+          "flu test positivity",
+          "flu vaccine",
+          "oseltamivir",
+          "influenza activity by state",
+          "pediatric flu deaths"
+        ]
+      },
+      "articleType": "News report",
+      "keyTakeaways": [
+        "Hospitals reported 9,584 lab-confirmed flu admissions in the week ending Nov. 7, up 14% from the prior week and more than seven times the 1,268 recorded in the same week last season, according to Becker’s Hospital Review’s reading of CDC data.",
+        "Influenza A(H1N1) accounted for 98.9% of subtyped influenza A viruses, test positivity reached 11.3%, and seven jurisdictions were at high or very high outpatient activity, up from two a week earlier.",
+        "The CDC rates the season’s preliminary severity as low for all age groups and says an early rise does not guarantee a higher peak; it recommends vaccination for everyone 6 months and older and early antivirals for people at higher risk."
+      ],
+      "whyItMatters": "An early flu wave puts pressure on emergency departments and hospital beds before the winter holidays, when travel and gatherings usually add to spread. The numbers are also a reminder that older adults and young children carry the highest hospitalization rates, and that vaccination and prompt antiviral treatment are the main tools available right now.",
+      "reportingNote": "This source-based news report summarizes the CDC’s FluView report for the week ending Nov. 7, 2026 (published Nov. 13) and coverage by Becker’s Hospital Review and FOX 13 Tampa Bay available as of Nov. 26, 2026. Newer weekly CDC reports may show different numbers, and the reports reviewed did not include vaccine effectiveness estimates for this season.",
+      "sources": [
+        {
+          "publisher": "Centers for Disease Control and Prevention",
+          "label": "Weekly U.S. Influenza Surveillance Report: Key Updates for Week 44, ending Nov. 7, 2026",
+          "url": "https://www.cdc.gov/fluview/surveillance/2026-week-44.html",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Becker’s Hospital Review",
+          "label": "Flu admissions running more than 7x higher than last year: 8 notes",
+          "url": "https://www.beckershospitalreview.com/quality/flu-admissions-running-more-than-7x-higher-than-last-year-8-notes-for-clinical-leaders/",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "FOX 13 Tampa Bay",
+          "label": "Flu activity climbs nationwide, with 6 states reporting high levels, CDC says",
+          "url": "https://www.fox13news.com/news/flu-activity-climbs-nationwide-6-states-reporting-high-levels-cdc-says",
+          "accessed": "November 26, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a rising bar-shaped skyline of hospital beds and a thermometer silhouette, with a wave of red virus shapes sweeping across a pale map of the United States",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "toc": [
+        {
+          "id": "what-the-cdc-data-show",
+          "text": "What the CDC data show"
+        },
+        {
+          "id": "an-h1n1-dominated-start",
+          "text": "An H1N1-dominated start"
+        },
+        {
+          "id": "severity-and-burden-so-far",
+          "text": "Severity and burden so far"
+        },
+        {
+          "id": "what-the-cdc-recommends",
+          "text": "What the CDC recommends"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Influenza is spreading earlier than usual this fall. The CDC’s FluView report for the week ending Nov. 7, published Nov. 13, says flu activity is increasing in many parts of the country and is higher than typically observed at this time of year. Of the clinical lab specimens tested that week, 11.3% were positive for flu, up from 9.1% a week earlier and 1.1% at the same point last season."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hospitals reported 9,584 lab-confirmed flu admissions that week, up 14% from 8,396 the week before and more than seven times the 1,268 recorded in the same week last season, Becker’s Hospital Review reported from the CDC data."
+        },
+        {
+          "type": "heading",
+          "id": "what-the-cdc-data-show",
+          "text": "What the CDC data show"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flu-like illness accounted for 3.2% of outpatient visits, above the national baseline of 2.9%, with Regions 4, 6, 9 and 10 above their own baselines. Seven jurisdictions reported high or very high activity, up from two the previous week. FOX 13 Tampa Bay, reading the CDC map, listed Louisiana as the only state at a very high level and named South Carolina, Texas, California, Tennessee and Oregon among those at high levels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Flu accounted for 2.2% of emergency department visits, up from 1.7% the prior week and 0.3% in the same week last season, according to Becker’s. The national hospital admission rate rose to 2.8 per 100,000 people. Adults 65 and older had the highest rate at 8.6 per 100,000, followed by children 4 and younger at 3.2 and adults 50 to 64 at 2.7. About 0.4% of deaths that week were attributed to influenza, the CDC said, a share that has trended up over eight weeks."
+        },
+        {
+          "type": "heading",
+          "id": "an-h1n1-dominated-start",
+          "text": "An H1N1-dominated start"
+        },
+        {
+          "type": "paragraph",
+          "text": "Influenza A made up 99.2% of positive tests. Of 460 influenza A viruses subtyped by public health laboratories, 455, or 98.9%, were A(H1N1)pdm09 and five were A(H3N2). The CDC said 554 of 555 characterized H1N1 viruses belonged to the D.3.1.1 subclade. The reports reviewed here did not include estimates of how well this season’s vaccine matches circulating viruses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr. Anna Durbin of Johns Hopkins University told FOX 13 Tampa Bay that flu hospitalization rates in mid-October were the highest in 15 years and that it is “really important for everyone to get a flu vaccine as soon as possible” because the season is starting earlier."
+        },
+        {
+          "type": "heading",
+          "id": "severity-and-burden-so-far",
+          "text": "Severity and burden so far"
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite the early rise, the CDC’s preliminary severity assessment is low for children, adults and older adults, and the agency says an earlier increase does not necessarily mean a higher peak or a more severe season. It estimates at least 2.6 million illnesses, 36,000 hospitalizations and 2,100 deaths so far this season, up from 1.7 million, 25,000 and 1,400 a week earlier."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two more pediatric flu deaths from the 2026–27 season were reported, bringing that season’s total to five. One additional pediatric death from 2025–26 was also added, raising that season’s total to 203. The CDC’s FluSight forecast projects 8,300 to 34,400 weekly hospital admissions for the week ending Nov. 28, and flu accounting for 1.8% to 7.7% of emergency visits."
+        },
+        {
+          "type": "heading",
+          "id": "what-the-cdc-recommends",
+          "text": "What the CDC recommends"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CDC recommends an annual flu vaccine for everyone 6 months and older and urges early antiviral treatment, particularly for people at higher risk of complications such as older adults, young children and those with chronic conditions. Of 553 H1N1 viruses tested since May 24, eight showed reduced inhibition by oseltamivir, and none showed reduced susceptibility to baloxavir, peramivir or zanamivir, the CDC said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Anyone with flu symptoms who is at higher risk should contact a clinician quickly, because antivirals work best when started early. The CDC publishes new FluView data weekly, and the next reports will show whether the early surge is flattening or still climbing."
+        }
+      ]
+    },
+    {
+      "slug": "eli-lilly-orforglipron-china-first-oral-glp-1-weight-loss-pill-approval-november-2026",
+      "title": "Eli Lilly Wins China’s First Approval for an Oral GLP-1 Weight-Loss Pill, Ahead of Novo Nordisk",
+      "subtitle": "China’s drug regulator cleared orforglipron, sold as Foundayo in the U.S. and U.K., for chronic weight management in a market where more than half a billion adults are overweight or obese.",
+      "excerpt": "Eli Lilly said China has approved orforglipron, a once-daily pill, for weight management, making it the first oral GLP-1 for obesity cleared there. Novo Nordisk’s oral version is still awaiting approval.",
+      "category": "health",
+      "tags": [
+        "health",
+        "glp-1",
+        "eli-lilly",
+        "orforglipron",
+        "obesity",
+        "china",
+        "novo-nordisk",
+        "weight-loss"
+      ],
+      "author": "admin",
+      "date": "2026-11-12",
+      "year": "2026",
+      "month": "11",
+      "day": "12",
+      "image": "/images/illustrations/eli-lilly-orforglipron-china-first-oral-glp-1-weight-loss-pill-approval-november-2026.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "views": 0,
+      "updatedAt": "2026-11-26T12:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "Lilly Wins China’s First Oral GLP-1 Weight-Loss Pill OK",
+        "metaDescription": "China approved Eli Lilly’s orforglipron, the first oral GLP-1 for weight management there, ahead of Novo Nordisk. What was approved and what comes next.",
+        "ogTitle": "Eli Lilly Wins China’s First Oral GLP-1 Weight-Loss Pill Approval",
+        "ogDescription": "China’s regulator cleared orforglipron (Foundayo) for chronic weight management; Novo Nordisk’s oral version is still pending in the world’s largest obesity market.",
+        "ogImage": "/og/eli-lilly-orforglipron-china-first-oral-glp-1-weight-loss-pill-approval-november-2026.jpg",
+        "twitterTitle": "Lilly Gets China’s First Oral GLP-1 Approval",
+        "twitterDescription": "Orforglipron is now approved in China for weight management, ahead of Novo Nordisk’s oral GLP-1, which is still under review.",
+        "keywords": [
+          "orforglipron China approval",
+          "Foundayo",
+          "Eli Lilly GLP-1 pill",
+          "oral GLP-1 obesity",
+          "Novo Nordisk oral Wegovy China",
+          "China obesity market",
+          "NMPA approval",
+          "weight-loss drug"
+        ]
+      },
+      "articleType": "News report",
+      "keyTakeaways": [
+        "China’s National Medical Products Administration approved Eli Lilly’s orforglipron, a once-daily pill sold as Foundayo in the U.S. and U.K., for chronic weight management in adults who are obese or overweight, making it China’s first oral GLP-1 for obesity.",
+        "In a recent study, patients on the highest dose lost an average of 12.4 kg (about 27 pounds) over 72 weeks, and about 40% lost more than 15% of their body weight, according to a report in The Star.",
+        "Weight-loss drugs in China are largely self-funded, Novo Nordisk’s oral application is still pending, and Lilly has not disclosed a Chinese price in the reports reviewed; a type 2 diabetes application is also under review."
+      ],
+      "whyItMatters": "A pill is easier to ship, store and take than a weekly injection, and Lilly’s head start in China comes in one of the world’s largest potential obesity markets. The approval shows how quickly the oral GLP-1 race is moving outside the U.S., and the self-pay structure means access will depend heavily on pricing and who can afford long-term treatment.",
+      "reportingNote": "This source-based news report summarizes reporting from The Star, pharmaphorum, European Pharmaceutical Review, Pharmacy Times and RAPS’ summary of Reuters available as of Nov. 26, 2026. The approval date, a Chinese brand name and local pricing were not stated in the reports reviewed, and details may change as Lilly releases more information.",
+      "sources": [
+        {
+          "publisher": "The Star (Malaysia)",
+          "label": "Eli Lilly beats Novo Nordisk to China approval for first oral GLP-1 weight-loss drug",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/14/eli-lilly-beats-novo-nordisk-to-china-approval-for-first-oral-glp-1-weight-loss-drug",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "pharmaphorum",
+          "label": "Lilly beats Novo to China with an oral GLP-1 for obesity",
+          "url": "https://pharmaphorum.com/news/lilly-beats-novo-china-oral-glp-1-obesity",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "European Pharmaceutical Review",
+          "label": "Lilly secures first oral GLP-1 obesity approval in China",
+          "url": "https://www.europeanpharmaceuticalreview.com/news/lilly-secures-first-oral-glp-1-obesity-approval-in-china/2136972.article",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Regulatory Affairs Professionals Society (RAPS)",
+          "label": "Recon: FDA shelves commissioner’s voucher program; Eli Lilly gets first GLP-1 weight-loss pill approved in China",
+          "url": "https://www.raps.org/resource/recon-fda-shelves-commissioner-s-voucher-program-eli-lilly-gets-first-glp-1-weight-loss-pill-approved-in-china.html",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Pharmacy Times",
+          "label": "FDA reportedly shelves Commissioner’s National Priority Voucher program",
+          "url": "https://www.pharmacytimes.com/view/fda-reportedly-shelves-commissioner-s-national-priority-voucher-program",
+          "accessed": "November 26, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a single large pill capsule balanced on a scale against a stack of injection pens, with a pale map of China and a faint measuring-tape curve behind them",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "toc": [
+        {
+          "id": "what-was-approved",
+          "text": "What was approved"
+        },
+        {
+          "id": "how-it-fits-with-the-u-s-approval",
+          "text": "How it fits with the U.S. approval"
+        },
+        {
+          "id": "a-crowded-and-self-funded-market",
+          "text": "A crowded and self-funded market"
+        },
+        {
+          "id": "a-large-and-growing-patient-pool",
+          "text": "A large and growing patient pool"
+        },
+        {
+          "id": "what-to-watch-next",
+          "text": "What to watch next"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Eli Lilly has become the first drugmaker to win approval in China for an oral GLP-1 weight-loss medicine. China’s National Medical Products Administration (NMPA) cleared orforglipron, a once-daily pill, for chronic weight management in adults who are obese or overweight, The Star reported, with the approval announced on Thursday, Nov. 12. The drug is sold as Foundayo in the United States and United Kingdom."
+        },
+        {
+          "type": "paragraph",
+          "text": "Novo Nordisk’s application to sell an oral version in China is still pending, The Star reported, giving Lilly a first-mover advantage in the country’s obesity market, according to European Pharmaceutical Review."
+        },
+        {
+          "type": "heading",
+          "id": "what-was-approved",
+          "text": "What was approved"
+        },
+        {
+          "type": "paragraph",
+          "text": "The approval covers weight management. A separate application for type 2 diabetes is under NMPA review, pharmaphorum and European Pharmaceutical Review reported. Lilly’s Chinese subsidiary said the route of administration is “one of the important factors affecting adherence” in overweight and obesity, pharmaphorum reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Star reported that in a recent study, patients taking the highest dose for 72 weeks lost an average of 12.4 kg (about 27 pounds), and about 40% lost more than 15% of their body weight. The reports reviewed did not state a Chinese brand name, a launch date or a price."
+        },
+        {
+          "type": "heading",
+          "id": "how-it-fits-with-the-u-s-approval",
+          "text": "How it fits with the U.S. approval"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pharmacy Times described Foundayo as the first GLP-1 receptor agonist pill without time, food or water restrictions, and listed it among products approved under the FDA’s national priority voucher program in the United States. China follows the U.S. and U.K., which pharmaphorum described as the drug’s first two markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Separately, RAPS reported that the FDA has required safety labeling changes for GLP-1 receptor agonists as a class, citing a potential increased risk of non-arteritic anterior ischemic optic neuropathy (NAION), a rare eye condition that can cause permanent vision loss. People taking or considering these medicines should discuss risks and eye symptoms with a clinician."
+        },
+        {
+          "type": "heading",
+          "id": "a-crowded-and-self-funded-market",
+          "text": "A crowded and self-funded market"
+        },
+        {
+          "type": "paragraph",
+          "text": "Injectable GLP-1 drugs are already sold in China, including Lilly’s tirzepatide, Novo’s semaglutide (Wegovy) and Innovent Biologics’ mazdutide, The Star reported. Lilly’s tirzepatide and Novo’s semaglutide have been available in China since 2024, and Novo already has Chinese approval for oral semaglutide in type 2 diabetes, according to pharmaphorum."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pharmaphorum noted that weight-loss drugs in China are paid for by patients, with no public insurance coverage and almost no private coverage. That makes price and long-term affordability central to how widely any new pill is used."
+        },
+        {
+          "type": "heading",
+          "id": "a-large-and-growing-patient-pool",
+          "text": "A large and growing patient pool"
+        },
+        {
+          "type": "paragraph",
+          "text": "European Pharmaceutical Review reported that more than half a billion Chinese adults are overweight or obese, and that combined prevalence could exceed 65% by 2030. The Star said government forecasts also point to 65% of the population being overweight by 2030, and that consulting firm L.E.K. projected China’s GLP-1 market could reach 100 billion yuan (about US$15 billion) by 2030."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lilly pledged US$3 billion over the next decade in China in March to strengthen local supply chains and manufacturing, and has recently set up innovation incubators in Beijing and Shanghai, The Star reported."
+        },
+        {
+          "type": "heading",
+          "id": "what-to-watch-next",
+          "text": "What to watch next"
+        },
+        {
+          "type": "paragraph",
+          "text": "Key questions are the Chinese price and launch timing, the NMPA’s decision on the diabetes indication and when Novo Nordisk’s oral version is cleared. Safety monitoring will matter too, as use of the GLP-1 class widens."
+        }
+      ]
+    },
+    {
+      "slug": "aca-open-enrollment-2027-benchmark-premiums-rise-13-percent-enhanced-subsidies-expired-november-2026",
+      "title": "ACA Open Enrollment Opens With Benchmark Premiums Up 13% and Enhanced Subsidies Gone",
+      "subtitle": "KFF finds benchmark silver premiums have risen about 42% since 2025 as insurers exit, immigrant eligibility narrows and marketplace enrollment is projected to keep falling.",
+      "excerpt": "Open enrollment for 2027 coverage runs through Jan. 15 in most states, with average benchmark premiums up 13% for a second straight double-digit year, according to KFF. Cigna is leaving the individual market in all 11 states where it sells plans.",
+      "category": "health",
+      "tags": [
+        "health",
+        "aca",
+        "affordable-care-act",
+        "health-insurance",
+        "open-enrollment",
+        "premiums",
+        "kff",
+        "medicaid"
+      ],
+      "author": "admin",
+      "date": "2026-11-06",
+      "year": "2026",
+      "month": "11",
+      "day": "06",
+      "image": "/images/illustrations/aca-open-enrollment-2027-benchmark-premiums-rise-13-percent-enhanced-subsidies-expired-november-2026.webp",
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "views": 0,
+      "updatedAt": "2026-11-26T12:00:00+05:30",
+      "commentsList": [],
+      "seo": {
+        "metaTitle": "ACA Open Enrollment 2027: Premiums Up 13%, Subsidies Gone",
+        "metaDescription": "ACA open enrollment runs through Jan. 15. KFF says benchmark premiums rise 13% as enhanced subsidies end, Cigna exits and new eligibility rules start.",
+        "ogTitle": "ACA Open Enrollment 2027: Benchmark Premiums Up 13%",
+        "ogDescription": "Benchmark silver premiums are up about 42% since 2025, enhanced subsidies have expired and 11 insurers are exiting at least one state, KFF reports.",
+        "ogImage": "/og/aca-open-enrollment-2027-benchmark-premiums-rise-13-percent-enhanced-subsidies-expired-november-2026.jpg",
+        "twitterTitle": "ACA Open Enrollment: Premiums Up 13% Again",
+        "twitterDescription": "Enrollment runs through Jan. 15 in most states as premiums rise and enhanced subsidies are gone. What to know before you pick a plan.",
+        "keywords": [
+          "ACA open enrollment 2027",
+          "ACA premiums 2027",
+          "KFF benchmark premium",
+          "enhanced premium tax credits expired",
+          "Cigna exits ACA marketplace",
+          "HealthCare.gov open enrollment",
+          "Medicaid work requirements",
+          "health insurance deadline January 15"
+        ]
+      },
+      "articleType": "News report",
+      "keyTakeaways": [
+        "Open enrollment for 2027 coverage began Nov. 1 and runs through Jan. 15 in most states, with some states closing earlier or later; KFF finds average benchmark silver premiums up 13%, the second straight double-digit increase and about 42% above 2025.",
+        "Enhanced premium tax credits have expired, plan selections fell by 1.2 million in 2026, and the Congressional Budget Office projects marketplace enrollment will drop from 22.4 million in 2025 to 13.1 million in 2027.",
+        "New rules limit tax credits for many lawfully present immigrants, a fraud crackdown canceled about 760,000 enrollments, and 11 insurers have announced exits from at least one state, including Cigna from all 11 states where it sells plans."
+      ],
+      "whyItMatters": "Millions of people buy their own coverage through the ACA marketplaces, and premiums, subsidy rules and available insurers are all changing at once. Enrollees who earn too much to qualify for subsidies, people in states losing insurers and some lawfully present immigrants face the biggest changes, so comparing plans and checking deadlines before choosing is more important than usual.",
+      "reportingNote": "This source-based news report summarizes reporting and analysis from KFF, the Associated Press and Good Morning America available as of Nov. 26, 2026. Premiums, insurer participation and state deadlines vary by location, and several federal rules are being challenged in court and may change; readers should check HealthCare.gov or their state exchange for current details.",
+      "sources": [
+        {
+          "publisher": "KFF",
+          "label": "9 Things to Watch for the 2027 ACA Open Enrollment Period",
+          "url": "https://kff.org/affordable-care-act/9-things-to-watch-for-the-2027-aca-open-enrollment-period/",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Associated Press (via WFSB)",
+          "label": "What to know about the Affordable Care Act’s open enrollment period now underway",
+          "url": "https://www.wfsb.com/2026/11/01/what-know-about-affordable-care-acts-open-enrollment-period-now-underway/",
+          "accessed": "November 26, 2026"
+        },
+        {
+          "publisher": "Good Morning America (ABC News)",
+          "label": "Premiums rise as ACA coverage open enrollment begins",
+          "url": "https://www.goodmorningamerica.com/wellness/story/premiums-rise-aca-coverage-open-enrollment-begins-137765948",
+          "accessed": "November 26, 2026"
+        }
+      ],
+      "imageCaption": "Editorial illustration of a tall stack of insurance-card shapes rising like a staircase toward a red upward arrow, with a small figure on a landing and an open window onto a calendar page",
+      "imageCredit": "Original editorial illustration · News Editors",
+      "toc": [
+        {
+          "id": "premiums-what-changed",
+          "text": "Premiums: what changed"
+        },
+        {
+          "id": "enrollment-is-shrinking-and-insurers-are-leaving",
+          "text": "Enrollment is shrinking and insurers are leaving"
+        },
+        {
+          "id": "new-rules-and-eligibility-changes",
+          "text": "New rules and eligibility changes"
+        },
+        {
+          "id": "state-help-and-key-deadlines",
+          "text": "State help and key deadlines"
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Open enrollment for 2027 Affordable Care Act coverage began Nov. 1 in most states and runs through Jan. 15, in a market reshaped by higher premiums, expired enhanced subsidies and a federal crackdown on enrollment fraud. A KFF analysis of federal data finds average benchmark silver premiums rising 13% next year, the second straight year of double-digit increases, the Associated Press and Good Morning America reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "KFF calculates that benchmark silver premiums rose about 26% from 2025 to 2026 and are about 42% higher across 2025 to 2027. Those are gross premiums, before any subsidy."
+        },
+        {
+          "type": "heading",
+          "id": "premiums-what-changed",
+          "text": "Premiums: what changed"
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurers had proposed a median increase of 15%. The finalized average benchmark increase is 13%, with HealthCare.gov states at 11% and state-run marketplaces at 16%, KFF reported. Insurers estimated that changes in the risk pool after the enhanced subsidies expired added about 4 percentage points to 2026 premiums and will add a similar amount in 2027."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most enrollees receive subsidies that cushion the increases, but people with incomes above 400% of the federal poverty level get no premium tax credits and pay the full cost, KFF and Good Morning America noted. KFF’s Cynthia Cox told the AP that people who do not qualify for subsidies “may or may not be able to afford to continue to keep their coverage into next year,” and that many have already moved into cheaper bronze plans. She pointed to rising health care costs and hospital market concentration as main drivers."
+        },
+        {
+          "type": "heading",
+          "id": "enrollment-is-shrinking-and-insurers-are-leaving",
+          "text": "Enrollment is shrinking and insurers are leaving"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plan selections in the 2026 open enrollment period fell by 1.2 million from 2025, and effectuated marketplace enrollment in February 2026 was 19.2 million, down 12%, KFF reported. The Congressional Budget Office projects marketplace enrollment will fall from a 2025 peak of 22.4 million to 13.1 million in 2027."
+        },
+        {
+          "type": "paragraph",
+          "text": "As of Oct. 29, 11 insurers had announced exits from at least one state for 2027, while seven announced entries into a new state. Cigna is leaving the individual market in all 11 states where it operates, KFF said, a change Good Morning America reported affects more than 350,000 people."
+        },
+        {
+          "type": "heading",
+          "id": "new-rules-and-eligibility-changes",
+          "text": "New rules and eligibility changes"
+        },
+        {
+          "type": "paragraph",
+          "text": "From 2027, premium tax credits are limited to lawful permanent residents, certain Cuban and Haitian entrants and residents covered by Compact of Free Association agreements. Refugees, asylees and others lose eligibility for the credits, and the Congressional Budget Office estimates about one million more people will be uninsured by 2035 as a result, KFF reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "In September, HHS canceled about 760,000 enrollments it described as “phantom” and sent insurers a list of about 1.2 million people to review, KFF reported, and some canceled enrollees have reportedly been reinstated. The AP reported the administration projects $2.2 billion in savings. A moratorium on new agent and broker registrations in federal-platform marketplaces runs until February 2027, which the AP said could cause delays when working with a broker."
+        },
+        {
+          "type": "paragraph",
+          "text": "Caps on how much excess advance premium tax credit must be repaid are eliminated starting with the 2026 tax year, with first filings under the new rules in early 2027. KFF also noted that 43 states plus Washington, D.C. must implement Medicaid work requirements by Jan. 1, 2027, and that people who lose Medicaid solely for failing those requirements become ineligible for premium tax credits. Several federal rules are being challenged in court, and a rule to shorten open enrollment to nine weeks was vacated."
+        },
+        {
+          "type": "heading",
+          "id": "state-help-and-key-deadlines",
+          "text": "State help and key deadlines"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some states are partly replacing lost federal help. New Mexico has fully replaced the lost assistance, California is expanding subsidies for households with incomes from 165% to 200% of the poverty level, and Rhode Island and Virginia created new subsidies for 2027, KFF reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "Good Morning America reported that deadlines vary: Jan. 15 for HealthCare.gov states, Jan. 23 in Massachusetts, Jan. 29 in Virginia and Jan. 31 in California, Washington, D.C., New York and Rhode Island. Idaho’s period closes Dec. 15. The Centers for Medicare & Medicaid Services said in a fact sheet that “Americans using HealthCare.gov will have robust access to low-cost plans,” the AP reported. Shoppers can compare plans, check subsidy eligibility and confirm their state’s deadline at HealthCare.gov or their state exchange."
+        }
+      ]
+    }
+  ]
+}

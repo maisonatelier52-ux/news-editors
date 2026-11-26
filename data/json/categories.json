@@ -47,5 +47,12 @@
     "description": "News and analysis on AI, chips, platforms and the tools reshaping work and daily life.",
     "count": 9,
     "color": "#0ea5e9"
+  },
+  {
+    "slug": "health",
+    "name": "Health",
+    "description": "News and explainers on public health, medicine, health policy and the drugs and diseases affecting everyday life.",
+    "count": 5,
+    "color": "#0d9488"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "name": "News Editors",
   "tagline": "Editor-curated news and explainers on politics, investigations, technology and the wider world.",
-  "description": "An editor-curated news site publishing news briefs, explainers and analysis on U.S. and world affairs, business, finance, politics, investigations and technology.",
+  "description": "An editor-curated news site publishing news briefs, explainers and analysis on U.S. and world affairs, business, finance, politics, investigations, technology and health.",
   "url": "https://www.news-editors.com",
   "siteUrl": "https://www.news-editors.com",
   "logo": "/images/logo/site-logo.png",
@@ -37,6 +37,10 @@
     {
       "label": "Technology",
       "href": "/technology"
+    },
+    {
+      "label": "Health",
+      "href": "/health"
     }
   ],
   "copyright": "© 2026 News Editors",

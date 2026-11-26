@@ -30,6 +30,7 @@ const sections = [
       ['Politics', '/politics'],
       ['Investigation', '/investigation'],
       ['Technology', '/technology'],
+      ['Health', '/health'],
     ],
   },
   {
